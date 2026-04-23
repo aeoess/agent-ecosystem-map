@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T20:09:29.879745+00:00",
+  "generated_at": "2026-04-23T21:16:19.072788+00:00",
   "projects": [
     {
       "name": "Agent2Agent Protocol",
@@ -863,6 +863,196 @@
     }
   ],
   "people": [
+    {
+      "login": "aeoess",
+      "score": 5101,
+      "posts": 539,
+      "threads": [
+        "FransDevelopment/open-agent-trust-registry#24",
+        "FransDevelopment/open-agent-trust-registry#28",
+        "Helixar-AI/HDP#23",
+        "NousResearch/hermes-agent#11692",
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#24",
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32",
+        "OWASP/www-project-top-10-for-large-language-model-applications#802",
+        "OWASP/www-project-top-10-for-large-language-model-applications#817",
+        "OpenClaw/openclaw#49971",
+        "ScopeBlind/agent-governance-testvectors#1",
+        "VeritasActa/verify#1",
+        "VeritasActa/verify#2",
+        "a2aproject/A2A#1575",
+        "a2aproject/A2A#1628",
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1694",
+        "a2aproject/A2A#1717",
+        "a2aproject/A2A#1718",
+        "a2aproject/A2A#1742",
+        "a2aproject/A2A#1755",
+        "aaif/project-proposals#12",
+        "aeoess/agent-governance-vocabulary#28",
+        "aeoess/agent-governance-vocabulary#29",
+        "aeoess/agent-passport-system#1",
+        "aeoess/agent-passport-system#10",
+        "aeoess/agent-passport-system#11",
+        "aeoess/agent-passport-system#12",
+        "aeoess/agent-passport-system#13",
+        "aeoess/agent-passport-system#2",
+        "aeoess/agent-passport-system#3",
+        "aeoess/agent-passport-system#5",
+        "aeoess/agent-passport-system#6",
+        "aeoess/agent-passport-system#7",
+        "aeoess/agent-passport-system#8",
+        "aeoess/agent-passport-system#9",
+        "agentic-commerce-protocol/agentic-commerce-protocol#231",
+        "anthropics/claude-code#32514",
+        "arewm/refs.arewm.com#1",
+        "cisco-ai-defense/defenseclaw#115",
+        "corpollc/qntm#6",
+        "corpollc/qntm#7",
+        "corpollc/qntm#9",
+        "crewAIInc/crewAI#4560",
+        "crewAIInc/crewAI#4789",
+        "crewAIInc/crewAI#4875",
+        "crewAIInc/crewAI#5019",
+        "douglasborthwick-crypto/insumer-examples#1",
+        "erc-8004/erc-8004-contracts#77",
+        "google/adk-python#4764",
+        "haroldmalikfrimpong-ops/agentid-aps-interop#2",
+        "in-toto/attestation#549",
+        "kubernetes-sigs/kube-agentic-networking#243",
+        "langchain-ai/langchain#36232",
+        "massivescale-ai/agentic-trust-framework#8",
+        "microsoft/agent-governance-toolkit#1197",
+        "microsoft/agent-governance-toolkit#1354",
+        "microsoft/agent-governance-toolkit#934",
+        "open-gitagent/gitagent#70",
+        "ossf/security-insights#171",
+        "rznies/algobharat-digital-passport#1",
+        "sint-ai/sint-protocol#109",
+        "w3c-cg/ai-agent-protocol#30",
+        "worldcoin/agentkit-shopify-demo#5"
+      ],
+      "topics": [
+        "a2a-compliance-measurement",
+        "a2a-signing-custody",
+        "a2a-trust-header-schema",
+        "aae-aps-mapping",
+        "aaif-sint-submission",
+        "acp-governance-binding",
+        "adk-python-governance",
+        "aeoess-agent-passport-system-1",
+        "aeoess-agent-passport-system-10",
+        "aeoess-agent-passport-system-2",
+        "aeoess-agent-passport-system-3",
+        "aeoess-agent-passport-system-6",
+        "aeoess-agent-passport-system-7",
+        "aeoess-agent-passport-system-8",
+        "aeoess-agent-passport-system-9",
+        "agent-identity-verification",
+        "agentcard-limitations",
+        "agentid-aps-fixtures",
+        "agentkit-aps-compose",
+        "agt-dual-citizen",
+        "agt-tutorial-receipts",
+        "aivss-aps-mapping",
+        "aivss-multi-agent-governance",
+        "algobharat-collision",
+        "arewm-agent-commit",
+        "atf-elements",
+        "authority-constraints",
+        "claude-code-mcp",
+        "crewai-governance",
+        "crewai-integration",
+        "crewai-primitives",
+        "crewai-spec",
+        "defenseclaw-receipts",
+        "ed25519-x25519-vectors",
+        "erc8004-bridge",
+        "execution-attestation",
+        "gitagent-identity",
+        "helixar-interop",
+        "hermes-self-modification",
+        "identity-delegation-enforcement",
+        "in-toto-decision-receipt",
+        "insumer-multi-attestation",
+        "k8s-receipt-admission",
+        "langchain-memory",
+        "moltrust-integration",
+        "ms-toolkit-peer-impl",
+        "oatr-behavioral-history",
+        "oatr-sint-registration",
+        "openclaw-aae",
+        "ossf-agent-provenance",
+        "owasp-llm-aps",
+        "owasp-llm-bbis",
+        "pdr-aps-workstream",
+        "scopeblind-aps-driver",
+        "sint-enforcement-context",
+        "trust-signals-schema",
+        "veritas-signal-belief",
+        "veritas-testvectors",
+        "vocab-peer-review-audit",
+        "vocab-sbr-continuity",
+        "vocabulary-proposal",
+        "w3c-agent-protocol"
+      ],
+      "repos": [
+        "FransDevelopment/open-agent-trust-registry",
+        "Helixar-AI/HDP",
+        "NousResearch/hermes-agent",
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
+        "OWASP/www-project-top-10-for-large-language-model-applications",
+        "OpenClaw/openclaw",
+        "ScopeBlind/agent-governance-testvectors",
+        "VeritasActa/verify",
+        "a2aproject/A2A",
+        "aaif/project-proposals",
+        "aeoess/agent-governance-vocabulary",
+        "aeoess/agent-passport-system",
+        "agentic-commerce-protocol/agentic-commerce-protocol",
+        "anthropics/claude-code",
+        "arewm/refs.arewm.com",
+        "cisco-ai-defense/defenseclaw",
+        "corpollc/qntm",
+        "crewAIInc/crewAI",
+        "douglasborthwick-crypto/insumer-examples",
+        "erc-8004/erc-8004-contracts",
+        "google/adk-python",
+        "haroldmalikfrimpong-ops/agentid-aps-interop",
+        "in-toto/attestation",
+        "kubernetes-sigs/kube-agentic-networking",
+        "langchain-ai/langchain",
+        "massivescale-ai/agentic-trust-framework",
+        "microsoft/agent-governance-toolkit",
+        "open-gitagent/gitagent",
+        "ossf/security-insights",
+        "rznies/algobharat-digital-passport",
+        "sint-ai/sint-protocol",
+        "w3c-cg/ai-agent-protocol",
+        "worldcoin/agentkit-shopify-demo"
+      ],
+      "first_seen_ours": "2026-02-21T19:05:14Z",
+      "last_seen_ours": "2026-04-23T07:00:18Z",
+      "ship": 390,
+      "propose": 464,
+      "review": 139,
+      "mentions_received": 314,
+      "word_count": 140965,
+      "github": {
+        "name": "\u00e6\u0153ss",
+        "bio": "Tymofii Pidlisnyi                                 \u00b7 Editor-in-Chief, The Agent Times \u00b7 Building governance infrastructure for the agent economy",
+        "company": null,
+        "location": null,
+        "blog": "https://aeoess.com",
+        "email": "signal@aeoess.com",
+        "twitter": "tymofiii",
+        "created_at": "2024-05-30T19:17:32Z",
+        "followers": 26,
+        "following": 40,
+        "public_repos": 43,
+        "type": "User"
+      }
+    },
     {
       "login": "desiorac",
       "score": 1304,
@@ -5201,9 +5391,10 @@
       "project_id": "oatr",
       "url": "https://github.com/FransDevelopment/open-agent-trust-registry/issues/24",
       "participants": [
+        "aeoess",
         "pshkv"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "open",
         "created_at": "2026-04-04T20:04:21Z",
@@ -5224,11 +5415,12 @@
       "project_id": "oatr",
       "url": "https://github.com/FransDevelopment/open-agent-trust-registry/issues/28",
       "participants": [
+        "aeoess",
         "64R3N",
         "FransDevelopment",
         "arian-gogani"
       ],
-      "participant_count": 3,
+      "participant_count": 4,
       "github": {
         "state": "open",
         "created_at": "2026-04-14T19:42:12Z",
@@ -5249,9 +5441,10 @@
       "project_id": "hdp",
       "url": "https://github.com/Helixar-AI/HDP/issues/23",
       "participants": [
+        "aeoess",
         "asiridalugoda"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "open",
         "created_at": "2026-04-09T21:01:12Z",
@@ -5272,9 +5465,10 @@
       "project_id": null,
       "url": "https://github.com/NousResearch/hermes-agent/issues/11692",
       "participants": [
+        "aeoess",
         "tomjwxf"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "open",
         "created_at": "2026-04-17T16:43:10Z",
@@ -5299,8 +5493,10 @@
       "number": 24,
       "project_id": null,
       "url": "https://github.com/OWASP/www-project-artificial-intelligence-vulnerability-scoring-system/issues/24",
-      "participants": [],
-      "participant_count": 0,
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
       "github": {
         "state": "open",
         "created_at": "2026-03-19T15:14:40Z",
@@ -5321,10 +5517,11 @@
       "project_id": null,
       "url": "https://github.com/OWASP/www-project-artificial-intelligence-vulnerability-scoring-system/issues/32",
       "participants": [
+        "aeoess",
         "QueBallSharken",
         "VeloGerber"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "open",
         "created_at": "2026-04-14T12:22:05Z",
@@ -5345,6 +5542,7 @@
       "project_id": null,
       "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/issues/802",
       "participants": [
+        "aeoess",
         "desiorac",
         "QueBallSharken",
         "pshkv",
@@ -5359,7 +5557,7 @@
         "rsbasic",
         "joaquinariasco-lab"
       ],
-      "participant_count": 13,
+      "participant_count": 14,
       "github": {
         "state": "open",
         "created_at": "2026-03-05T06:21:57Z",
@@ -5380,11 +5578,12 @@
       "project_id": null,
       "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/issues/817",
       "participants": [
+        "aeoess",
         "QueBallSharken",
         "kemarovokam-gif",
         "richard-porter"
       ],
-      "participant_count": 3,
+      "participant_count": 4,
       "github": {
         "state": "open",
         "created_at": "2026-04-06T11:22:51Z",
@@ -5405,6 +5604,7 @@
       "project_id": null,
       "url": "https://github.com/OpenClaw/openclaw/issues/49971",
       "participants": [
+        "aeoess",
         "haroldmalikfrimpong-ops",
         "MoltyCel",
         "kevinkaylie",
@@ -5421,7 +5621,7 @@
         "Ryce",
         "greenoriginals"
       ],
-      "participant_count": 15,
+      "participant_count": 16,
       "github": {
         "state": "open",
         "created_at": "2026-03-18T18:51:33Z",
@@ -5441,8 +5641,10 @@
       "number": 1,
       "project_id": null,
       "url": "https://github.com/ScopeBlind/agent-governance-testvectors/issues/1",
-      "participants": [],
-      "participant_count": 0,
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
       "github": {
         "state": "open",
         "created_at": "2026-04-17T19:05:53Z",
@@ -5463,11 +5665,12 @@
       "project_id": null,
       "url": "https://github.com/VeritasActa/verify/issues/1",
       "participants": [
+        "aeoess",
         "tomjwxf",
         "QueBallSharken",
         "Shagun0402"
       ],
-      "participant_count": 3,
+      "participant_count": 4,
       "github": {
         "state": "open",
         "created_at": "2026-04-11T02:46:36Z",
@@ -5491,10 +5694,11 @@
       "project_id": null,
       "url": "https://github.com/VeritasActa/verify/issues/2",
       "participants": [
+        "aeoess",
         "tomjwxf",
         "vitalii-ivanov-rakuten"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "open",
         "created_at": "2026-04-11T02:49:25Z",
@@ -5519,6 +5723,7 @@
       "project_id": "a2a",
       "url": "https://github.com/a2aproject/A2A/issues/1575",
       "participants": [
+        "aeoess",
         "vessenes",
         "MoltyCel",
         "tomjwxf",
@@ -5530,7 +5735,7 @@
         "ascender1729",
         "Copertino-Research"
       ],
-      "participant_count": 10,
+      "participant_count": 11,
       "github": {
         "state": "open",
         "created_at": "2026-03-02T22:29:28Z",
@@ -5551,6 +5756,7 @@
       "project_id": "a2a",
       "url": "https://github.com/a2aproject/A2A/issues/1628",
       "participants": [
+        "aeoess",
         "haroldmalikfrimpong-ops",
         "douglasborthwick-crypto",
         "MoltyCel",
@@ -5565,7 +5771,7 @@
         "citriac",
         "ymc182"
       ],
-      "participant_count": 13,
+      "participant_count": 14,
       "github": {
         "state": "open",
         "created_at": "2026-03-13T11:37:17Z",
@@ -5586,6 +5792,7 @@
       "project_id": "a2a",
       "url": "https://github.com/a2aproject/A2A/issues/1672",
       "participants": [
+        "aeoess",
         "desiorac",
         "haroldmalikfrimpong-ops",
         "douglasborthwick-crypto",
@@ -5617,7 +5824,7 @@
         "aleksandarperak33-hub",
         "Bortlesboat"
       ],
-      "participant_count": 30,
+      "participant_count": 31,
       "github": {
         "state": "open",
         "created_at": "2026-03-22T21:47:40Z",
@@ -5638,13 +5845,14 @@
       "project_id": "a2a",
       "url": "https://github.com/a2aproject/A2A/issues/1694",
       "participants": [
+        "aeoess",
         "64R3N",
         "citriac",
         "msaleme",
         "balthazar-bot",
         "kaligautier"
       ],
-      "participant_count": 5,
+      "participant_count": 6,
       "github": {
         "state": "open",
         "created_at": "2026-03-27T08:15:02Z",
@@ -5665,6 +5873,7 @@
       "project_id": "a2a",
       "url": "https://github.com/a2aproject/A2A/issues/1718",
       "participants": [
+        "aeoess",
         "MoltyCel",
         "kevinkaylie",
         "pshkv",
@@ -5673,7 +5882,7 @@
         "viftode4",
         "jagmarques"
       ],
-      "participant_count": 7,
+      "participant_count": 8,
       "github": {
         "state": "open",
         "created_at": "2026-04-05T21:17:24Z",
@@ -5694,13 +5903,14 @@
       "project_id": "a2a",
       "url": "https://github.com/a2aproject/A2A/issues/1742",
       "participants": [
+        "aeoess",
         "douglasborthwick-crypto",
         "MoltyCel",
         "0xbrainkid",
         "srotzin",
         "razashariff"
       ],
-      "participant_count": 5,
+      "participant_count": 6,
       "github": {
         "state": "open",
         "created_at": "2026-04-12T17:03:59Z",
@@ -5721,12 +5931,13 @@
       "project_id": "a2a",
       "url": "https://github.com/a2aproject/A2A/issues/1755",
       "participants": [
+        "aeoess",
         "MoltyCel",
         "0xbrainkid",
         "srotzin",
         "baronsengir007"
       ],
-      "participant_count": 4,
+      "participant_count": 5,
       "github": {
         "state": "open",
         "created_at": "2026-04-15T19:26:36Z",
@@ -5747,9 +5958,10 @@
       "project_id": null,
       "url": "https://github.com/aaif/project-proposals/issues/12",
       "participants": [
+        "aeoess",
         "pshkv"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "open",
         "created_at": "2026-04-13T20:38:14Z",
@@ -6492,9 +6704,10 @@
       "project_id": null,
       "url": "https://github.com/aeoess/agent-governance-vocabulary/issues/28",
       "participants": [
+        "aeoess",
         "rnwy"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "closed",
         "created_at": "2026-04-16T07:32:54Z",
@@ -6515,10 +6728,11 @@
       "project_id": null,
       "url": "https://github.com/aeoess/agent-governance-vocabulary/issues/29",
       "participants": [
+        "aeoess",
         "rnwy",
         "rkaushik29"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "closed",
         "created_at": "2026-04-16T20:03:41Z",
@@ -6539,10 +6753,11 @@
       "project_id": "aps",
       "url": "https://github.com/aeoess/agent-passport-system/issues/1",
       "participants": [
+        "aeoess",
         "douglasborthwick-crypto",
         "pshkv"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "open",
         "created_at": "2026-02-21T19:05:14Z",
@@ -6565,8 +6780,10 @@
       "number": 10,
       "project_id": "aps",
       "url": "https://github.com/aeoess/agent-passport-system/issues/10",
-      "participants": [],
-      "participant_count": 0,
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
       "github": {
         "state": "open",
         "created_at": "2026-04-05T16:06:02Z",
@@ -6590,10 +6807,11 @@
       "project_id": "aps",
       "url": "https://github.com/aeoess/agent-passport-system/issues/11",
       "participants": [
+        "aeoess",
         "douglasborthwick-crypto",
         "MoltyCel"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "open",
         "created_at": "2026-04-05T16:06:46Z",
@@ -6616,8 +6834,10 @@
       "number": 12,
       "project_id": "aps",
       "url": "https://github.com/aeoess/agent-passport-system/issues/12",
-      "participants": [],
-      "participant_count": 0,
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
       "github": {
         "state": "open",
         "created_at": "2026-04-10T16:20:23Z",
@@ -6638,6 +6858,7 @@
       "project_id": "aps",
       "url": "https://github.com/aeoess/agent-passport-system/issues/13",
       "participants": [
+        "aeoess",
         "desiorac",
         "douglasborthwick-crypto",
         "MoltyCel",
@@ -6649,7 +6870,7 @@
         "nanookclaw",
         "schchit"
       ],
-      "participant_count": 10,
+      "participant_count": 11,
       "github": {
         "state": "open",
         "created_at": "2026-04-10T17:16:54Z",
@@ -6674,8 +6895,10 @@
       "number": 2,
       "project_id": "aps",
       "url": "https://github.com/aeoess/agent-passport-system/issues/2",
-      "participants": [],
-      "participant_count": 0,
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
       "github": {
         "state": "closed",
         "created_at": "2026-02-21T19:05:24Z",
@@ -6698,10 +6921,11 @@
       "project_id": "aps",
       "url": "https://github.com/aeoess/agent-passport-system/issues/3",
       "participants": [
+        "aeoess",
         "pshkv",
         "xsa520"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "open",
         "created_at": "2026-03-18T01:50:17Z",
@@ -6726,11 +6950,12 @@
       "project_id": "aps",
       "url": "https://github.com/aeoess/agent-passport-system/issues/5",
       "participants": [
+        "aeoess",
         "haroldmalikfrimpong-ops",
         "vessenes",
         "xsa520"
       ],
-      "participant_count": 3,
+      "participant_count": 4,
       "github": {
         "state": "closed",
         "created_at": "2026-03-22T11:39:22Z",
@@ -6751,9 +6976,10 @@
       "project_id": "aps",
       "url": "https://github.com/aeoess/agent-passport-system/issues/6",
       "participants": [
+        "aeoess",
         "lowkey-divine"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "open",
         "created_at": "2026-03-29T23:30:32Z",
@@ -6773,8 +6999,10 @@
       "number": 7,
       "project_id": "aps",
       "url": "https://github.com/aeoess/agent-passport-system/issues/7",
-      "participants": [],
-      "participant_count": 0,
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
       "github": {
         "state": "open",
         "created_at": "2026-04-05T16:04:18Z",
@@ -6797,8 +7025,10 @@
       "number": 8,
       "project_id": "aps",
       "url": "https://github.com/aeoess/agent-passport-system/issues/8",
-      "participants": [],
-      "participant_count": 0,
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
       "github": {
         "state": "open",
         "created_at": "2026-04-05T16:04:45Z",
@@ -6822,10 +7052,11 @@
       "project_id": "aps",
       "url": "https://github.com/aeoess/agent-passport-system/issues/9",
       "participants": [
+        "aeoess",
         "lowkey-divine",
         "jagmarques"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "closed",
         "created_at": "2026-04-05T16:05:23Z",
@@ -6848,8 +7079,10 @@
       "number": 231,
       "project_id": "acp",
       "url": "https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/issues/231",
-      "participants": [],
-      "participant_count": 0,
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
       "github": {
         "state": "open",
         "created_at": "2026-04-23T02:48:59Z",
@@ -6870,10 +7103,11 @@
       "project_id": null,
       "url": "https://github.com/anthropics/claude-code/issues/32514",
       "participants": [
+        "aeoess",
         "The-Nexus-Guard",
         "yotsuda"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "open",
         "created_at": "2026-03-09T15:35:57Z",
@@ -6898,10 +7132,11 @@
       "project_id": null,
       "url": "https://github.com/arewm/refs.arewm.com/issues/1",
       "participants": [
+        "aeoess",
         "tomjwxf",
         "arewm"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "closed",
         "created_at": "2026-04-17T13:43:50Z",
@@ -6922,10 +7157,11 @@
       "project_id": null,
       "url": "https://github.com/cisco-ai-defense/defenseclaw/issues/115",
       "participants": [
+        "aeoess",
         "tomjwxf",
         "vineethsai"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "open",
         "created_at": "2026-04-17T16:40:22Z",
@@ -6948,6 +7184,7 @@
       "project_id": null,
       "url": "https://github.com/corpollc/qntm/issues/6",
       "participants": [
+        "aeoess",
         "desiorac",
         "haroldmalikfrimpong-ops",
         "MoltyCel",
@@ -6955,7 +7192,7 @@
         "archedark-ada",
         "FransDevelopment"
       ],
-      "participant_count": 6,
+      "participant_count": 7,
       "github": {
         "state": "open",
         "created_at": "2026-03-25T08:55:49Z",
@@ -6976,6 +7213,7 @@
       "project_id": null,
       "url": "https://github.com/corpollc/qntm/issues/7",
       "participants": [
+        "aeoess",
         "haroldmalikfrimpong-ops",
         "douglasborthwick-crypto",
         "MoltyCel",
@@ -6988,7 +7226,7 @@
         "kenneives",
         "nanookclaw"
       ],
-      "participant_count": 11,
+      "participant_count": 12,
       "github": {
         "state": "open",
         "created_at": "2026-03-27T23:29:43Z",
@@ -7009,9 +7247,10 @@
       "project_id": null,
       "url": "https://github.com/corpollc/qntm/issues/9",
       "participants": [
+        "aeoess",
         "MoltyCel"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "open",
         "created_at": "2026-04-01T16:33:10Z",
@@ -7032,6 +7271,7 @@
       "project_id": null,
       "url": "https://github.com/crewAIInc/crewAI/issues/4560",
       "participants": [
+        "aeoess",
         "douglasborthwick-crypto",
         "vessenes",
         "pshkv",
@@ -7053,7 +7293,7 @@
         "xXMrNidaXx",
         "alex-pathcourse"
       ],
-      "participant_count": 20,
+      "participant_count": 21,
       "github": {
         "state": "open",
         "created_at": "2026-02-22T03:46:14Z",
@@ -7074,6 +7314,7 @@
       "project_id": null,
       "url": "https://github.com/crewAIInc/crewAI/issues/4789",
       "participants": [
+        "aeoess",
         "0xbrainkid",
         "64R3N",
         "lowkey-divine",
@@ -7083,7 +7324,7 @@
         "majorelalexis-stack",
         "ThinkOffApp"
       ],
-      "participant_count": 8,
+      "participant_count": 9,
       "github": {
         "state": "open",
         "created_at": "2026-03-09T13:37:37Z",
@@ -7104,6 +7345,7 @@
       "project_id": null,
       "url": "https://github.com/crewAIInc/crewAI/issues/4875",
       "participants": [
+        "aeoess",
         "haroldmalikfrimpong-ops",
         "64R3N",
         "FransDevelopment",
@@ -7114,7 +7356,7 @@
         "ori-cofounder",
         "VladUZH"
       ],
-      "participant_count": 9,
+      "participant_count": 10,
       "github": {
         "state": "open",
         "created_at": "2026-03-14T17:36:33Z",
@@ -7135,6 +7377,7 @@
       "project_id": null,
       "url": "https://github.com/crewAIInc/crewAI/issues/5019",
       "participants": [
+        "aeoess",
         "haroldmalikfrimpong-ops",
         "pshkv",
         "64R3N",
@@ -7143,7 +7386,7 @@
         "yuquan2088",
         "internet-dot"
       ],
-      "participant_count": 7,
+      "participant_count": 8,
       "github": {
         "state": "open",
         "created_at": "2026-03-22T21:47:48Z",
@@ -7164,6 +7407,7 @@
       "project_id": null,
       "url": "https://github.com/douglasborthwick-crypto/insumer-examples/issues/1",
       "participants": [
+        "aeoess",
         "haroldmalikfrimpong-ops",
         "douglasborthwick-crypto",
         "MoltyCel",
@@ -7177,7 +7421,7 @@
         "ThoughtProof",
         "AlexanderLawson17"
       ],
-      "participant_count": 12,
+      "participant_count": 13,
       "github": {
         "state": "open",
         "created_at": "2026-03-19T20:07:20Z",
@@ -7202,8 +7446,10 @@
       "number": 77,
       "project_id": "erc-8004",
       "url": "https://github.com/erc-8004/erc-8004-contracts/issues/77",
-      "participants": [],
-      "participant_count": 0,
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
       "github": {
         "state": "open",
         "created_at": "2026-04-23T02:49:17Z",
@@ -7224,6 +7470,7 @@
       "project_id": null,
       "url": "https://github.com/google/adk-python/issues/4764",
       "participants": [
+        "aeoess",
         "razashariff",
         "sunilp",
         "imran-siddique",
@@ -7231,7 +7478,7 @@
         "adk-bot",
         "klateefa"
       ],
-      "participant_count": 6,
+      "participant_count": 7,
       "github": {
         "state": "closed",
         "created_at": "2026-03-08T18:18:48Z",
@@ -7256,9 +7503,10 @@
       "project_id": "agentid",
       "url": "https://github.com/haroldmalikfrimpong-ops/agentid-aps-interop/issues/2",
       "participants": [
+        "aeoess",
         "tomjwxf"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "closed",
         "created_at": "2026-04-14T03:30:21Z",
@@ -7279,10 +7527,11 @@
       "project_id": null,
       "url": "https://github.com/in-toto/attestation/issues/549",
       "participants": [
+        "aeoess",
         "tomjwxf",
         "arian-gogani"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "open",
         "created_at": "2026-04-16T08:10:56Z",
@@ -7303,10 +7552,11 @@
       "project_id": null,
       "url": "https://github.com/kubernetes-sigs/kube-agentic-networking/issues/243",
       "participants": [
+        "aeoess",
         "tomjwxf",
         "haiyanmeng"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "open",
         "created_at": "2026-04-17T16:41:33Z",
@@ -7355,6 +7605,7 @@
       "project_id": null,
       "url": "https://github.com/langchain-ai/langchain/issues/36232",
       "participants": [
+        "aeoess",
         "0xbrainkid",
         "srotzin",
         "64R3N",
@@ -7376,7 +7627,7 @@
         "alex-pathcourse",
         "bobrenze-bot"
       ],
-      "participant_count": 20,
+      "participant_count": 21,
       "github": {
         "state": "open",
         "created_at": "2026-03-25T16:38:31Z",
@@ -7401,10 +7652,11 @@
       "project_id": null,
       "url": "https://github.com/massivescale-ai/agentic-trust-framework/issues/8",
       "participants": [
+        "aeoess",
         "desiorac",
         "tomjwxf"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "open",
         "created_at": "2026-04-17T16:40:54Z",
@@ -7425,9 +7677,10 @@
       "project_id": "agent-governance-toolkit",
       "url": "https://github.com/microsoft/agent-governance-toolkit/issues/1197",
       "participants": [
+        "aeoess",
         "tomjwxf"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "closed",
         "created_at": "2026-04-17T13:20:34Z",
@@ -7450,8 +7703,10 @@
       "number": 1354,
       "project_id": "agent-governance-toolkit",
       "url": "https://github.com/microsoft/agent-governance-toolkit/issues/1354",
-      "participants": [],
-      "participant_count": 0,
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
       "github": {
         "state": "open",
         "created_at": "2026-04-23T02:48:02Z",
@@ -7472,10 +7727,11 @@
       "project_id": "agent-governance-toolkit",
       "url": "https://github.com/microsoft/agent-governance-toolkit/issues/934",
       "participants": [
+        "aeoess",
         "imran-siddique",
         "msaleme"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "closed",
         "created_at": "2026-04-11T23:47:45Z",
@@ -7495,8 +7751,10 @@
       "number": 70,
       "project_id": null,
       "url": "https://github.com/open-gitagent/gitagent/issues/70",
-      "participants": [],
-      "participant_count": 0,
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
       "github": {
         "state": "open",
         "created_at": "2026-04-23T02:48:38Z",
@@ -7517,11 +7775,12 @@
       "project_id": null,
       "url": "https://github.com/ossf/security-insights/issues/171",
       "participants": [
+        "aeoess",
         "tomjwxf",
         "eddie-knight",
         "jmeridth"
       ],
-      "participant_count": 3,
+      "participant_count": 4,
       "github": {
         "state": "open",
         "created_at": "2026-04-17T14:10:11Z",
@@ -7542,9 +7801,10 @@
       "project_id": null,
       "url": "https://github.com/rznies/algobharat-digital-passport/issues/1",
       "participants": [
+        "aeoess",
         "rznies"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "open",
         "created_at": "2026-04-15T09:17:22Z",
@@ -7565,9 +7825,10 @@
       "project_id": "sint",
       "url": "https://github.com/sint-ai/sint-protocol/issues/109",
       "participants": [
+        "aeoess",
         "pshkv"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "closed",
         "created_at": "2026-04-06T22:41:33Z",
@@ -7592,11 +7853,12 @@
       "project_id": null,
       "url": "https://github.com/w3c-cg/ai-agent-protocol/issues/30",
       "participants": [
+        "aeoess",
         "0xbrainkid",
         "agent-morrow",
         "meridianmindx"
       ],
-      "participant_count": 3,
+      "participant_count": 4,
       "github": {
         "state": "open",
         "created_at": "2026-03-29T12:23:40Z",
@@ -7616,8 +7878,10 @@
       "number": 5,
       "project_id": "agentkit",
       "url": "https://github.com/worldcoin/agentkit-shopify-demo/issues/5",
-      "participants": [],
-      "participant_count": 0,
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
       "github": {
         "state": "open",
         "created_at": "2026-04-23T02:48:22Z",
@@ -7632,12 +7896,12 @@
   ],
   "stats": {
     "projects": 18,
-    "people": 115,
+    "people": 116,
     "people_total_raw": 130,
     "threads": 93,
     "threads_mapped_to_project": 30,
     "projects_enriched": 12,
-    "people_enriched": 109,
+    "people_enriched": 110,
     "threads_enriched": 93
   }
 }

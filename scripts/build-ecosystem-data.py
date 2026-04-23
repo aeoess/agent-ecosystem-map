@@ -101,10 +101,7 @@ with open(MAP / 'participants_v2.json') as f:
     people_raw = json.load(f)
 
 people = []
-skip_logins = {'aeoess'}  # self
 for i, (login, d) in enumerate(people_raw.items()):
-    if login in skip_logins:
-        continue
     score = d.get('final_score', 0)
     if score < 5:  # drop pure noise
         continue
