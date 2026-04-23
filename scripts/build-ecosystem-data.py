@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build ecosystem-data.json for site/index.html.
+Build ecosystem-data.json for docs/index.html (served as GitHub Pages).
 
 Pulls and enriches:
 - 18 projects   from projects/*.yaml + GitHub repo metadata
@@ -221,7 +221,7 @@ out = {
     },
 }
 
-out_path = ROOT / 'site' / 'ecosystem-data.json'
+out_path = ROOT / 'docs' / 'ecosystem-data.json'
 with open(out_path, 'w') as f:
     json.dump(out, f, indent=2, default=str)
 

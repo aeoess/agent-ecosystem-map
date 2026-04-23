@@ -15,7 +15,7 @@
 
 4. **Validate locally.**
    ```bash
-   node site/validate.js projects/<your-project-slug>.yaml
+   node docs/validate.js projects/<your-project-slug>.yaml
    ```
    This catches schema errors before review.
 
