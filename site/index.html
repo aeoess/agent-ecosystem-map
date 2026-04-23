@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agent Ecosystem Directory</title>
+<style>
+:root {
+  --bg: #0a0b0d;
+  --bg-2: #13161b;
+  --bg-3: #1a1d23;
+  --line: rgba(255,255,255,0.08);
+  --line-2: rgba(255,255,255,0.18);
+  --ink: #e8e9eb;
+  --ink-2: #a0a2a7;
+  --ink-3: #6a6c72;
+  --accent: #5eead4;
+  --warn: #fbbf24;
+  --alert: #f87171;
+  --ok: #86efac;
+  --mono: ui-monospace, "SF Mono", Menlo, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 14px; line-height: 1.5; }
+
+/* ---------- page shell ---------- */
+.shell { max-width: 1280px; margin: 0 auto; padding: 32px 28px 80px; }
+
+/* ---------- hero ---------- */
+header.hero { border-bottom: 1px solid var(--line); padding-bottom: 22px; margin-bottom: 24px; }
+header.hero h1 { font-size: 22px; font-weight: 600; margin: 0 0 6px; letter-spacing: -0.01em; }
+header.hero .sub { color: var(--ink-2); font-size: 14px; max-width: 680px; }
+header.hero .meta { color: var(--ink-3); font-family: var(--mono); font-size: 11px; margin-top: 12px; letter-spacing: 0.04em; }
+header.hero .meta span { margin-right: 18px; }
+header.hero .meta b { color: var(--ink); font-weight: 500; }
+header.hero a { color: var(--accent); text-decoration: none; }
+header.hero a:hover { text-decoration: underline; }
+
+/* ---------- tabs ---------- */
+.tabs { display: flex; border-bottom: 1px solid var(--line); margin-bottom: 18px; gap: 4px; flex-wrap: wrap; }
+.tab { appearance: none; background: transparent; color: var(--ink-3); border: none; font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 16px 9px; cursor: pointer; position: relative; }
+.tab:hover { color: var(--ink-2); }
+.tab[aria-selected="true"] { color: var(--ink); }
+.tab[aria-selected="true"]::after { content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; background: var(--accent); }
+.tab .count { color: var(--ink-3); margin-left: 8px; font-weight: 400; }
+.tab[aria-selected="true"] .count { color: var(--accent); }
+
+/* ---------- quick filters row ---------- */
+.quickbar { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }
+.quickbar .search { flex: 1; min-width: 260px; background: var(--bg-2); border: 1px solid var(--line); color: var(--ink); padding: 9px 12px; border-radius: 4px; font-family: var(--sans); font-size: 13px; outline: none; }
+.quickbar .search:focus { border-color: var(--line-2); }
+.quickbar .chip { appearance: none; background: transparent; color: var(--ink-3); border: 1px solid var(--line); padding: 6px 12px; border-radius: 12px; cursor: pointer; font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em; }
+.quickbar .chip:hover { color: var(--ink); border-color: var(--line-2); }
+.quickbar .chip.on { color: var(--bg); background: var(--accent); border-color: var(--accent); }
+.quickbar .chip .n { color: inherit; opacity: 0.65; margin-left: 5px; }
+.quickbar .chip.on .n { opacity: 0.85; }
+
+/* ---------- table ---------- */
+.scroller { overflow-x: auto; border: 1px solid var(--line); border-radius: 4px; background: var(--bg-2); }
+table.dir { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.dir th, table.dir td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: middle; white-space: nowrap; }
+table.dir th { position: sticky; top: 0; background: var(--bg-3); color: var(--ink-2); font-weight: 500; font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; user-select: none; z-index: 2; }
+table.dir th:hover { color: var(--ink); }
+table.dir th .arrow { color: var(--accent); margin-left: 4px; }
+table.dir tbody tr { cursor: pointer; transition: background 0.1s; }
+table.dir tbody tr:hover { background: var(--bg-3); }
+table.dir tbody tr.dim { opacity: 0.38; }
+table.dir td.mono { font-family: var(--mono); font-size: 12px; }
+table.dir td.num { text-align: right; font-family: var(--mono); font-size: 12px; color: var(--ink-2); }
+table.dir td.muted { color: var(--ink-3); }
+table.dir td.truncate { max-width: 360px; overflow: hidden; text-overflow: ellipsis; }
+table.dir td .pill { display: inline-block; font-family: var(--mono); font-size: 10px; padding: 1px 7px; border-radius: 10px; letter-spacing: 0.05em; border: 1px solid var(--line-2); color: var(--ink-2); }
+table.dir td .pill.new { color: var(--warn); border-color: rgba(251,191,36,0.4); }
+table.dir td .pill.fresh { color: var(--ok); border-color: rgba(134,239,172,0.4); }
+table.dir td .pill.open { color: var(--accent); border-color: rgba(94,234,212,0.4); }
+table.dir td .pill.closed { color: var(--ink-3); }
+table.dir td .pill.pr { color: var(--warn); border-color: rgba(251,191,36,0.4); }
+.empty-state { padding: 60px 20px; text-align: center; color: var(--ink-3); font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
+
+/* ---------- drawer ---------- */
+.drawer-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); opacity: 0; pointer-events: none; transition: opacity 0.2s; z-index: 49; }
+.drawer-overlay.on { opacity: 1; pointer-events: auto; }
+.drawer { position: fixed; top: 0; right: -540px; bottom: 0; width: 520px; max-width: 95vw; background: var(--bg-2); border-left: 1px solid var(--line); transition: right 0.25s ease; z-index: 50; overflow-y: auto; box-shadow: -2px 0 20px rgba(0,0,0,0.5); }
+.drawer.on { right: 0; }
+.drawer .close { position: sticky; top: 0; float: right; padding: 14px 18px; background: var(--bg-2); color: var(--ink-3); cursor: pointer; font-family: var(--mono); font-size: 16px; z-index: 2; }
+.drawer .close:hover { color: var(--ink); }
+.drawer .body { padding: 20px 26px 50px; }
+.drawer .kind { font-family: var(--mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 6px; }
+.drawer h2 { margin: 0 0 6px; font-size: 20px; font-weight: 600; word-wrap: break-word; }
+.drawer h2 a { color: var(--ink); text-decoration: none; }
+.drawer h2 a:hover { color: var(--accent); }
+.drawer .lede { color: var(--ink-2); font-size: 13px; line-height: 1.55; margin: 0 0 16px; }
+.drawer h4 { font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); margin: 22px 0 8px; font-weight: 500; }
+.drawer dl.props { margin: 0; display: grid; grid-template-columns: 120px 1fr; gap: 4px 12px; font-size: 12px; }
+.drawer dl.props dt { color: var(--ink-3); font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; padding-top: 3px; }
+.drawer dl.props dd { margin: 0; color: var(--ink); word-break: break-word; }
+.drawer dl.props dd.mono { font-family: var(--mono); font-size: 11px; }
+.drawer dl.props dd a { color: var(--accent); text-decoration: none; }
+.drawer dl.props dd a:hover { text-decoration: underline; }
+.drawer .chips { display: flex; flex-wrap: wrap; gap: 4px; margin: 0 0 6px; }
+.drawer .chip { font-family: var(--mono); font-size: 10px; background: var(--bg-3); color: var(--ink-2); padding: 3px 9px; border-radius: 3px; cursor: pointer; border: 1px solid var(--line); }
+.drawer .chip:hover { color: var(--ink); border-color: var(--line-2); }
+.drawer .linklist a { display: block; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 12px; color: var(--ink-2); text-decoration: none; }
+.drawer .linklist a:hover { color: var(--ink); }
+.drawer .linklist a .meta { color: var(--ink-3); font-family: var(--mono); font-size: 10px; margin-left: 8px; }
+
+/* ---------- footer ---------- */
+footer { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--ink-3); font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em; }
+footer a { color: var(--ink-2); text-decoration: none; }
+footer a:hover { color: var(--ink); }
+
+/* ---------- state ---------- */
+.state-msg { padding: 40px 20px; text-align: center; color: var(--ink-3); font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; }
+.state-msg.err { color: var(--alert); }
+
+@media (max-width: 720px) {
+  .shell { padding: 20px 14px 60px; }
+  header.hero h1 { font-size: 19px; }
+  .tab { padding: 8px 10px 7px; font-size: 11px; }
+  .drawer { width: 100%; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+
+<header class="hero">
+  <h1>Agent Ecosystem Directory</h1>
+  <div class="sub">Who is building the agent economy. People, projects, and active threads across the field, rebuilt from live GitHub data.</div>
+  <div class="meta" id="meta">loading…</div>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button class="tab" role="tab" data-tab="projects" aria-selected="true">Projects<span class="count" id="c-projects">–</span></button>
+  <button class="tab" role="tab" data-tab="people"   aria-selected="false">People<span class="count" id="c-people">–</span></button>
+  <button class="tab" role="tab" data-tab="threads"  aria-selected="false">Threads<span class="count" id="c-threads">–</span></button>
+  <button class="tab" role="tab" data-tab="about"    aria-selected="false">About</button>
+</nav>
+
+<div id="viewport"></div>
+
+<footer>
+  <span id="footer-meta">Agent Ecosystem Directory</span>
+  · <a href="https://aeoess.com">aeoess.com</a>
+  · <a href="https://github.com/aeoess/agent-ecosystem-map">contribute</a>
+</footer>
+</div>
+
+<div class="drawer-overlay" id="overlay" onclick="closeDrawer()"></div>
+<aside class="drawer" id="drawer">
+  <div class="close" onclick="closeDrawer()">×</div>
+  <div class="body" id="drawer-body"></div>
+</aside>
+
+<script>
+
+// ========================================================================
+// Data load
+// ========================================================================
+const DATA_URLS = [
+  './ecosystem-data.json',
+  'https://aeoess.com/agent-ecosystem-map/ecosystem-data.json',
+];
+let DATA = null;
+let currentTab = 'projects';
+let filterState = {
+  projects: { search: '', sort: 'contributors', dir: 'desc', chips: {} },
+  people:   { search: '', sort: 'score',        dir: 'desc', chips: {} },
+  threads:  { search: '', sort: 'updated',      dir: 'desc', chips: {} },
+};
+
+async function loadData() {
+  for (const u of DATA_URLS) {
+    try {
+      const r = await fetch(u, { cache: 'no-cache' });
+      if (r.ok) return r.json();
+    } catch (e) {}
+  }
+  throw new Error('Could not load ecosystem-data.json');
+}
+
+// ========================================================================
+// Date helpers
+// ========================================================================
+const NOW = Date.now();
+function parseDate(s) { return s ? new Date(s).getTime() : NaN; }
+function daysAgo(s) {
+  const t = parseDate(s);
+  if (isNaN(t)) return NaN;
+  return Math.floor((NOW - t) / 86400000);
+}
+function fmtRel(s) {
+  const d = daysAgo(s);
+  if (isNaN(d)) return '—';
+  if (d <= 0) return 'today';
+  if (d === 1) return '1d ago';
+  if (d < 30) return `${d}d ago`;
+  if (d < 365) return `${Math.floor(d/30)}mo ago`;
+  return `${Math.floor(d/365)}y ago`;
+}
+function fmtAbs(s) { return s ? s.slice(0, 10) : '—'; }
+function fmtAge(s) {
+  const d = daysAgo(s);
+  if (isNaN(d)) return '—';
+  if (d < 365) return `${d}d`;
+  return `${(d/365).toFixed(1)}y`;
+}
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+// ========================================================================
+// Derived fields
+// ========================================================================
+function projectDerived(p) {
+  const g = p._github || {};
+  const contribs = new Set();
+  const threadCount = (DATA.threads || []).filter(t => t.project_id === p._id).length;
+  for (const t of DATA.threads) {
+    if (t.project_id === p._id) {
+      for (const c of t.participants) contribs.add(c);
+    }
+  }
+  return {
+    name: p.name,
+    slug: p._id,
+    maturity: p.maturity || '',
+    stars: g.stargazers || 0,
+    created: g.created_at || null,
+    pushed: g.pushed_at || null,
+    contributors: contribs.size,
+    threads: threadCount,
+    license: g.license || p.license || '',
+    language: g.language || '',
+    archived: !!g.archived,
+    description: p.description || g.description || '',
+  };
+}
+function personDerived(p) {
+  const g = p.github || {};
+  return {
+    login: p.login,
+    name: g.name || '',
+    company: g.company || '',
+    score: p.score,
+    posts: p.posts,
+    threadsN: (p.threads || []).length,
+    first_seen: p.first_seen_ours,
+    last_seen: p.last_seen_ours,
+    acct_created: g.created_at || null,
+    followers: g.followers || 0,
+    bio: g.bio || '',
+    location: g.location || '',
+  };
+}
+function threadDerived(t) {
+  const g = t.github || {};
+  return {
+    id: t.id,
+    repo: t.repo,
+    number: t.number,
+    title: t.title,
+    project_id: t.project_id,
+    state: g.state || 'unknown',
+    is_pr: g.is_pr,
+    created: g.created_at || null,
+    updated: g.updated_at || null,
+    comments: g.comments || 0,
+    participants: t.participant_count,
+    url: t.url,
+    author: g.author || '',
+  };
+}
+
+// ========================================================================
+// Column definitions
+// ========================================================================
+const COLS = {
+  projects: [
+    { k:'name',         label:'Project',      sort:(a,b)=>a.name.localeCompare(b.name), render:r=>`<strong>${esc(r.name)}</strong><div style="color:var(--ink-3);font-size:11px;margin-top:2px;max-width:300px;white-space:normal;line-height:1.35">${esc((r.description||'').slice(0,110))}${(r.description||'').length>110?'…':''}</div>` },
+    { k:'maturity',     label:'Maturity',     sort:(a,b)=>(a.maturity||'').localeCompare(b.maturity||''), render:r=>r.maturity?`<span class="pill">${esc(r.maturity)}</span>`:'—' },
+    { k:'stars',        label:'Stars',        num:true, sort:(a,b)=>a.stars-b.stars, render:r=>r.stars.toLocaleString() },
+    { k:'contributors', label:'Contribs',     num:true, sort:(a,b)=>a.contributors-b.contributors, render:r=>r.contributors },
+    { k:'threads',      label:'Threads',      num:true, sort:(a,b)=>a.threads-b.threads, render:r=>r.threads },
+    { k:'created',      label:'Created',      sort:(a,b)=>(parseDate(a.created)||0)-(parseDate(b.created)||0), render:r=>`<span title="${esc(fmtAbs(r.created))}">${fmtAge(r.created)}</span>` },
+    { k:'pushed',       label:'Last push',    sort:(a,b)=>(parseDate(a.pushed)||0)-(parseDate(b.pushed)||0), render:r=>`<span title="${esc(fmtAbs(r.pushed))}">${fmtRel(r.pushed)}</span>` },
+    { k:'license',      label:'License',      sort:(a,b)=>(a.license||'').localeCompare(b.license||''), render:r=>r.license?`<span class="mono" style="color:var(--ink-2)">${esc(r.license)}</span>`:'—' },
+  ],
+  people: [
+    { k:'login',        label:'Login',        sort:(a,b)=>a.login.localeCompare(b.login), render:r=>`<strong class="mono">${esc(r.login)}</strong>${r.name?`<div style="color:var(--ink-3);font-size:11px;margin-top:2px">${esc(r.name)}</div>`:''}` },
+    { k:'company',      label:'Company',      sort:(a,b)=>(a.company||'').localeCompare(b.company||''), render:r=>r.company?esc(r.company.replace(/^@/,'')):'—' },
+    { k:'score',        label:'Score',        num:true, sort:(a,b)=>a.score-b.score, render:r=>r.score },
+    { k:'posts',        label:'Posts',        num:true, sort:(a,b)=>a.posts-b.posts, render:r=>r.posts },
+    { k:'threadsN',     label:'Threads',      num:true, sort:(a,b)=>a.threadsN-b.threadsN, render:r=>r.threadsN },
+    { k:'acct_created', label:'Acct age',     sort:(a,b)=>(parseDate(a.acct_created)||0)-(parseDate(b.acct_created)||0), render:r=>{
+      const d=daysAgo(r.acct_created); if (isNaN(d)) return '—';
+      const cls = d<60?'new':(d<365?'fresh':''); const lbl = fmtAge(r.acct_created);
+      return `<span class="pill ${cls}" title="${esc(fmtAbs(r.acct_created))}">${lbl}</span>`;
+    }},
+    { k:'first_seen',   label:'First seen',   sort:(a,b)=>(parseDate(a.first_seen)||0)-(parseDate(b.first_seen)||0), render:r=>`<span title="${esc(fmtAbs(r.first_seen))}">${fmtRel(r.first_seen)}</span>` },
+    { k:'last_seen',    label:'Last active',  sort:(a,b)=>(parseDate(a.last_seen)||0)-(parseDate(b.last_seen)||0), render:r=>`<span title="${esc(fmtAbs(r.last_seen))}">${fmtRel(r.last_seen)}</span>` },
+    { k:'followers',    label:'Followers',    num:true, sort:(a,b)=>a.followers-b.followers, render:r=>r.followers },
+  ],
+  threads: [
+    { k:'title',        label:'Thread',       sort:(a,b)=>a.title.localeCompare(b.title), render:r=>`<strong>${esc((r.title||'').slice(0,90))}${(r.title||'').length>90?'…':''}</strong><div style="color:var(--ink-3);font-size:11px;margin-top:2px" class="mono">${esc(r.repo)}#${r.number}</div>` },
+    { k:'state',        label:'State',        sort:(a,b)=>(a.state||'').localeCompare(b.state||''), render:r=>`<span class="pill ${r.state==='open'?'open':'closed'}">${esc(r.state)}</span>${r.is_pr?' <span class="pill pr">PR</span>':''}` },
+    { k:'participants', label:'Participants', num:true, sort:(a,b)=>a.participants-b.participants, render:r=>r.participants },
+    { k:'comments',     label:'Comments',     num:true, sort:(a,b)=>a.comments-b.comments, render:r=>r.comments },
+    { k:'created',      label:'Opened',       sort:(a,b)=>(parseDate(a.created)||0)-(parseDate(b.created)||0), render:r=>`<span title="${esc(fmtAbs(r.created))}">${fmtRel(r.created)}</span>` },
+    { k:'updated',      label:'Last activity',sort:(a,b)=>(parseDate(a.updated)||0)-(parseDate(b.updated)||0), render:r=>`<span title="${esc(fmtAbs(r.updated))}">${fmtRel(r.updated)}</span>` },
+    { k:'project_id',   label:'Project',      sort:(a,b)=>(a.project_id||'').localeCompare(b.project_id||''), render:r=>r.project_id?`<span class="mono" style="color:var(--ink-2)">${esc(r.project_id)}</span>`:'—' },
+  ],
+};
+
+// ========================================================================
+// Chip filters per tab (predicates)
+// ========================================================================
+const CHIPS = {
+  projects: [
+    { id:'all',    label:'All',            pred:()=>true },
+    { id:'fresh',  label:'Pushed ≤7d',     pred:r=>daysAgo(r.pushed) <= 7 },
+    { id:'new',    label:'Created ≤90d',   pred:r=>daysAgo(r.created) <= 90 },
+    { id:'big',    label:'100+ stars',     pred:r=>r.stars >= 100 },
+    { id:'multi',  label:'Multi-contrib',  pred:r=>r.contributors >= 5 },
+  ],
+  people: [
+    { id:'all',        label:'All',           pred:()=>true },
+    { id:'active7',    label:'Active ≤7d',    pred:r=>daysAgo(r.last_seen) <= 7 },
+    { id:'active30',   label:'Active ≤30d',   pred:r=>daysAgo(r.last_seen) <= 30 },
+    { id:'new_acct',   label:'Acct <60d',     pred:r=>daysAgo(r.acct_created) < 60 },
+    { id:'veteran',    label:'Acct >3y',      pred:r=>daysAgo(r.acct_created) > 365*3 },
+    { id:'substantive',label:'Score ≥100',    pred:r=>r.score >= 100 },
+  ],
+  threads: [
+    { id:'all',       label:'All',            pred:()=>true },
+    { id:'open',      label:'Open',           pred:r=>r.state === 'open' },
+    { id:'closed',    label:'Closed',         pred:r=>r.state === 'closed' },
+    { id:'hot7',      label:'Updated ≤7d',    pred:r=>daysAgo(r.updated) <= 7 },
+    { id:'pr',        label:'PRs',            pred:r=>r.is_pr },
+    { id:'mapped',    label:'Linked project', pred:r=>!!r.project_id },
+  ],
+};
+
+// ========================================================================
+// Render: table for a tab
+// ========================================================================
+function searchHaystack(r) {
+  return Object.values(r).map(v => typeof v === 'string' ? v : (typeof v === 'number' ? String(v) : '')).join(' ').toLowerCase();
+}
+
+function renderTable() {
+  const vp = document.getElementById('viewport');
+  if (currentTab === 'about') { renderAbout(); return; }
+
+  const fs = filterState[currentTab];
+  const cols = COLS[currentTab];
+  const src = currentTab === 'projects' ? DATA.projects.map(projectDerived)
+           : currentTab === 'people'   ? DATA.people.map(personDerived)
+           : DATA.threads.map(threadDerived);
+
+  const q = fs.search.trim().toLowerCase();
+  const activeChip = CHIPS[currentTab].find(c => c.id === (fs.chipId || 'all'));
+  let rows = src.filter(r => {
+    if (activeChip && !activeChip.pred(r)) return false;
+    if (q && !searchHaystack(r).includes(q)) return false;
+    return true;
+  });
+
+  const sortCol = cols.find(c => c.k === fs.sort) || cols[0];
+  rows.sort(sortCol.sort);
+  if (fs.dir === 'desc') rows.reverse();
+
+  // build toolbar
+  const chipsHtml = CHIPS[currentTab].map(c => {
+    const n = src.filter(c.pred).length;
+    const on = c.id === (fs.chipId || 'all');
+    return `<button class="chip ${on?'on':''}" data-chip="${c.id}">${esc(c.label)}<span class="n">${n}</span></button>`;
+  }).join('');
+
+  // build header row with sort arrows
+  const th = cols.map(c => {
+    const arrow = c.k === fs.sort ? `<span class="arrow">${fs.dir==='desc'?'▼':'▲'}</span>` : '';
+    return `<th data-col="${esc(c.k)}" ${c.num?'style="text-align:right"':''}>${esc(c.label)}${arrow}</th>`;
+  }).join('');
+
+  // rows
+  const tbody = rows.map((r, i) => {
+    const cells = cols.map(c => {
+      const cls = [];
+      if (c.num) cls.push('num');
+      return `<td class="${cls.join(' ')}">${c.render(r)}</td>`;
+    }).join('');
+    const pk = currentTab === 'projects' ? r.slug : (currentTab === 'people' ? r.login : r.id);
+    return `<tr data-pk="${esc(pk)}">${cells}</tr>`;
+  }).join('');
+
+  vp.innerHTML = `
+    <div class="quickbar">
+      <input class="search" id="search" placeholder="search ${currentTab}…" value="${esc(fs.search)}" autocomplete="off" />
+      ${chipsHtml}
+    </div>
+    <div class="scroller">
+      ${rows.length === 0
+        ? `<div class="empty-state">No ${currentTab} match filters</div>`
+        : `<table class="dir"><thead><tr>${th}</tr></thead><tbody>${tbody}</tbody></table>`}
+    </div>
+  `;
+
+  // wire events
+  document.getElementById('search').addEventListener('input', e => {
+    fs.search = e.target.value;
+    renderTable();
+    setTimeout(()=>{ const s = document.getElementById('search'); if (s) { s.focus(); s.setSelectionRange(s.value.length, s.value.length); } }, 0);
+  });
+  vp.querySelectorAll('.chip').forEach(el => el.addEventListener('click', () => {
+    fs.chipId = el.dataset.chip;
+    renderTable();
+  }));
+  vp.querySelectorAll('th[data-col]').forEach(el => el.addEventListener('click', () => {
+    const k = el.dataset.col;
+    if (fs.sort === k) fs.dir = (fs.dir === 'desc' ? 'asc' : 'desc');
+    else { fs.sort = k; fs.dir = 'desc'; }
+    renderTable();
+  }));
+  vp.querySelectorAll('tbody tr').forEach(tr => tr.addEventListener('click', () => openDrawer(currentTab, tr.dataset.pk)));
+}
+
+// ========================================================================
+// Drawer (detail)
+// ========================================================================
+function openDrawer(kind, pk) {
+  let html = '';
+  if (kind === 'projects') html = drawerProject(DATA.projects.find(p => p._id === pk));
+  else if (kind === 'people')  html = drawerPerson(DATA.people.find(p => p.login === pk));
+  else if (kind === 'threads') html = drawerThread(DATA.threads.find(t => t.id === pk));
+  document.getElementById('drawer-body').innerHTML = html;
+  document.getElementById('drawer').classList.add('on');
+  document.getElementById('overlay').classList.add('on');
+}
+function closeDrawer() {
+  document.getElementById('drawer').classList.remove('on');
+  document.getElementById('overlay').classList.remove('on');
+}
+function propsRows(pairs) {
+  return `<dl class="props">${pairs.filter(([k,v])=>v!=null && v!=='').map(([k,v,opts={}])=>
+    `<dt>${esc(k)}</dt><dd class="${opts.mono?'mono':''}">${opts.raw?v:esc(v)}</dd>`
+  ).join('')}</dl>`;
+}
+
+function drawerProject(p) {
+  if (!p) return '';
+  const g = p._github || {};
+  const threads = DATA.threads.filter(t => t.project_id === p._id);
+  const contribs = new Set();
+  threads.forEach(t => t.participants.forEach(c => contribs.add(c)));
+  const repoUrl = (p.venues || []).find(v => v.kind === 'repository')?.url;
+  return `
+    <div class="kind">Project · ${esc(p._id)}</div>
+    <h2>${repoUrl ? `<a href="${esc(repoUrl)}" target="_blank">${esc(p.name)}</a>` : esc(p.name)}</h2>
+    <div class="lede">${esc(p.description || g.description || '')}</div>
+    ${propsRows([
+      ['Maturity', p.maturity],
+      ['License',  g.license || p.license],
+      ['Language', g.language],
+      ['Stars',    g.stargazers],
+      ['Forks',    g.forks],
+      ['Created',  g.created_at ? `${fmtAbs(g.created_at)} (${fmtAge(g.created_at)} ago)` : null],
+      ['Last push', g.pushed_at ? `${fmtAbs(g.pushed_at)} (${fmtRel(g.pushed_at)})` : null],
+      ['Archived', g.archived ? 'yes' : null],
+    ])}
+    ${(p.topics||[]).length ? `<h4>Topics</h4><div class="chips">${p.topics.map(t=>`<span class="chip">${esc(t)}</span>`).join('')}</div>` : ''}
+    ${(p.venues||[]).length ? `<h4>Venues</h4><div class="linklist">${p.venues.map(v=>`<a href="${esc(v.url)}" target="_blank">${esc(v.label||v.kind||v.url)}<span class="meta">${esc(v.kind||'')}</span></a>`).join('')}</div>` : ''}
+    <h4>Threads in this project (${threads.length})</h4>
+    <div class="linklist">${threads.slice(0,30).map(t=>`<a href="${esc(t.url)}" target="_blank"><strong>${esc((t.title||'').slice(0,75))}</strong><span class="meta">${esc(t.repo)}#${t.number} · ${t.participant_count} people</span></a>`).join('') || '<div style="color:var(--ink-3);font-size:12px;padding:8px 0">No threads linked to this project yet.</div>'}</div>
+    <h4>Contributors (${contribs.size})</h4>
+    <div class="chips">${[...contribs].sort().map(c=>`<span class="chip" onclick="switchToAndFilter('people','${esc(c)}')">${esc(c)}</span>`).join('') || '<span style="color:var(--ink-3);font-size:12px">None yet.</span>'}</div>
+  `;
+}
+
+function drawerPerson(p) {
+  if (!p) return '';
+  const g = p.github || {};
+  const threads = DATA.threads.filter(t => (t.participants || []).includes(p.login));
+  const projects = new Set();
+  threads.forEach(t => t.project_id && projects.add(t.project_id));
+  return `
+    <div class="kind">Person</div>
+    <h2><a href="https://github.com/${esc(p.login)}" target="_blank">${esc(p.login)}</a></h2>
+    ${g.name ? `<div class="lede"><strong>${esc(g.name)}</strong>${g.company?` · ${esc(g.company.replace(/^@/,''))}`:''}${g.location?` · ${esc(g.location)}`:''}</div>`:''}
+    ${g.bio ? `<div class="lede" style="color:var(--ink-2);font-style:italic">${esc(g.bio)}</div>`:''}
+    ${propsRows([
+      ['Score',       p.score],
+      ['Posts',       p.posts],
+      ['Threads',     (p.threads||[]).length],
+      ['Ship',        p.ship],
+      ['Propose',     p.propose],
+      ['Review',      p.review],
+      ['First seen',  p.first_seen_ours ? `${fmtAbs(p.first_seen_ours)} (${fmtRel(p.first_seen_ours)})` : null],
+      ['Last active', p.last_seen_ours  ? `${fmtAbs(p.last_seen_ours)} (${fmtRel(p.last_seen_ours)})` : null],
+      ['Account',     g.created_at ? `${fmtAbs(g.created_at)} (${fmtAge(g.created_at)} old)` : null],
+      ['Followers',   g.followers],
+      ['Public repos',g.public_repos],
+      ['Twitter',     g.twitter ? `@${g.twitter}` : null],
+      ['Blog',        g.blog || null, { raw: g.blog ? `<a href="${esc(g.blog.startsWith('http')?g.blog:'https://'+g.blog)}" target="_blank">${esc(g.blog)}</a>` : null }],
+      ['Email',       g.email],
+    ])}
+    ${projects.size ? `<h4>Projects they touch</h4><div class="chips">${[...projects].map(pid=>`<span class="chip" onclick="switchToAndFilter('projects','${esc(pid)}')">${esc(pid)}</span>`).join('')}</div>`:''}
+    ${(p.topics||[]).length ? `<h4>Topics</h4><div class="chips">${p.topics.map(t=>`<span class="chip">${esc(t)}</span>`).join('')}</div>` : ''}
+    <h4>Threads (${threads.length})</h4>
+    <div class="linklist">${threads.slice(0,40).map(t=>`<a href="${esc(t.url)}" target="_blank"><strong>${esc((t.title||'').slice(0,75))}</strong><span class="meta">${esc(t.repo)}#${t.number}</span></a>`).join('')}</div>
+  `;
+}
+
+function drawerThread(t) {
+  if (!t) return '';
+  const g = t.github || {};
+  const projNode = t.project_id ? DATA.projects.find(p => p._id === t.project_id) : null;
+  return `
+    <div class="kind">Thread</div>
+    <h2><a href="${esc(t.url)}" target="_blank">${esc(t.title)}</a></h2>
+    <div class="lede mono" style="font-family:var(--mono);font-size:12px;color:var(--ink-3)">${esc(t.id)}</div>
+    ${propsRows([
+      ['State',        g.state],
+      ['Type',         g.is_pr ? 'Pull Request' : 'Issue'],
+      ['Author',       g.author],
+      ['Opened',       g.created_at ? `${fmtAbs(g.created_at)} (${fmtRel(g.created_at)})` : null],
+      ['Updated',      g.updated_at ? `${fmtAbs(g.updated_at)} (${fmtRel(g.updated_at)})` : null],
+      ['Closed',       g.closed_at  ? `${fmtAbs(g.closed_at)}`  : null],
+      ['Comments',     g.comments],
+      ['Participants', t.participant_count],
+      ['Project',      projNode ? projNode.name : null, { raw: projNode ? `<span class="chip" onclick="switchToAndFilter('projects','${esc(projNode._id)}')">${esc(projNode.name)}</span>` : null }],
+    ])}
+    ${(g.labels||[]).length ? `<h4>Labels</h4><div class="chips">${g.labels.map(l=>`<span class="chip">${esc(l)}</span>`).join('')}</div>` : ''}
+    <h4>Participants (${t.participants.length})</h4>
+    <div class="chips">${t.participants.map(c=>`<span class="chip" onclick="switchToAndFilter('people','${esc(c)}')">${esc(c)}</span>`).join('')}</div>
+  `;
+}
+
+function switchToAndFilter(tab, term) {
+  closeDrawer();
+  currentTab = tab;
+  filterState[tab].search = term;
+  filterState[tab].chipId = 'all';
+  updateTabUI();
+  renderTable();
+}
+
+// ========================================================================
+// About tab
+// ========================================================================
+function renderAbout() {
+  const vp = document.getElementById('viewport');
+  const s = DATA.stats;
+  const gen = DATA.generated_at ? fmtAbs(DATA.generated_at) : '—';
+  vp.innerHTML = `
+    <div style="max-width:720px;font-size:14px;color:var(--ink-2);line-height:1.6">
+      <h3 style="color:var(--ink);margin-top:0">What this is</h3>
+      <p>A directory of who is building the agent economy. Three entities, all listed as rows you can sort, filter, and scan: projects shipping protocols and products, people contributing to the threads that shape the field, and the threads themselves where the work is actually happening.</p>
+
+      <p>Every row is hard data from GitHub. Account ages are real. Project creation dates are real. Thread state is real. When an 18-day-old account with one follower shows up in a row next to a 10-year veteran, you can see the difference at a glance.</p>
+
+      <h3 style="color:var(--ink)">Method</h3>
+      <p>Contribution map pulled from public GitHub threads across ${s.projects} projects. Every person who has posted in any of ${s.threads} governance threads is a row. Every project with a GitHub repo is enriched with stars, license, language, creation date, and last push. Every thread is enriched with state, comments, and participants.</p>
+
+      <p>We filtered ${s.people_total_raw - s.people} drive-by accounts (score &lt; 5) out of the main People table. Everyone else is in.</p>
+
+      <h3 style="color:var(--ink)">Coverage</h3>
+      <dl class="props" style="grid-template-columns:200px 1fr">
+        <dt>Projects tracked</dt><dd>${s.projects}</dd>
+        <dt>Projects enriched</dt><dd>${s.projects_enriched} of ${s.projects} (others are IETF/W3C drafts, no GitHub repo)</dd>
+        <dt>People in directory</dt><dd>${s.people} (filtered from ${s.people_total_raw} raw)</dd>
+        <dt>People enriched</dt><dd>${s.people_enriched} of ${s.people} (a few accounts have been deleted or renamed)</dd>
+        <dt>Threads tracked</dt><dd>${s.threads}</dd>
+        <dt>Threads enriched</dt><dd>${s.threads_enriched} of ${s.threads}</dd>
+        <dt>Threads mapped to project</dt><dd>${s.threads_mapped_to_project} (rest are in repos outside our 18-project set)</dd>
+        <dt>Data generated</dt><dd>${gen}</dd>
+      </dl>
+
+      <h3 style="color:var(--ink)">Contribute</h3>
+      <p>To add a project, open a PR against <a href="https://github.com/aeoess/agent-ecosystem-map/tree/main/projects" target="_blank">projects/</a> with a YAML file describing it. To correct or enrich an existing row, open an issue. Threads and people are pulled automatically from public GitHub activity.</p>
+
+      <p>This directory is maintained at <a href="https://github.com/aeoess/agent-ecosystem-map" target="_blank">aeoess/agent-ecosystem-map</a>.</p>
+    </div>
+  `;
+}
+
+// ========================================================================
+// Tabs + boot
+// ========================================================================
+function updateTabUI() {
+  document.querySelectorAll('.tab').forEach(t => t.setAttribute('aria-selected', t.dataset.tab === currentTab));
+}
+function switchTab(t) {
+  currentTab = t;
+  updateTabUI();
+  renderTable();
+  history.replaceState(null, '', '#' + t);
+}
+
+(async function boot() {
+  try {
+    DATA = await loadData();
+    document.getElementById('c-projects').textContent = DATA.stats.projects;
+    document.getElementById('c-people').textContent   = DATA.stats.people;
+    document.getElementById('c-threads').textContent  = DATA.stats.threads;
+    const gen = DATA.generated_at ? fmtAbs(DATA.generated_at) : '—';
+    document.getElementById('meta').innerHTML = `<span><b>${DATA.stats.projects}</b> projects</span><span><b>${DATA.stats.people}</b> people</span><span><b>${DATA.stats.threads}</b> active threads</span><span>updated <b>${gen}</b></span>`;
+    document.getElementById('footer-meta').innerHTML = `Directory data generated ${gen} · <a href="https://github.com/aeoess/agent-ecosystem-map">source</a>`;
+
+    document.querySelectorAll('.tab').forEach(el => el.addEventListener('click', () => switchTab(el.dataset.tab)));
+    const hashTab = (location.hash||'').replace('#','');
+    if (['projects','people','threads','about'].includes(hashTab)) currentTab = hashTab;
+    updateTabUI();
+    renderTable();
+  } catch (e) {
+    document.getElementById('viewport').innerHTML = `<div class="state-msg err">failed to load ecosystem-data.json — run scripts/build-ecosystem-data.py</div>`;
+    console.error(e);
+  }
+})();
+
+window.closeDrawer = closeDrawer;
+window.switchToAndFilter = switchToAndFilter;
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+</script>
+</body>
+</html>

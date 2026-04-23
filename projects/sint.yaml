@@ -1,0 +1,18 @@
+name: SINT Protocol
+slug: sint
+description: Policy Bundle Specification for layered enforcement contexts across agent identity protocols. Provides a unified handshake profile integrating APS, AIP, and MCP into a single enforcement layer.
+topics:
+  - identity
+  - delegation
+  - governance
+maturity: beta
+license: Apache-2.0
+venues:
+  - kind: repository
+    url: https://github.com/sint-ai/sint-protocol
+relates_to:
+  - slug: aps
+    relation: uses-vocabulary-from
+contact:
+  github: pshkv
+updated: 2026-04-22

@@ -1,0 +1,19 @@
+name: x402
+slug: x402
+description: Open protocol for agentic micropayments embedded in the HTTP layer. Enables AI agents and software to pay each other in stablecoins without human intervention at each step. Co-developed by Coinbase and Cloudflare.
+topics:
+  - commerce
+  - coordination
+maturity: production
+license: Apache-2.0
+venues:
+  - kind: repository
+    url: https://github.com/coinbase/x402
+  - kind: website
+    url: https://www.x402.org
+implements:
+  - http-402
+relates_to:
+  - slug: agentkit
+    relation: adjacent-to
+updated: 2026-04-22

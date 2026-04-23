@@ -1,0 +1,21 @@
+name: ZeroID
+slug: zeroid
+description: Autonomous Agent Identity Management System built on OAuth 2.1, WIMSE/SPIFFE, and RFC 8693 token exchange. Delegation with automatic scope attenuation, on-behalf-of chains, and cascade revocation.
+topics:
+  - identity
+  - delegation
+  - audit
+maturity: beta
+license: Apache-2.0
+venues:
+  - kind: repository
+    url: https://github.com/highflame-ai/zeroid
+implements:
+  - oauth-2.1
+  - rfc-8693
+  - spiffe
+  - jwt
+relates_to:
+  - slug: aps
+    relation: adjacent-to
+updated: 2026-04-22

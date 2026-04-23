@@ -1,0 +1,29 @@
+name: Agent Governance Toolkit
+slug: agent-governance-toolkit
+description: Seven-package system for runtime security governance of AI agents. Policy enforcement, zero-trust identity with Ed25519, execution sandboxing, and SRE patterns. Framework-agnostic adapters.
+topics:
+  - identity
+  - delegation
+  - governance
+  - audit
+  - coordination
+maturity: beta
+license: MIT
+venues:
+  - kind: repository
+    url: https://github.com/microsoft/agent-governance-toolkit
+  - kind: package-registry
+    url: https://pypi.org/project/agent-governance-toolkit/
+    label: PyPI
+  - kind: documentation
+    url: https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/
+implements:
+  - ed25519
+  - did
+  - opa
+  - cedar
+  - spiffe
+relates_to:
+  - slug: aps
+    relation: adjacent-to
+updated: 2026-04-22

@@ -1,0 +1,27 @@
+name: Delegated Agent Authorization Protocol
+slug: daap
+description: Open, model-neutral protocol for cryptographic agent identity using DIDs, a human-consent grant flow modelled on OAuth 2.0, signed JWT grant tokens, and a policy engine with OPA and Cedar integration.
+topics:
+  - identity
+  - delegation
+  - governance
+  - audit
+maturity: draft
+license: Apache-2.0
+venues:
+  - kind: ietf-draft
+    url: https://datatracker.ietf.org/doc/draft-mishra-oauth-agent-grants/
+    label: draft-mishra-oauth-agent-grants-01
+implements:
+  - did
+  - jwt
+  - oauth-2.1
+  - opa
+  - cedar
+relates_to:
+  - slug: aps
+    relation: adjacent-to
+    note: Independent convergence on delegation invariants; external policy engine binding.
+contact:
+  email: mishra.sanjeev@gmail.com
+updated: 2026-04-22

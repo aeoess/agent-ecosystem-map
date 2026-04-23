@@ -1,0 +1,14 @@
+name: Open Agent Trust Registry
+slug: oatr
+description: Open registry for trusted agent issuers. Provides registration, compilation, and a CLI tooling layer for publishing agent trust information and behavioral history references.
+topics:
+  - identity
+  - audit
+maturity: beta
+license: Apache-2.0
+venues:
+  - kind: repository
+    url: https://github.com/FransDevelopment/open-agent-trust-registry
+contact:
+  github: FransDevelopment
+updated: 2026-04-22

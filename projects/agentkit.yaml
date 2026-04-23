@@ -1,0 +1,27 @@
+name: AgentKit
+slug: agentkit
+description: Developer toolkit that lets AI agents carry cryptographic proof they are backed by a unique human via World ID delegation. Integrates with x402 for micropayments and UCP for agentic commerce.
+topics:
+  - identity
+  - commerce
+maturity: beta
+license: proprietary
+venues:
+  - kind: documentation
+    url: https://docs.world.org/agents/agent-kit
+  - kind: repository
+    url: https://github.com/worldcoin/agentkit-shopify-demo
+    label: Shopify demo
+  - kind: website
+    url: https://world.org/blog/announcements/now-available-agentkit-proof-of-human-for-the-agentic-web
+implements:
+  - world-id
+  - x402
+  - zero-knowledge-proof
+relates_to:
+  - slug: x402
+    relation: extends
+    note: Adds proof-of-unique-human verification.
+  - slug: ucp
+    relation: interops-with
+updated: 2026-04-22

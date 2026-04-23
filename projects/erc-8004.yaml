@@ -1,0 +1,27 @@
+name: ERC-8004 Trustless Agents
+slug: erc-8004
+description: Ethereum standard extending the Agent-to-Agent protocol with three lightweight on-chain registries for agent identity, reputation, and validation. Mainnet-live since January 2026.
+topics:
+  - identity
+  - audit
+  - coordination
+maturity: standard
+license: CC-BY-4.0
+venues:
+  - kind: erc
+    url: https://eips.ethereum.org/EIPS/eip-8004
+    label: EIP-8004
+  - kind: repository
+    url: https://github.com/erc-8004/erc-8004-contracts
+    label: Registry contracts
+  - kind: website
+    url: https://8004.org
+implements:
+  - erc-721
+  - erc-1271
+  - eip-712
+relates_to:
+  - slug: a2a
+    relation: extends
+    note: Blockchain-based trust layer on top of A2A.
+updated: 2026-04-22

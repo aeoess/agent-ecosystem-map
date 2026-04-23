@@ -1,0 +1,16 @@
+name: Universal Commerce Protocol
+slug: ucp
+description: Open-source standard for agentic commerce across consumer surfaces, businesses, and payment providers. Developed by Google with Shopify, Etsy, Wayfair, Target, Walmart, and 20+ endorsers.
+topics:
+  - commerce
+  - coordination
+maturity: beta
+license: Apache-2.0
+venues:
+  - kind: documentation
+    url: https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/
+implements:
+  - openapi
+  - a2a
+  - mcp
+updated: 2026-04-22

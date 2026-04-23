@@ -1,0 +1,28 @@
+# Copy this file to projects/<your-project-slug>.yaml and fill in the fields.
+# All fields are self-reported. Leave out anything you don't want to disclose.
+
+name: Example Project
+slug: example-project
+description: >
+  One-sentence description of what this project does. Under 280 characters.
+
+topics:
+  - identity
+  - delegation
+
+maturity: beta  # research | draft | beta | production | standard
+license: Apache-2.0
+
+venues:
+  - kind: repository
+    url: https://github.com/example-org/example-project
+    label: Source
+
+implements:
+  - ed25519
+  - did
+
+contact:
+  github: example-maintainer
+
+updated: 2026-04-22

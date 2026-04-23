@@ -1,0 +1,14 @@
+name: Agent2Agent Protocol
+slug: a2a
+description: Protocol for agent authentication, skills advertisement via AgentCards, direct messaging, and task-lifecycle orchestration across agents. Open-source, under active development.
+topics:
+  - coordination
+  - identity
+maturity: beta
+license: Apache-2.0
+venues:
+  - kind: repository
+    url: https://github.com/a2aproject/A2A
+implements:
+  - json-schema
+updated: 2026-04-22

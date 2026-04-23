@@ -1,0 +1,18 @@
+name: APort
+slug: aport
+description: Passport-based authorization for AI agents. Attaches verifiable permissions to agent identities, with a pre-action authorization and suspension model. Integrates with major agent frameworks.
+topics:
+  - identity
+  - delegation
+maturity: beta
+license: MIT
+venues:
+  - kind: repository
+    url: https://github.com/aport-labs/aport-spec
+    label: Spec
+  - kind: website
+    url: https://api.aport.io
+implements:
+  - did
+  - jwt
+updated: 2026-04-22

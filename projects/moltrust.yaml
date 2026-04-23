@@ -1,0 +1,23 @@
+name: MolTrust
+slug: moltrust
+description: Agent trust bridging layer with DID resolution across identity schemes and a cross-chain attestation bridge to Base L2. Operated by CryptoKRI GmbH.
+topics:
+  - identity
+  - audit
+  - coordination
+maturity: beta
+license: Apache-2.0
+venues:
+  - kind: website
+    url: https://moltrust.com
+implements:
+  - did
+  - ed25519
+  - ecdsa
+relates_to:
+  - slug: aps
+    relation: bridges
+    note: Resolves did:aps onto Base L2.
+contact:
+  github: MoltyCel
+updated: 2026-04-22

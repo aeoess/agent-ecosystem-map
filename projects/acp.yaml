@@ -1,0 +1,19 @@
+name: Agentic Commerce Protocol
+slug: acp
+description: Open standard for connecting buyers, their AI agents, and businesses to complete purchases. Defines checkout flow, payment credential sharing, and extensions. Jointly maintained by OpenAI and Stripe.
+topics:
+  - commerce
+  - coordination
+maturity: beta
+license: Apache-2.0
+venues:
+  - kind: repository
+    url: https://github.com/agentic-commerce-protocol/agentic-commerce-protocol
+  - kind: website
+    url: https://www.agenticcommerce.dev/
+  - kind: documentation
+    url: https://docs.stripe.com/agentic-commerce/protocol
+implements:
+  - openapi
+  - json-schema
+updated: 2026-04-22

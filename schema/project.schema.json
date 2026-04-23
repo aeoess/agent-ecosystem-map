@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aeoess.com/agent-ecosystem-map/schema/project.schema.json",
+  "title": "Agent Ecosystem Map Project Entry",
+  "description": "Self-described entry for a project in the agent identity/delegation/governance/commerce space.",
+  "type": "object",
+  "required": ["name", "description", "topics", "maturity", "license", "venues"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 280
+    },
+    "topics": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": ["identity","delegation","commerce","governance","data-lifecycle","attribution","audit","coordination"]
+      }
+    },
+    "maturity": { "enum": ["research","draft","beta","production","standard"] },
+    "license": { "type": "string" },
+    "venues": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["kind","url"],
+        "properties": {
+          "kind": { "enum": ["repository","ietf-draft","w3c-spec","erc","website","documentation","paper","demo","package-registry"] },
+          "url": { "type": "string", "format": "uri" },
+          "label": { "type": "string", "maxLength": 60 }
+        }
+      }
+    },
+    "implements": { "type": "array", "items": { "type": "string" } },
+    "relates_to": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slug","relation"],
+        "properties": {
+          "slug": { "type": "string" },
+          "relation": { "enum": ["extends","interops-with","uses-vocabulary-from","forks","adjacent-to","bridges"] },
+          "note": { "type": "string", "maxLength": 200 }
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "properties": {
+        "github": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "chat": { "type": "string", "format": "uri" }
+      }
+    },
+    "updated": { "type": "string", "format": "date" }
+  }
+}

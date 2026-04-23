@@ -1,0 +1,28 @@
+name: Agent Identity Protocol
+slug: aip
+description: Verifiable delegation protocol for AI agent systems. Introduces Invocation-Bound Capability Tokens with compact (JWT) and chained (Biscuit with Datalog) wire formats, with Python and Rust reference implementations.
+topics:
+  - identity
+  - delegation
+  - audit
+maturity: draft
+license: Apache-2.0
+venues:
+  - kind: ietf-draft
+    url: https://datatracker.ietf.org/doc/draft-prakash-aip/
+    label: draft-prakash-aip-00
+  - kind: paper
+    url: https://arxiv.org/abs/2603.24775
+    label: arXiv:2603.24775
+implements:
+  - jwt
+  - biscuit
+  - macaroon
+  - ed25519
+relates_to:
+  - slug: aps
+    relation: adjacent-to
+    note: Independent convergence on attenuated delegation.
+contact:
+  github: itisparas
+updated: 2026-04-22

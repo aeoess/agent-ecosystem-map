@@ -1,0 +1,13 @@
+name: Model Context Protocol
+slug: mcp
+description: Open standard for connecting AI assistants to data sources and tools. Servers expose prompts, resources, tools, and completions over a stable interface consumable by any compatible client.
+topics:
+  - coordination
+maturity: production
+license: MIT
+venues:
+  - kind: website
+    url: https://modelcontextprotocol.io
+  - kind: repository
+    url: https://github.com/modelcontextprotocol
+updated: 2026-04-22

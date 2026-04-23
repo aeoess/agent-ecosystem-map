@@ -1,0 +1,27 @@
+name: Human Delegation Provenance
+slug: hdp
+description: Lightweight cryptographic protocol for human delegation provenance in agentic AI. Token-based scheme with append-only hop chain, fully offline verification using only the issuer's Ed25519 public key and session identifier.
+topics:
+  - identity
+  - delegation
+  - audit
+maturity: draft
+license: MIT
+venues:
+  - kind: ietf-draft
+    url: https://datatracker.ietf.org/doc/draft-helixar-hdp-agentic-delegation/
+    label: draft-helixar-hdp-agentic-delegation-00
+  - kind: paper
+    url: https://arxiv.org/pdf/2604.04522
+    label: arXiv:2604.04522
+  - kind: repository
+    url: https://github.com/Helixar-AI/HDP
+implements:
+  - ed25519
+relates_to:
+  - slug: aps
+    relation: adjacent-to
+    note: Closest technical cousin on offline-verifiable signed delegation chains.
+contact:
+  email: siri@helixar.ai
+updated: 2026-04-22

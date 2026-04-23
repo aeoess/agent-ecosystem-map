@@ -1,0 +1,23 @@
+name: AgentID
+slug: agentid
+description: Cryptographic identity system for AI agents with DID-based identification, challenge-response verification, and a shared interop repo hosting crosswalk fixtures with adjacent protocols.
+topics:
+  - identity
+maturity: beta
+license: Apache-2.0
+venues:
+  - kind: repository
+    url: https://github.com/haroldmalikfrimpong-ops/agentid-aps-interop
+    label: Interop fixtures
+  - kind: website
+    url: https://getagentid.com
+implements:
+  - did
+  - ed25519
+relates_to:
+  - slug: aps
+    relation: interops-with
+    note: Hosts bilateral crosswalk fixtures.
+contact:
+  github: haroldmalikfrimpong-ops
+updated: 2026-04-22
