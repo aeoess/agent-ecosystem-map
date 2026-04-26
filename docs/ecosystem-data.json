@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T22:32:13.392355+00:00",
+  "generated_at": "2026-04-26T05:32:07.486362+00:00",
   "projects": [
     {
       "name": "Agent2Agent Protocol",
@@ -865,8 +865,8 @@
   "people": [
     {
       "login": "aeoess",
-      "score": 5101,
-      "posts": 539,
+      "score": 5174,
+      "posts": 545,
       "threads": [
         "FransDevelopment/open-agent-trust-registry#24",
         "FransDevelopment/open-agent-trust-registry#28",
@@ -888,9 +888,12 @@
         "a2aproject/A2A#1718",
         "a2aproject/A2A#1742",
         "a2aproject/A2A#1755",
+        "a2aproject/A2A#1786",
         "aaif/project-proposals#12",
         "aeoess/agent-governance-vocabulary#28",
         "aeoess/agent-governance-vocabulary#29",
+        "aeoess/agent-governance-vocabulary#46",
+        "aeoess/agent-governance-vocabulary#47",
         "aeoess/agent-passport-system#1",
         "aeoess/agent-passport-system#10",
         "aeoess/agent-passport-system#11",
@@ -903,6 +906,7 @@
         "aeoess/agent-passport-system#7",
         "aeoess/agent-passport-system#8",
         "aeoess/agent-passport-system#9",
+        "aeoess/autogen-governance-adapter#1",
         "agentic-commerce-protocol/agentic-commerce-protocol#231",
         "anthropics/claude-code#32514",
         "arewm/refs.arewm.com#1",
@@ -933,6 +937,7 @@
         "worldcoin/agentkit-shopify-demo#5"
       ],
       "topics": [
+        "a2a-cai-extension-proposal",
         "a2a-compliance-measurement",
         "a2a-signing-custody",
         "a2a-trust-header-schema",
@@ -960,6 +965,7 @@
         "arewm-agent-commit",
         "atf-elements",
         "authority-constraints",
+        "autogen-jwks-kid-strict",
         "claude-code-mcp",
         "crewai-governance",
         "crewai-integration",
@@ -991,8 +997,10 @@
         "trust-signals-schema",
         "veritas-signal-belief",
         "veritas-testvectors",
+        "vocab-agentlair",
         "vocab-peer-review-audit",
         "vocab-sbr-continuity",
+        "vocab-wallet-intelligence-behavioral",
         "vocabulary-proposal",
         "w3c-agent-protocol"
       ],
@@ -1009,6 +1017,7 @@
         "aaif/project-proposals",
         "aeoess/agent-governance-vocabulary",
         "aeoess/agent-passport-system",
+        "aeoess/autogen-governance-adapter",
         "agentic-commerce-protocol/agentic-commerce-protocol",
         "anthropics/claude-code",
         "arewm/refs.arewm.com",
@@ -1032,12 +1041,12 @@
         "worldcoin/agentkit-shopify-demo"
       ],
       "first_seen_ours": "2026-02-21T19:05:14Z",
-      "last_seen_ours": "2026-04-23T07:00:18Z",
-      "ship": 390,
-      "propose": 464,
+      "last_seen_ours": "2026-04-25T04:40:32Z",
+      "ship": 396,
+      "propose": 470,
       "review": 139,
-      "mentions_received": 314,
-      "word_count": 140965,
+      "mentions_received": 318,
+      "word_count": 142447,
       "github": {
         "name": "\u00e6\u0153ss",
         "bio": "Tymofii Pidlisnyi                                 \u00b7 Editor-in-Chief, The Agent Times \u00b7 Building governance infrastructure for the agent economy",
@@ -1158,13 +1167,14 @@
     },
     {
       "login": "douglasborthwick-crypto",
-      "score": 932,
+      "score": 947,
       "posts": 120,
       "threads": [
         "a2aproject/A2A#1628",
         "a2aproject/A2A#1672",
         "a2aproject/A2A#1717",
         "a2aproject/A2A#1742",
+        "aeoess/agent-governance-vocabulary#47",
         "aeoess/agent-passport-system#1",
         "aeoess/agent-passport-system#11",
         "aeoess/agent-passport-system#13",
@@ -1182,22 +1192,24 @@
         "insumer-multi-attestation",
         "moltrust-integration",
         "trust-signals-schema",
+        "vocab-wallet-intelligence-behavioral",
         "vocabulary-proposal"
       ],
       "repos": [
         "a2aproject/A2A",
+        "aeoess/agent-governance-vocabulary",
         "aeoess/agent-passport-system",
         "corpollc/qntm",
         "crewAIInc/crewAI",
         "douglasborthwick-crypto/insumer-examples"
       ],
       "first_seen_ours": "2026-02-25T20:50:33Z",
-      "last_seen_ours": "2026-04-15T20:29:33Z",
-      "ship": 48,
+      "last_seen_ours": "2026-04-24T20:08:08Z",
+      "ship": 50,
       "propose": 45,
       "review": 29,
-      "mentions_received": 89,
-      "word_count": 28292,
+      "mentions_received": 90,
+      "word_count": 28390,
       "github": {
         "name": "Douglas Borthwick",
         "bio": "Building InsumerAPI \u2014 cryptographic proof of on-chain state for commerce and AI agents. Attestations, trust profiles, Merkle proofs. 33 chains. 5 SDKs",
@@ -1503,7 +1515,7 @@
     },
     {
       "login": "pshkv",
-      "score": 388,
+      "score": 391,
       "posts": 36,
       "threads": [
         "FransDevelopment/open-agent-trust-registry#24",
@@ -1514,6 +1526,7 @@
         "aeoess/agent-passport-system#1",
         "aeoess/agent-passport-system#13",
         "aeoess/agent-passport-system#3",
+        "aeoess/autogen-governance-adapter#1",
         "corpollc/qntm#7",
         "crewAIInc/crewAI#4560",
         "crewAIInc/crewAI#5019",
@@ -1526,6 +1539,7 @@
         "aeoess-agent-passport-system-3",
         "agent-identity-verification",
         "authority-constraints",
+        "autogen-jwks-kid-strict",
         "crewai-governance",
         "crewai-primitives",
         "oatr-sint-registration",
@@ -1539,17 +1553,18 @@
         "a2aproject/A2A",
         "aaif/project-proposals",
         "aeoess/agent-passport-system",
+        "aeoess/autogen-governance-adapter",
         "corpollc/qntm",
         "crewAIInc/crewAI",
         "sint-ai/sint-protocol"
       ],
       "first_seen_ours": "2026-04-04T06:07:20Z",
-      "last_seen_ours": "2026-04-21T06:42:59Z",
+      "last_seen_ours": "2026-04-24T08:01:54Z",
       "ship": 22,
       "propose": 31,
       "review": 3,
       "mentions_received": 28,
-      "word_count": 8325,
+      "word_count": 8395,
       "github": {
         "name": "Illia Pashkov",
         "bio": "Chief AI Office. Intelligence Architect. Director of Product Innovation & Design",
@@ -1767,6 +1782,96 @@
       }
     },
     {
+      "login": "kenneives",
+      "score": 170,
+      "posts": 28,
+      "threads": [
+        "a2aproject/A2A#1628",
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1786",
+        "corpollc/qntm#7",
+        "douglasborthwick-crypto/insumer-examples#1"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "agent-identity-verification",
+        "authority-constraints",
+        "insumer-multi-attestation",
+        "trust-signals-schema"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "corpollc/qntm",
+        "douglasborthwick-crypto/insumer-examples"
+      ],
+      "first_seen_ours": "2026-04-06T17:41:45Z",
+      "last_seen_ours": "2026-04-25T01:44:38Z",
+      "ship": 8,
+      "propose": 12,
+      "review": 8,
+      "mentions_received": 23,
+      "word_count": 5820,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2022-03-10T19:02:43Z",
+        "followers": 5,
+        "following": 1,
+        "public_repos": 6,
+        "type": "User"
+      }
+    },
+    {
+      "login": "rnwy",
+      "score": 163,
+      "posts": 19,
+      "threads": [
+        "a2aproject/A2A#1628",
+        "a2aproject/A2A#1717",
+        "aeoess/agent-governance-vocabulary#28",
+        "aeoess/agent-governance-vocabulary#29",
+        "douglasborthwick-crypto/insumer-examples#1"
+      ],
+      "topics": [
+        "a2a-signing-custody",
+        "insumer-multi-attestation",
+        "trust-signals-schema",
+        "vocab-peer-review-audit",
+        "vocab-sbr-continuity"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "aeoess/agent-governance-vocabulary",
+        "douglasborthwick-crypto/insumer-examples"
+      ],
+      "first_seen_ours": "2026-03-19T20:21:36Z",
+      "last_seen_ours": "2026-04-18T08:36:25Z",
+      "ship": 5,
+      "propose": 9,
+      "review": 2,
+      "mentions_received": 37,
+      "word_count": 2809,
+      "github": {
+        "name": "RNWY.com",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "rnwy.com",
+        "email": null,
+        "twitter": null,
+        "created_at": "2013-08-30T07:43:18Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 10,
+        "type": "User"
+      }
+    },
+    {
       "login": "The-Nexus-Guard",
       "score": 161,
       "posts": 13,
@@ -1809,51 +1914,6 @@
         "followers": 5,
         "following": 0,
         "public_repos": 23,
-        "type": "User"
-      }
-    },
-    {
-      "login": "rnwy",
-      "score": 159,
-      "posts": 19,
-      "threads": [
-        "a2aproject/A2A#1628",
-        "a2aproject/A2A#1717",
-        "aeoess/agent-governance-vocabulary#28",
-        "aeoess/agent-governance-vocabulary#29",
-        "douglasborthwick-crypto/insumer-examples#1"
-      ],
-      "topics": [
-        "a2a-signing-custody",
-        "insumer-multi-attestation",
-        "trust-signals-schema",
-        "vocab-peer-review-audit",
-        "vocab-sbr-continuity"
-      ],
-      "repos": [
-        "a2aproject/A2A",
-        "aeoess/agent-governance-vocabulary",
-        "douglasborthwick-crypto/insumer-examples"
-      ],
-      "first_seen_ours": "2026-03-19T20:21:36Z",
-      "last_seen_ours": "2026-04-18T08:36:25Z",
-      "ship": 5,
-      "propose": 9,
-      "review": 2,
-      "mentions_received": 35,
-      "word_count": 2809,
-      "github": {
-        "name": "RNWY.com",
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "rnwy.com",
-        "email": null,
-        "twitter": null,
-        "created_at": "2013-08-30T07:43:18Z",
-        "followers": 0,
-        "following": 0,
-        "public_repos": 10,
         "type": "User"
       }
     },
@@ -1948,49 +2008,6 @@
         "followers": 6,
         "following": 0,
         "public_repos": 2,
-        "type": "User"
-      }
-    },
-    {
-      "login": "kenneives",
-      "score": 139,
-      "posts": 25,
-      "threads": [
-        "a2aproject/A2A#1628",
-        "a2aproject/A2A#1672",
-        "corpollc/qntm#7",
-        "douglasborthwick-crypto/insumer-examples#1"
-      ],
-      "topics": [
-        "agent-identity-verification",
-        "authority-constraints",
-        "insumer-multi-attestation",
-        "trust-signals-schema"
-      ],
-      "repos": [
-        "a2aproject/A2A",
-        "corpollc/qntm",
-        "douglasborthwick-crypto/insumer-examples"
-      ],
-      "first_seen_ours": "2026-04-06T17:41:45Z",
-      "last_seen_ours": "2026-04-23T15:30:15Z",
-      "ship": 5,
-      "propose": 10,
-      "review": 8,
-      "mentions_received": 22,
-      "word_count": 4892,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2022-03-10T19:02:43Z",
-        "followers": 5,
-        "following": 1,
-        "public_repos": 6,
         "type": "User"
       }
     },
@@ -3617,6 +3634,44 @@
       }
     },
     {
+      "login": "lawcontinue",
+      "score": 20,
+      "posts": 8,
+      "threads": [
+        "a2aproject/A2A#1786",
+        "microsoft/agent-governance-toolkit#934"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "agt-dual-citizen"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "microsoft/agent-governance-toolkit"
+      ],
+      "first_seen_ours": "2026-04-17T12:26:19Z",
+      "last_seen_ours": "2026-04-25T14:59:59Z",
+      "ship": 0,
+      "propose": 2,
+      "review": 2,
+      "mentions_received": 3,
+      "word_count": 1438,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2023-05-21T15:38:32Z",
+        "followers": 3,
+        "following": 2,
+        "public_repos": 17,
+        "type": "User"
+      }
+    },
+    {
       "login": "JohnnyTarrr",
       "score": 18,
       "posts": 4,
@@ -3753,6 +3808,44 @@
         "followers": 1,
         "following": 0,
         "public_repos": 4,
+        "type": "User"
+      }
+    },
+    {
+      "login": "piiiico",
+      "score": 17,
+      "posts": 2,
+      "threads": [
+        "OpenClaw/openclaw#49971",
+        "aeoess/agent-governance-vocabulary#46"
+      ],
+      "topics": [
+        "openclaw-aae",
+        "vocab-agentlair"
+      ],
+      "repos": [
+        "OpenClaw/openclaw",
+        "aeoess/agent-governance-vocabulary"
+      ],
+      "first_seen_ours": "2026-04-08T14:12:10Z",
+      "last_seen_ours": "2026-04-25T06:31:12Z",
+      "ship": 1,
+      "propose": 1,
+      "review": 1,
+      "mentions_received": 1,
+      "word_count": 717,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-02-28T19:31:35Z",
+        "followers": 2,
+        "following": 0,
+        "public_repos": 51,
         "type": "User"
       }
     },
@@ -4865,41 +4958,6 @@
       }
     },
     {
-      "login": "piiiico",
-      "score": 7,
-      "posts": 1,
-      "threads": [
-        "OpenClaw/openclaw#49971"
-      ],
-      "topics": [
-        "openclaw-aae"
-      ],
-      "repos": [
-        "OpenClaw/openclaw"
-      ],
-      "first_seen_ours": "2026-04-08T14:12:10Z",
-      "last_seen_ours": "2026-04-08T14:12:10Z",
-      "ship": 0,
-      "propose": 1,
-      "review": 1,
-      "mentions_received": 0,
-      "word_count": 393,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-02-28T19:31:35Z",
-        "followers": 2,
-        "following": 0,
-        "public_repos": 51,
-        "type": "User"
-      }
-    },
-    {
       "login": "vitalii-ivanov-rakuten",
       "score": 7,
       "posts": 1,
@@ -5615,9 +5673,9 @@
         "willamhou",
         "jingchang0623-crypto",
         "JohnnyTarrr",
+        "piiiico",
         "creatorrmode-lead",
         "ZC502",
-        "piiiico",
         "Ryce",
         "greenoriginals"
       ],
@@ -5762,10 +5820,10 @@
         "MoltyCel",
         "0xbrainkid",
         "srotzin",
-        "The-Nexus-Guard",
-        "rnwy",
-        "64R3N",
         "kenneives",
+        "rnwy",
+        "The-Nexus-Guard",
+        "64R3N",
         "viftode4",
         "JKHeadley",
         "citriac",
@@ -5806,9 +5864,9 @@
         "0xbrainkid",
         "agent-morrow",
         "srotzin",
+        "kenneives",
         "64R3N",
         "archedark-ada",
-        "kenneives",
         "FransDevelopment",
         "razashariff",
         "JKHeadley",
@@ -5946,6 +6004,31 @@
         "comments": 26,
         "is_pr": false,
         "author": "baronsengir007",
+        "labels": []
+      }
+    },
+    {
+      "id": "a2aproject/A2A#1786",
+      "topic": "a2a-cai-extension-proposal",
+      "title": "Proposal: Cryptographic Agent Identity extension (CTEF v0.3.1-aligned)",
+      "repo": "a2aproject/A2A",
+      "number": 1786,
+      "project_id": "a2a",
+      "url": "https://github.com/a2aproject/A2A/issues/1786",
+      "participants": [
+        "aeoess",
+        "kenneives",
+        "lawcontinue"
+      ],
+      "participant_count": 3,
+      "github": {
+        "state": "open",
+        "created_at": "2026-04-25T00:48:24Z",
+        "updated_at": "2026-04-25T23:43:23Z",
+        "closed_at": null,
+        "comments": 12,
+        "is_pr": false,
+        "author": "aeoess",
         "labels": []
       }
     },
@@ -6745,6 +6828,54 @@
       }
     },
     {
+      "id": "aeoess/agent-governance-vocabulary#46",
+      "topic": "vocab-agentlair",
+      "title": "Add crosswalk/agentlair.yaml \u2014 peer_review primary",
+      "repo": "aeoess/agent-governance-vocabulary",
+      "number": 46,
+      "project_id": null,
+      "url": "https://github.com/aeoess/agent-governance-vocabulary/issues/46",
+      "participants": [
+        "aeoess",
+        "piiiico"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "closed",
+        "created_at": "2026-04-24T03:39:39Z",
+        "updated_at": "2026-04-25T15:30:57Z",
+        "closed_at": "2026-04-25T15:30:57Z",
+        "comments": 2,
+        "is_pr": true,
+        "author": "piiiico",
+        "labels": []
+      }
+    },
+    {
+      "id": "aeoess/agent-governance-vocabulary#47",
+      "topic": "vocab-wallet-intelligence-behavioral",
+      "title": "crosswalk: home wallet_intelligence under behavioral (Apr 14 consensus)",
+      "repo": "aeoess/agent-governance-vocabulary",
+      "number": 47,
+      "project_id": null,
+      "url": "https://github.com/aeoess/agent-governance-vocabulary/issues/47",
+      "participants": [
+        "aeoess",
+        "douglasborthwick-crypto"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "closed",
+        "created_at": "2026-04-24T20:08:08Z",
+        "updated_at": "2026-04-24T21:18:59Z",
+        "closed_at": "2026-04-24T21:18:59Z",
+        "comments": 1,
+        "is_pr": true,
+        "author": "douglasborthwick-crypto",
+        "labels": []
+      }
+    },
+    {
       "id": "aeoess/agent-passport-system#1",
       "topic": "aeoess-agent-passport-system-1",
       "title": "Interoperability: Agent Passport System + ecosystem trust protocols",
@@ -7072,6 +7203,30 @@
       }
     },
     {
+      "id": "aeoess/autogen-governance-adapter#1",
+      "topic": "autogen-jwks-kid-strict",
+      "title": "fix(trust): require JWKS kid match for trust packets",
+      "repo": "aeoess/autogen-governance-adapter",
+      "number": 1,
+      "project_id": null,
+      "url": "https://github.com/aeoess/autogen-governance-adapter/issues/1",
+      "participants": [
+        "aeoess",
+        "pshkv"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "closed",
+        "created_at": "2026-04-24T08:01:54Z",
+        "updated_at": "2026-04-24T20:18:57Z",
+        "closed_at": "2026-04-24T20:18:57Z",
+        "comments": 1,
+        "is_pr": true,
+        "author": "pshkv",
+        "labels": []
+      }
+    },
+    {
       "id": "agentic-commerce-protocol/agentic-commerce-protocol#231",
       "topic": "acp-governance-binding",
       "title": "Discussion: governance-layer binding for ACP (authorization, limits, attribution)",
@@ -7222,8 +7377,8 @@
         "kevinkaylie",
         "pshkv",
         "xsa520",
-        "archedark-ada",
         "kenneives",
+        "archedark-ada",
         "nanookclaw"
       ],
       "participant_count": 12,
@@ -7413,9 +7568,9 @@
         "MoltyCel",
         "QueBallSharken",
         "0xbrainkid",
-        "The-Nexus-Guard",
-        "rnwy",
         "kenneives",
+        "rnwy",
+        "The-Nexus-Guard",
         "JhiNResH",
         "nutstrut",
         "ThoughtProof",
@@ -7729,9 +7884,10 @@
       "participants": [
         "aeoess",
         "imran-siddique",
-        "msaleme"
+        "msaleme",
+        "lawcontinue"
       ],
-      "participant_count": 3,
+      "participant_count": 4,
       "github": {
         "state": "closed",
         "created_at": "2026-04-11T23:47:45Z",
@@ -7896,12 +8052,12 @@
   ],
   "stats": {
     "projects": 18,
-    "people": 116,
-    "people_total_raw": 130,
-    "threads": 93,
-    "threads_mapped_to_project": 30,
+    "people": 117,
+    "people_total_raw": 131,
+    "threads": 97,
+    "threads_mapped_to_project": 31,
     "projects_enriched": 12,
-    "people_enriched": 110,
-    "threads_enriched": 93
+    "people_enriched": 111,
+    "threads_enriched": 97
   }
 }
