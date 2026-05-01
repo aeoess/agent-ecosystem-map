@@ -14,7 +14,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 ROOT      = Path('/Users/tima/agent-ecosystem-map')
-MAP       = Path('/Users/tima/aeoess_web/specs/contribution-map/out')
+MAP       = Path('/Users/tima/aeoess-private/contribution-map/out')
 CACHE     = ROOT / '.github-cache'
 GH_BIN    = '/Users/tima/.local/bin/gh'
 
