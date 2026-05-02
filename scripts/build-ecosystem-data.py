@@ -9,14 +9,28 @@ Pulls and enriches:
 
 Caches GitHub responses to .github-cache/ so re-runs don't burn API quota.
 """
-import json, yaml, os, subprocess, time, sys
+import json, yaml, os, shutil, subprocess, time, sys
 from pathlib import Path
 from datetime import datetime, timezone
 
-ROOT      = Path('/Users/tima/agent-ecosystem-map')
-MAP       = Path('/Users/tima/aeoess-private/contribution-map/out')
+# Repo root is two parents up from this script.
+ROOT      = Path(__file__).resolve().parent.parent
+
+# Contribution-map data lives outside this repo. Set CONTRIBUTION_MAP_OUT
+# to point at the directory containing the contribution-map JSON outputs.
+# This script requires that data and will exit with a clear error if not set.
+_map_env  = os.environ.get('CONTRIBUTION_MAP_OUT')
+if not _map_env:
+    raise SystemExit(
+        "CONTRIBUTION_MAP_OUT environment variable is required.\n"
+        "Set it to the directory containing contribution-map JSON outputs."
+    )
+MAP       = Path(_map_env).expanduser()
+
 CACHE     = ROOT / '.github-cache'
-GH_BIN    = '/Users/tima/.local/bin/gh'
+
+# gh CLI binary. Override with GH_BIN env var if not on PATH.
+GH_BIN    = os.environ.get('GH_BIN') or shutil.which('gh') or 'gh'
 
 CACHE.mkdir(exist_ok=True)
 
