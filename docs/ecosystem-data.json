@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T18:00:57.952576+00:00",
+  "generated_at": "2026-05-06T19:18:18.620131+00:00",
   "projects": [
     {
       "name": "Agent2Agent Protocol",
@@ -348,7 +348,7 @@
     {
       "name": "Agent Passport System",
       "slug": "aps",
-      "description": "Cryptographic identity, scoped delegation, governance, and commerce protocol for AI agents. Ed25519 signatures, offline-verifiable, 43 v2 constitutional modules across identity, delegation, enforcement, data lifecycle, accountability, and coordination. Reference implementations in TypeScript and Python with cross-language byte-parity verified across the full Wave 1 surface.",
+      "description": "Cryptographic identity, scoped delegation, governance, and commerce protocol for AI agents. Ed25519 signatures, offline-verifiable, 26 v2 constitutional modules across identity, delegation, enforcement, data lifecycle, accountability, and coordination. Reference implementations in TypeScript and Python with cross-language byte-parity verified across the full Wave 1 surface.",
       "topics": [
         "identity",
         "delegation",
