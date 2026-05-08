@@ -30,6 +30,9 @@ venues:
     label: The Agent Social Contract
   - kind: website
     url: https://aeoess.com
+  - kind: curated-list
+    url: https://github.com/xpaysh/awesome-x402
+    label: awesome-x402 (Related Protocols)
 implements:
   - ed25519
   - x25519
@@ -41,4 +44,4 @@ implements:
 contact:
   github: aeoess
   email: team@aeoess.com
-updated: 2026-05-02
+updated: 2026-05-08
