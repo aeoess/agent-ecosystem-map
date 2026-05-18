@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T16:38:39.608460+00:00",
+  "generated_at": "2026-05-18T03:27:00.181326+00:00",
   "projects": [
     {
       "name": "Agent2Agent Protocol",
@@ -872,8 +872,8 @@
   "people": [
     {
       "login": "aeoess",
-      "score": 5174,
-      "posts": 545,
+      "score": 6054,
+      "posts": 640,
       "threads": [
         "FransDevelopment/open-agent-trust-registry#24",
         "FransDevelopment/open-agent-trust-registry#28",
@@ -931,6 +931,7 @@
         "haroldmalikfrimpong-ops/agentid-aps-interop#2",
         "in-toto/attestation#549",
         "kubernetes-sigs/kube-agentic-networking#243",
+        "langchain-ai/langchain#35691",
         "langchain-ai/langchain#36232",
         "massivescale-ai/agentic-trust-framework#8",
         "microsoft/agent-governance-toolkit#1197",
@@ -989,6 +990,7 @@
         "in-toto-decision-receipt",
         "insumer-multi-attestation",
         "k8s-receipt-admission",
+        "langchain-compliance-backend",
         "langchain-memory",
         "moltrust-integration",
         "ms-toolkit-peer-impl",
@@ -1048,12 +1050,12 @@
         "worldcoin/agentkit-shopify-demo"
       ],
       "first_seen_ours": "2026-02-21T19:05:14Z",
-      "last_seen_ours": "2026-04-25T04:40:32Z",
-      "ship": 396,
-      "propose": 470,
-      "review": 139,
-      "mentions_received": 318,
-      "word_count": 142447,
+      "last_seen_ours": "2026-05-14T16:42:17Z",
+      "ship": 467,
+      "propose": 525,
+      "review": 168,
+      "mentions_received": 452,
+      "word_count": 161014,
       "github": {
         "name": "\u00e6\u0153ss",
         "bio": "Tymofii Pidlisnyi                                 \u00b7 Editor-in-Chief, The Agent Times \u00b7 Building governance infrastructure for the agent economy",
@@ -1071,18 +1073,20 @@
     },
     {
       "login": "desiorac",
-      "score": 1304,
-      "posts": 388,
+      "score": 1410,
+      "posts": 405,
       "threads": [
         "OWASP/www-project-top-10-for-large-language-model-applications#802",
         "a2aproject/A2A#1672",
         "aeoess/agent-passport-system#13",
         "corpollc/qntm#6",
+        "corpollc/qntm#7",
         "massivescale-ai/agentic-trust-framework#8"
       ],
       "topics": [
         "agent-identity-verification",
         "atf-elements",
+        "authority-constraints",
         "execution-attestation",
         "owasp-llm-aps",
         "vocabulary-proposal"
@@ -1095,12 +1099,12 @@
         "massivescale-ai/agentic-trust-framework"
       ],
       "first_seen_ours": "2026-03-16T14:42:40Z",
-      "last_seen_ours": "2026-04-18T22:45:32Z",
-      "ship": 52,
-      "propose": 182,
-      "review": 90,
-      "mentions_received": 179,
-      "word_count": 65064,
+      "last_seen_ours": "2026-05-02T07:46:57Z",
+      "ship": 63,
+      "propose": 188,
+      "review": 94,
+      "mentions_received": 192,
+      "word_count": 66633,
       "github": {
         "name": "arkforge",
         "bio": null,
@@ -1118,12 +1122,13 @@
     },
     {
       "login": "haroldmalikfrimpong-ops",
-      "score": 1129,
-      "posts": 144,
+      "score": 1210,
+      "posts": 152,
       "threads": [
         "OpenClaw/openclaw#49971",
         "a2aproject/A2A#1628",
         "a2aproject/A2A#1672",
+        "a2aproject/A2A#1786",
         "aeoess/agent-passport-system#5",
         "corpollc/qntm#6",
         "corpollc/qntm#7",
@@ -1132,6 +1137,7 @@
         "douglasborthwick-crypto/insumer-examples#1"
       ],
       "topics": [
+        "a2a-cai-extension-proposal",
         "agent-identity-verification",
         "authority-constraints",
         "crewai-primitives",
@@ -1151,12 +1157,12 @@
         "douglasborthwick-crypto/insumer-examples"
       ],
       "first_seen_ours": "2026-03-22T21:47:40Z",
-      "last_seen_ours": "2026-04-21T08:37:53Z",
-      "ship": 77,
-      "propose": 51,
-      "review": 38,
-      "mentions_received": 158,
-      "word_count": 19577,
+      "last_seen_ours": "2026-05-08T21:34:09Z",
+      "ship": 81,
+      "propose": 52,
+      "review": 39,
+      "mentions_received": 185,
+      "word_count": 20452,
       "github": {
         "name": null,
         "bio": "Building the identity layer for AI agents. Founder @getagentid. WG\r\n founding member (QSP-1, DID Resolution, Entity Verification).",
@@ -1173,9 +1179,54 @@
       }
     },
     {
+      "login": "kenneives",
+      "score": 1022,
+      "posts": 101,
+      "threads": [
+        "a2aproject/A2A#1628",
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1786",
+        "corpollc/qntm#7",
+        "douglasborthwick-crypto/insumer-examples#1"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "agent-identity-verification",
+        "authority-constraints",
+        "insumer-multi-attestation",
+        "trust-signals-schema"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "corpollc/qntm",
+        "douglasborthwick-crypto/insumer-examples"
+      ],
+      "first_seen_ours": "2026-04-06T17:41:45Z",
+      "last_seen_ours": "2026-05-14T15:50:39Z",
+      "ship": 101,
+      "propose": 74,
+      "review": 32,
+      "mentions_received": 74,
+      "word_count": 28405,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2022-03-10T19:02:43Z",
+        "followers": 5,
+        "following": 1,
+        "public_repos": 6,
+        "type": "User"
+      }
+    },
+    {
       "login": "douglasborthwick-crypto",
-      "score": 947,
-      "posts": 120,
+      "score": 954,
+      "posts": 122,
       "threads": [
         "a2aproject/A2A#1628",
         "a2aproject/A2A#1672",
@@ -1211,12 +1262,12 @@
         "douglasborthwick-crypto/insumer-examples"
       ],
       "first_seen_ours": "2026-02-25T20:50:33Z",
-      "last_seen_ours": "2026-04-24T20:08:08Z",
+      "last_seen_ours": "2026-04-25T12:21:15Z",
       "ship": 50,
-      "propose": 45,
+      "propose": 46,
       "review": 29,
-      "mentions_received": 90,
-      "word_count": 28390,
+      "mentions_received": 92,
+      "word_count": 28596,
       "github": {
         "name": "Douglas Borthwick",
         "bio": "Building InsumerAPI \u2014 cryptographic proof of on-chain state for commerce and AI agents. Attestations, trust profiles, Merkle proofs. 33 chains. 5 SDKs",
@@ -1233,52 +1284,9 @@
       }
     },
     {
-      "login": "vessenes",
-      "score": 765,
-      "posts": 53,
-      "threads": [
-        "a2aproject/A2A#1575",
-        "a2aproject/A2A#1672",
-        "aeoess/agent-passport-system#5",
-        "crewAIInc/crewAI#4560"
-      ],
-      "topics": [
-        "agent-identity-verification",
-        "crewai-governance",
-        "ed25519-x25519-vectors",
-        "identity-delegation-enforcement"
-      ],
-      "repos": [
-        "a2aproject/A2A",
-        "aeoess/agent-passport-system",
-        "crewAIInc/crewAI"
-      ],
-      "first_seen_ours": "2026-03-22T07:45:09Z",
-      "last_seen_ours": "2026-03-24T20:47:06Z",
-      "ship": 66,
-      "propose": 31,
-      "review": 6,
-      "mentions_received": 67,
-      "word_count": 12717,
-      "github": {
-        "name": "Peter Vessenes",
-        "bio": null,
-        "company": "New Alchemy Limited",
-        "location": "Seattle, WA",
-        "blog": "http://about.me/peterv",
-        "email": "vessenes@gmail.com",
-        "twitter": null,
-        "created_at": "2011-11-16T15:21:04Z",
-        "followers": 32,
-        "following": 4,
-        "public_repos": 28,
-        "type": "User"
-      }
-    },
-    {
       "login": "MoltyCel",
-      "score": 752,
-      "posts": 150,
+      "score": 811,
+      "posts": 158,
       "threads": [
         "OpenClaw/openclaw#49971",
         "a2aproject/A2A#1575",
@@ -1318,12 +1326,12 @@
         "douglasborthwick-crypto/insumer-examples"
       ],
       "first_seen_ours": "2026-03-18T18:51:33Z",
-      "last_seen_ours": "2026-04-23T12:00:33Z",
-      "ship": 33,
-      "propose": 68,
-      "review": 12,
-      "mentions_received": 112,
-      "word_count": 19281,
+      "last_seen_ours": "2026-04-28T19:09:17Z",
+      "ship": 39,
+      "propose": 69,
+      "review": 14,
+      "mentions_received": 124,
+      "word_count": 20474,
       "github": {
         "name": "MoltyCel",
         "bio": "MolTrust Creator \u2014 Trust Layer for the Agent Economy. Identity, reputation & verifiable credentials for AI agents. \ud83d\udee1\ufe0f",
@@ -1340,9 +1348,52 @@
       }
     },
     {
+      "login": "vessenes",
+      "score": 769,
+      "posts": 53,
+      "threads": [
+        "a2aproject/A2A#1575",
+        "a2aproject/A2A#1672",
+        "aeoess/agent-passport-system#5",
+        "crewAIInc/crewAI#4560"
+      ],
+      "topics": [
+        "agent-identity-verification",
+        "crewai-governance",
+        "ed25519-x25519-vectors",
+        "identity-delegation-enforcement"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "aeoess/agent-passport-system",
+        "crewAIInc/crewAI"
+      ],
+      "first_seen_ours": "2026-03-22T07:45:09Z",
+      "last_seen_ours": "2026-03-24T20:47:06Z",
+      "ship": 66,
+      "propose": 31,
+      "review": 6,
+      "mentions_received": 69,
+      "word_count": 12717,
+      "github": {
+        "name": "Peter Vessenes",
+        "bio": null,
+        "company": "New Alchemy Limited",
+        "location": "Seattle, WA",
+        "blog": "http://about.me/peterv",
+        "email": "vessenes@gmail.com",
+        "twitter": null,
+        "created_at": "2011-11-16T15:21:04Z",
+        "followers": 32,
+        "following": 4,
+        "public_repos": 28,
+        "type": "User"
+      }
+    },
+    {
       "login": "tomjwxf",
-      "score": 676,
-      "posts": 40,
+      "score": 718,
+      "posts": 44,
       "threads": [
         "NousResearch/hermes-agent#11692",
         "VeritasActa/verify#1",
@@ -1358,6 +1409,7 @@
         "kubernetes-sigs/kube-agentic-networking#243",
         "massivescale-ai/agentic-trust-framework#8",
         "microsoft/agent-governance-toolkit#1197",
+        "microsoft/agent-governance-toolkit#1354",
         "ossf/security-insights#171"
       ],
       "topics": [
@@ -1372,6 +1424,7 @@
         "identity-delegation-enforcement",
         "in-toto-decision-receipt",
         "k8s-receipt-admission",
+        "ms-toolkit-peer-impl",
         "ossf-agent-provenance",
         "veritas-signal-belief",
         "veritas-testvectors",
@@ -1393,12 +1446,12 @@
         "ossf/security-insights"
       ],
       "first_seen_ours": "2026-04-10T17:54:26Z",
-      "last_seen_ours": "2026-04-23T03:32:47Z",
-      "ship": 51,
-      "propose": 57,
+      "last_seen_ours": "2026-04-30T09:04:15Z",
+      "ship": 54,
+      "propose": 60,
       "review": 25,
-      "mentions_received": 20,
-      "word_count": 17270,
+      "mentions_received": 25,
+      "word_count": 17873,
       "github": {
         "name": "TJF",
         "bio": "Ex-HF mngr, now open source zero trust infra - Microsoft Agent Governance Toolkit and AWS Cedar for Agents contributor",
@@ -1415,9 +1468,71 @@
       }
     },
     {
+      "login": "srotzin",
+      "score": 538,
+      "posts": 104,
+      "threads": [
+        "a2aproject/A2A#1575",
+        "a2aproject/A2A#1628",
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1717",
+        "a2aproject/A2A#1718",
+        "a2aproject/A2A#1742",
+        "a2aproject/A2A#1755",
+        "a2aproject/A2A#1786",
+        "crewAIInc/crewAI#4560",
+        "douglasborthwick-crypto/insumer-examples#1",
+        "erc-8004/erc-8004-contracts#77",
+        "langchain-ai/langchain#35691",
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "a2a-compliance-measurement",
+        "a2a-signing-custody",
+        "a2a-trust-header-schema",
+        "agent-identity-verification",
+        "crewai-governance",
+        "erc8004-bridge",
+        "identity-delegation-enforcement",
+        "insumer-multi-attestation",
+        "langchain-compliance-backend",
+        "langchain-memory",
+        "trust-signals-schema"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "crewAIInc/crewAI",
+        "douglasborthwick-crypto/insumer-examples",
+        "erc-8004/erc-8004-contracts",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-17T03:45:00Z",
+      "last_seen_ours": "2026-05-03T00:08:00Z",
+      "ship": 37,
+      "propose": 57,
+      "review": 15,
+      "mentions_received": 49,
+      "word_count": 17036,
+      "github": {
+        "name": "HiveryIQ",
+        "bio": "Agent to Agent Multiverse",
+        "company": null,
+        "location": null,
+        "blog": "www.thehiveryiq.com",
+        "email": null,
+        "twitter": null,
+        "created_at": "2023-07-19T20:57:32Z",
+        "followers": 4,
+        "following": 1,
+        "public_repos": 97,
+        "type": "User"
+      }
+    },
+    {
       "login": "QueBallSharken",
-      "score": 417,
-      "posts": 87,
+      "score": 443,
+      "posts": 88,
       "threads": [
         "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32",
         "OWASP/www-project-top-10-for-large-language-model-applications#802",
@@ -1448,12 +1563,12 @@
         "douglasborthwick-crypto/insumer-examples"
       ],
       "first_seen_ours": "2026-03-24T04:59:14Z",
-      "last_seen_ours": "2026-04-23T13:27:19Z",
+      "last_seen_ours": "2026-04-23T23:33:48Z",
       "ship": 3,
       "propose": 82,
       "review": 3,
-      "mentions_received": 62,
-      "word_count": 25413,
+      "mentions_received": 75,
+      "word_count": 25936,
       "github": {
         "name": "Steven K. Hensley",
         "bio": "> Open-source contributor learning security tooling, documentation, and trust-focused systems.",
@@ -1471,8 +1586,8 @@
     },
     {
       "login": "kevinkaylie",
-      "score": 392,
-      "posts": 43,
+      "score": 419,
+      "posts": 45,
       "threads": [
         "OpenClaw/openclaw#49971",
         "a2aproject/A2A#1575",
@@ -1499,12 +1614,12 @@
         "corpollc/qntm"
       ],
       "first_seen_ours": "2026-03-25T22:22:52Z",
-      "last_seen_ours": "2026-04-23T14:00:25Z",
-      "ship": 27,
+      "last_seen_ours": "2026-04-25T14:08:37Z",
+      "ship": 28,
       "propose": 27,
       "review": 11,
-      "mentions_received": 38,
-      "word_count": 7204,
+      "mentions_received": 49,
+      "word_count": 7376,
       "github": {
         "name": null,
         "bio": null,
@@ -1521,8 +1636,56 @@
       }
     },
     {
+      "login": "xsa520",
+      "score": 395,
+      "posts": 75,
+      "threads": [
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1717",
+        "aeoess/agent-passport-system#3",
+        "aeoess/agent-passport-system#5",
+        "corpollc/qntm#7",
+        "crewAIInc/crewAI#4560"
+      ],
+      "topics": [
+        "a2a-signing-custody",
+        "aeoess-agent-passport-system-3",
+        "agent-identity-verification",
+        "authority-constraints",
+        "crewai-governance",
+        "ed25519-x25519-vectors"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "aeoess/agent-passport-system",
+        "corpollc/qntm",
+        "crewAIInc/crewAI"
+      ],
+      "first_seen_ours": "2026-03-18T02:50:10Z",
+      "last_seen_ours": "2026-04-24T01:14:52Z",
+      "ship": 5,
+      "propose": 60,
+      "review": 3,
+      "mentions_received": 82,
+      "word_count": 12561,
+      "github": {
+        "name": "Chou Deyu",
+        "bio": "X (Twitter) account @dale_chou is compromised and no longer under my control. Activity from that account should not be attributed to me.",
+        "company": null,
+        "location": "Taiwan",
+        "blog": "https://decifact-site.vercel.app",
+        "email": "xsa52000@gmail.com",
+        "twitter": null,
+        "created_at": "2025-04-28T10:57:57Z",
+        "followers": 4,
+        "following": 0,
+        "public_repos": 8,
+        "type": "User"
+      }
+    },
+    {
       "login": "pshkv",
-      "score": 391,
+      "score": 393,
       "posts": 36,
       "threads": [
         "FransDevelopment/open-agent-trust-registry#24",
@@ -1570,7 +1733,7 @@
       "ship": 22,
       "propose": 31,
       "review": 3,
-      "mentions_received": 28,
+      "mentions_received": 29,
       "word_count": 8395,
       "github": {
         "name": "Illia Pashkov",
@@ -1588,57 +1751,58 @@
       }
     },
     {
-      "login": "xsa520",
-      "score": 380,
-      "posts": 74,
+      "login": "arian-gogani",
+      "score": 377,
+      "posts": 40,
       "threads": [
+        "FransDevelopment/open-agent-trust-registry#28",
         "a2aproject/A2A#1672",
-        "a2aproject/A2A#1717",
-        "aeoess/agent-passport-system#3",
-        "aeoess/agent-passport-system#5",
-        "corpollc/qntm#7",
-        "crewAIInc/crewAI#4560"
+        "a2aproject/A2A#1786",
+        "crewAIInc/crewAI#4560",
+        "in-toto/attestation#549",
+        "langchain-ai/langchain#35691"
       ],
       "topics": [
-        "a2a-signing-custody",
-        "aeoess-agent-passport-system-3",
+        "a2a-cai-extension-proposal",
         "agent-identity-verification",
-        "authority-constraints",
         "crewai-governance",
-        "ed25519-x25519-vectors"
+        "in-toto-decision-receipt",
+        "langchain-compliance-backend",
+        "oatr-behavioral-history"
       ],
       "repos": [
+        "FransDevelopment/open-agent-trust-registry",
         "a2aproject/A2A",
-        "aeoess/agent-passport-system",
-        "corpollc/qntm",
-        "crewAIInc/crewAI"
+        "crewAIInc/crewAI",
+        "in-toto/attestation",
+        "langchain-ai/langchain"
       ],
-      "first_seen_ours": "2026-03-18T02:50:10Z",
-      "last_seen_ours": "2026-04-21T06:49:54Z",
-      "ship": 5,
-      "propose": 59,
-      "review": 3,
-      "mentions_received": 76,
-      "word_count": 12415,
+      "first_seen_ours": "2026-04-16T22:51:21Z",
+      "last_seen_ours": "2026-05-14T15:28:07Z",
+      "ship": 30,
+      "propose": 18,
+      "review": 12,
+      "mentions_received": 54,
+      "word_count": 5479,
       "github": {
-        "name": "Chou Deyu",
-        "bio": "X (Twitter) account @dale_chou is compromised and no longer under my control. Activity from that account should not be attributed to me.",
+        "name": null,
+        "bio": null,
         "company": null,
-        "location": "Taiwan",
-        "blog": "https://decifact-site.vercel.app",
-        "email": "xsa52000@gmail.com",
+        "location": null,
+        "blog": "",
+        "email": null,
         "twitter": null,
-        "created_at": "2025-04-28T10:57:57Z",
-        "followers": 4,
-        "following": 0,
-        "public_repos": 8,
+        "created_at": "2026-03-01T17:39:59Z",
+        "followers": 3,
+        "following": 1,
+        "public_repos": 15,
         "type": "User"
       }
     },
     {
       "login": "0xbrainkid",
-      "score": 356,
-      "posts": 42,
+      "score": 360,
+      "posts": 43,
       "threads": [
         "OWASP/www-project-top-10-for-large-language-model-applications#802",
         "a2aproject/A2A#1628",
@@ -1677,12 +1841,12 @@
         "w3c-cg/ai-agent-protocol"
       ],
       "first_seen_ours": "2026-03-09T13:37:37Z",
-      "last_seen_ours": "2026-04-15T19:41:06Z",
+      "last_seen_ours": "2026-05-08T16:11:37Z",
       "ship": 17,
       "propose": 26,
       "review": 8,
-      "mentions_received": 37,
-      "word_count": 11349,
+      "mentions_received": 39,
+      "word_count": 11489,
       "github": {
         "name": null,
         "bio": null,
@@ -1737,87 +1901,25 @@
       }
     },
     {
-      "login": "srotzin",
-      "score": 179,
-      "posts": 52,
+      "login": "VeloGerber",
+      "score": 193,
+      "posts": 18,
       "threads": [
-        "a2aproject/A2A#1575",
-        "a2aproject/A2A#1628",
-        "a2aproject/A2A#1672",
-        "a2aproject/A2A#1717",
-        "a2aproject/A2A#1718",
-        "a2aproject/A2A#1742",
-        "a2aproject/A2A#1755",
-        "crewAIInc/crewAI#4560",
-        "langchain-ai/langchain#36232"
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32"
       ],
       "topics": [
-        "a2a-compliance-measurement",
-        "a2a-signing-custody",
-        "a2a-trust-header-schema",
-        "agent-identity-verification",
-        "crewai-governance",
-        "identity-delegation-enforcement",
-        "langchain-memory",
-        "trust-signals-schema"
+        "aivss-multi-agent-governance"
       ],
       "repos": [
-        "a2aproject/A2A",
-        "crewAIInc/crewAI",
-        "langchain-ai/langchain"
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system"
       ],
-      "first_seen_ours": "2026-04-17T03:45:00Z",
-      "last_seen_ours": "2026-04-23T11:27:35Z",
-      "ship": 7,
-      "propose": 22,
-      "review": 6,
-      "mentions_received": 15,
-      "word_count": 7288,
-      "github": {
-        "name": "HiveryIQ",
-        "bio": "Agent to Agent Multiverse",
-        "company": null,
-        "location": null,
-        "blog": "www.thehiveryiq.com",
-        "email": null,
-        "twitter": null,
-        "created_at": "2023-07-19T20:57:32Z",
-        "followers": 4,
-        "following": 1,
-        "public_repos": 97,
-        "type": "User"
-      }
-    },
-    {
-      "login": "kenneives",
-      "score": 170,
-      "posts": 28,
-      "threads": [
-        "a2aproject/A2A#1628",
-        "a2aproject/A2A#1672",
-        "a2aproject/A2A#1786",
-        "corpollc/qntm#7",
-        "douglasborthwick-crypto/insumer-examples#1"
-      ],
-      "topics": [
-        "a2a-cai-extension-proposal",
-        "agent-identity-verification",
-        "authority-constraints",
-        "insumer-multi-attestation",
-        "trust-signals-schema"
-      ],
-      "repos": [
-        "a2aproject/A2A",
-        "corpollc/qntm",
-        "douglasborthwick-crypto/insumer-examples"
-      ],
-      "first_seen_ours": "2026-04-06T17:41:45Z",
-      "last_seen_ours": "2026-04-25T01:44:38Z",
-      "ship": 8,
-      "propose": 12,
-      "review": 8,
-      "mentions_received": 23,
-      "word_count": 5820,
+      "first_seen_ours": "2026-04-14T12:22:05Z",
+      "last_seen_ours": "2026-04-24T07:58:49Z",
+      "ship": 17,
+      "propose": 24,
+      "review": 7,
+      "mentions_received": 8,
+      "word_count": 7571,
       "github": {
         "name": null,
         "bio": null,
@@ -1826,12 +1928,37 @@
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2022-03-10T19:02:43Z",
-        "followers": 5,
-        "following": 1,
-        "public_repos": 6,
+        "created_at": "2025-05-13T14:28:06Z",
+        "followers": 0,
+        "following": 2,
+        "public_repos": 2,
         "type": "User"
       }
+    },
+    {
+      "login": "alxvasilevvv",
+      "score": 183,
+      "posts": 25,
+      "threads": [
+        "OpenClaw/openclaw#49971",
+        "google/adk-python#4764"
+      ],
+      "topics": [
+        "adk-python-governance",
+        "openclaw-aae"
+      ],
+      "repos": [
+        "OpenClaw/openclaw",
+        "google/adk-python"
+      ],
+      "first_seen_ours": "2026-03-21T06:49:21Z",
+      "last_seen_ours": "2026-04-20T04:20:21Z",
+      "ship": 10,
+      "propose": 9,
+      "review": 1,
+      "mentions_received": 12,
+      "word_count": 5463,
+      "github": null
     },
     {
       "login": "rnwy",
@@ -2020,7 +2147,7 @@
     },
     {
       "login": "FransDevelopment",
-      "score": 135,
+      "score": 139,
       "posts": 9,
       "threads": [
         "FransDevelopment/open-agent-trust-registry#28",
@@ -2047,7 +2174,7 @@
       "ship": 9,
       "propose": 4,
       "review": 0,
-      "mentions_received": 19,
+      "mentions_received": 21,
       "word_count": 1742,
       "github": {
         "name": "Frans",
@@ -2065,8 +2192,51 @@
       }
     },
     {
+      "login": "imran-siddique",
+      "score": 129,
+      "posts": 9,
+      "threads": [
+        "a2aproject/A2A#1717",
+        "google/adk-python#4764",
+        "microsoft/agent-governance-toolkit#1354",
+        "microsoft/agent-governance-toolkit#934"
+      ],
+      "topics": [
+        "a2a-signing-custody",
+        "adk-python-governance",
+        "agt-dual-citizen",
+        "ms-toolkit-peer-impl"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "google/adk-python",
+        "microsoft/agent-governance-toolkit"
+      ],
+      "first_seen_ours": "2026-03-08T18:18:48Z",
+      "last_seen_ours": "2026-04-27T03:57:16Z",
+      "ship": 9,
+      "propose": 8,
+      "review": 0,
+      "mentions_received": 24,
+      "word_count": 1451,
+      "github": {
+        "name": "Imran Siddique",
+        "bio": "Engineering Architect & Leader ",
+        "company": "Microsoft",
+        "location": "Bellevue",
+        "blog": "https://imransiddique.com/",
+        "email": null,
+        "twitter": "mosiddi",
+        "created_at": "2018-11-27T21:13:10Z",
+        "followers": 56,
+        "following": 1,
+        "public_repos": 30,
+        "type": "User"
+      }
+    },
+    {
       "login": "razashariff",
-      "score": 113,
+      "score": 119,
       "posts": 14,
       "threads": [
         "OWASP/www-project-top-10-for-large-language-model-applications#802",
@@ -2095,7 +2265,7 @@
       "ship": 4,
       "propose": 6,
       "review": 1,
-      "mentions_received": 23,
+      "mentions_received": 26,
       "word_count": 2468,
       "github": {
         "name": "raza sharif",
@@ -2109,6 +2279,87 @@
         "followers": 9,
         "following": 0,
         "public_repos": 74,
+        "type": "User"
+      }
+    },
+    {
+      "login": "vdineshk",
+      "score": 113,
+      "posts": 10,
+      "threads": [
+        "a2aproject/A2A#1755",
+        "erc-8004/erc-8004-contracts#77",
+        "langchain-ai/langchain#35691",
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "a2a-compliance-measurement",
+        "erc8004-bridge",
+        "langchain-compliance-backend",
+        "langchain-memory"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "erc-8004/erc-8004-contracts",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-16T13:11:55Z",
+      "last_seen_ours": "2026-05-04T01:07:24Z",
+      "ship": 9,
+      "propose": 5,
+      "review": 3,
+      "mentions_received": 14,
+      "word_count": 2218,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2023-03-23T09:02:18Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 9,
+        "type": "User"
+      }
+    },
+    {
+      "login": "nanookclaw",
+      "score": 104,
+      "posts": 8,
+      "threads": [
+        "aeoess/agent-passport-system#13",
+        "corpollc/qntm#7"
+      ],
+      "topics": [
+        "authority-constraints",
+        "vocabulary-proposal"
+      ],
+      "repos": [
+        "aeoess/agent-passport-system",
+        "corpollc/qntm"
+      ],
+      "first_seen_ours": "2026-04-10T22:04:22Z",
+      "last_seen_ours": "2026-05-04T11:48:16Z",
+      "ship": 3,
+      "propose": 11,
+      "review": 6,
+      "mentions_received": 22,
+      "word_count": 1940,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-02-02T05:50:08Z",
+        "followers": 9,
+        "following": 0,
+        "public_repos": 63,
         "type": "User"
       }
     },
@@ -2153,6 +2404,166 @@
       }
     },
     {
+      "login": "sunilp",
+      "score": 101,
+      "posts": 6,
+      "threads": [
+        "google/adk-python#4764"
+      ],
+      "topics": [
+        "adk-python-governance"
+      ],
+      "repos": [
+        "google/adk-python"
+      ],
+      "first_seen_ours": "2026-03-19T14:19:37Z",
+      "last_seen_ours": "2026-03-27T12:32:33Z",
+      "ship": 6,
+      "propose": 5,
+      "review": 1,
+      "mentions_received": 21,
+      "word_count": 1323,
+      "github": {
+        "name": "Sunil Prakash",
+        "bio": "Enterprise AI & Platform Architecture Leader | Research: agent identity, delegation, provenance | VP at Deutsche Bank ",
+        "company": null,
+        "location": "Pune, India",
+        "blog": "https://sunilprakash.com",
+        "email": "sunil@sunilprakash.com",
+        "twitter": null,
+        "created_at": "2011-02-23T02:51:19Z",
+        "followers": 17,
+        "following": 9,
+        "public_repos": 21,
+        "type": "User"
+      }
+    },
+    {
+      "login": "willamhou",
+      "score": 99,
+      "posts": 13,
+      "threads": [
+        "OpenClaw/openclaw#49971",
+        "crewAIInc/crewAI#4875",
+        "langchain-ai/langchain#35691"
+      ],
+      "topics": [
+        "crewai-spec",
+        "langchain-compliance-backend",
+        "openclaw-aae"
+      ],
+      "repos": [
+        "OpenClaw/openclaw",
+        "crewAIInc/crewAI",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-07T07:16:55Z",
+      "last_seen_ours": "2026-04-20T03:51:35Z",
+      "ship": 3,
+      "propose": 2,
+      "review": 2,
+      "mentions_received": 21,
+      "word_count": 1770,
+      "github": {
+        "name": "Will.hou",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2014-08-28T01:47:49Z",
+        "followers": 13,
+        "following": 12,
+        "public_repos": 70,
+        "type": "User"
+      }
+    },
+    {
+      "login": "viftode4",
+      "score": 98,
+      "posts": 7,
+      "threads": [
+        "OWASP/www-project-top-10-for-large-language-model-applications#802",
+        "OpenClaw/openclaw#49971",
+        "a2aproject/A2A#1628",
+        "a2aproject/A2A#1718",
+        "crewAIInc/crewAI#4560",
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "a2a-signing-custody",
+        "crewai-governance",
+        "langchain-memory",
+        "openclaw-aae",
+        "owasp-llm-aps",
+        "trust-signals-schema"
+      ],
+      "repos": [
+        "OWASP/www-project-top-10-for-large-language-model-applications",
+        "OpenClaw/openclaw",
+        "a2aproject/A2A",
+        "crewAIInc/crewAI",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-03-27T20:07:31Z",
+      "last_seen_ours": "2026-04-05T23:58:18Z",
+      "ship": 0,
+      "propose": 3,
+      "review": 0,
+      "mentions_received": 33,
+      "word_count": 2819,
+      "github": {
+        "name": "Vlad George Iftode",
+        "bio": "Thinker | MSc in Data Science & AI (TU Delft)",
+        "company": null,
+        "location": "Delft",
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2018-03-20T17:50:21Z",
+        "followers": 18,
+        "following": 41,
+        "public_repos": 44,
+        "type": "User"
+      }
+    },
+    {
+      "login": "edisonduran",
+      "score": 97,
+      "posts": 9,
+      "threads": [
+        "a2aproject/A2A#1742"
+      ],
+      "topics": [
+        "a2a-trust-header-schema"
+      ],
+      "repos": [
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-04-25T23:44:31Z",
+      "last_seen_ours": "2026-05-02T23:38:43Z",
+      "ship": 9,
+      "propose": 3,
+      "review": 3,
+      "mentions_received": 6,
+      "word_count": 2370,
+      "github": {
+        "name": "Edison Munoz Durango",
+        "bio": "\"Passionate systems engineer with a strong interest in web development and emerging technologies. ",
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2023-08-07T15:42:52Z",
+        "followers": 1,
+        "following": 3,
+        "public_repos": 17,
+        "type": "User"
+      }
+    },
+    {
       "login": "theaniketgiri",
       "score": 94,
       "posts": 8,
@@ -2188,25 +2599,25 @@
       }
     },
     {
-      "login": "VeloGerber",
-      "score": 93,
-      "posts": 8,
+      "login": "kai-familiar",
+      "score": 81,
+      "posts": 6,
       "threads": [
-        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32"
+        "crewAIInc/crewAI#4560"
       ],
       "topics": [
-        "aivss-multi-agent-governance"
+        "crewai-governance"
       ],
       "repos": [
-        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system"
+        "crewAIInc/crewAI"
       ],
-      "first_seen_ours": "2026-04-14T12:22:05Z",
-      "last_seen_ours": "2026-04-21T06:06:42Z",
-      "ship": 8,
-      "propose": 12,
-      "review": 4,
-      "mentions_received": 5,
-      "word_count": 4519,
+      "first_seen_ours": "2026-04-15T06:03:44Z",
+      "last_seen_ours": "2026-04-26T02:09:01Z",
+      "ship": 6,
+      "propose": 2,
+      "review": 0,
+      "mentions_received": 6,
+      "word_count": 1417,
       "github": {
         "name": null,
         "bio": null,
@@ -2215,112 +2626,76 @@
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2025-05-13T14:28:06Z",
+        "created_at": "2026-02-04T13:57:13Z",
         "followers": 0,
-        "following": 2,
-        "public_repos": 2,
+        "following": 0,
+        "public_repos": 14,
         "type": "User"
       }
     },
     {
-      "login": "sunilp",
-      "score": 93,
-      "posts": 6,
+      "login": "giskard09",
+      "score": 77,
+      "posts": 9,
       "threads": [
-        "google/adk-python#4764"
+        "aeoess/agent-passport-system#1",
+        "langchain-ai/langchain#36232"
       ],
       "topics": [
-        "adk-python-governance"
+        "aeoess-agent-passport-system-1",
+        "langchain-memory"
       ],
       "repos": [
-        "google/adk-python"
+        "aeoess/agent-passport-system",
+        "langchain-ai/langchain"
       ],
-      "first_seen_ours": "2026-03-19T14:19:37Z",
-      "last_seen_ours": "2026-03-27T12:32:33Z",
+      "first_seen_ours": "2026-05-08T15:52:37Z",
+      "last_seen_ours": "2026-05-13T20:41:33Z",
       "ship": 6,
-      "propose": 5,
+      "propose": 4,
       "review": 1,
-      "mentions_received": 17,
-      "word_count": 1323,
+      "mentions_received": 4,
+      "word_count": 830,
       "github": {
-        "name": "Sunil Prakash",
-        "bio": "Enterprise AI & Platform Architecture Leader | Research: agent identity, delegation, provenance | VP at Deutsche Bank ",
+        "name": null,
+        "bio": null,
         "company": null,
-        "location": "Pune, India",
-        "blog": "https://sunilprakash.com",
-        "email": "sunil@sunilprakash.com",
+        "location": null,
+        "blog": "",
+        "email": null,
         "twitter": null,
-        "created_at": "2011-02-23T02:51:19Z",
-        "followers": 17,
-        "following": 9,
-        "public_repos": 21,
+        "created_at": "2026-03-23T16:35:43Z",
+        "followers": 4,
+        "following": 0,
+        "public_repos": 34,
         "type": "User"
       }
     },
     {
-      "login": "imran-siddique",
-      "score": 91,
-      "posts": 6,
+      "login": "lawcontinue",
+      "score": 75,
+      "posts": 13,
       "threads": [
-        "a2aproject/A2A#1717",
-        "google/adk-python#4764",
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1786",
         "microsoft/agent-governance-toolkit#934"
       ],
       "topics": [
-        "a2a-signing-custody",
-        "adk-python-governance",
+        "a2a-cai-extension-proposal",
+        "agent-identity-verification",
         "agt-dual-citizen"
       ],
       "repos": [
         "a2aproject/A2A",
-        "google/adk-python",
         "microsoft/agent-governance-toolkit"
       ],
-      "first_seen_ours": "2026-03-08T18:18:48Z",
-      "last_seen_ours": "2026-04-22T23:42:38Z",
-      "ship": 6,
-      "propose": 4,
-      "review": 0,
-      "mentions_received": 20,
-      "word_count": 1183,
-      "github": {
-        "name": "Imran Siddique",
-        "bio": "Engineering Architect & Leader ",
-        "company": "Microsoft",
-        "location": "Bellevue",
-        "blog": "https://imransiddique.com/",
-        "email": null,
-        "twitter": "mosiddi",
-        "created_at": "2018-11-27T21:13:10Z",
-        "followers": 56,
-        "following": 1,
-        "public_repos": 30,
-        "type": "User"
-      }
-    },
-    {
-      "login": "nanookclaw",
-      "score": 91,
-      "posts": 6,
-      "threads": [
-        "aeoess/agent-passport-system#13",
-        "corpollc/qntm#7"
-      ],
-      "topics": [
-        "authority-constraints",
-        "vocabulary-proposal"
-      ],
-      "repos": [
-        "aeoess/agent-passport-system",
-        "corpollc/qntm"
-      ],
-      "first_seen_ours": "2026-04-10T22:04:22Z",
-      "last_seen_ours": "2026-04-15T19:32:17Z",
-      "ship": 3,
-      "propose": 10,
-      "review": 6,
-      "mentions_received": 17,
-      "word_count": 1591,
+      "first_seen_ours": "2026-04-17T12:26:19Z",
+      "last_seen_ours": "2026-05-04T05:25:14Z",
+      "ship": 1,
+      "propose": 5,
+      "review": 4,
+      "mentions_received": 21,
+      "word_count": 1934,
       "github": {
         "name": null,
         "bio": null,
@@ -2329,59 +2704,136 @@
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2026-02-02T05:50:08Z",
-        "followers": 9,
-        "following": 0,
-        "public_repos": 63,
+        "created_at": "2023-05-21T15:38:32Z",
+        "followers": 3,
+        "following": 2,
+        "public_repos": 17,
         "type": "User"
       }
     },
     {
-      "login": "viftode4",
-      "score": 86,
-      "posts": 7,
+      "login": "kinthaiofficial",
+      "score": 69,
+      "posts": 6,
       "threads": [
-        "OWASP/www-project-top-10-for-large-language-model-applications#802",
-        "OpenClaw/openclaw#49971",
-        "a2aproject/A2A#1628",
+        "a2aproject/A2A#1575",
+        "a2aproject/A2A#1672",
         "a2aproject/A2A#1718",
         "crewAIInc/crewAI#4560",
         "langchain-ai/langchain#36232"
       ],
       "topics": [
         "a2a-signing-custody",
+        "agent-identity-verification",
         "crewai-governance",
-        "langchain-memory",
-        "openclaw-aae",
-        "owasp-llm-aps",
-        "trust-signals-schema"
+        "identity-delegation-enforcement",
+        "langchain-memory"
       ],
       "repos": [
-        "OWASP/www-project-top-10-for-large-language-model-applications",
-        "OpenClaw/openclaw",
         "a2aproject/A2A",
         "crewAIInc/crewAI",
         "langchain-ai/langchain"
       ],
-      "first_seen_ours": "2026-03-27T20:07:31Z",
-      "last_seen_ours": "2026-04-05T23:58:18Z",
+      "first_seen_ours": "2026-04-28T15:52:23Z",
+      "last_seen_ours": "2026-04-28T23:22:59Z",
       "ship": 0,
-      "propose": 3,
-      "review": 0,
-      "mentions_received": 27,
-      "word_count": 2819,
+      "propose": 6,
+      "review": 2,
+      "mentions_received": 12,
+      "word_count": 1996,
       "github": {
-        "name": "Vlad George Iftode",
-        "bio": "Thinker | MSc in Data Science & AI (TU Delft)",
+        "name": "KinthAI",
+        "bio": null,
         "company": null,
-        "location": "Delft",
+        "location": null,
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2018-03-20T17:50:21Z",
-        "followers": 18,
+        "created_at": "2026-03-22T01:58:40Z",
+        "followers": 3,
+        "following": 0,
+        "public_repos": 19,
+        "type": "User"
+      }
+    },
+    {
+      "login": "JKHeadley",
+      "score": 69,
+      "posts": 7,
+      "threads": [
+        "a2aproject/A2A#1628",
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1717"
+      ],
+      "topics": [
+        "a2a-signing-custody",
+        "agent-identity-verification",
+        "trust-signals-schema"
+      ],
+      "repos": [
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-03-28T16:20:25Z",
+      "last_seen_ours": "2026-04-09T11:38:14Z",
+      "ship": 3,
+      "propose": 4,
+      "review": 0,
+      "mentions_received": 9,
+      "word_count": 1886,
+      "github": {
+        "name": "Justin Headley",
+        "bio": "I'm passionate about technologies that unlock the potential in others.",
+        "company": "@monroe-institute",
+        "location": "San Jose, CA",
+        "blog": "https://www.justinheadley.com",
+        "email": "headley.justin@gmail.com",
+        "twitter": null,
+        "created_at": "2015-05-27T19:17:15Z",
+        "followers": 87,
+        "following": 2,
+        "public_repos": 63,
+        "type": "User"
+      }
+    },
+    {
+      "login": "msaleme",
+      "score": 68,
+      "posts": 5,
+      "threads": [
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1694",
+        "a2aproject/A2A#1786",
+        "microsoft/agent-governance-toolkit#934"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "agent-identity-verification",
+        "agentcard-limitations",
+        "agt-dual-citizen"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "microsoft/agent-governance-toolkit"
+      ],
+      "first_seen_ours": "2026-03-29T13:16:46Z",
+      "last_seen_ours": "2026-04-30T16:41:28Z",
+      "ship": 3,
+      "propose": 3,
+      "review": 0,
+      "mentions_received": 16,
+      "word_count": 1369,
+      "github": {
+        "name": "Michael 'Mike' K. Saleme",
+        "bio": "I design *decision-safe architectures* so enterprises can scale AI *without losing control*.\r\n",
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": "mikesaleme",
+        "created_at": "2017-07-23T14:01:42Z",
+        "followers": 14,
         "following": 41,
-        "public_repos": 44,
+        "public_repos": 99,
         "type": "User"
       }
     },
@@ -2421,41 +2873,39 @@
       }
     },
     {
-      "login": "JKHeadley",
-      "score": 67,
-      "posts": 7,
+      "login": "Jovancoding",
+      "score": 66,
+      "posts": 6,
       "threads": [
-        "a2aproject/A2A#1628",
-        "a2aproject/A2A#1672",
-        "a2aproject/A2A#1717"
+        "crewAIInc/crewAI#4560",
+        "crewAIInc/crewAI#4875"
       ],
       "topics": [
-        "a2a-signing-custody",
-        "agent-identity-verification",
-        "trust-signals-schema"
+        "crewai-governance",
+        "crewai-spec"
       ],
       "repos": [
-        "a2aproject/A2A"
+        "crewAIInc/crewAI"
       ],
-      "first_seen_ours": "2026-03-28T16:20:25Z",
-      "last_seen_ours": "2026-04-09T11:38:14Z",
-      "ship": 3,
-      "propose": 4,
-      "review": 0,
+      "first_seen_ours": "2026-03-19T18:33:39Z",
+      "last_seen_ours": "2026-03-19T22:20:54Z",
+      "ship": 1,
+      "propose": 7,
+      "review": 3,
       "mentions_received": 8,
-      "word_count": 1886,
+      "word_count": 2438,
       "github": {
-        "name": "Justin Headley",
-        "bio": "I'm passionate about technologies that unlock the potential in others.",
-        "company": "@monroe-institute",
-        "location": "San Jose, CA",
-        "blog": "https://www.justinheadley.com",
-        "email": "headley.justin@gmail.com",
+        "name": "Jovan Marinovic",
+        "bio": "SAP FUNCTIONAL/TECHNICAL DEVELOPER",
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
         "twitter": null,
-        "created_at": "2015-05-27T19:17:15Z",
-        "followers": 87,
-        "following": 2,
-        "public_repos": 63,
+        "created_at": "2022-12-13T11:55:53Z",
+        "followers": 3,
+        "following": 0,
+        "public_repos": 15,
         "type": "User"
       }
     },
@@ -2528,74 +2978,94 @@
       }
     },
     {
-      "login": "Jovancoding",
+      "login": "nobulex",
       "score": 64,
-      "posts": 6,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 32,
+      "word_count": 0,
+      "github": null
+    },
+    {
+      "login": "nutstrut",
+      "score": 62,
+      "posts": 15,
       "threads": [
-        "crewAIInc/crewAI#4560",
-        "crewAIInc/crewAI#4875"
+        "douglasborthwick-crypto/insumer-examples#1",
+        "langchain-ai/langchain#35691"
       ],
       "topics": [
-        "crewai-governance",
-        "crewai-spec"
+        "insumer-multi-attestation",
+        "langchain-compliance-backend"
       ],
       "repos": [
-        "crewAIInc/crewAI"
+        "douglasborthwick-crypto/insumer-examples",
+        "langchain-ai/langchain"
       ],
-      "first_seen_ours": "2026-03-19T18:33:39Z",
-      "last_seen_ours": "2026-03-19T22:20:54Z",
-      "ship": 1,
-      "propose": 7,
-      "review": 3,
-      "mentions_received": 7,
-      "word_count": 2438,
+      "first_seen_ours": "2026-03-25T13:06:53Z",
+      "last_seen_ours": "2026-04-20T00:27:02Z",
+      "ship": 2,
+      "propose": 2,
+      "review": 5,
+      "mentions_received": 15,
+      "word_count": 1783,
       "github": {
-        "name": "Jovan Marinovic",
-        "bio": "SAP FUNCTIONAL/TECHNICAL DEVELOPER",
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2022-12-13T11:55:53Z",
-        "followers": 3,
+        "name": "nutstrut",
+        "bio": "Building SAR (Settlement Attestation Receipts) \u2014 verifiable post-execution truth for agent transactions. Maintainer of Settlement Witness / DefaultVerifier.",
+        "company": "Settlement Witness",
+        "location": "United States",
+        "blog": "https://defaultverifier.com",
+        "email": "mininghashpower@gmail.com",
+        "twitter": "defaultsettle",
+        "created_at": "2025-03-24T03:38:33Z",
+        "followers": 1,
         "following": 0,
-        "public_repos": 15,
+        "public_repos": 10,
         "type": "User"
       }
     },
     {
       "login": "jagmarques",
-      "score": 53,
-      "posts": 9,
+      "score": 60,
+      "posts": 12,
       "threads": [
         "OWASP/www-project-top-10-for-large-language-model-applications#802",
         "a2aproject/A2A#1672",
         "a2aproject/A2A#1717",
         "a2aproject/A2A#1718",
         "aeoess/agent-passport-system#9",
-        "crewAIInc/crewAI#5019"
+        "crewAIInc/crewAI#5019",
+        "langchain-ai/langchain#35691"
       ],
       "topics": [
         "a2a-signing-custody",
         "aeoess-agent-passport-system-9",
         "agent-identity-verification",
         "crewai-primitives",
+        "langchain-compliance-backend",
         "owasp-llm-aps"
       ],
       "repos": [
         "OWASP/www-project-top-10-for-large-language-model-applications",
         "a2aproject/A2A",
         "aeoess/agent-passport-system",
-        "crewAIInc/crewAI"
+        "crewAIInc/crewAI",
+        "langchain-ai/langchain"
       ],
-      "first_seen_ours": "2026-04-06T16:56:07Z",
+      "first_seen_ours": "2026-03-24T20:21:32Z",
       "last_seen_ours": "2026-04-19T20:16:18Z",
       "ship": 0,
       "propose": 4,
       "review": 0,
-      "mentions_received": 9,
-      "word_count": 1081,
+      "mentions_received": 11,
+      "word_count": 1277,
       "github": {
         "name": "Jo\u00e3o Andr\u00e9 Marques",
         "bio": null,
@@ -2612,8 +3082,43 @@
       }
     },
     {
+      "login": "aniketh-maddipati",
+      "score": 59,
+      "posts": 6,
+      "threads": [
+        "langchain-ai/langchain#35691"
+      ],
+      "topics": [
+        "langchain-compliance-backend"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-03-09T15:48:17Z",
+      "last_seen_ours": "2026-04-18T20:09:27Z",
+      "ship": 1,
+      "propose": 4,
+      "review": 1,
+      "mentions_received": 14,
+      "word_count": 1487,
+      "github": {
+        "name": "Aniketh",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2019-02-13T20:22:18Z",
+        "followers": 6,
+        "following": 7,
+        "public_repos": 39,
+        "type": "User"
+      }
+    },
+    {
       "login": "HMAKT99",
-      "score": 53,
+      "score": 57,
       "posts": 5,
       "threads": [
         "OpenClaw/openclaw#49971"
@@ -2629,7 +3134,7 @@
       "ship": 5,
       "propose": 5,
       "review": 0,
-      "mentions_received": 0,
+      "mentions_received": 2,
       "word_count": 1034,
       "github": {
         "name": "AKT99!",
@@ -2643,6 +3148,46 @@
         "followers": 65,
         "following": 37,
         "public_repos": 64,
+        "type": "User"
+      }
+    },
+    {
+      "login": "VladUZH",
+      "score": 53,
+      "posts": 14,
+      "threads": [
+        "crewAIInc/crewAI#4875",
+        "langchain-ai/langchain#35691",
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "crewai-spec",
+        "langchain-compliance-backend",
+        "langchain-memory"
+      ],
+      "repos": [
+        "crewAIInc/crewAI",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-03T12:24:24Z",
+      "last_seen_ours": "2026-05-02T11:24:05Z",
+      "ship": 0,
+      "propose": 3,
+      "review": 5,
+      "mentions_received": 15,
+      "word_count": 2584,
+      "github": {
+        "name": "VladUZH",
+        "bio": "VladUZH",
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2017-02-10T06:17:30Z",
+        "followers": 18,
+        "following": 0,
+        "public_repos": 68,
         "type": "User"
       }
     },
@@ -2682,44 +3227,9 @@
       }
     },
     {
-      "login": "nutstrut",
-      "score": 52,
-      "posts": 14,
-      "threads": [
-        "douglasborthwick-crypto/insumer-examples#1"
-      ],
-      "topics": [
-        "insumer-multi-attestation"
-      ],
-      "repos": [
-        "douglasborthwick-crypto/insumer-examples"
-      ],
-      "first_seen_ours": "2026-03-25T13:06:53Z",
-      "last_seen_ours": "2026-04-12T14:40:28Z",
-      "ship": 1,
-      "propose": 2,
-      "review": 5,
-      "mentions_received": 14,
-      "word_count": 1631,
-      "github": {
-        "name": "nutstrut",
-        "bio": "Building SAR (Settlement Attestation Receipts) \u2014 verifiable post-execution truth for agent transactions. Maintainer of Settlement Witness / DefaultVerifier.",
-        "company": "Settlement Witness",
-        "location": "United States",
-        "blog": "https://defaultverifier.com",
-        "email": "mininghashpower@gmail.com",
-        "twitter": "defaultsettle",
-        "created_at": "2025-03-24T03:38:33Z",
-        "followers": 1,
-        "following": 0,
-        "public_repos": 10,
-        "type": "User"
-      }
-    },
-    {
       "login": "baronsengir007",
       "score": 46,
-      "posts": 5,
+      "posts": 6,
       "threads": [
         "a2aproject/A2A#1755"
       ],
@@ -2730,12 +3240,12 @@
         "a2aproject/A2A"
       ],
       "first_seen_ours": "2026-04-15T19:26:36Z",
-      "last_seen_ours": "2026-04-21T08:01:53Z",
+      "last_seen_ours": "2026-04-30T19:35:53Z",
       "ship": 2,
       "propose": 4,
       "review": 2,
       "mentions_received": 7,
-      "word_count": 1976,
+      "word_count": 2132,
       "github": {
         "name": null,
         "bio": null,
@@ -2787,39 +3297,41 @@
       }
     },
     {
-      "login": "yuquan2088",
-      "score": 42,
-      "posts": 6,
+      "login": "69ad94d",
+      "score": 40,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 20,
+      "word_count": 0,
+      "github": null
+    },
+    {
+      "login": "cloakmaster",
+      "score": 39,
+      "posts": 2,
       "threads": [
-        "OWASP/www-project-top-10-for-large-language-model-applications#802",
-        "OpenClaw/openclaw#49971",
-        "a2aproject/A2A#1672",
-        "crewAIInc/crewAI#4789",
-        "crewAIInc/crewAI#5019",
-        "langchain-ai/langchain#36232"
+        "a2aproject/A2A#1672"
       ],
       "topics": [
-        "agent-identity-verification",
-        "crewai-integration",
-        "crewai-primitives",
-        "langchain-memory",
-        "openclaw-aae",
-        "owasp-llm-aps"
+        "agent-identity-verification"
       ],
       "repos": [
-        "OWASP/www-project-top-10-for-large-language-model-applications",
-        "OpenClaw/openclaw",
-        "a2aproject/A2A",
-        "crewAIInc/crewAI",
-        "langchain-ai/langchain"
+        "a2aproject/A2A"
       ],
-      "first_seen_ours": "2026-04-02T09:39:23Z",
-      "last_seen_ours": "2026-04-02T11:08:32Z",
-      "ship": 0,
-      "propose": 4,
-      "review": 0,
-      "mentions_received": 6,
-      "word_count": 1259,
+      "first_seen_ours": "2026-04-30T11:00:26Z",
+      "last_seen_ours": "2026-04-30T20:36:05Z",
+      "ship": 4,
+      "propose": 0,
+      "review": 1,
+      "mentions_received": 5,
+      "word_count": 84,
       "github": {
         "name": null,
         "bio": null,
@@ -2828,9 +3340,44 @@
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2026-03-25T08:05:36Z",
-        "followers": 6,
-        "following": 0,
+        "created_at": "2013-11-13T16:29:38Z",
+        "followers": 1,
+        "following": 2,
+        "public_repos": 25,
+        "type": "User"
+      }
+    },
+    {
+      "login": "lktron00",
+      "score": 38,
+      "posts": 5,
+      "threads": [
+        "langchain-ai/langchain#35691"
+      ],
+      "topics": [
+        "langchain-compliance-backend"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-22T15:19:38Z",
+      "last_seen_ours": "2026-05-02T03:08:04Z",
+      "ship": 2,
+      "propose": 5,
+      "review": 2,
+      "mentions_received": 4,
+      "word_count": 846,
+      "github": {
+        "name": "Danilo Naranjo",
+        "bio": "CTO & Founder @ Ocular | Creator of DCP-AI (dcp-ai.org) | AI agent governance & orchestration infrastructure. ",
+        "company": "Ocular",
+        "location": "Chile",
+        "blog": "https://www.getocular.ai/",
+        "email": null,
+        "twitter": null,
+        "created_at": "2020-04-05T19:04:48Z",
+        "followers": 16,
+        "following": 11,
         "public_repos": 1,
         "type": "User"
       }
@@ -2871,63 +3418,28 @@
       }
     },
     {
-      "login": "msaleme",
-      "score": 34,
-      "posts": 3,
+      "login": "piiiico",
+      "score": 33,
+      "posts": 4,
       "threads": [
-        "a2aproject/A2A#1694",
-        "microsoft/agent-governance-toolkit#934"
+        "OpenClaw/openclaw#49971",
+        "aeoess/agent-governance-vocabulary#46"
       ],
       "topics": [
-        "agentcard-limitations",
-        "agt-dual-citizen"
+        "openclaw-aae",
+        "vocab-agentlair"
       ],
       "repos": [
-        "a2aproject/A2A",
-        "microsoft/agent-governance-toolkit"
+        "OpenClaw/openclaw",
+        "aeoess/agent-governance-vocabulary"
       ],
-      "first_seen_ours": "2026-03-29T13:16:46Z",
-      "last_seen_ours": "2026-04-11T23:47:45Z",
-      "ship": 1,
-      "propose": 3,
-      "review": 0,
-      "mentions_received": 7,
-      "word_count": 1091,
-      "github": {
-        "name": "Michael 'Mike' K. Saleme",
-        "bio": "I design *decision-safe architectures* so enterprises can scale AI *without losing control*.\r\n",
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": "mikesaleme",
-        "created_at": "2017-07-23T14:01:42Z",
-        "followers": 14,
-        "following": 41,
-        "public_repos": 99,
-        "type": "User"
-      }
-    },
-    {
-      "login": "kai-familiar",
-      "score": 34,
-      "posts": 2,
-      "threads": [
-        "crewAIInc/crewAI#4560"
-      ],
-      "topics": [
-        "crewai-governance"
-      ],
-      "repos": [
-        "crewAIInc/crewAI"
-      ],
-      "first_seen_ours": "2026-04-15T06:03:44Z",
-      "last_seen_ours": "2026-04-22T18:05:34Z",
+      "first_seen_ours": "2026-04-08T14:12:10Z",
+      "last_seen_ours": "2026-04-25T06:31:12Z",
       "ship": 2,
-      "propose": 2,
-      "review": 0,
-      "mentions_received": 0,
-      "word_count": 708,
+      "propose": 1,
+      "review": 1,
+      "mentions_received": 4,
+      "word_count": 1069,
       "github": {
         "name": null,
         "bio": null,
@@ -2936,10 +3448,10 @@
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2026-02-04T13:57:13Z",
-        "followers": 0,
+        "created_at": "2026-02-28T19:31:35Z",
+        "followers": 2,
         "following": 0,
-        "public_repos": 14,
+        "public_repos": 51,
         "type": "User"
       }
     },
@@ -3124,6 +3636,22 @@
       }
     },
     {
+      "login": "next",
+      "score": 30,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 15,
+      "word_count": 0,
+      "github": null
+    },
+    {
       "login": "ThoughtProof",
       "score": 30,
       "posts": 4,
@@ -3159,40 +3687,166 @@
       }
     },
     {
-      "login": "willamhou",
+      "login": "meridianmindx",
       "score": 29,
-      "posts": 6,
+      "posts": 8,
       "threads": [
-        "OpenClaw/openclaw#49971",
-        "crewAIInc/crewAI#4875"
+        "a2aproject/A2A#1672",
+        "crewAIInc/crewAI#4875",
+        "langchain-ai/langchain#35691",
+        "langchain-ai/langchain#36232",
+        "w3c-cg/ai-agent-protocol#30"
       ],
       "topics": [
+        "agent-identity-verification",
         "crewai-spec",
-        "openclaw-aae"
+        "langchain-compliance-backend",
+        "langchain-memory",
+        "w3c-agent-protocol"
       ],
       "repos": [
-        "OpenClaw/openclaw",
-        "crewAIInc/crewAI"
+        "a2aproject/A2A",
+        "crewAIInc/crewAI",
+        "langchain-ai/langchain",
+        "w3c-cg/ai-agent-protocol"
       ],
-      "first_seen_ours": "2026-04-07T07:16:55Z",
-      "last_seen_ours": "2026-04-20T03:51:35Z",
+      "first_seen_ours": "2026-04-10T11:54:06Z",
+      "last_seen_ours": "2026-04-14T05:53:23Z",
       "ship": 1,
-      "propose": 0,
-      "review": 1,
-      "mentions_received": 6,
-      "word_count": 832,
+      "propose": 3,
+      "review": 0,
+      "mentions_received": 0,
+      "word_count": 935,
       "github": {
-        "name": "Will.hou",
+        "name": null,
         "bio": null,
         "company": null,
         "location": null,
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2014-08-28T01:47:49Z",
-        "followers": 13,
+        "created_at": "2026-03-22T19:10:04Z",
+        "followers": 6,
+        "following": 0,
+        "public_repos": 25,
+        "type": "User"
+      }
+    },
+    {
+      "login": "hanselhansel",
+      "score": 29,
+      "posts": 3,
+      "threads": [
+        "crewAIInc/crewAI#4560",
+        "langchain-ai/langchain#35691",
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "crewai-governance",
+        "langchain-compliance-backend",
+        "langchain-memory"
+      ],
+      "repos": [
+        "crewAIInc/crewAI",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-17T22:40:29Z",
+      "last_seen_ours": "2026-04-21T00:47:53Z",
+      "ship": 0,
+      "propose": 2,
+      "review": 0,
+      "mentions_received": 7,
+      "word_count": 422,
+      "github": {
+        "name": "Hansel",
+        "bio": "Mass-producing AI prototypes, one rabbit hole at a time. Currently: spatial intelligence + embodied AI.",
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": "hansel_hansl",
+        "created_at": "2019-04-04T21:57:36Z",
+        "followers": 2,
+        "following": 0,
+        "public_repos": 12,
+        "type": "User"
+      }
+    },
+    {
+      "login": "JohnnyTarrr",
+      "score": 28,
+      "posts": 4,
+      "threads": [
+        "OWASP/www-project-top-10-for-large-language-model-applications#802",
+        "OpenClaw/openclaw#49971",
+        "a2aproject/A2A#1672"
+      ],
+      "topics": [
+        "agent-identity-verification",
+        "openclaw-aae",
+        "owasp-llm-aps"
+      ],
+      "repos": [
+        "OWASP/www-project-top-10-for-large-language-model-applications",
+        "OpenClaw/openclaw",
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-04-03T01:53:19Z",
+      "last_seen_ours": "2026-04-09T01:26:21Z",
+      "ship": 1,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 7,
+      "word_count": 460,
+      "github": {
+        "name": "Johnny ",
+        "bio": "AI/ML Product Manager",
+        "company": "Lydo AI ",
+        "location": "San Francisco ",
+        "blog": "",
+        "email": "Jpw517@gmail.com",
+        "twitter": null,
+        "created_at": "2017-05-06T23:33:47Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 31,
+        "type": "User"
+      }
+    },
+    {
+      "login": "thebenignhacker",
+      "score": 28,
+      "posts": 2,
+      "threads": [
+        "a2aproject/A2A#1575",
+        "a2aproject/A2A#1786"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "identity-delegation-enforcement"
+      ],
+      "repos": [
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-05-11T00:43:05Z",
+      "last_seen_ours": "2026-05-11T00:43:21Z",
+      "ship": 2,
+      "propose": 2,
+      "review": 0,
+      "mentions_received": 3,
+      "word_count": 605,
+      "github": {
+        "name": "Libria",
+        "bio": "CEO & Founder @OpenA2A | Executive Director @csnp ",
+        "company": "@csnp ",
+        "location": null,
+        "blog": "opena2a.org, csnp.org",
+        "email": null,
+        "twitter": "benignhacker",
+        "created_at": "2017-09-30T16:48:35Z",
+        "followers": 27,
         "following": 12,
-        "public_repos": 70,
+        "public_repos": 6,
         "type": "User"
       }
     },
@@ -3304,20 +3958,109 @@
       }
     },
     {
-      "login": "next",
-      "score": 26,
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "ship": 0,
-      "propose": 0,
+      "login": "SomeshZanwar",
+      "score": 27,
+      "posts": 3,
+      "threads": [
+        "a2aproject/A2A#1786"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal"
+      ],
+      "repos": [
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-05-09T04:23:32Z",
+      "last_seen_ours": "2026-05-09T09:04:51Z",
+      "ship": 1,
+      "propose": 3,
       "review": 0,
-      "mentions_received": 13,
-      "word_count": 0,
-      "github": null
+      "mentions_received": 5,
+      "word_count": 457,
+      "github": {
+        "name": "Somesh Zanwar",
+        "bio": "MS Data Science @ UT Arlington | Building governance systems for trustworthy data and trustworthy AI agents. SQL \u00b7 Python \u00b7 dbt \u00b7 Power BI \u00b7 AI/Agent",
+        "company": null,
+        "location": null,
+        "blog": "https://someshzanwar.github.io/",
+        "email": "someshzanwar345@gmail.com",
+        "twitter": null,
+        "created_at": "2026-01-08T09:22:58Z",
+        "followers": 4,
+        "following": 6,
+        "public_repos": 14,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Liuyanfeng1234",
+      "score": 27,
+      "posts": 3,
+      "threads": [
+        "a2aproject/A2A#1786"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal"
+      ],
+      "repos": [
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-05-14T13:56:07Z",
+      "last_seen_ours": "2026-05-14T16:00:01Z",
+      "ship": 1,
+      "propose": 4,
+      "review": 1,
+      "mentions_received": 3,
+      "word_count": 575,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-02-25T12:46:50Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 0,
+        "type": "User"
+      }
+    },
+    {
+      "login": "mbarakats",
+      "score": 27,
+      "posts": 14,
+      "threads": [
+        "langchain-ai/langchain#35691"
+      ],
+      "topics": [
+        "langchain-compliance-backend"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-03-31T00:58:10Z",
+      "last_seen_ours": "2026-04-22T07:44:04Z",
+      "ship": 1,
+      "propose": 1,
+      "review": 2,
+      "mentions_received": 7,
+      "word_count": 2060,
+      "github": {
+        "name": "Barakat",
+        "bio": "Building \ud83e\udd84 ",
+        "company": null,
+        "location": "Berlin, Germany",
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2018-09-02T09:25:19Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 0,
+        "type": "User"
+      }
     },
     {
       "login": "majorelalexis-stack",
@@ -3358,98 +4101,6 @@
       }
     },
     {
-      "login": "arian-gogani",
-      "score": 24,
-      "posts": 5,
-      "threads": [
-        "FransDevelopment/open-agent-trust-registry#28",
-        "in-toto/attestation#549"
-      ],
-      "topics": [
-        "in-toto-decision-receipt",
-        "oatr-behavioral-history"
-      ],
-      "repos": [
-        "FransDevelopment/open-agent-trust-registry",
-        "in-toto/attestation"
-      ],
-      "first_seen_ours": "2026-04-16T22:51:21Z",
-      "last_seen_ours": "2026-04-23T05:12:17Z",
-      "ship": 1,
-      "propose": 3,
-      "review": 2,
-      "mentions_received": 1,
-      "word_count": 597,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-03-01T17:39:59Z",
-        "followers": 3,
-        "following": 1,
-        "public_repos": 15,
-        "type": "User"
-      }
-    },
-    {
-      "login": "alxvasilevvv",
-      "score": 24,
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "ship": 0,
-      "propose": 0,
-      "review": 0,
-      "mentions_received": 12,
-      "word_count": 0,
-      "github": null
-    },
-    {
-      "login": "hanselhansel",
-      "score": 24,
-      "posts": 2,
-      "threads": [
-        "crewAIInc/crewAI#4560",
-        "langchain-ai/langchain#36232"
-      ],
-      "topics": [
-        "crewai-governance",
-        "langchain-memory"
-      ],
-      "repos": [
-        "crewAIInc/crewAI",
-        "langchain-ai/langchain"
-      ],
-      "first_seen_ours": "2026-04-17T22:40:29Z",
-      "last_seen_ours": "2026-04-21T00:47:53Z",
-      "ship": 0,
-      "propose": 2,
-      "review": 0,
-      "mentions_received": 6,
-      "word_count": 285,
-      "github": {
-        "name": "Hansel",
-        "bio": "Mass-producing AI prototypes, one rabbit hole at a time. Currently: spatial intelligence + embodied AI.",
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": "hansel_hansl",
-        "created_at": "2019-04-04T21:57:36Z",
-        "followers": 2,
-        "following": 0,
-        "public_repos": 12,
-        "type": "User"
-      }
-    },
-    {
       "login": "kemarovokam-gif",
       "score": 23,
       "posts": 5,
@@ -3485,87 +4136,8 @@
       }
     },
     {
-      "login": "meridianmindx",
-      "score": 23,
-      "posts": 6,
-      "threads": [
-        "a2aproject/A2A#1672",
-        "crewAIInc/crewAI#4875",
-        "langchain-ai/langchain#36232",
-        "w3c-cg/ai-agent-protocol#30"
-      ],
-      "topics": [
-        "agent-identity-verification",
-        "crewai-spec",
-        "langchain-memory",
-        "w3c-agent-protocol"
-      ],
-      "repos": [
-        "a2aproject/A2A",
-        "crewAIInc/crewAI",
-        "langchain-ai/langchain",
-        "w3c-cg/ai-agent-protocol"
-      ],
-      "first_seen_ours": "2026-04-10T11:54:06Z",
-      "last_seen_ours": "2026-04-14T05:53:23Z",
-      "ship": 1,
-      "propose": 2,
-      "review": 0,
-      "mentions_received": 0,
-      "word_count": 659,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-03-22T19:10:04Z",
-        "followers": 6,
-        "following": 0,
-        "public_repos": 25,
-        "type": "User"
-      }
-    },
-    {
-      "login": "vdineshk",
-      "score": 22,
-      "posts": 1,
-      "threads": [
-        "langchain-ai/langchain#36232"
-      ],
-      "topics": [
-        "langchain-memory"
-      ],
-      "repos": [
-        "langchain-ai/langchain"
-      ],
-      "first_seen_ours": "2026-04-18T01:46:58Z",
-      "last_seen_ours": "2026-04-18T01:46:58Z",
-      "ship": 1,
-      "propose": 3,
-      "review": 1,
-      "mentions_received": 2,
-      "word_count": 267,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2023-03-23T09:02:18Z",
-        "followers": 0,
-        "following": 0,
-        "public_repos": 9,
-        "type": "User"
-      }
-    },
-    {
       "login": "jingchang0623-crypto",
-      "score": 21,
+      "score": 23,
       "posts": 3,
       "threads": [
         "OpenClaw/openclaw#49971",
@@ -3586,7 +4158,7 @@
       "ship": 0,
       "propose": 3,
       "review": 1,
-      "mentions_received": 1,
+      "mentions_received": 2,
       "word_count": 647,
       "github": {
         "name": "AIwalker",
@@ -3600,6 +4172,70 @@
         "followers": 3,
         "following": 3,
         "public_repos": 27,
+        "type": "User"
+      }
+    },
+    {
+      "login": "yuquan2088",
+      "score": 22,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 11,
+      "word_count": 0,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-03-25T08:05:36Z",
+        "followers": 6,
+        "following": 0,
+        "public_repos": 1,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Kelisi808",
+      "score": 22,
+      "posts": 3,
+      "threads": [
+        "crewAIInc/crewAI#4560"
+      ],
+      "topics": [
+        "crewai-governance"
+      ],
+      "repos": [
+        "crewAIInc/crewAI"
+      ],
+      "first_seen_ours": "2026-02-23T02:15:57Z",
+      "last_seen_ours": "2026-03-17T20:48:14Z",
+      "ship": 0,
+      "propose": 0,
+      "review": 1,
+      "mentions_received": 9,
+      "word_count": 211,
+      "github": {
+        "name": "Kelisi",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-09-13T21:05:52Z",
+        "followers": 1,
+        "following": 2,
+        "public_repos": 1,
         "type": "User"
       }
     },
@@ -3641,28 +4277,114 @@
       }
     },
     {
-      "login": "lawcontinue",
+      "login": "marcelamelara",
       "score": 20,
-      "posts": 8,
+      "posts": 1,
       "threads": [
-        "a2aproject/A2A#1786",
-        "microsoft/agent-governance-toolkit#934"
+        "in-toto/attestation#549"
       ],
       "topics": [
-        "a2a-cai-extension-proposal",
-        "agt-dual-citizen"
+        "in-toto-decision-receipt"
       ],
       "repos": [
-        "a2aproject/A2A",
-        "microsoft/agent-governance-toolkit"
+        "in-toto/attestation"
       ],
-      "first_seen_ours": "2026-04-17T12:26:19Z",
-      "last_seen_ours": "2026-04-25T14:59:59Z",
+      "first_seen_ours": "2026-04-27T18:13:03Z",
+      "last_seen_ours": "2026-04-27T18:13:03Z",
+      "ship": 1,
+      "propose": 1,
+      "review": 2,
+      "mentions_received": 1,
+      "word_count": 59,
+      "github": {
+        "name": "Marcela Melara",
+        "bio": "Research Scientist @ Intel. I work on datacenter systems security and software supply chain security.",
+        "company": null,
+        "location": null,
+        "blog": "masomel.info",
+        "email": "marcela.melara@intel.com",
+        "twitter": null,
+        "created_at": "2021-11-05T21:51:52Z",
+        "followers": 38,
+        "following": 4,
+        "public_repos": 13,
+        "type": "User"
+      }
+    },
+    {
+      "login": "VCOne-AI",
+      "score": 18,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 9,
+      "word_count": 0,
+      "github": null
+    },
+    {
+      "login": "ZC502",
+      "score": 18,
+      "posts": 2,
+      "threads": [
+        "OpenClaw/openclaw#49971"
+      ],
+      "topics": [
+        "openclaw-aae"
+      ],
+      "repos": [
+        "OpenClaw/openclaw"
+      ],
+      "first_seen_ours": "2026-04-05T02:44:20Z",
+      "last_seen_ours": "2026-04-05T08:28:17Z",
+      "ship": 0,
+      "propose": 1,
+      "review": 0,
+      "mentions_received": 6,
+      "word_count": 791,
+      "github": {
+        "name": "ZuoCen Liu",
+        "bio": "Applied Mathematician | Octonion | NARH (Non-Associative Residual Hypothesis) | Agent | Robotics |\r\nTurning the \"\u0394t dilemma\" into adaptive, continuous physics.",
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": "liu_zc42321",
+        "created_at": "2025-07-01T09:35:01Z",
+        "followers": 1,
+        "following": 1,
+        "public_repos": 6,
+        "type": "User"
+      }
+    },
+    {
+      "login": "mrperfectness-sketch",
+      "score": 18,
+      "posts": 8,
+      "threads": [
+        "crewAIInc/crewAI#4560",
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "crewai-governance",
+        "langchain-memory"
+      ],
+      "repos": [
+        "crewAIInc/crewAI",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-17T14:18:54Z",
+      "last_seen_ours": "2026-04-28T10:50:12Z",
       "ship": 0,
       "propose": 2,
-      "review": 2,
+      "review": 0,
       "mentions_received": 3,
-      "word_count": 1438,
+      "word_count": 1450,
       "github": {
         "name": null,
         "bio": null,
@@ -3671,86 +4393,10 @@
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2023-05-21T15:38:32Z",
-        "followers": 3,
-        "following": 2,
-        "public_repos": 17,
-        "type": "User"
-      }
-    },
-    {
-      "login": "JohnnyTarrr",
-      "score": 18,
-      "posts": 4,
-      "threads": [
-        "OWASP/www-project-top-10-for-large-language-model-applications#802",
-        "OpenClaw/openclaw#49971",
-        "a2aproject/A2A#1672"
-      ],
-      "topics": [
-        "agent-identity-verification",
-        "openclaw-aae",
-        "owasp-llm-aps"
-      ],
-      "repos": [
-        "OWASP/www-project-top-10-for-large-language-model-applications",
-        "OpenClaw/openclaw",
-        "a2aproject/A2A"
-      ],
-      "first_seen_ours": "2026-04-03T01:53:19Z",
-      "last_seen_ours": "2026-04-09T01:26:21Z",
-      "ship": 1,
-      "propose": 0,
-      "review": 0,
-      "mentions_received": 2,
-      "word_count": 460,
-      "github": {
-        "name": "Johnny ",
-        "bio": "AI/ML Product Manager",
-        "company": "Lydo AI ",
-        "location": "San Francisco ",
-        "blog": "",
-        "email": "Jpw517@gmail.com",
-        "twitter": null,
-        "created_at": "2017-05-06T23:33:47Z",
+        "created_at": "2026-04-06T11:38:32Z",
         "followers": 0,
         "following": 0,
-        "public_repos": 31,
-        "type": "User"
-      }
-    },
-    {
-      "login": "Kelisi808",
-      "score": 18,
-      "posts": 3,
-      "threads": [
-        "crewAIInc/crewAI#4560"
-      ],
-      "topics": [
-        "crewai-governance"
-      ],
-      "repos": [
-        "crewAIInc/crewAI"
-      ],
-      "first_seen_ours": "2026-02-23T02:15:57Z",
-      "last_seen_ours": "2026-03-17T20:48:14Z",
-      "ship": 0,
-      "propose": 0,
-      "review": 1,
-      "mentions_received": 7,
-      "word_count": 211,
-      "github": {
-        "name": "Kelisi",
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2025-09-13T21:05:52Z",
-        "followers": 1,
-        "following": 2,
-        "public_repos": 1,
+        "public_repos": 3,
         "type": "User"
       }
     },
@@ -3819,44 +4465,6 @@
       }
     },
     {
-      "login": "piiiico",
-      "score": 17,
-      "posts": 2,
-      "threads": [
-        "OpenClaw/openclaw#49971",
-        "aeoess/agent-governance-vocabulary#46"
-      ],
-      "topics": [
-        "openclaw-aae",
-        "vocab-agentlair"
-      ],
-      "repos": [
-        "OpenClaw/openclaw",
-        "aeoess/agent-governance-vocabulary"
-      ],
-      "first_seen_ours": "2026-04-08T14:12:10Z",
-      "last_seen_ours": "2026-04-25T06:31:12Z",
-      "ship": 1,
-      "propose": 1,
-      "review": 1,
-      "mentions_received": 1,
-      "word_count": 717,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-02-28T19:31:35Z",
-        "followers": 2,
-        "following": 0,
-        "public_repos": 51,
-        "type": "User"
-      }
-    },
-    {
       "login": "chorghemaruti64-creator",
       "score": 17,
       "posts": 3,
@@ -3892,31 +4500,109 @@
       }
     },
     {
-      "login": "Bradsadevnow",
-      "score": 16,
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
+      "login": "Kzino",
+      "score": 17,
+      "posts": 2,
+      "threads": [
+        "a2aproject/A2A#1575",
+        "a2aproject/A2A#1672"
+      ],
+      "topics": [
+        "agent-identity-verification",
+        "identity-delegation-enforcement"
+      ],
+      "repos": [
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-04-25T17:53:27Z",
+      "last_seen_ours": "2026-04-25T17:53:45Z",
       "ship": 0,
-      "propose": 0,
+      "propose": 3,
       "review": 0,
-      "mentions_received": 8,
-      "word_count": 0,
+      "mentions_received": 1,
+      "word_count": 647,
       "github": {
-        "name": null,
+        "name": "Kwame Nyantakyi",
+        "bio": "Building projects that make the world a better place!",
+        "company": null,
+        "location": null,
+        "blog": "kwamenyantakyi.com",
+        "email": null,
+        "twitter": null,
+        "created_at": "2017-07-20T20:12:56Z",
+        "followers": 5,
+        "following": 5,
+        "public_repos": 16,
+        "type": "User"
+      }
+    },
+    {
+      "login": "ravikiran438",
+      "score": 17,
+      "posts": 2,
+      "threads": [
+        "a2aproject/A2A#1755"
+      ],
+      "topics": [
+        "a2a-compliance-measurement"
+      ],
+      "repos": [
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-05-06T07:52:10Z",
+      "last_seen_ours": "2026-05-07T13:58:49Z",
+      "ship": 1,
+      "propose": 2,
+      "review": 1,
+      "mentions_received": 1,
+      "word_count": 398,
+      "github": {
+        "name": "Ravi Kiran Kadaboina",
+        "bio": null,
+        "company": null,
+        "location": "Dallas, TX",
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2010-10-02T04:11:26Z",
+        "followers": 15,
+        "following": 17,
+        "public_repos": 48,
+        "type": "User"
+      }
+    },
+    {
+      "login": "eddie-knight",
+      "score": 17,
+      "posts": 2,
+      "threads": [
+        "ossf/security-insights#171"
+      ],
+      "topics": [
+        "ossf-agent-provenance"
+      ],
+      "repos": [
+        "ossf/security-insights"
+      ],
+      "first_seen_ours": "2026-04-20T21:19:50Z",
+      "last_seen_ours": "2026-05-08T21:20:48Z",
+      "ship": 0,
+      "propose": 1,
+      "review": 1,
+      "mentions_received": 5,
+      "word_count": 313,
+      "github": {
+        "name": "Eddie Knight",
         "bio": null,
         "company": null,
         "location": null,
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2025-06-22T13:56:35Z",
-        "followers": 2,
-        "following": 4,
-        "public_repos": 7,
+        "created_at": "2016-08-22T14:41:11Z",
+        "followers": 49,
+        "following": 21,
+        "public_repos": 86,
         "type": "User"
       }
     },
@@ -3966,37 +4652,72 @@
       }
     },
     {
-      "login": "eddie-knight",
-      "score": 15,
-      "posts": 1,
+      "login": "alexchenai",
+      "score": 16,
+      "posts": 2,
       "threads": [
-        "ossf/security-insights#171"
+        "erc-8004/erc-8004-contracts#77"
       ],
       "topics": [
-        "ossf-agent-provenance"
+        "erc8004-bridge"
       ],
       "repos": [
-        "ossf/security-insights"
+        "erc-8004/erc-8004-contracts"
       ],
-      "first_seen_ours": "2026-04-20T21:19:50Z",
-      "last_seen_ours": "2026-04-20T21:19:50Z",
+      "first_seen_ours": "2026-04-25T12:50:06Z",
+      "last_seen_ours": "2026-04-25T16:59:55Z",
       "ship": 0,
-      "propose": 1,
-      "review": 1,
-      "mentions_received": 4,
-      "word_count": 188,
+      "propose": 3,
+      "review": 0,
+      "mentions_received": 2,
+      "word_count": 516,
       "github": {
-        "name": "Eddie Knight",
+        "name": null,
         "bio": null,
         "company": null,
         "location": null,
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2016-08-22T14:41:11Z",
-        "followers": 49,
-        "following": 21,
-        "public_repos": 86,
+        "created_at": "2026-03-02T16:54:19Z",
+        "followers": 2,
+        "following": 1,
+        "public_repos": 89,
+        "type": "User"
+      }
+    },
+    {
+      "login": "EXDEV-oss",
+      "score": 15,
+      "posts": 7,
+      "threads": [
+        "erc-8004/erc-8004-contracts#77"
+      ],
+      "topics": [
+        "erc8004-bridge"
+      ],
+      "repos": [
+        "erc-8004/erc-8004-contracts"
+      ],
+      "first_seen_ours": "2026-04-25T22:23:00Z",
+      "last_seen_ours": "2026-04-29T18:58:59Z",
+      "ship": 0,
+      "propose": 2,
+      "review": 0,
+      "mentions_received": 3,
+      "word_count": 619,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-04-25T04:04:29Z",
+        "followers": 3,
+        "following": 8,
+        "public_repos": 0,
         "type": "User"
       }
     },
@@ -4036,40 +4757,142 @@
       }
     },
     {
-      "login": "mrperfectness-sketch",
-      "score": 13,
-      "posts": 6,
+      "login": "vineethsai",
+      "score": 14,
+      "posts": 1,
       "threads": [
-        "crewAIInc/crewAI#4560",
-        "langchain-ai/langchain#36232"
+        "cisco-ai-defense/defenseclaw#115"
       ],
       "topics": [
-        "crewai-governance",
-        "langchain-memory"
+        "defenseclaw-receipts"
       ],
       "repos": [
-        "crewAIInc/crewAI",
-        "langchain-ai/langchain"
+        "cisco-ai-defense/defenseclaw"
       ],
-      "first_seen_ours": "2026-04-17T14:18:54Z",
-      "last_seen_ours": "2026-04-20T19:58:01Z",
+      "first_seen_ours": "2026-04-22T19:02:34Z",
+      "last_seen_ours": "2026-04-22T19:02:34Z",
       "ship": 0,
       "propose": 1,
       "review": 0,
-      "mentions_received": 2,
-      "word_count": 991,
+      "mentions_received": 4,
+      "word_count": 58,
       "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
+        "name": "Vineeth Sai Narajala",
+        "bio": "Security Researcher",
+        "company": "Cisco",
+        "location": "NYC",
+        "blog": "https://vineethsai.com",
+        "email": null,
+        "twitter": null,
+        "created_at": "2016-11-01T08:12:41Z",
+        "followers": 37,
+        "following": 6,
+        "public_repos": 42,
+        "type": "User"
+      }
+    },
+    {
+      "login": "steipete",
+      "score": 13,
+      "posts": 1,
+      "threads": [
+        "OpenClaw/openclaw#49971"
+      ],
+      "topics": [
+        "openclaw-aae"
+      ],
+      "repos": [
+        "OpenClaw/openclaw"
+      ],
+      "first_seen_ours": "2026-04-25T04:34:23Z",
+      "last_seen_ours": "2026-04-25T04:34:23Z",
+      "ship": 1,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 0,
+      "word_count": 251,
+      "github": {
+        "name": "Peter Steinberger",
+        "bio": "Came back from retirement to mess with AI. Clawdfather @OpenClaw\r\n\r\nPreviously: Founder of @PSPDFKit.",
+        "company": "OpenAI",
+        "location": "Vienna & London",
+        "blog": "http://steipete.me",
+        "email": "peter@steipete.me",
+        "twitter": "steipete",
+        "created_at": "2009-02-27T08:34:22Z",
+        "followers": 50034,
+        "following": 109,
+        "public_repos": 170,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Shagun0402",
+      "score": 13,
+      "posts": 3,
+      "threads": [
+        "VeritasActa/verify#1"
+      ],
+      "topics": [
+        "veritas-signal-belief"
+      ],
+      "repos": [
+        "VeritasActa/verify"
+      ],
+      "first_seen_ours": "2026-04-12T12:25:36Z",
+      "last_seen_ours": "2026-04-22T06:54:09Z",
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 5,
+      "word_count": 389,
+      "github": {
+        "name": "Shagun Paul",
+        "bio": "AI/ML Engineer @ Xansr Media\r\n",
+        "company": "Xansr Media",
+        "location": "New Delhi, India",
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2026-04-06T11:38:32Z",
-        "followers": 0,
-        "following": 0,
-        "public_repos": 3,
+        "created_at": "2017-12-03T23:52:40Z",
+        "followers": 4,
+        "following": 7,
+        "public_repos": 14,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Ectsang",
+      "score": 13,
+      "posts": 2,
+      "threads": [
+        "agentic-commerce-protocol/agentic-commerce-protocol#231"
+      ],
+      "topics": [
+        "acp-governance-binding"
+      ],
+      "repos": [
+        "agentic-commerce-protocol/agentic-commerce-protocol"
+      ],
+      "first_seen_ours": "2026-05-08T03:27:11Z",
+      "last_seen_ours": "2026-05-11T03:55:19Z",
+      "ship": 0,
+      "propose": 2,
+      "review": 0,
+      "mentions_received": 2,
+      "word_count": 498,
+      "github": {
+        "name": "Eric",
+        "bio": "Building agent payment infrastructure. AP2 / x402 / MPP / MCP\r\n    \r\n",
+        "company": null,
+        "location": "Hong Kong",
+        "blog": "https://goodmeta.co",
+        "email": null,
+        "twitter": "ericxtweets",
+        "created_at": "2011-09-17T08:14:39Z",
+        "followers": 33,
+        "following": 1,
+        "public_repos": 68,
         "type": "User"
       }
     },
@@ -4144,6 +4967,76 @@
       }
     },
     {
+      "login": "BadDaddyO",
+      "score": 13,
+      "posts": 4,
+      "threads": [
+        "langchain-ai/langchain#35691"
+      ],
+      "topics": [
+        "langchain-compliance-backend"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-08T20:25:38Z",
+      "last_seen_ours": "2026-04-09T21:29:04Z",
+      "ship": 0,
+      "propose": 1,
+      "review": 1,
+      "mentions_received": 3,
+      "word_count": 479,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2024-02-18T18:05:11Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 1,
+        "type": "User"
+      }
+    },
+    {
+      "login": "dembovvski",
+      "score": 13,
+      "posts": 3,
+      "threads": [
+        "langchain-ai/langchain#35691"
+      ],
+      "topics": [
+        "langchain-compliance-backend"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-19T15:48:14Z",
+      "last_seen_ours": "2026-04-20T10:37:49Z",
+      "ship": 2,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 0,
+      "word_count": 310,
+      "github": {
+        "name": "0xSolway",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-09-17T14:54:51Z",
+        "followers": 0,
+        "following": 2,
+        "public_repos": 1,
+        "type": "User"
+      }
+    },
+    {
       "login": "fairchildadrian9-create",
       "score": 13,
       "posts": 1,
@@ -4214,6 +5107,35 @@
       }
     },
     {
+      "login": "Bradsadevnow",
+      "score": 12,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 6,
+      "word_count": 0,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-06-22T13:56:35Z",
+        "followers": 2,
+        "following": 4,
+        "public_repos": 7,
+        "type": "User"
+      }
+    },
+    {
       "login": "ascender1729",
       "score": 12,
       "posts": 1,
@@ -4278,41 +5200,6 @@
       }
     },
     {
-      "login": "vineethsai",
-      "score": 12,
-      "posts": 1,
-      "threads": [
-        "cisco-ai-defense/defenseclaw#115"
-      ],
-      "topics": [
-        "defenseclaw-receipts"
-      ],
-      "repos": [
-        "cisco-ai-defense/defenseclaw"
-      ],
-      "first_seen_ours": "2026-04-22T19:02:34Z",
-      "last_seen_ours": "2026-04-22T19:02:34Z",
-      "ship": 0,
-      "propose": 1,
-      "review": 0,
-      "mentions_received": 3,
-      "word_count": 58,
-      "github": {
-        "name": "Vineeth Sai Narajala",
-        "bio": "Security Researcher",
-        "company": "Cisco",
-        "location": "NYC",
-        "blog": "https://vineethsai.com",
-        "email": null,
-        "twitter": null,
-        "created_at": "2016-11-01T08:12:41Z",
-        "followers": 37,
-        "following": 6,
-        "public_repos": 42,
-        "type": "User"
-      }
-    },
-    {
       "login": "Jairooh",
       "score": 12,
       "posts": 2,
@@ -4347,41 +5234,6 @@
         "followers": 4,
         "following": 2,
         "public_repos": 1,
-        "type": "User"
-      }
-    },
-    {
-      "login": "Shagun0402",
-      "score": 11,
-      "posts": 3,
-      "threads": [
-        "VeritasActa/verify#1"
-      ],
-      "topics": [
-        "veritas-signal-belief"
-      ],
-      "repos": [
-        "VeritasActa/verify"
-      ],
-      "first_seen_ours": "2026-04-12T12:25:36Z",
-      "last_seen_ours": "2026-04-22T06:54:09Z",
-      "ship": 0,
-      "propose": 0,
-      "review": 0,
-      "mentions_received": 4,
-      "word_count": 389,
-      "github": {
-        "name": "Shagun Paul",
-        "bio": "AI/ML Engineer @ Xansr Media\r\n",
-        "company": "Xansr Media",
-        "location": "New Delhi, India",
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2017-12-03T23:52:40Z",
-        "followers": 4,
-        "following": 7,
-        "public_repos": 14,
         "type": "User"
       }
     },
@@ -4491,23 +5343,42 @@
       }
     },
     {
-      "login": "open-agent-trust",
-      "score": 10,
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
+      "login": "klateefa",
+      "score": 11,
+      "posts": 1,
+      "threads": [
+        "google/adk-python#4764"
+      ],
+      "topics": [
+        "adk-python-governance"
+      ],
+      "repos": [
+        "google/adk-python"
+      ],
+      "first_seen_ours": "2026-03-12T09:00:53Z",
+      "last_seen_ours": "2026-03-12T09:00:53Z",
       "ship": 0,
       "propose": 0,
       "review": 0,
-      "mentions_received": 5,
-      "word_count": 0,
-      "github": null
+      "mentions_received": 4,
+      "word_count": 27,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-08-22T08:48:17Z",
+        "followers": 5,
+        "following": 0,
+        "public_repos": 0,
+        "type": "User"
+      }
     },
     {
-      "login": "VCOne-AI",
+      "login": "open-agent-trust",
       "score": 10,
       "posts": 0,
       "threads": [],
@@ -4596,6 +5467,64 @@
       }
     },
     {
+      "login": "amavashev",
+      "score": 10,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 5,
+      "word_count": 0,
+      "github": {
+        "name": "Albert M",
+        "bio": "Founder & CEO scalerX.ai, runcycles.io",
+        "company": "@K2NIO ",
+        "location": "New York",
+        "blog": "https://www.linkedin.com/in/amavashev/",
+        "email": "amavashev@k2n.io",
+        "twitter": "scalerXai",
+        "created_at": "2014-02-25T19:28:54Z",
+        "followers": 2,
+        "following": 12,
+        "public_repos": 16,
+        "type": "User"
+      }
+    },
+    {
+      "login": "alpha",
+      "score": 10,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 5,
+      "word_count": 0,
+      "github": {
+        "name": "Alpha",
+        "bio": null,
+        "company": null,
+        "location": "Everywhere",
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2015-10-25T23:05:32Z",
+        "followers": 9,
+        "following": 0,
+        "public_repos": 2,
+        "type": "Organization"
+      }
+    },
+    {
       "login": "xXMrNidaXx",
       "score": 10,
       "posts": 1,
@@ -4627,6 +5556,44 @@
         "followers": 1,
         "following": 1,
         "public_repos": 24,
+        "type": "User"
+      }
+    },
+    {
+      "login": "alex-pathcourse",
+      "score": 10,
+      "posts": 2,
+      "threads": [
+        "crewAIInc/crewAI#4560",
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "crewai-governance",
+        "langchain-memory"
+      ],
+      "repos": [
+        "crewAIInc/crewAI",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-23T03:05:15Z",
+      "last_seen_ours": "2026-04-23T03:11:48Z",
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 2,
+      "word_count": 311,
+      "github": {
+        "name": "Alex C. ",
+        "bio": "  Building autonomous agent infrastructure at PathCourse Health. x402 \u00b7 USDC \u00b7 Base L2 \u00b7 gateway.pathcoursehealth.com",
+        "company": "PathCourse Health",
+        "location": null,
+        "blog": " https://pathcoursehealth.com",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-04-05T17:30:59Z",
+        "followers": 1,
+        "following": 0,
+        "public_repos": 6,
         "type": "User"
       }
     },
@@ -4701,37 +5668,31 @@
       }
     },
     {
-      "login": "ZC502",
+      "login": "latest",
       "score": 8,
-      "posts": 2,
-      "threads": [
-        "OpenClaw/openclaw#49971"
-      ],
-      "topics": [
-        "openclaw-aae"
-      ],
-      "repos": [
-        "OpenClaw/openclaw"
-      ],
-      "first_seen_ours": "2026-04-05T02:44:20Z",
-      "last_seen_ours": "2026-04-05T08:28:17Z",
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
       "ship": 0,
-      "propose": 1,
+      "propose": 0,
       "review": 0,
-      "mentions_received": 1,
-      "word_count": 791,
+      "mentions_received": 4,
+      "word_count": 0,
       "github": {
-        "name": "ZuoCen Liu",
-        "bio": "Applied Mathematician | Octonion | NARH (Non-Associative Residual Hypothesis) | Agent | Robotics |\r\nTurning the \"\u0394t dilemma\" into adaptive, continuous physics.",
+        "name": null,
+        "bio": null,
         "company": null,
         "location": null,
         "blog": "",
-        "email": null,
-        "twitter": "liu_zc42321",
-        "created_at": "2025-07-01T09:35:01Z",
-        "followers": 1,
-        "following": 1,
-        "public_repos": 6,
+        "email": "sam.mctaggart+test@launchacademy.com",
+        "twitter": null,
+        "created_at": "2014-08-22T15:48:33Z",
+        "followers": 13,
+        "following": 0,
+        "public_repos": 0,
         "type": "User"
       }
     },
@@ -4771,6 +5732,80 @@
       }
     },
     {
+      "login": "vorim",
+      "score": 8,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 4,
+      "word_count": 0,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2020-05-28T20:16:17Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 0,
+        "type": "User"
+      }
+    },
+    {
+      "login": "d68fcee",
+      "score": 8,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 4,
+      "word_count": 0,
+      "github": null
+    },
+    {
+      "login": "eriknewton",
+      "score": 8,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 4,
+      "word_count": 0,
+      "github": {
+        "name": "Erik Newton",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": "newtonlaw",
+        "created_at": "2018-04-10T21:41:16Z",
+        "followers": 3,
+        "following": 0,
+        "public_repos": 5,
+        "type": "User"
+      }
+    },
+    {
       "login": "yotsuda",
       "score": 8,
       "posts": 3,
@@ -4806,44 +5841,6 @@
       }
     },
     {
-      "login": "VladUZH",
-      "score": 8,
-      "posts": 2,
-      "threads": [
-        "crewAIInc/crewAI#4875",
-        "langchain-ai/langchain#36232"
-      ],
-      "topics": [
-        "crewai-spec",
-        "langchain-memory"
-      ],
-      "repos": [
-        "crewAIInc/crewAI",
-        "langchain-ai/langchain"
-      ],
-      "first_seen_ours": "2026-04-03T12:42:38Z",
-      "last_seen_ours": "2026-04-15T23:20:43Z",
-      "ship": 0,
-      "propose": 0,
-      "review": 0,
-      "mentions_received": 1,
-      "word_count": 291,
-      "github": {
-        "name": "VladUZH",
-        "bio": "VladUZH",
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2017-02-10T06:17:30Z",
-        "followers": 18,
-        "following": 0,
-        "public_repos": 68,
-        "type": "User"
-      }
-    },
-    {
       "login": "adk-bot",
       "score": 8,
       "posts": 1,
@@ -4875,41 +5872,6 @@
         "followers": 11,
         "following": 0,
         "public_repos": 0,
-        "type": "User"
-      }
-    },
-    {
-      "login": "aniketh-maddipati",
-      "score": 8,
-      "posts": 0,
-      "threads": [
-        "langchain-ai/langchain#35691"
-      ],
-      "topics": [
-        "langchain-compliance-backend"
-      ],
-      "repos": [
-        "langchain-ai/langchain"
-      ],
-      "first_seen_ours": "2026-03-09T15:48:17Z",
-      "last_seen_ours": "2026-03-09T15:48:17Z",
-      "ship": 0,
-      "propose": 0,
-      "review": 0,
-      "mentions_received": 0,
-      "word_count": 578,
-      "github": {
-        "name": "Aniketh",
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2019-02-13T20:22:18Z",
-        "followers": 6,
-        "following": 7,
-        "public_repos": 39,
         "type": "User"
       }
     },
@@ -5000,66 +5962,37 @@
       }
     },
     {
-      "login": "klateefa",
+      "login": "greysonlalonde",
       "score": 7,
       "posts": 1,
       "threads": [
-        "google/adk-python#4764"
+        "crewAIInc/crewAI#5019"
       ],
       "topics": [
-        "adk-python-governance"
+        "crewai-primitives"
       ],
       "repos": [
-        "google/adk-python"
+        "crewAIInc/crewAI"
       ],
-      "first_seen_ours": "2026-03-12T09:00:53Z",
-      "last_seen_ours": "2026-03-12T09:00:53Z",
+      "first_seen_ours": "2026-05-04T07:13:07Z",
+      "last_seen_ours": "2026-05-04T07:13:07Z",
       "ship": 0,
-      "propose": 0,
-      "review": 0,
-      "mentions_received": 2,
-      "word_count": 27,
+      "propose": 1,
+      "review": 1,
+      "mentions_received": 0,
+      "word_count": 36,
       "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
+        "name": "Greyson LaLonde",
+        "bio": "engineering @ crewai",
+        "company": "@crewAIInc",
+        "location": "Taiwan",
+        "blog": "https://www.greysonlalonde.com/",
+        "email": "greyson.r.lalonde@gmail.com",
         "twitter": null,
-        "created_at": "2025-08-22T08:48:17Z",
-        "followers": 5,
-        "following": 0,
-        "public_repos": 0,
-        "type": "User"
-      }
-    },
-    {
-      "login": "latest",
-      "score": 6,
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "ship": 0,
-      "propose": 0,
-      "review": 0,
-      "mentions_received": 3,
-      "word_count": 0,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": "sam.mctaggart+test@launchacademy.com",
-        "twitter": null,
-        "created_at": "2014-08-22T15:48:33Z",
-        "followers": 13,
-        "following": 0,
-        "public_repos": 0,
+        "created_at": "2021-01-12T19:42:18Z",
+        "followers": 99,
+        "following": 2,
+        "public_repos": 16,
         "type": "User"
       }
     },
@@ -5099,6 +6032,51 @@
       }
     },
     {
+      "login": "meeetworld_bot",
+      "score": 6,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 3,
+      "word_count": 0,
+      "github": null
+    },
+    {
+      "login": "main",
+      "score": 6,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 3,
+      "word_count": 0,
+      "github": {
+        "name": "Vlad Vannov",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2016-07-21T18:22:08Z",
+        "followers": 19,
+        "following": 2,
+        "public_repos": 10,
+        "type": "User"
+      }
+    },
+    {
       "login": "research-agent",
       "score": 6,
       "posts": 0,
@@ -5126,6 +6104,22 @@
         "public_repos": 0,
         "type": "Organization"
       }
+    },
+    {
+      "login": "89ebf2e",
+      "score": 6,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 3,
+      "word_count": 0,
+      "github": null
     },
     {
       "login": "arewm",
@@ -5159,44 +6153,6 @@
         "followers": 21,
         "following": 0,
         "public_repos": 115,
-        "type": "User"
-      }
-    },
-    {
-      "login": "alex-pathcourse",
-      "score": 6,
-      "posts": 2,
-      "threads": [
-        "crewAIInc/crewAI#4560",
-        "langchain-ai/langchain#36232"
-      ],
-      "topics": [
-        "crewai-governance",
-        "langchain-memory"
-      ],
-      "repos": [
-        "crewAIInc/crewAI",
-        "langchain-ai/langchain"
-      ],
-      "first_seen_ours": "2026-04-23T03:05:15Z",
-      "last_seen_ours": "2026-04-23T03:11:48Z",
-      "ship": 0,
-      "propose": 0,
-      "review": 0,
-      "mentions_received": 0,
-      "word_count": 311,
-      "github": {
-        "name": "Alex C. ",
-        "bio": "  Building autonomous agent infrastructure at PathCourse Health. x402 \u00b7 USDC \u00b7 Base L2 \u00b7 gateway.pathcoursehealth.com",
-        "company": "PathCourse Health",
-        "location": null,
-        "blog": " https://pathcoursehealth.com",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-04-05T17:30:59Z",
-        "followers": 1,
-        "following": 0,
-        "public_repos": 6,
         "type": "User"
       }
     },
@@ -5236,6 +6192,43 @@
       }
     },
     {
+      "login": "udaysaai",
+      "score": 6,
+      "posts": 2,
+      "threads": [
+        "langchain-ai/langchain#35691",
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "langchain-compliance-backend",
+        "langchain-memory"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-27T06:36:40Z",
+      "last_seen_ours": "2026-04-27T06:36:52Z",
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 0,
+      "word_count": 128,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2022-01-28T12:02:03Z",
+        "followers": 1,
+        "following": 3,
+        "public_repos": 4,
+        "type": "User"
+      }
+    },
+    {
       "login": "bobrenze-bot",
       "score": 6,
       "posts": 1,
@@ -5267,6 +6260,111 @@
         "followers": 2,
         "following": 0,
         "public_repos": 16,
+        "type": "User"
+      }
+    },
+    {
+      "login": "m13v",
+      "score": 6,
+      "posts": 1,
+      "threads": [
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "langchain-memory"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-28T11:11:30Z",
+      "last_seen_ours": "2026-04-28T11:11:30Z",
+      "ship": 0,
+      "propose": 1,
+      "review": 0,
+      "mentions_received": 0,
+      "word_count": 83,
+      "github": {
+        "name": "Matthew Diakonov",
+        "bio": null,
+        "company": null,
+        "location": "San Francisco",
+        "blog": "https://m13v.com",
+        "email": null,
+        "twitter": null,
+        "created_at": "2022-05-01T00:46:52Z",
+        "followers": 217,
+        "following": 20,
+        "public_repos": 111,
+        "type": "User"
+      }
+    },
+    {
+      "login": "24na7igor",
+      "score": 6,
+      "posts": 12,
+      "threads": [
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "langchain-memory"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-05-07T18:25:58Z",
+      "last_seen_ours": "2026-05-08T09:51:44Z",
+      "ship": 0,
+      "propose": 1,
+      "review": 0,
+      "mentions_received": 0,
+      "word_count": 961,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2024-06-03T13:24:56Z",
+        "followers": 1,
+        "following": 1,
+        "public_repos": 2,
+        "type": "User"
+      }
+    },
+    {
+      "login": "alt-glitch",
+      "score": 5,
+      "posts": 1,
+      "threads": [
+        "NousResearch/hermes-agent#11692"
+      ],
+      "topics": [
+        "hermes-self-modification"
+      ],
+      "repos": [
+        "NousResearch/hermes-agent"
+      ],
+      "first_seen_ours": "2026-04-23T04:54:50Z",
+      "last_seen_ours": "2026-04-23T04:54:50Z",
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 1,
+      "word_count": 16,
+      "github": {
+        "name": "Siddharth Balyan",
+        "bio": "i like to build things.\r\nsometimes they break.\r\nother times they break other things.",
+        "company": "@NousResearch",
+        "location": "In front of a terminal",
+        "blog": "https://sidb.in",
+        "email": null,
+        "twitter": "sidbing",
+        "created_at": "2019-07-15T09:05:58Z",
+        "followers": 211,
+        "following": 76,
+        "public_repos": 61,
         "type": "User"
       }
     },
@@ -5411,6 +6509,41 @@
       }
     },
     {
+      "login": "RenzoMXD",
+      "score": 5,
+      "posts": 1,
+      "threads": [
+        "langchain-ai/langchain#35691"
+      ],
+      "topics": [
+        "langchain-compliance-backend"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-03-09T16:31:49Z",
+      "last_seen_ours": "2026-03-09T16:31:49Z",
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 1,
+      "word_count": 16,
+      "github": {
+        "name": "Renzo",
+        "bio": "You & Me together \u2764\ufe0f We can make magic \u2728",
+        "company": null,
+        "location": "NY",
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2024-05-27T19:57:59Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 39,
+        "type": "User"
+      }
+    },
+    {
       "login": "jmeridth",
       "score": 5,
       "posts": 1,
@@ -5481,9 +6614,9 @@
       "url": "https://github.com/FransDevelopment/open-agent-trust-registry/issues/28",
       "participants": [
         "aeoess",
+        "arian-gogani",
         "64R3N",
-        "FransDevelopment",
-        "arian-gogani"
+        "FransDevelopment"
       ],
       "participant_count": 4,
       "github": {
@@ -5531,9 +6664,10 @@
       "url": "https://github.com/NousResearch/hermes-agent/issues/11692",
       "participants": [
         "aeoess",
-        "tomjwxf"
+        "tomjwxf",
+        "alt-glitch"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
         "state": "open",
         "created_at": "2026-04-17T16:43:10Z",
@@ -5617,12 +6751,11 @@
         "narendrakumarnutalapati",
         "jagmarques",
         "itisparas",
-        "yuquan2088",
         "JohnnyTarrr",
         "rsbasic",
         "joaquinariasco-lab"
       ],
-      "participant_count": 14,
+      "participant_count": 13,
       "github": {
         "state": "open",
         "created_at": "2026-03-05T06:21:57Z",
@@ -5673,20 +6806,21 @@
         "haroldmalikfrimpong-ops",
         "MoltyCel",
         "kevinkaylie",
+        "alxvasilevvv",
+        "willamhou",
         "viftode4",
         "HMAKT99",
-        "yuquan2088",
-        "Alvasilev12",
-        "willamhou",
-        "jingchang0623-crypto",
-        "JohnnyTarrr",
         "piiiico",
-        "creatorrmode-lead",
+        "Alvasilev12",
+        "JohnnyTarrr",
+        "jingchang0623-crypto",
         "ZC502",
+        "steipete",
+        "creatorrmode-lead",
         "Ryce",
         "greenoriginals"
       ],
-      "participant_count": 16,
+      "participant_count": 17,
       "github": {
         "state": "open",
         "created_at": "2026-03-18T18:51:33Z",
@@ -5789,18 +6923,21 @@
       "url": "https://github.com/a2aproject/A2A/issues/1575",
       "participants": [
         "aeoess",
-        "vessenes",
         "MoltyCel",
+        "vessenes",
         "tomjwxf",
-        "kevinkaylie",
         "srotzin",
+        "kevinkaylie",
         "The-Nexus-Guard",
+        "kinthaiofficial",
+        "thebenignhacker",
         "ymc182",
         "chorghemaruti64-creator",
+        "Kzino",
         "ascender1729",
         "Copertino-Research"
       ],
-      "participant_count": 11,
+      "participant_count": 14,
       "github": {
         "state": "open",
         "created_at": "2026-03-02T22:29:28Z",
@@ -5823,11 +6960,11 @@
       "participants": [
         "aeoess",
         "haroldmalikfrimpong-ops",
+        "kenneives",
         "douglasborthwick-crypto",
         "MoltyCel",
-        "0xbrainkid",
         "srotzin",
-        "kenneives",
+        "0xbrainkid",
         "rnwy",
         "The-Nexus-Guard",
         "64R3N",
@@ -5860,36 +6997,41 @@
         "aeoess",
         "desiorac",
         "haroldmalikfrimpong-ops",
+        "kenneives",
         "douglasborthwick-crypto",
-        "vessenes",
         "MoltyCel",
+        "vessenes",
         "tomjwxf",
+        "srotzin",
         "QueBallSharken",
         "kevinkaylie",
-        "pshkv",
         "xsa520",
+        "pshkv",
+        "arian-gogani",
         "0xbrainkid",
         "agent-morrow",
-        "srotzin",
-        "kenneives",
         "64R3N",
         "archedark-ada",
         "FransDevelopment",
         "razashariff",
+        "lawcontinue",
+        "kinthaiofficial",
         "JKHeadley",
+        "msaleme",
         "citriac",
         "jagmarques",
-        "yuquan2088",
+        "cloakmaster",
         "internet-dot",
         "meridianmindx",
+        "JohnnyTarrr",
         "jingchang0623-crypto",
         "balthazar-bot",
-        "JohnnyTarrr",
+        "Kzino",
         "w3rc",
         "aleksandarperak33-hub",
         "Bortlesboat"
       ],
-      "participant_count": 31,
+      "participant_count": 36,
       "github": {
         "state": "open",
         "created_at": "2026-03-22T21:47:40Z",
@@ -5912,8 +7054,8 @@
       "participants": [
         "aeoess",
         "64R3N",
-        "citriac",
         "msaleme",
+        "citriac",
         "balthazar-bot",
         "kaligautier"
       ],
@@ -5940,14 +7082,15 @@
       "participants": [
         "aeoess",
         "MoltyCel",
+        "srotzin",
         "kevinkaylie",
         "pshkv",
         "0xbrainkid",
-        "srotzin",
         "viftode4",
+        "kinthaiofficial",
         "jagmarques"
       ],
-      "participant_count": 8,
+      "participant_count": 9,
       "github": {
         "state": "open",
         "created_at": "2026-04-05T21:17:24Z",
@@ -5971,11 +7114,12 @@
         "aeoess",
         "douglasborthwick-crypto",
         "MoltyCel",
-        "0xbrainkid",
         "srotzin",
-        "razashariff"
+        "0xbrainkid",
+        "razashariff",
+        "edisonduran"
       ],
-      "participant_count": 6,
+      "participant_count": 7,
       "github": {
         "state": "open",
         "created_at": "2026-04-12T17:03:59Z",
@@ -5998,11 +7142,13 @@
       "participants": [
         "aeoess",
         "MoltyCel",
-        "0xbrainkid",
         "srotzin",
-        "baronsengir007"
+        "0xbrainkid",
+        "vdineshk",
+        "baronsengir007",
+        "ravikiran438"
       ],
-      "participant_count": 5,
+      "participant_count": 7,
       "github": {
         "state": "open",
         "created_at": "2026-04-15T19:26:36Z",
@@ -6024,10 +7170,17 @@
       "url": "https://github.com/a2aproject/A2A/issues/1786",
       "participants": [
         "aeoess",
+        "haroldmalikfrimpong-ops",
         "kenneives",
-        "lawcontinue"
+        "srotzin",
+        "arian-gogani",
+        "lawcontinue",
+        "msaleme",
+        "thebenignhacker",
+        "SomeshZanwar",
+        "Liuyanfeng1234"
       ],
-      "participant_count": 3,
+      "participant_count": 10,
       "github": {
         "state": "open",
         "created_at": "2026-04-25T00:48:24Z",
@@ -6893,9 +8046,10 @@
       "participants": [
         "aeoess",
         "douglasborthwick-crypto",
-        "pshkv"
+        "pshkv",
+        "giskard09"
       ],
-      "participant_count": 3,
+      "participant_count": 4,
       "github": {
         "state": "open",
         "created_at": "2026-02-21T19:05:14Z",
@@ -7060,8 +8214,8 @@
       "url": "https://github.com/aeoess/agent-passport-system/issues/3",
       "participants": [
         "aeoess",
-        "pshkv",
-        "xsa520"
+        "xsa520",
+        "pshkv"
       ],
       "participant_count": 3,
       "github": {
@@ -7242,9 +8396,10 @@
       "project_id": "acp",
       "url": "https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/issues/231",
       "participants": [
-        "aeoess"
+        "aeoess",
+        "Ectsang"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "open",
         "created_at": "2026-04-23T02:48:59Z",
@@ -7376,19 +8531,20 @@
       "url": "https://github.com/corpollc/qntm/issues/7",
       "participants": [
         "aeoess",
+        "desiorac",
         "haroldmalikfrimpong-ops",
+        "kenneives",
         "douglasborthwick-crypto",
         "MoltyCel",
         "tomjwxf",
         "QueBallSharken",
         "kevinkaylie",
-        "pshkv",
         "xsa520",
-        "kenneives",
+        "pshkv",
         "archedark-ada",
         "nanookclaw"
       ],
-      "participant_count": 12,
+      "participant_count": 13,
       "github": {
         "state": "open",
         "created_at": "2026-03-27T23:29:43Z",
@@ -7436,16 +8592,18 @@
         "aeoess",
         "douglasborthwick-crypto",
         "vessenes",
-        "pshkv",
-        "xsa520",
-        "0xbrainkid",
         "srotzin",
+        "xsa520",
+        "pshkv",
+        "arian-gogani",
+        "0xbrainkid",
         "The-Nexus-Guard",
         "64R3N",
         "razashariff",
         "viftode4",
-        "Jovancoding",
         "kai-familiar",
+        "kinthaiofficial",
+        "Jovancoding",
         "hanselhansel",
         "Kelisi808",
         "mrperfectness-sketch",
@@ -7455,7 +8613,7 @@
         "xXMrNidaXx",
         "alex-pathcourse"
       ],
-      "participant_count": 21,
+      "participant_count": 23,
       "github": {
         "state": "open",
         "created_at": "2026-02-22T03:46:14Z",
@@ -7480,13 +8638,12 @@
         "0xbrainkid",
         "64R3N",
         "lowkey-divine",
-        "yuquan2088",
         "internet-dot",
         "manja316",
         "majorelalexis-stack",
         "ThinkOffApp"
       ],
-      "participant_count": 9,
+      "participant_count": 8,
       "github": {
         "state": "open",
         "created_at": "2026-03-09T13:37:37Z",
@@ -7512,11 +8669,11 @@
         "64R3N",
         "FransDevelopment",
         "razashariff",
-        "Jovancoding",
         "willamhou",
+        "Jovancoding",
+        "VladUZH",
         "meridianmindx",
-        "ori-cofounder",
-        "VladUZH"
+        "ori-cofounder"
       ],
       "participant_count": 10,
       "github": {
@@ -7545,8 +8702,8 @@
         "64R3N",
         "FransDevelopment",
         "jagmarques",
-        "yuquan2088",
-        "internet-dot"
+        "internet-dot",
+        "greysonlalonde"
       ],
       "participant_count": 8,
       "github": {
@@ -7571,19 +8728,20 @@
       "participants": [
         "aeoess",
         "haroldmalikfrimpong-ops",
+        "kenneives",
         "douglasborthwick-crypto",
         "MoltyCel",
+        "srotzin",
         "QueBallSharken",
         "0xbrainkid",
-        "kenneives",
         "rnwy",
         "The-Nexus-Guard",
-        "JhiNResH",
         "nutstrut",
+        "JhiNResH",
         "ThoughtProof",
         "AlexanderLawson17"
       ],
-      "participant_count": 13,
+      "participant_count": 14,
       "github": {
         "state": "open",
         "created_at": "2026-03-19T20:07:20Z",
@@ -7609,9 +8767,13 @@
       "project_id": "erc-8004",
       "url": "https://github.com/erc-8004/erc-8004-contracts/issues/77",
       "participants": [
-        "aeoess"
+        "aeoess",
+        "srotzin",
+        "vdineshk",
+        "alexchenai",
+        "EXDEV-oss"
       ],
-      "participant_count": 1,
+      "participant_count": 5,
       "github": {
         "state": "open",
         "created_at": "2026-04-23T02:49:17Z",
@@ -7633,14 +8795,15 @@
       "url": "https://github.com/google/adk-python/issues/4764",
       "participants": [
         "aeoess",
+        "alxvasilevvv",
+        "imran-siddique",
         "razashariff",
         "sunilp",
-        "imran-siddique",
         "internet-dot",
-        "adk-bot",
-        "klateefa"
+        "klateefa",
+        "adk-bot"
       ],
-      "participant_count": 7,
+      "participant_count": 8,
       "github": {
         "state": "closed",
         "created_at": "2026-03-08T18:18:48Z",
@@ -7691,9 +8854,10 @@
       "participants": [
         "aeoess",
         "tomjwxf",
-        "arian-gogani"
+        "arian-gogani",
+        "marcelamelara"
       ],
-      "participant_count": 3,
+      "participant_count": 4,
       "github": {
         "state": "open",
         "created_at": "2026-04-16T08:10:56Z",
@@ -7739,9 +8903,25 @@
       "project_id": null,
       "url": "https://github.com/langchain-ai/langchain/issues/35691",
       "participants": [
-        "aniketh-maddipati"
+        "aeoess",
+        "srotzin",
+        "arian-gogani",
+        "vdineshk",
+        "willamhou",
+        "nutstrut",
+        "jagmarques",
+        "aniketh-maddipati",
+        "VladUZH",
+        "lktron00",
+        "meridianmindx",
+        "hanselhansel",
+        "mbarakats",
+        "BadDaddyO",
+        "dembovvski",
+        "udaysaai",
+        "RenzoMXD"
       ],
-      "participant_count": 1,
+      "participant_count": 17,
       "github": {
         "state": "open",
         "created_at": "2026-03-09T15:48:17Z",
@@ -7768,28 +8948,32 @@
       "url": "https://github.com/langchain-ai/langchain/issues/36232",
       "participants": [
         "aeoess",
-        "0xbrainkid",
         "srotzin",
+        "0xbrainkid",
         "64R3N",
-        "theaniketgiri",
+        "vdineshk",
         "viftode4",
-        "yuquan2088",
+        "theaniketgiri",
+        "giskard09",
+        "kinthaiofficial",
+        "VladUZH",
         "IndrasNet108",
         "internet-dot",
         "maxsnow651-dev",
-        "majorelalexis-stack",
-        "hanselhansel",
         "meridianmindx",
-        "vdineshk",
+        "hanselhansel",
+        "majorelalexis-stack",
         "mrperfectness-sketch",
         "fairchildadrian9-create",
         "Jairooh",
         "aleksandarperak33-hub",
-        "VladUZH",
         "alex-pathcourse",
-        "bobrenze-bot"
+        "udaysaai",
+        "bobrenze-bot",
+        "m13v",
+        "24na7igor"
       ],
-      "participant_count": 21,
+      "participant_count": 25,
       "github": {
         "state": "open",
         "created_at": "2026-03-25T16:38:31Z",
@@ -7866,9 +9050,11 @@
       "project_id": "agent-governance-toolkit",
       "url": "https://github.com/microsoft/agent-governance-toolkit/issues/1354",
       "participants": [
-        "aeoess"
+        "aeoess",
+        "tomjwxf",
+        "imran-siddique"
       ],
-      "participant_count": 1,
+      "participant_count": 3,
       "github": {
         "state": "open",
         "created_at": "2026-04-23T02:48:02Z",
@@ -7891,8 +9077,8 @@
       "participants": [
         "aeoess",
         "imran-siddique",
-        "msaleme",
-        "lawcontinue"
+        "lawcontinue",
+        "msaleme"
       ],
       "participant_count": 4,
       "github": {
@@ -7932,7 +9118,7 @@
     {
       "id": "ossf/security-insights#171",
       "topic": "ossf-agent-provenance",
-      "title": "Scope question: agent-produced code provenance fields (pre-SIEP discussion)",
+      "title": "SIEP: Agent-produced code provenance fields",
       "repo": "ossf/security-insights",
       "number": 171,
       "project_id": null,
@@ -8059,12 +9245,12 @@
   ],
   "stats": {
     "projects": 18,
-    "people": 117,
-    "people_total_raw": 131,
+    "people": 151,
+    "people_total_raw": 172,
     "threads": 97,
     "threads_mapped_to_project": 31,
     "projects_enriched": 12,
-    "people_enriched": 111,
+    "people_enriched": 140,
     "threads_enriched": 97
   }
 }
