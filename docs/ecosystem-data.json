@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T03:27:00.181326+00:00",
+  "generated_at": "2026-05-30T00:10:31.658924+00:00",
   "projects": [
     {
       "name": "Agent2Agent Protocol",
@@ -28,11 +28,11 @@
       "_github": {
         "repo": "a2aproject/A2A",
         "created_at": "2025-03-25T18:44:21Z",
-        "pushed_at": "2026-04-23T14:31:17Z",
-        "updated_at": "2026-04-23T19:06:58Z",
-        "stargazers": 23395,
-        "forks": 2363,
-        "open_issues": 237,
+        "pushed_at": "2026-05-29T14:56:18Z",
+        "updated_at": "2026-05-29T21:16:22Z",
+        "stargazers": 24061,
+        "forks": 2441,
+        "open_issues": 270,
         "license": "Apache-2.0",
         "description": "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications.",
         "homepage": "https://a2a-protocol.org/",
@@ -77,11 +77,11 @@
       "_github": {
         "repo": "agentic-commerce-protocol/agentic-commerce-protocol",
         "created_at": "2025-09-29T04:09:29Z",
-        "pushed_at": "2026-04-17T21:48:31Z",
-        "updated_at": "2026-04-23T07:03:28Z",
-        "stargazers": 1351,
-        "forks": 204,
-        "open_issues": 102,
+        "pushed_at": "2026-05-22T16:43:56Z",
+        "updated_at": "2026-05-29T12:00:41Z",
+        "stargazers": 1414,
+        "forks": 219,
+        "open_issues": 111,
         "license": "Apache-2.0",
         "description": "The Agentic Commerce Protocol (ACP) is an interaction model and open standard for connecting buyers, their AI agents, and businesses to complete purchases seamlessly. The specification is currently maintained by OpenAI and Stripe.",
         "homepage": "https://agenticcommerce.dev",
@@ -139,11 +139,11 @@
       "_github": {
         "repo": "microsoft/agent-governance-toolkit",
         "created_at": "2026-03-02T22:11:47Z",
-        "pushed_at": "2026-04-23T19:21:11Z",
-        "updated_at": "2026-04-23T20:06:53Z",
-        "stargazers": 1197,
-        "forks": 231,
-        "open_issues": 31,
+        "pushed_at": "2026-05-29T23:11:18Z",
+        "updated_at": "2026-05-29T23:20:42Z",
+        "stargazers": 3351,
+        "forks": 487,
+        "open_issues": 25,
         "license": "MIT",
         "description": "AI Agent Governance Toolkit \u2014 Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
         "homepage": null,
@@ -194,10 +194,10 @@
       "_github": {
         "repo": "haroldmalikfrimpong-ops/agentid-aps-interop",
         "created_at": "2026-04-09T04:57:21Z",
-        "pushed_at": "2026-04-22T19:31:06Z",
-        "updated_at": "2026-04-22T19:31:10Z",
+        "pushed_at": "2026-04-30T08:46:12Z",
+        "updated_at": "2026-04-30T08:46:17Z",
         "stargazers": 1,
-        "forks": 4,
+        "forks": 5,
         "open_issues": 2,
         "license": null,
         "description": "Joint interop test vectors: AgentID identity + APS authorization + governance receipts",
@@ -257,10 +257,10 @@
         "repo": "worldcoin/agentkit-shopify-demo",
         "created_at": "2026-04-16T19:08:29Z",
         "pushed_at": "2026-04-17T14:02:05Z",
-        "updated_at": "2026-04-18T19:56:49Z",
-        "stargazers": 1,
+        "updated_at": "2026-05-27T18:10:12Z",
+        "stargazers": 4,
         "forks": 1,
-        "open_issues": 1,
+        "open_issues": 2,
         "license": null,
         "description": "agentkit-shopify-demo repository",
         "homepage": "",
@@ -419,13 +419,13 @@
       "_github": {
         "repo": "aeoess/agent-passport-system",
         "created_at": "2026-02-18T23:15:58Z",
-        "pushed_at": "2026-04-23T18:31:27Z",
-        "updated_at": "2026-04-23T18:31:31Z",
-        "stargazers": 13,
-        "forks": 5,
-        "open_issues": 9,
+        "pushed_at": "2026-05-28T09:02:44Z",
+        "updated_at": "2026-05-28T09:02:49Z",
+        "stargazers": 19,
+        "forks": 9,
+        "open_issues": 11,
         "license": "Apache-2.0",
-        "description": "Cryptographic identity, delegation, governance, and commerce protocol for AI agents. Ed25519 signatures, 125 protocol modules, 2410 tests. npm install agent-passport-system",
+        "description": "Cryptographic identity, delegation, governance, and commerce protocol for AI agents. Ed25519 signatures, 107 protocol modules, 2966 tests. npm install agent-passport-system",
         "homepage": "https://aeoess.com/passport.html",
         "archived": false,
         "default_branch": "main",
@@ -520,11 +520,11 @@
       "_github": {
         "repo": "erc-8004/erc-8004-contracts",
         "created_at": "2025-10-08T15:54:57Z",
-        "pushed_at": "2026-04-09T02:02:31Z",
-        "updated_at": "2026-04-22T09:40:10Z",
-        "stargazers": 212,
-        "forks": 86,
-        "open_issues": 41,
+        "pushed_at": "2026-05-15T01:37:20Z",
+        "updated_at": "2026-05-17T07:00:56Z",
+        "stargazers": 218,
+        "forks": 90,
+        "open_issues": 44,
         "license": null,
         "description": "Registry contracts curated by the 8004 team",
         "homepage": "https://eips.ethereum.org/EIPS/eip-8004",
@@ -581,11 +581,11 @@
       "_github": {
         "repo": "Helixar-AI/HDP",
         "created_at": "2026-03-25T22:51:06Z",
-        "pushed_at": "2026-04-23T08:05:57Z",
-        "updated_at": "2026-04-23T07:19:17Z",
-        "stargazers": 16,
-        "forks": 4,
-        "open_issues": 5,
+        "pushed_at": "2026-05-09T08:26:11Z",
+        "updated_at": "2026-05-28T16:14:32Z",
+        "stargazers": 17,
+        "forks": 5,
+        "open_issues": 7,
         "license": "Apache-2.0",
         "description": "Human Delegation Provenance Protocol - cryptographic chain-of-custody for agentic AI",
         "homepage": "https://helixar.ai/about/labs/hdp/",
@@ -682,9 +682,9 @@
       "_github": {
         "repo": "FransDevelopment/open-agent-trust-registry",
         "created_at": "2026-03-16T03:43:39Z",
-        "pushed_at": "2026-04-23T19:18:48Z",
-        "updated_at": "2026-04-23T19:18:52Z",
-        "stargazers": 9,
+        "pushed_at": "2026-05-29T23:18:27Z",
+        "updated_at": "2026-05-29T23:18:31Z",
+        "stargazers": 10,
         "forks": 13,
         "open_issues": 8,
         "license": "MIT",
@@ -729,14 +729,14 @@
       "_github": {
         "repo": "sint-ai/sint-protocol",
         "created_at": "2026-03-17T04:09:32Z",
-        "pushed_at": "2026-04-22T16:52:28Z",
-        "updated_at": "2026-04-18T17:01:04Z",
-        "stargazers": 3,
-        "forks": 5,
-        "open_issues": 41,
+        "pushed_at": "2026-05-29T21:25:29Z",
+        "updated_at": "2026-05-29T21:25:32Z",
+        "stargazers": 9,
+        "forks": 7,
+        "open_issues": 33,
         "license": "Apache-2.0",
-        "description": "Open protocol and reference stack for governing AI agent actions in physical and safety-critical systems",
-        "homepage": "https://docs.sint.gg",
+        "description": "Open-source runtime security and governance for AI agents, MCP tools, robotics, industrial automation, and physical AI.",
+        "homepage": "https://sint.gg",
         "archived": false,
         "default_branch": "main",
         "language": "TypeScript"
@@ -805,11 +805,11 @@
       "_github": {
         "repo": "coinbase/x402",
         "created_at": "2026-04-02T16:51:03Z",
-        "pushed_at": "2026-04-23T20:06:53Z",
-        "updated_at": "2026-04-23T13:01:50Z",
-        "stargazers": 58,
-        "forks": 56,
-        "open_issues": 84,
+        "pushed_at": "2026-05-29T10:32:48Z",
+        "updated_at": "2026-05-29T14:30:49Z",
+        "stargazers": 87,
+        "forks": 101,
+        "open_issues": 144,
         "license": "Apache-2.0",
         "description": "A payments protocol for the internet. Built on HTTP.",
         "homepage": "https://x402.org",
@@ -855,11 +855,11 @@
       "_github": {
         "repo": "highflame-ai/zeroid",
         "created_at": "2026-03-17T10:10:32Z",
-        "pushed_at": "2026-04-23T18:51:21Z",
-        "updated_at": "2026-04-23T06:28:14Z",
-        "stargazers": 86,
-        "forks": 9,
-        "open_issues": 26,
+        "pushed_at": "2026-05-29T16:27:57Z",
+        "updated_at": "2026-05-29T06:24:22Z",
+        "stargazers": 141,
+        "forks": 14,
+        "open_issues": 19,
         "license": "Apache-2.0",
         "description": "ZeroID: Autonomous Agent Identity Management System (AAIMS)",
         "homepage": "https://highflame.com/",
@@ -872,8 +872,8 @@
   "people": [
     {
       "login": "aeoess",
-      "score": 6054,
-      "posts": 640,
+      "score": 6238,
+      "posts": 660,
       "threads": [
         "FransDevelopment/open-agent-trust-registry#24",
         "FransDevelopment/open-agent-trust-registry#28",
@@ -896,6 +896,7 @@
         "a2aproject/A2A#1742",
         "a2aproject/A2A#1755",
         "a2aproject/A2A#1786",
+        "a2aproject/A2A#1850",
         "aaif/project-proposals#12",
         "aeoess/agent-governance-vocabulary#28",
         "aeoess/agent-governance-vocabulary#29",
@@ -952,6 +953,7 @@
         "aae-aps-mapping",
         "aaif-sint-submission",
         "acp-governance-binding",
+        "action-ref-joint-id",
         "adk-python-governance",
         "aeoess-agent-passport-system-1",
         "aeoess-agent-passport-system-10",
@@ -1050,40 +1052,42 @@
         "worldcoin/agentkit-shopify-demo"
       ],
       "first_seen_ours": "2026-02-21T19:05:14Z",
-      "last_seen_ours": "2026-05-14T16:42:17Z",
-      "ship": 467,
-      "propose": 525,
-      "review": 168,
-      "mentions_received": 452,
-      "word_count": 161014,
+      "last_seen_ours": "2026-05-28T20:26:23Z",
+      "ship": 487,
+      "propose": 531,
+      "review": 171,
+      "mentions_received": 477,
+      "word_count": 164624,
       "github": {
         "name": "\u00e6\u0153ss",
-        "bio": "Tymofii Pidlisnyi                                 \u00b7 Editor-in-Chief, The Agent Times \u00b7 Building governance infrastructure for the agent economy",
+        "bio": "Tymofii Pidlisnyi                                 \u00b7 Building governance infrastructure for the agent economy",
         "company": null,
-        "location": null,
+        "location": "San Francisco, CA",
         "blog": "https://aeoess.com",
         "email": "signal@aeoess.com",
         "twitter": "tymofiii",
         "created_at": "2024-05-30T19:17:32Z",
-        "followers": 26,
-        "following": 40,
-        "public_repos": 43,
+        "followers": 29,
+        "following": 46,
+        "public_repos": 51,
         "type": "User"
       }
     },
     {
       "login": "desiorac",
-      "score": 1410,
-      "posts": 405,
+      "score": 1420,
+      "posts": 406,
       "threads": [
         "OWASP/www-project-top-10-for-large-language-model-applications#802",
         "a2aproject/A2A#1672",
+        "a2aproject/A2A#1786",
         "aeoess/agent-passport-system#13",
         "corpollc/qntm#6",
         "corpollc/qntm#7",
         "massivescale-ai/agentic-trust-framework#8"
       ],
       "topics": [
+        "a2a-cai-extension-proposal",
         "agent-identity-verification",
         "atf-elements",
         "authority-constraints",
@@ -1099,12 +1103,12 @@
         "massivescale-ai/agentic-trust-framework"
       ],
       "first_seen_ours": "2026-03-16T14:42:40Z",
-      "last_seen_ours": "2026-05-02T07:46:57Z",
-      "ship": 63,
+      "last_seen_ours": "2026-05-19T19:51:54Z",
+      "ship": 64,
       "propose": 188,
       "review": 94,
-      "mentions_received": 192,
-      "word_count": 66633,
+      "mentions_received": 193,
+      "word_count": 66699,
       "github": {
         "name": "arkforge",
         "bio": null,
@@ -1121,9 +1125,56 @@
       }
     },
     {
+      "login": "kenneives",
+      "score": 1233,
+      "posts": 120,
+      "threads": [
+        "a2aproject/A2A#1628",
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1786",
+        "a2aproject/A2A#1850",
+        "corpollc/qntm#7",
+        "douglasborthwick-crypto/insumer-examples#1"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "action-ref-joint-id",
+        "agent-identity-verification",
+        "authority-constraints",
+        "insumer-multi-attestation",
+        "trust-signals-schema"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "corpollc/qntm",
+        "douglasborthwick-crypto/insumer-examples"
+      ],
+      "first_seen_ours": "2026-04-06T17:41:45Z",
+      "last_seen_ours": "2026-05-28T16:34:07Z",
+      "ship": 122,
+      "propose": 80,
+      "review": 36,
+      "mentions_received": 102,
+      "word_count": 32786,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2022-03-10T19:02:43Z",
+        "followers": 4,
+        "following": 2,
+        "public_repos": 8,
+        "type": "User"
+      }
+    },
+    {
       "login": "haroldmalikfrimpong-ops",
-      "score": 1210,
-      "posts": 152,
+      "score": 1217,
+      "posts": 153,
       "threads": [
         "OpenClaw/openclaw#49971",
         "a2aproject/A2A#1628",
@@ -1157,12 +1208,12 @@
         "douglasborthwick-crypto/insumer-examples"
       ],
       "first_seen_ours": "2026-03-22T21:47:40Z",
-      "last_seen_ours": "2026-05-08T21:34:09Z",
-      "ship": 81,
+      "last_seen_ours": "2026-05-21T21:12:06Z",
+      "ship": 82,
       "propose": 52,
       "review": 39,
-      "mentions_received": 185,
-      "word_count": 20452,
+      "mentions_received": 186,
+      "word_count": 20588,
       "github": {
         "name": null,
         "bio": "Building the identity layer for AI agents. Founder @getagentid. WG\r\n founding member (QSP-1, DID Resolution, Entity Verification).",
@@ -1172,61 +1223,16 @@
         "email": null,
         "twitter": "Getagentid_",
         "created_at": "2026-02-13T14:17:35Z",
-        "followers": 7,
+        "followers": 6,
         "following": 0,
         "public_repos": 14,
         "type": "User"
       }
     },
     {
-      "login": "kenneives",
-      "score": 1022,
-      "posts": 101,
-      "threads": [
-        "a2aproject/A2A#1628",
-        "a2aproject/A2A#1672",
-        "a2aproject/A2A#1786",
-        "corpollc/qntm#7",
-        "douglasborthwick-crypto/insumer-examples#1"
-      ],
-      "topics": [
-        "a2a-cai-extension-proposal",
-        "agent-identity-verification",
-        "authority-constraints",
-        "insumer-multi-attestation",
-        "trust-signals-schema"
-      ],
-      "repos": [
-        "a2aproject/A2A",
-        "corpollc/qntm",
-        "douglasborthwick-crypto/insumer-examples"
-      ],
-      "first_seen_ours": "2026-04-06T17:41:45Z",
-      "last_seen_ours": "2026-05-14T15:50:39Z",
-      "ship": 101,
-      "propose": 74,
-      "review": 32,
-      "mentions_received": 74,
-      "word_count": 28405,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2022-03-10T19:02:43Z",
-        "followers": 5,
-        "following": 1,
-        "public_repos": 6,
-        "type": "User"
-      }
-    },
-    {
       "login": "douglasborthwick-crypto",
-      "score": 954,
-      "posts": 122,
+      "score": 970,
+      "posts": 126,
       "threads": [
         "a2aproject/A2A#1628",
         "a2aproject/A2A#1672",
@@ -1262,24 +1268,24 @@
         "douglasborthwick-crypto/insumer-examples"
       ],
       "first_seen_ours": "2026-02-25T20:50:33Z",
-      "last_seen_ours": "2026-04-25T12:21:15Z",
-      "ship": 50,
-      "propose": 46,
-      "review": 29,
-      "mentions_received": 92,
-      "word_count": 28596,
+      "last_seen_ours": "2026-05-24T17:24:33Z",
+      "ship": 51,
+      "propose": 47,
+      "review": 30,
+      "mentions_received": 93,
+      "word_count": 29399,
       "github": {
         "name": "Douglas Borthwick",
-        "bio": "Building InsumerAPI \u2014 cryptographic proof of on-chain state for commerce and AI agents. Attestations, trust profiles, Merkle proofs. 33 chains. 5 SDKs",
+        "bio": "Building InsumerAPI \u2014 cryptographic proof of on-chain state for commerce and AI agents. Attestations, trust profiles, Merkle proofs. 37 chains. 5 SDKs",
         "company": "The Insumer Model\u2122",
         "location": "New York",
         "blog": "www.insumermodel.com",
-        "email": null,
+        "email": "douglas@insumermodel.com",
         "twitter": "theinsumermodel",
         "created_at": "2026-01-21T14:27:08Z",
-        "followers": 8,
-        "following": 2,
-        "public_repos": 36,
+        "followers": 9,
+        "following": 5,
+        "public_repos": 40,
         "type": "User"
       }
     },
@@ -1342,8 +1348,8 @@
         "twitter": "moltrust",
         "created_at": "2026-02-18T12:53:54Z",
         "followers": 2,
-        "following": 0,
-        "public_repos": 38,
+        "following": 1,
+        "public_repos": 42,
         "type": "User"
       }
     },
@@ -1384,7 +1390,7 @@
         "email": "vessenes@gmail.com",
         "twitter": null,
         "created_at": "2011-11-16T15:21:04Z",
-        "followers": 32,
+        "followers": 30,
         "following": 4,
         "public_repos": 28,
         "type": "User"
@@ -1392,8 +1398,8 @@
     },
     {
       "login": "tomjwxf",
-      "score": 718,
-      "posts": 44,
+      "score": 760,
+      "posts": 48,
       "threads": [
         "NousResearch/hermes-agent#11692",
         "VeritasActa/verify#1",
@@ -1446,24 +1452,24 @@
         "ossf/security-insights"
       ],
       "first_seen_ours": "2026-04-10T17:54:26Z",
-      "last_seen_ours": "2026-04-30T09:04:15Z",
-      "ship": 54,
-      "propose": 60,
-      "review": 25,
-      "mentions_received": 25,
-      "word_count": 17873,
+      "last_seen_ours": "2026-05-17T08:38:57Z",
+      "ship": 58,
+      "propose": 63,
+      "review": 26,
+      "mentions_received": 31,
+      "word_count": 18369,
       "github": {
         "name": "TJF",
-        "bio": "Ex-HF mngr, now open source zero trust infra - Microsoft Agent Governance Toolkit and AWS Cedar for Agents contributor",
+        "bio": "Ex-HF mngr, zero trust infra ",
         "company": "ScopeBlind Pty Ltd (ACN: 693 027 440)",
         "location": "Australia",
         "blog": "www.scopeblind.com",
         "email": null,
         "twitter": "TJWXF3",
         "created_at": "2025-08-14T03:31:17Z",
-        "followers": 91,
-        "following": 2089,
-        "public_repos": 57,
+        "followers": 134,
+        "following": 118,
+        "public_repos": 61,
         "type": "User"
       }
     },
@@ -1525,7 +1531,94 @@
         "created_at": "2023-07-19T20:57:32Z",
         "followers": 4,
         "following": 1,
-        "public_repos": 97,
+        "public_repos": 212,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Liuyanfeng1234",
+      "score": 523,
+      "posts": 49,
+      "threads": [
+        "a2aproject/A2A#1786"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal"
+      ],
+      "repos": [
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-05-14T13:56:07Z",
+      "last_seen_ours": "2026-05-22T23:33:51Z",
+      "ship": 52,
+      "propose": 64,
+      "review": 21,
+      "mentions_received": 16,
+      "word_count": 15780,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-02-25T12:46:50Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 2,
+        "type": "User"
+      }
+    },
+    {
+      "login": "arian-gogani",
+      "score": 509,
+      "posts": 54,
+      "threads": [
+        "FransDevelopment/open-agent-trust-registry#28",
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32",
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1786",
+        "crewAIInc/crewAI#4560",
+        "in-toto/attestation#549",
+        "langchain-ai/langchain#35691"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "agent-identity-verification",
+        "aivss-multi-agent-governance",
+        "crewai-governance",
+        "in-toto-decision-receipt",
+        "langchain-compliance-backend",
+        "oatr-behavioral-history"
+      ],
+      "repos": [
+        "FransDevelopment/open-agent-trust-registry",
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
+        "a2aproject/A2A",
+        "crewAIInc/crewAI",
+        "in-toto/attestation",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-16T22:51:21Z",
+      "last_seen_ours": "2026-05-26T06:07:07Z",
+      "ship": 38,
+      "propose": 20,
+      "review": 13,
+      "mentions_received": 95,
+      "word_count": 6844,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-03-01T17:39:59Z",
+        "followers": 5,
+        "following": 1,
+        "public_repos": 21,
         "type": "User"
       }
     },
@@ -1578,9 +1671,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2025-11-22T12:06:23Z",
-        "followers": 4,
+        "followers": 3,
         "following": 10,
-        "public_repos": 8,
+        "public_repos": 10,
         "type": "User"
       }
     },
@@ -1629,64 +1722,16 @@
         "email": null,
         "twitter": null,
         "created_at": "2023-03-28T02:14:12Z",
-        "followers": 3,
+        "followers": 2,
         "following": 1,
         "public_repos": 4,
         "type": "User"
       }
     },
     {
-      "login": "xsa520",
-      "score": 395,
-      "posts": 75,
-      "threads": [
-        "a2aproject/A2A#1672",
-        "a2aproject/A2A#1717",
-        "aeoess/agent-passport-system#3",
-        "aeoess/agent-passport-system#5",
-        "corpollc/qntm#7",
-        "crewAIInc/crewAI#4560"
-      ],
-      "topics": [
-        "a2a-signing-custody",
-        "aeoess-agent-passport-system-3",
-        "agent-identity-verification",
-        "authority-constraints",
-        "crewai-governance",
-        "ed25519-x25519-vectors"
-      ],
-      "repos": [
-        "a2aproject/A2A",
-        "aeoess/agent-passport-system",
-        "corpollc/qntm",
-        "crewAIInc/crewAI"
-      ],
-      "first_seen_ours": "2026-03-18T02:50:10Z",
-      "last_seen_ours": "2026-04-24T01:14:52Z",
-      "ship": 5,
-      "propose": 60,
-      "review": 3,
-      "mentions_received": 82,
-      "word_count": 12561,
-      "github": {
-        "name": "Chou Deyu",
-        "bio": "X (Twitter) account @dale_chou is compromised and no longer under my control. Activity from that account should not be attributed to me.",
-        "company": null,
-        "location": "Taiwan",
-        "blog": "https://decifact-site.vercel.app",
-        "email": "xsa52000@gmail.com",
-        "twitter": null,
-        "created_at": "2025-04-28T10:57:57Z",
-        "followers": 4,
-        "following": 0,
-        "public_repos": 8,
-        "type": "User"
-      }
-    },
-    {
       "login": "pshkv",
-      "score": 393,
-      "posts": 36,
+      "score": 410,
+      "posts": 39,
       "threads": [
         "FransDevelopment/open-agent-trust-registry#24",
         "OWASP/www-project-top-10-for-large-language-model-applications#802",
@@ -1729,73 +1774,72 @@
         "sint-ai/sint-protocol"
       ],
       "first_seen_ours": "2026-04-04T06:07:20Z",
-      "last_seen_ours": "2026-04-24T08:01:54Z",
-      "ship": 22,
-      "propose": 31,
+      "last_seen_ours": "2026-05-15T03:23:43Z",
+      "ship": 23,
+      "propose": 33,
       "review": 3,
-      "mentions_received": 29,
-      "word_count": 8395,
+      "mentions_received": 32,
+      "word_count": 8850,
       "github": {
         "name": "Illia Pashkov",
-        "bio": "Chief AI Office. Intelligence Architect. Director of Product Innovation & Design",
+        "bio": "Chief AI Officer. Intelligence Architect. Director of Product Innovation & Design",
         "company": "SINT Labs",
         "location": "San Francisco",
         "blog": "www.sint.gg",
         "email": null,
         "twitter": "ipashkov",
         "created_at": "2017-10-12T19:45:00Z",
-        "followers": 11,
-        "following": 41,
-        "public_repos": 13,
+        "followers": 14,
+        "following": 47,
+        "public_repos": 16,
         "type": "User"
       }
     },
     {
-      "login": "arian-gogani",
-      "score": 377,
-      "posts": 40,
+      "login": "xsa520",
+      "score": 395,
+      "posts": 75,
       "threads": [
-        "FransDevelopment/open-agent-trust-registry#28",
         "a2aproject/A2A#1672",
-        "a2aproject/A2A#1786",
-        "crewAIInc/crewAI#4560",
-        "in-toto/attestation#549",
-        "langchain-ai/langchain#35691"
+        "a2aproject/A2A#1717",
+        "aeoess/agent-passport-system#3",
+        "aeoess/agent-passport-system#5",
+        "corpollc/qntm#7",
+        "crewAIInc/crewAI#4560"
       ],
       "topics": [
-        "a2a-cai-extension-proposal",
+        "a2a-signing-custody",
+        "aeoess-agent-passport-system-3",
         "agent-identity-verification",
+        "authority-constraints",
         "crewai-governance",
-        "in-toto-decision-receipt",
-        "langchain-compliance-backend",
-        "oatr-behavioral-history"
+        "ed25519-x25519-vectors"
       ],
       "repos": [
-        "FransDevelopment/open-agent-trust-registry",
         "a2aproject/A2A",
-        "crewAIInc/crewAI",
-        "in-toto/attestation",
-        "langchain-ai/langchain"
+        "aeoess/agent-passport-system",
+        "corpollc/qntm",
+        "crewAIInc/crewAI"
       ],
-      "first_seen_ours": "2026-04-16T22:51:21Z",
-      "last_seen_ours": "2026-05-14T15:28:07Z",
-      "ship": 30,
-      "propose": 18,
-      "review": 12,
-      "mentions_received": 54,
-      "word_count": 5479,
+      "first_seen_ours": "2026-03-18T02:50:10Z",
+      "last_seen_ours": "2026-04-24T01:14:52Z",
+      "ship": 5,
+      "propose": 60,
+      "review": 3,
+      "mentions_received": 82,
+      "word_count": 12561,
       "github": {
-        "name": null,
-        "bio": null,
+        "name": "Chou Deyu",
+        "bio": "X (Twitter) account @dale_chou is compromised and no longer under my control. Activity from that account should not be attributed to me.",
         "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
+        "location": "Taiwan",
+        "blog": "https://www.decifact.com/",
+        "email": "xsa52000@gmail.com",
         "twitter": null,
-        "created_at": "2026-03-01T17:39:59Z",
-        "followers": 3,
-        "following": 1,
-        "public_repos": 15,
+        "created_at": "2025-04-28T10:57:57Z",
+        "followers": 4,
+        "following": 0,
+        "public_repos": 10,
         "type": "User"
       }
     },
@@ -1848,6 +1892,55 @@
       "mentions_received": 39,
       "word_count": 11489,
       "github": {
+        "name": "brainKID",
+        "bio": "CEO at brainAI",
+        "company": "@brainAI-bot ",
+        "location": null,
+        "blog": "https://brainai.bot/",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-01-27T12:41:42Z",
+        "followers": 12,
+        "following": 1,
+        "public_repos": 29,
+        "type": "User"
+      }
+    },
+    {
+      "login": "vdineshk",
+      "score": 300,
+      "posts": 22,
+      "threads": [
+        "a2aproject/A2A#1628",
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1755",
+        "a2aproject/A2A#1786",
+        "erc-8004/erc-8004-contracts#77",
+        "langchain-ai/langchain#35691",
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "a2a-compliance-measurement",
+        "agent-identity-verification",
+        "erc8004-bridge",
+        "langchain-compliance-backend",
+        "langchain-memory",
+        "trust-signals-schema"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "erc-8004/erc-8004-contracts",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-16T13:11:55Z",
+      "last_seen_ours": "2026-05-28T09:09:04Z",
+      "ship": 22,
+      "propose": 19,
+      "review": 4,
+      "mentions_received": 29,
+      "word_count": 4765,
+      "github": {
         "name": null,
         "bio": null,
         "company": null,
@@ -1855,10 +1948,53 @@
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2026-01-27T12:41:42Z",
-        "followers": 12,
+        "created_at": "2023-03-23T09:02:18Z",
+        "followers": 2,
         "following": 1,
-        "public_repos": 29,
+        "public_repos": 30,
+        "type": "User"
+      }
+    },
+    {
+      "login": "giskard09",
+      "score": 240,
+      "posts": 26,
+      "threads": [
+        "a2aproject/A2A#1786",
+        "a2aproject/A2A#1850",
+        "aeoess/agent-passport-system#1",
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "action-ref-joint-id",
+        "aeoess-agent-passport-system-1",
+        "langchain-memory"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "aeoess/agent-passport-system",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-05-08T15:52:37Z",
+      "last_seen_ours": "2026-05-28T00:29:39Z",
+      "ship": 20,
+      "propose": 12,
+      "review": 5,
+      "mentions_received": 26,
+      "word_count": 3215,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-03-23T16:35:43Z",
+        "followers": 4,
+        "following": 0,
+        "public_repos": 39,
         "type": "User"
       }
     },
@@ -1894,7 +2030,7 @@
         "email": null,
         "twitter": null,
         "created_at": "2026-03-27T19:20:31Z",
-        "followers": 6,
+        "followers": 5,
         "following": 3,
         "public_repos": 21,
         "type": "User"
@@ -1958,12 +2094,25 @@
       "review": 1,
       "mentions_received": 12,
       "word_count": 5463,
-      "github": null
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-05-24T09:25:22Z",
+        "followers": 2,
+        "following": 0,
+        "public_repos": 5,
+        "type": "User"
+      }
     },
     {
       "login": "rnwy",
-      "score": 163,
-      "posts": 19,
+      "score": 166,
+      "posts": 21,
       "threads": [
         "a2aproject/A2A#1628",
         "a2aproject/A2A#1717",
@@ -1984,12 +2133,12 @@
         "douglasborthwick-crypto/insumer-examples"
       ],
       "first_seen_ours": "2026-03-19T20:21:36Z",
-      "last_seen_ours": "2026-04-18T08:36:25Z",
+      "last_seen_ours": "2026-05-24T16:25:11Z",
       "ship": 5,
       "propose": 9,
-      "review": 2,
-      "mentions_received": 37,
-      "word_count": 2809,
+      "review": 3,
+      "mentions_received": 38,
+      "word_count": 2964,
       "github": {
         "name": "RNWY.com",
         "bio": null,
@@ -2045,7 +2194,7 @@
         "email": null,
         "twitter": null,
         "created_at": "2026-02-01T16:18:07Z",
-        "followers": 5,
+        "followers": 4,
         "following": 0,
         "public_repos": 23,
         "type": "User"
@@ -2099,8 +2248,8 @@
         "email": null,
         "twitter": null,
         "created_at": "2026-03-26T13:38:32Z",
-        "followers": 2,
-        "following": 1,
+        "followers": 1,
+        "following": 2,
         "public_repos": 1,
         "type": "User"
       }
@@ -2139,7 +2288,7 @@
         "email": "ada@archefire.com",
         "twitter": "archedark_ada",
         "created_at": "2026-02-01T01:50:16Z",
-        "followers": 6,
+        "followers": 4,
         "following": 0,
         "public_repos": 2,
         "type": "User"
@@ -2178,16 +2327,55 @@
       "word_count": 1742,
       "github": {
         "name": "Frans",
-        "bio": "creating, helping, paving the way for an agent friendly internet. founder of Arcede. Happy to collab, having fun in the intelligence age",
+        "bio": "creating, helping, paving the way for exciting things. Founder of Arcede. Public health and biodiversity in eastern DRC, South Sudan. happy to collaborate",
         "company": "Arcede",
         "location": null,
-        "blog": "arcede.com",
+        "blog": "fransmoore.com",
         "email": null,
-        "twitter": "FransArcede",
+        "twitter": null,
         "created_at": "2023-11-03T15:02:27Z",
-        "followers": 5,
-        "following": 7,
-        "public_repos": 12,
+        "followers": 4,
+        "following": 4,
+        "public_repos": 15,
+        "type": "User"
+      }
+    },
+    {
+      "login": "thebenignhacker",
+      "score": 138,
+      "posts": 9,
+      "threads": [
+        "a2aproject/A2A#1575",
+        "a2aproject/A2A#1786",
+        "a2aproject/A2A#1850"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "action-ref-joint-id",
+        "identity-delegation-enforcement"
+      ],
+      "repos": [
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-05-11T00:43:05Z",
+      "last_seen_ours": "2026-05-28T00:13:45Z",
+      "ship": 14,
+      "propose": 7,
+      "review": 1,
+      "mentions_received": 11,
+      "word_count": 2518,
+      "github": {
+        "name": "Libria",
+        "bio": "CEO & Founder @OpenA2A | Executive Director @csnp ",
+        "company": "@csnp ",
+        "location": null,
+        "blog": "opena2a.org, csnp.org",
+        "email": null,
+        "twitter": "benignhacker",
+        "created_at": "2017-09-30T16:48:35Z",
+        "followers": 28,
+        "following": 13,
+        "public_repos": 7,
         "type": "User"
       }
     },
@@ -2228,9 +2416,9 @@
         "email": null,
         "twitter": "mosiddi",
         "created_at": "2018-11-27T21:13:10Z",
-        "followers": 56,
+        "followers": 103,
         "following": 1,
-        "public_repos": 30,
+        "public_repos": 38,
         "type": "User"
       }
     },
@@ -2276,52 +2464,9 @@
         "email": "raza.sharif@outlook.com",
         "twitter": null,
         "created_at": "2018-02-15T11:33:35Z",
-        "followers": 9,
+        "followers": 10,
         "following": 0,
-        "public_repos": 74,
-        "type": "User"
-      }
-    },
-    {
-      "login": "vdineshk",
-      "score": 113,
-      "posts": 10,
-      "threads": [
-        "a2aproject/A2A#1755",
-        "erc-8004/erc-8004-contracts#77",
-        "langchain-ai/langchain#35691",
-        "langchain-ai/langchain#36232"
-      ],
-      "topics": [
-        "a2a-compliance-measurement",
-        "erc8004-bridge",
-        "langchain-compliance-backend",
-        "langchain-memory"
-      ],
-      "repos": [
-        "a2aproject/A2A",
-        "erc-8004/erc-8004-contracts",
-        "langchain-ai/langchain"
-      ],
-      "first_seen_ours": "2026-04-16T13:11:55Z",
-      "last_seen_ours": "2026-05-04T01:07:24Z",
-      "ship": 9,
-      "propose": 5,
-      "review": 3,
-      "mentions_received": 14,
-      "word_count": 2218,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2023-03-23T09:02:18Z",
-        "followers": 0,
-        "following": 0,
-        "public_repos": 9,
+        "public_repos": 32,
         "type": "User"
       }
     },
@@ -2357,9 +2502,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2026-02-02T05:50:08Z",
-        "followers": 9,
+        "followers": 8,
         "following": 0,
-        "public_repos": 63,
+        "public_repos": 145,
         "type": "User"
       }
     },
@@ -2397,9 +2542,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2025-02-01T00:33:16Z",
-        "followers": 3,
+        "followers": 2,
         "following": 1,
-        "public_repos": 10,
+        "public_repos": 11,
         "type": "User"
       }
     },
@@ -2427,14 +2572,14 @@
         "name": "Sunil Prakash",
         "bio": "Enterprise AI & Platform Architecture Leader | Research: agent identity, delegation, provenance | VP at Deutsche Bank ",
         "company": null,
-        "location": "Pune, India",
+        "location": null,
         "blog": "https://sunilprakash.com",
         "email": "sunil@sunilprakash.com",
         "twitter": null,
         "created_at": "2011-02-23T02:51:19Z",
-        "followers": 17,
+        "followers": 18,
         "following": 9,
-        "public_repos": 21,
+        "public_repos": 29,
         "type": "User"
       }
     },
@@ -2473,9 +2618,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2014-08-28T01:47:49Z",
-        "followers": 13,
+        "followers": 15,
         "following": 12,
-        "public_repos": 70,
+        "public_repos": 74,
         "type": "User"
       }
     },
@@ -2522,9 +2667,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2018-03-20T17:50:21Z",
-        "followers": 18,
-        "following": 41,
-        "public_repos": 44,
+        "followers": 21,
+        "following": 44,
+        "public_repos": 47,
         "type": "User"
       }
     },
@@ -2564,6 +2709,22 @@
       }
     },
     {
+      "login": "nobulex",
+      "score": 96,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 48,
+      "word_count": 0,
+      "github": null
+    },
+    {
       "login": "theaniketgiri",
       "score": 94,
       "posts": 8,
@@ -2592,8 +2753,8 @@
         "email": null,
         "twitter": "theaniketgiri",
         "created_at": "2023-09-23T09:31:37Z",
-        "followers": 27,
-        "following": 11,
+        "followers": 28,
+        "following": 12,
         "public_repos": 47,
         "type": "User"
       }
@@ -2627,53 +2788,15 @@
         "email": null,
         "twitter": null,
         "created_at": "2026-02-04T13:57:13Z",
-        "followers": 0,
+        "followers": 1,
         "following": 0,
-        "public_repos": 14,
-        "type": "User"
-      }
-    },
-    {
-      "login": "giskard09",
-      "score": 77,
-      "posts": 9,
-      "threads": [
-        "aeoess/agent-passport-system#1",
-        "langchain-ai/langchain#36232"
-      ],
-      "topics": [
-        "aeoess-agent-passport-system-1",
-        "langchain-memory"
-      ],
-      "repos": [
-        "aeoess/agent-passport-system",
-        "langchain-ai/langchain"
-      ],
-      "first_seen_ours": "2026-05-08T15:52:37Z",
-      "last_seen_ours": "2026-05-13T20:41:33Z",
-      "ship": 6,
-      "propose": 4,
-      "review": 1,
-      "mentions_received": 4,
-      "word_count": 830,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-03-23T16:35:43Z",
-        "followers": 4,
-        "following": 0,
-        "public_repos": 34,
+        "public_repos": 16,
         "type": "User"
       }
     },
     {
       "login": "lawcontinue",
-      "score": 75,
+      "score": 79,
       "posts": 13,
       "threads": [
         "a2aproject/A2A#1672",
@@ -2694,7 +2817,7 @@
       "ship": 1,
       "propose": 5,
       "review": 4,
-      "mentions_received": 21,
+      "mentions_received": 23,
       "word_count": 1934,
       "github": {
         "name": null,
@@ -2705,9 +2828,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2023-05-21T15:38:32Z",
-        "followers": 3,
-        "following": 2,
-        "public_repos": 17,
+        "followers": 2,
+        "following": 4,
+        "public_repos": 23,
         "type": "User"
       }
     },
@@ -2752,7 +2875,7 @@
         "created_at": "2026-03-22T01:58:40Z",
         "followers": 3,
         "following": 0,
-        "public_repos": 19,
+        "public_repos": 20,
         "type": "User"
       }
     },
@@ -2831,9 +2954,9 @@
         "email": null,
         "twitter": "mikesaleme",
         "created_at": "2017-07-23T14:01:42Z",
-        "followers": 14,
-        "following": 41,
-        "public_repos": 99,
+        "followers": 15,
+        "following": 42,
+        "public_repos": 105,
         "type": "User"
       }
     },
@@ -2903,7 +3026,7 @@
         "email": null,
         "twitter": null,
         "created_at": "2022-12-13T11:55:53Z",
-        "followers": 3,
+        "followers": 4,
         "following": 0,
         "public_repos": 15,
         "type": "User"
@@ -2932,9 +3055,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2026-03-08T15:32:45Z",
-        "followers": 3,
+        "followers": 4,
         "following": 0,
-        "public_repos": 13,
+        "public_repos": 17,
         "type": "Organization"
       }
     },
@@ -2971,27 +3094,11 @@
         "email": null,
         "twitter": null,
         "created_at": "2018-04-12T07:09:47Z",
-        "followers": 4,
+        "followers": 3,
         "following": 0,
-        "public_repos": 11,
+        "public_repos": 12,
         "type": "User"
       }
-    },
-    {
-      "login": "nobulex",
-      "score": 64,
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "ship": 0,
-      "propose": 0,
-      "review": 0,
-      "mentions_received": 32,
-      "word_count": 0,
-      "github": null
     },
     {
       "login": "nutstrut",
@@ -3027,7 +3134,7 @@
         "created_at": "2025-03-24T03:38:33Z",
         "followers": 1,
         "following": 0,
-        "public_repos": 10,
+        "public_repos": 13,
         "type": "User"
       }
     },
@@ -3075,9 +3182,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2017-09-27T15:07:36Z",
-        "followers": 11,
-        "following": 21,
-        "public_repos": 62,
+        "followers": 16,
+        "following": 20,
+        "public_repos": 15,
         "type": "User"
       }
     },
@@ -3112,7 +3219,7 @@
         "created_at": "2019-02-13T20:22:18Z",
         "followers": 6,
         "following": 7,
-        "public_repos": 39,
+        "public_repos": 38,
         "type": "User"
       }
     },
@@ -3145,8 +3252,8 @@
         "email": null,
         "twitter": null,
         "created_at": "2025-07-26T13:38:46Z",
-        "followers": 65,
-        "following": 37,
+        "followers": 91,
+        "following": 39,
         "public_repos": 64,
         "type": "User"
       }
@@ -3185,7 +3292,7 @@
         "email": null,
         "twitter": null,
         "created_at": "2017-02-10T06:17:30Z",
-        "followers": 18,
+        "followers": 17,
         "following": 0,
         "public_repos": 68,
         "type": "User"
@@ -3220,9 +3327,9 @@
         "email": null,
         "twitter": "JhiNResH",
         "created_at": "2022-02-22T03:16:41Z",
-        "followers": 24,
-        "following": 14,
-        "public_repos": 116,
+        "followers": 25,
+        "following": 6,
+        "public_repos": 117,
         "type": "User"
       }
     },
@@ -3257,7 +3364,7 @@
         "created_at": "2025-04-28T10:39:36Z",
         "followers": 0,
         "following": 2,
-        "public_repos": 20,
+        "public_repos": 25,
         "type": "User"
       }
     },
@@ -3284,7 +3391,7 @@
       "github": {
         "name": "Paras Singla",
         "bio": "Love to code. Code for passion.",
-        "company": null,
+        "company": "@hcl-tech-software",
         "location": "Bathinda, Punjab, India",
         "blog": "",
         "email": null,
@@ -3343,7 +3450,7 @@
         "created_at": "2013-11-13T16:29:38Z",
         "followers": 1,
         "following": 2,
-        "public_repos": 25,
+        "public_repos": 26,
         "type": "User"
       }
     },
@@ -3376,7 +3483,7 @@
         "email": null,
         "twitter": null,
         "created_at": "2020-04-05T19:04:48Z",
-        "followers": 16,
+        "followers": 15,
         "following": 11,
         "public_repos": 1,
         "type": "User"
@@ -3404,7 +3511,7 @@
       "word_count": 610,
       "github": {
         "name": "IndrasNet",
-        "bio": null,
+        "bio": "AI Systems Architect | LLM Evaluation & Reliability | Governance & Operational Validation",
         "company": "IndrasNet O\u00dc",
         "location": "Estonia",
         "blog": "indrasnet.ee",
@@ -3451,7 +3558,7 @@
         "created_at": "2026-02-28T19:31:35Z",
         "followers": 2,
         "following": 0,
-        "public_repos": 51,
+        "public_repos": 79,
         "type": "User"
       }
     },
@@ -3484,9 +3591,44 @@
         "email": "shenghan.zheng.gr@dartmouth.edu",
         "twitter": null,
         "created_at": "2019-10-30T13:43:30Z",
-        "followers": 17,
-        "following": 23,
-        "public_repos": 78,
+        "followers": 18,
+        "following": 24,
+        "public_repos": 79,
+        "type": "User"
+      }
+    },
+    {
+      "login": "azender1",
+      "score": 33,
+      "posts": 4,
+      "threads": [
+        "a2aproject/A2A#1786"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal"
+      ],
+      "repos": [
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-05-17T20:26:31Z",
+      "last_seen_ours": "2026-05-22T19:57:31Z",
+      "ship": 2,
+      "propose": 2,
+      "review": 1,
+      "mentions_received": 4,
+      "word_count": 485,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-01-15T01:45:28Z",
+        "followers": 2,
+        "following": 0,
+        "public_repos": 3,
         "type": "User"
       }
     },
@@ -3513,7 +3655,7 @@
         "email": null,
         "twitter": null,
         "created_at": "2018-01-31T04:34:59Z",
-        "followers": 14,
+        "followers": 15,
         "following": 0,
         "public_repos": 4,
         "type": "Organization"
@@ -3588,15 +3730,15 @@
       "github": {
         "name": "internet-dot",
         "bio": "i'm just a small dot on the internet. infra and identity. open source.",
-        "company": null,
+        "company": "HOL",
         "location": null,
         "blog": "https://hol.org",
         "email": null,
         "twitter": null,
         "created_at": "2025-04-14T10:43:19Z",
-        "followers": 14,
-        "following": 53,
-        "public_repos": 1650,
+        "followers": 0,
+        "following": 0,
+        "public_repos": 1672,
         "type": "User"
       }
     },
@@ -3680,9 +3822,9 @@
         "email": "raul@thoughtproof.ai",
         "twitter": "thoughtproof_ai",
         "created_at": "2026-02-18T16:28:45Z",
-        "followers": 6,
-        "following": 0,
-        "public_repos": 32,
+        "followers": 9,
+        "following": 1,
+        "public_repos": 34,
         "type": "User"
       }
     },
@@ -3726,7 +3868,7 @@
         "email": null,
         "twitter": null,
         "created_at": "2026-03-22T19:10:04Z",
-        "followers": 6,
+        "followers": 3,
         "following": 0,
         "public_repos": 25,
         "type": "User"
@@ -3766,7 +3908,7 @@
         "email": null,
         "twitter": "hansel_hansl",
         "created_at": "2019-04-04T21:57:36Z",
-        "followers": 2,
+        "followers": 3,
         "following": 0,
         "public_repos": 12,
         "type": "User"
@@ -3803,50 +3945,13 @@
         "bio": "AI/ML Product Manager",
         "company": "Lydo AI ",
         "location": "San Francisco ",
-        "blog": "",
+        "blog": "https://lydo.chat/",
         "email": "Jpw517@gmail.com",
         "twitter": null,
         "created_at": "2017-05-06T23:33:47Z",
         "followers": 0,
         "following": 0,
-        "public_repos": 31,
-        "type": "User"
-      }
-    },
-    {
-      "login": "thebenignhacker",
-      "score": 28,
-      "posts": 2,
-      "threads": [
-        "a2aproject/A2A#1575",
-        "a2aproject/A2A#1786"
-      ],
-      "topics": [
-        "a2a-cai-extension-proposal",
-        "identity-delegation-enforcement"
-      ],
-      "repos": [
-        "a2aproject/A2A"
-      ],
-      "first_seen_ours": "2026-05-11T00:43:05Z",
-      "last_seen_ours": "2026-05-11T00:43:21Z",
-      "ship": 2,
-      "propose": 2,
-      "review": 0,
-      "mentions_received": 3,
-      "word_count": 605,
-      "github": {
-        "name": "Libria",
-        "bio": "CEO & Founder @OpenA2A | Executive Director @csnp ",
-        "company": "@csnp ",
-        "location": null,
-        "blog": "opena2a.org, csnp.org",
-        "email": null,
-        "twitter": "benignhacker",
-        "created_at": "2017-09-30T16:48:35Z",
-        "followers": 27,
-        "following": 12,
-        "public_repos": 6,
+        "public_repos": 33,
         "type": "User"
       }
     },
@@ -3874,14 +3979,14 @@
         "name": "yuqiang@JEP",
         "bio": "JEP (Judgment Event Protocol): for AI ",
         "company": null,
-        "location": "Singapore",
+        "location": null,
         "blog": "humanjudgment.org",
         "email": null,
         "twitter": null,
         "created_at": "2015-02-02T17:51:14Z",
-        "followers": 5,
-        "following": 7,
-        "public_repos": 10,
+        "followers": 8,
+        "following": 9,
+        "public_repos": 5,
         "type": "User"
       }
     },
@@ -3916,7 +4021,7 @@
         "created_at": "2021-04-14T09:22:45Z",
         "followers": 1,
         "following": 2,
-        "public_repos": 50,
+        "public_repos": 51,
         "type": "User"
       }
     },
@@ -3953,7 +4058,7 @@
         "created_at": "2015-05-26T16:02:52Z",
         "followers": 5,
         "following": 0,
-        "public_repos": 117,
+        "public_repos": 118,
         "type": "User"
       }
     },
@@ -3989,41 +4094,6 @@
         "followers": 4,
         "following": 6,
         "public_repos": 14,
-        "type": "User"
-      }
-    },
-    {
-      "login": "Liuyanfeng1234",
-      "score": 27,
-      "posts": 3,
-      "threads": [
-        "a2aproject/A2A#1786"
-      ],
-      "topics": [
-        "a2a-cai-extension-proposal"
-      ],
-      "repos": [
-        "a2aproject/A2A"
-      ],
-      "first_seen_ours": "2026-05-14T13:56:07Z",
-      "last_seen_ours": "2026-05-14T16:00:01Z",
-      "ship": 1,
-      "propose": 4,
-      "review": 1,
-      "mentions_received": 3,
-      "word_count": 575,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-02-25T12:46:50Z",
-        "followers": 0,
-        "following": 0,
-        "public_repos": 0,
         "type": "User"
       }
     },
@@ -4096,7 +4166,36 @@
         "created_at": "2026-03-08T15:08:38Z",
         "followers": 0,
         "following": 0,
-        "public_repos": 9,
+        "public_repos": 23,
+        "type": "User"
+      }
+    },
+    {
+      "login": "eriknewton",
+      "score": 24,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 12,
+      "word_count": 0,
+      "github": {
+        "name": "Erik Newton",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": "newtonlaw",
+        "created_at": "2018-04-10T21:41:16Z",
+        "followers": 4,
+        "following": 0,
+        "public_repos": 5,
         "type": "User"
       }
     },
@@ -4129,9 +4228,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2025-09-14T12:22:32Z",
-        "followers": 4,
+        "followers": 0,
         "following": 8,
-        "public_repos": 17,
+        "public_repos": 3,
         "type": "User"
       }
     },
@@ -4169,9 +4268,44 @@
         "email": null,
         "twitter": null,
         "created_at": "2025-10-12T04:10:45Z",
-        "followers": 3,
+        "followers": 7,
         "following": 3,
-        "public_repos": 27,
+        "public_repos": 61,
+        "type": "User"
+      }
+    },
+    {
+      "login": "SpeedGenius00",
+      "score": 23,
+      "posts": 1,
+      "threads": [
+        "a2aproject/A2A#1786"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal"
+      ],
+      "repos": [
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-05-15T19:10:04Z",
+      "last_seen_ours": "2026-05-15T19:10:04Z",
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 10,
+      "word_count": 64,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-06-10T17:58:01Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 1,
         "type": "User"
       }
     },
@@ -4189,20 +4323,7 @@
       "review": 0,
       "mentions_received": 11,
       "word_count": 0,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-03-25T08:05:36Z",
-        "followers": 6,
-        "following": 0,
-        "public_repos": 1,
-        "type": "User"
-      }
+      "github": null
     },
     {
       "login": "Kelisi808",
@@ -4233,9 +4354,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2025-09-13T21:05:52Z",
-        "followers": 1,
-        "following": 2,
-        "public_repos": 1,
+        "followers": 0,
+        "following": 0,
+        "public_repos": 2,
         "type": "User"
       }
     },
@@ -4270,9 +4391,114 @@
         "email": null,
         "twitter": null,
         "created_at": "2026-02-01T17:14:46Z",
-        "followers": 2,
+        "followers": 1,
         "following": 0,
         "public_repos": 2,
+        "type": "User"
+      }
+    },
+    {
+      "login": "maniksurtani",
+      "score": 21,
+      "posts": 2,
+      "threads": [
+        "aaif/project-proposals#12"
+      ],
+      "topics": [
+        "aaif-sint-submission"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-05-15T00:55:49Z",
+      "last_seen_ours": "2026-05-25T03:52:15Z",
+      "ship": 2,
+      "propose": 1,
+      "review": 0,
+      "mentions_received": 0,
+      "word_count": 733,
+      "github": {
+        "name": "Manik Surtani",
+        "bio": null,
+        "company": "Block, Inc.",
+        "location": "Sydney, Australia",
+        "blog": "http://manik.surtani.org",
+        "email": "manik@surtani.org",
+        "twitter": null,
+        "created_at": "2009-01-16T17:34:28Z",
+        "followers": 150,
+        "following": 3,
+        "public_repos": 25,
+        "type": "User"
+      }
+    },
+    {
+      "login": "eddie-knight",
+      "score": 21,
+      "posts": 2,
+      "threads": [
+        "ossf/security-insights#171"
+      ],
+      "topics": [
+        "ossf-agent-provenance"
+      ],
+      "repos": [
+        "ossf/security-insights"
+      ],
+      "first_seen_ours": "2026-04-20T21:19:50Z",
+      "last_seen_ours": "2026-05-08T21:20:48Z",
+      "ship": 0,
+      "propose": 1,
+      "review": 1,
+      "mentions_received": 7,
+      "word_count": 313,
+      "github": {
+        "name": "Eddie Knight",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2016-08-22T14:41:11Z",
+        "followers": 51,
+        "following": 21,
+        "public_repos": 88,
+        "type": "User"
+      }
+    },
+    {
+      "login": "goatgaucho",
+      "score": 20,
+      "posts": 1,
+      "threads": [
+        "douglasborthwick-crypto/insumer-examples#1"
+      ],
+      "topics": [
+        "insumer-multi-attestation"
+      ],
+      "repos": [
+        "douglasborthwick-crypto/insumer-examples"
+      ],
+      "first_seen_ours": "2026-05-20T16:29:09Z",
+      "last_seen_ours": "2026-05-20T16:29:09Z",
+      "ship": 1,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 1,
+      "word_count": 390,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-01-07T18:21:18Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 11,
         "type": "User"
       }
     },
@@ -4349,16 +4575,16 @@
       "word_count": 791,
       "github": {
         "name": "ZuoCen Liu",
-        "bio": "Applied Mathematician | Octonion | NARH (Non-Associative Residual Hypothesis) | Agent | Robotics |\r\nTurning the \"\u0394t dilemma\" into adaptive, continuous physics.",
+        "bio": "Applied Mathematician | Octonion | NARH (Non-Associative Residual Hypothesis) | Agent | Robotics |\r\nA(a,b,c;s)=(\uff08\u03a8a\u2218\u03a8b)\u2218\u03a8c)(s)-(\u03a8a\u2218(\u03a8b\u2218\u03a8c))(s)",
         "company": null,
         "location": null,
         "blog": "",
         "email": null,
         "twitter": "liu_zc42321",
         "created_at": "2025-07-01T09:35:01Z",
-        "followers": 1,
+        "followers": 2,
         "following": 1,
-        "public_repos": 6,
+        "public_repos": 8,
         "type": "User"
       }
     },
@@ -4425,7 +4651,7 @@
         "created_at": "2026-03-14T14:44:58Z",
         "followers": 0,
         "following": 0,
-        "public_repos": 10,
+        "public_repos": 15,
         "type": "Organization"
       }
     },
@@ -4493,7 +4719,7 @@
         "email": null,
         "twitter": null,
         "created_at": "2026-02-05T15:04:21Z",
-        "followers": 4,
+        "followers": 3,
         "following": 0,
         "public_repos": 9,
         "type": "User"
@@ -4565,45 +4791,39 @@
         "email": null,
         "twitter": null,
         "created_at": "2010-10-02T04:11:26Z",
-        "followers": 15,
+        "followers": 16,
         "following": 17,
-        "public_repos": 48,
+        "public_repos": 49,
         "type": "User"
       }
     },
     {
-      "login": "eddie-knight",
-      "score": 17,
-      "posts": 2,
-      "threads": [
-        "ossf/security-insights#171"
-      ],
-      "topics": [
-        "ossf-agent-provenance"
-      ],
-      "repos": [
-        "ossf/security-insights"
-      ],
-      "first_seen_ours": "2026-04-20T21:19:50Z",
-      "last_seen_ours": "2026-05-08T21:20:48Z",
+      "login": "v0",
+      "score": 16,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
       "ship": 0,
-      "propose": 1,
-      "review": 1,
-      "mentions_received": 5,
-      "word_count": 313,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 8,
+      "word_count": 0,
       "github": {
-        "name": "Eddie Knight",
+        "name": null,
         "bio": null,
         "company": null,
         "location": null,
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2016-08-22T14:41:11Z",
-        "followers": 49,
-        "following": 21,
-        "public_repos": 86,
-        "type": "User"
+        "created_at": "2025-06-11T19:16:14Z",
+        "followers": 22,
+        "following": 0,
+        "public_repos": 0,
+        "type": "Organization"
       }
     },
     {
@@ -4687,41 +4907,6 @@
       }
     },
     {
-      "login": "EXDEV-oss",
-      "score": 15,
-      "posts": 7,
-      "threads": [
-        "erc-8004/erc-8004-contracts#77"
-      ],
-      "topics": [
-        "erc8004-bridge"
-      ],
-      "repos": [
-        "erc-8004/erc-8004-contracts"
-      ],
-      "first_seen_ours": "2026-04-25T22:23:00Z",
-      "last_seen_ours": "2026-04-29T18:58:59Z",
-      "ship": 0,
-      "propose": 2,
-      "review": 0,
-      "mentions_received": 3,
-      "word_count": 619,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-04-25T04:04:29Z",
-        "followers": 3,
-        "following": 8,
-        "public_repos": 0,
-        "type": "User"
-      }
-    },
-    {
       "login": "richard-porter",
       "score": 14,
       "posts": 1,
@@ -4757,6 +4942,35 @@
       }
     },
     {
+      "login": "gmail",
+      "score": 14,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 7,
+      "word_count": 0,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2011-05-10T04:39:41Z",
+        "followers": 35,
+        "following": 0,
+        "public_repos": 0,
+        "type": "User"
+      }
+    },
+    {
       "login": "vineethsai",
       "score": 14,
       "posts": 1,
@@ -4785,9 +4999,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2016-11-01T08:12:41Z",
-        "followers": 37,
+        "followers": 44,
         "following": 6,
-        "public_repos": 42,
+        "public_repos": 43,
         "type": "User"
       }
     },
@@ -4815,14 +5029,14 @@
         "name": "Peter Steinberger",
         "bio": "Came back from retirement to mess with AI. Clawdfather @OpenClaw\r\n\r\nPreviously: Founder of @PSPDFKit.",
         "company": "OpenAI",
-        "location": "Vienna & London",
+        "location": "London / San Francisco",
         "blog": "http://steipete.me",
         "email": "peter@steipete.me",
         "twitter": "steipete",
         "created_at": "2009-02-27T08:34:22Z",
-        "followers": 50034,
+        "followers": 50726,
         "following": 109,
-        "public_repos": 170,
+        "public_repos": 172,
         "type": "User"
       }
     },
@@ -4857,7 +5071,42 @@
         "created_at": "2017-12-03T23:52:40Z",
         "followers": 4,
         "following": 7,
-        "public_repos": 14,
+        "public_repos": 15,
+        "type": "User"
+      }
+    },
+    {
+      "login": "andysalvo",
+      "score": 13,
+      "posts": 2,
+      "threads": [
+        "a2aproject/A2A#1672"
+      ],
+      "topics": [
+        "agent-identity-verification"
+      ],
+      "repos": [
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-05-26T22:30:33Z",
+      "last_seen_ours": "2026-05-27T20:52:06Z",
+      "ship": 0,
+      "propose": 2,
+      "review": 0,
+      "mentions_received": 2,
+      "word_count": 119,
+      "github": {
+        "name": "Andy Salvo",
+        "bio": "Forward-deployed AI infrastructure. Co-founder of @appliedaipennstate, and student at Smeal College of Business.",
+        "company": "Crest Deployment Systems LLC",
+        "location": null,
+        "blog": "crestsystems.ai",
+        "email": "ajs10845@psu.edu",
+        "twitter": null,
+        "created_at": "2026-02-21T06:42:54Z",
+        "followers": 1,
+        "following": 6,
+        "public_repos": 26,
         "type": "User"
       }
     },
@@ -4892,7 +5141,7 @@
         "created_at": "2011-09-17T08:14:39Z",
         "followers": 33,
         "following": 1,
-        "public_repos": 68,
+        "public_repos": 69,
         "type": "User"
       }
     },
@@ -4962,7 +5211,7 @@
         "created_at": "2018-04-24T12:57:52Z",
         "followers": 1,
         "following": 1,
-        "public_repos": 13,
+        "public_repos": 15,
         "type": "User"
       }
     },
@@ -4996,7 +5245,7 @@
         "twitter": null,
         "created_at": "2024-02-18T18:05:11Z",
         "followers": 0,
-        "following": 0,
+        "following": 1,
         "public_repos": 1,
         "type": "User"
       }
@@ -5072,6 +5321,41 @@
       }
     },
     {
+      "login": "vgudur-dev",
+      "score": 13,
+      "posts": 1,
+      "threads": [
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "langchain-memory"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-05-22T18:28:08Z",
+      "last_seen_ours": "2026-05-22T18:28:08Z",
+      "ship": 1,
+      "propose": 1,
+      "review": 0,
+      "mentions_received": 1,
+      "word_count": 195,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-01-12T05:28:54Z",
+        "followers": 2,
+        "following": 0,
+        "public_repos": 52,
+        "type": "User"
+      }
+    },
+    {
       "login": "asiridalugoda",
       "score": 12,
       "posts": 1,
@@ -5100,9 +5384,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2016-09-25T19:41:13Z",
-        "followers": 3,
+        "followers": 4,
         "following": 4,
-        "public_repos": 7,
+        "public_repos": 9,
         "type": "User"
       }
     },
@@ -5129,9 +5413,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2025-06-22T13:56:35Z",
-        "followers": 2,
+        "followers": 4,
         "following": 4,
-        "public_repos": 7,
+        "public_repos": 12,
         "type": "User"
       }
     },
@@ -5164,9 +5448,47 @@
         "email": null,
         "twitter": "the_complex_one",
         "created_at": "2020-06-14T15:20:28Z",
-        "followers": 41,
-        "following": 130,
-        "public_repos": 85,
+        "followers": 42,
+        "following": 134,
+        "public_repos": 86,
+        "type": "User"
+      }
+    },
+    {
+      "login": "m13v",
+      "score": 12,
+      "posts": 2,
+      "threads": [
+        "a2aproject/A2A#1628",
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "langchain-memory",
+        "trust-signals-schema"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-28T11:11:30Z",
+      "last_seen_ours": "2026-05-27T23:11:50Z",
+      "ship": 0,
+      "propose": 2,
+      "review": 0,
+      "mentions_received": 0,
+      "word_count": 178,
+      "github": {
+        "name": "Matthew Diakonov",
+        "bio": null,
+        "company": null,
+        "location": "San Francisco",
+        "blog": "https://m13v.com",
+        "email": null,
+        "twitter": null,
+        "created_at": "2022-05-01T00:46:52Z",
+        "followers": 225,
+        "following": 20,
+        "public_repos": 111,
         "type": "User"
       }
     },
@@ -5193,7 +5515,7 @@
         "email": null,
         "twitter": null,
         "created_at": "2009-02-25T19:01:55Z",
-        "followers": 191,
+        "followers": 196,
         "following": 0,
         "public_repos": 1,
         "type": "User"
@@ -5231,7 +5553,7 @@
         "email": null,
         "twitter": null,
         "created_at": "2022-04-01T18:15:54Z",
-        "followers": 4,
+        "followers": 5,
         "following": 2,
         "public_repos": 1,
         "type": "User"
@@ -5259,7 +5581,7 @@
       "word_count": 226,
       "github": {
         "name": "Kaligaut",
-        "bio": "Software Engineer e-commerce  & Gen AI  Engineer. Scalable backend systems powering large-scale online retail  \r\nJava \u2022 Cloud \u2022 APIs \u2022 Python ADK\r\n",
+        "bio": "Gen AI  Engineer. Scalable backend systems. APIs \u2022 Python ADK\r\n",
         "company": "@SFEIR",
         "location": "Lille",
         "blog": "",
@@ -5267,8 +5589,8 @@
         "twitter": null,
         "created_at": "2023-09-17T17:33:54Z",
         "followers": 4,
-        "following": 4,
-        "public_repos": 6,
+        "following": 6,
+        "public_repos": 7,
         "type": "User"
       }
     },
@@ -5303,7 +5625,7 @@
         "created_at": "2019-07-17T08:32:14Z",
         "followers": 2,
         "following": 1,
-        "public_repos": 34,
+        "public_repos": 37,
         "type": "User"
       }
     },
@@ -5371,7 +5693,7 @@
         "email": null,
         "twitter": null,
         "created_at": "2025-08-22T08:48:17Z",
-        "followers": 5,
+        "followers": 4,
         "following": 0,
         "public_repos": 0,
         "type": "User"
@@ -5491,7 +5813,7 @@
         "created_at": "2014-02-25T19:28:54Z",
         "followers": 2,
         "following": 12,
-        "public_repos": 16,
+        "public_repos": 17,
         "type": "User"
       }
     },
@@ -5591,9 +5913,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2026-04-05T17:30:59Z",
-        "followers": 1,
-        "following": 0,
-        "public_repos": 6,
+        "followers": 4,
+        "following": 3,
+        "public_repos": 7,
         "type": "User"
       }
     },
@@ -5619,16 +5941,16 @@
       "word_count": 79,
       "github": {
         "name": "Oleg B.",
-        "bio": "Building trust enforcement for AI agents.",
+        "bio": null,
         "company": null,
-        "location": null,
+        "location": "Serbia",
         "blog": "https://agentveil.dev/",
         "email": "ob@agentveil.dev",
         "twitter": null,
         "created_at": "2026-02-17T17:04:52Z",
         "followers": 2,
-        "following": 1,
-        "public_repos": 16,
+        "following": 2,
+        "public_repos": 3,
         "type": "User"
       }
     },
@@ -5662,8 +5984,8 @@
         "twitter": "petruspennanen",
         "created_at": "2025-09-21T13:09:37Z",
         "followers": 10,
-        "following": 8,
-        "public_repos": 12,
+        "following": 9,
+        "public_repos": 14,
         "type": "User"
       }
     },
@@ -5727,7 +6049,7 @@
         "created_at": "2026-03-17T13:24:35Z",
         "followers": 0,
         "following": 0,
-        "public_repos": 0,
+        "public_repos": 1,
         "type": "User"
       }
     },
@@ -5761,6 +6083,41 @@
       }
     },
     {
+      "login": "darrelmiller",
+      "score": 8,
+      "posts": 1,
+      "threads": [
+        "a2aproject/A2A#1755"
+      ],
+      "topics": [
+        "a2a-compliance-measurement"
+      ],
+      "repos": [
+        "a2aproject/A2A"
+      ],
+      "first_seen_ours": "2026-05-16T22:37:36Z",
+      "last_seen_ours": "2026-05-16T22:37:36Z",
+      "ship": 1,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 0,
+      "word_count": 26,
+      "github": {
+        "name": "Darrel",
+        "bio": "Partner API Architect,\r\nIETF HTTPAPI WG Chair,\r\nLF A2A TSC Member, Former OpenAPI Specification Editor,\r\n\r\n@darrel_miller@mastodon.social",
+        "company": "Microsoft",
+        "location": "Montreal, Canada",
+        "blog": "https://mastodon.social/@darrel_miller",
+        "email": "darrmi@microsoft.com",
+        "twitter": null,
+        "created_at": "2010-10-21T01:14:31Z",
+        "followers": 589,
+        "following": 35,
+        "public_repos": 177,
+        "type": "User"
+      }
+    },
+    {
       "login": "d68fcee",
       "score": 8,
       "posts": 0,
@@ -5777,7 +6134,7 @@
       "github": null
     },
     {
-      "login": "eriknewton",
+      "login": "5876d9c",
       "score": 8,
       "posts": 0,
       "threads": [],
@@ -5790,20 +6147,7 @@
       "review": 0,
       "mentions_received": 4,
       "word_count": 0,
-      "github": {
-        "name": "Erik Newton",
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": "newtonlaw",
-        "created_at": "2018-04-10T21:41:16Z",
-        "followers": 3,
-        "following": 0,
-        "public_repos": 5,
-        "type": "User"
-      }
+      "github": null
     },
     {
       "login": "yotsuda",
@@ -5834,9 +6178,9 @@
         "email": "ytsuda@gmail.com",
         "twitter": null,
         "created_at": "2014-01-17T09:34:01Z",
-        "followers": 5,
+        "followers": 9,
         "following": 0,
-        "public_repos": 18,
+        "public_repos": 22,
         "type": "User"
       }
     },
@@ -5869,7 +6213,7 @@
         "email": null,
         "twitter": null,
         "created_at": "2025-07-28T21:41:11Z",
-        "followers": 11,
+        "followers": 15,
         "following": 0,
         "public_repos": 0,
         "type": "User"
@@ -5920,9 +6264,9 @@
         "email": null,
         "twitter": null,
         "created_at": "2023-08-26T15:07:32Z",
-        "followers": 7,
+        "followers": 6,
         "following": 18,
-        "public_repos": 44,
+        "public_repos": 51,
         "type": "User"
       }
     },
@@ -5985,14 +6329,49 @@
         "name": "Greyson LaLonde",
         "bio": "engineering @ crewai",
         "company": "@crewAIInc",
-        "location": "Taiwan",
+        "location": "Seattle",
         "blog": "https://www.greysonlalonde.com/",
         "email": "greyson.r.lalonde@gmail.com",
         "twitter": null,
         "created_at": "2021-01-12T19:42:18Z",
-        "followers": 99,
+        "followers": 108,
         "following": 2,
         "public_repos": 16,
+        "type": "User"
+      }
+    },
+    {
+      "login": "redbotster",
+      "score": 7,
+      "posts": 1,
+      "threads": [
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "langchain-memory"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-05-19T12:32:03Z",
+      "last_seen_ours": "2026-05-19T12:32:03Z",
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 2,
+      "word_count": 175,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-02-01T00:37:39Z",
+        "followers": 3,
+        "following": 0,
+        "public_repos": 13,
         "type": "User"
       }
     },
@@ -6027,7 +6406,7 @@
         "created_at": "2026-01-27T15:58:44Z",
         "followers": 2,
         "following": 2,
-        "public_repos": 2,
+        "public_repos": 3,
         "type": "User"
       }
     },
@@ -6150,11 +6529,27 @@
         "email": null,
         "twitter": null,
         "created_at": "2016-01-12T21:22:12Z",
-        "followers": 21,
+        "followers": 22,
         "following": 0,
-        "public_repos": 115,
+        "public_repos": 122,
         "type": "User"
       }
+    },
+    {
+      "login": "EXDEV-oss",
+      "score": 6,
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 3,
+      "word_count": 0,
+      "github": null
     },
     {
       "login": "haiyanmeng",
@@ -6185,9 +6580,9 @@
         "email": "haiyanmeng@google.com",
         "twitter": null,
         "created_at": "2013-08-12T23:33:35Z",
-        "followers": 20,
+        "followers": 19,
         "following": 1,
-        "public_repos": 78,
+        "public_repos": 79,
         "type": "User"
       }
     },
@@ -6224,7 +6619,7 @@
         "created_at": "2022-01-28T12:02:03Z",
         "followers": 1,
         "following": 3,
-        "public_repos": 4,
+        "public_repos": 5,
         "type": "User"
       }
     },
@@ -6257,16 +6652,16 @@
         "email": "bob@bobrenze.com",
         "twitter": "bobrenze",
         "created_at": "2026-01-31T15:16:15Z",
-        "followers": 2,
+        "followers": 1,
         "following": 0,
-        "public_repos": 16,
+        "public_repos": 17,
         "type": "User"
       }
     },
     {
-      "login": "m13v",
+      "login": "fortsignal",
       "score": 6,
-      "posts": 1,
+      "posts": 4,
       "threads": [
         "langchain-ai/langchain#36232"
       ],
@@ -6276,25 +6671,25 @@
       "repos": [
         "langchain-ai/langchain"
       ],
-      "first_seen_ours": "2026-04-28T11:11:30Z",
-      "last_seen_ours": "2026-04-28T11:11:30Z",
+      "first_seen_ours": "2026-04-30T12:00:02Z",
+      "last_seen_ours": "2026-05-24T13:55:35Z",
       "ship": 0,
-      "propose": 1,
-      "review": 0,
-      "mentions_received": 0,
-      "word_count": 83,
+      "propose": 0,
+      "review": 1,
+      "mentions_received": 1,
+      "word_count": 287,
       "github": {
-        "name": "Matthew Diakonov",
-        "bio": null,
-        "company": null,
-        "location": "San Francisco",
-        "blog": "https://m13v.com",
+        "name": "Fortsignal ",
+        "bio": "You Approve the Action.\r\nWe Enforce It.",
+        "company": "FortSignal",
+        "location": "USA",
+        "blog": "https://fortsignal.com",
         "email": null,
-        "twitter": null,
-        "created_at": "2022-05-01T00:46:52Z",
-        "followers": 217,
-        "following": 20,
-        "public_repos": 111,
+        "twitter": "fortsignal1",
+        "created_at": "2026-04-23T21:10:45Z",
+        "followers": 1,
+        "following": 0,
+        "public_repos": 3,
         "type": "User"
       }
     },
@@ -6329,7 +6724,7 @@
         "created_at": "2024-06-03T13:24:56Z",
         "followers": 1,
         "following": 1,
-        "public_repos": 2,
+        "public_repos": 0,
         "type": "User"
       }
     },
@@ -6362,9 +6757,44 @@
         "email": null,
         "twitter": "sidbing",
         "created_at": "2019-07-15T09:05:58Z",
-        "followers": 211,
+        "followers": 247,
         "following": 76,
         "public_repos": 61,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Keesan12",
+      "score": 5,
+      "posts": 1,
+      "threads": [
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32"
+      ],
+      "topics": [
+        "aivss-multi-agent-governance"
+      ],
+      "repos": [
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system"
+      ],
+      "first_seen_ours": "2026-05-20T21:51:59Z",
+      "last_seen_ours": "2026-05-20T21:51:59Z",
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 1,
+      "word_count": 117,
+      "github": {
+        "name": "Keesan",
+        "bio": "Born 100 years too early. Serial Entrepreneur. I like to build things that don't exist. ",
+        "company": null,
+        "location": null,
+        "blog": "https://www.linkedin.com/in/vakeesanm/",
+        "email": null,
+        "twitter": null,
+        "created_at": "2020-12-30T04:03:28Z",
+        "followers": 17,
+        "following": 5,
+        "public_repos": 22,
         "type": "User"
       }
     },
@@ -6397,7 +6827,7 @@
         "email": null,
         "twitter": "benrzy",
         "created_at": "2014-03-29T06:39:28Z",
-        "followers": 13,
+        "followers": 14,
         "following": 1,
         "public_repos": 48,
         "type": "User"
@@ -6432,9 +6862,9 @@
         "email": null,
         "twitter": "kerq_official",
         "created_at": "2026-03-23T21:32:30Z",
-        "followers": 0,
-        "following": 0,
-        "public_repos": 4,
+        "followers": 2,
+        "following": 1,
+        "public_repos": 5,
         "type": "User"
       }
     },
@@ -6460,16 +6890,16 @@
       "word_count": 158,
       "github": {
         "name": "Andrew Barnes",
-        "bio": "Python engineer building Bitcoin fee intelligence, Lightning/x402 tooling, and developer infrastructure.",
+        "bio": "Finance-native Python engineer building Bitcoin fee intelligence, x402/MCP payment tooling, and agent infrastructure.",
         "company": "EasyPost",
         "location": "Florida",
-        "blog": "https://bitcoinsapi.com",
+        "blog": "https://bortlesboat.github.io",
         "email": "bortstheboat@gmail.com",
         "twitter": "BTCOrangeCoin",
         "created_at": "2024-05-16T04:08:05Z",
-        "followers": 50,
-        "following": 82,
-        "public_repos": 185,
+        "followers": 63,
+        "following": 95,
+        "public_repos": 280,
         "type": "User"
       }
     },
@@ -6539,7 +6969,7 @@
         "created_at": "2024-05-27T19:57:59Z",
         "followers": 0,
         "following": 0,
-        "public_repos": 39,
+        "public_repos": 42,
         "type": "User"
       }
     },
@@ -6572,9 +7002,44 @@
         "email": null,
         "twitter": null,
         "created_at": "2008-11-17T16:53:46Z",
-        "followers": 774,
+        "followers": 776,
         "following": 44,
-        "public_repos": 123,
+        "public_repos": 126,
+        "type": "User"
+      }
+    },
+    {
+      "login": "cgwalters",
+      "score": 5,
+      "posts": 1,
+      "threads": [
+        "ossf/security-insights#171"
+      ],
+      "topics": [
+        "ossf-agent-provenance"
+      ],
+      "repos": [
+        "ossf/security-insights"
+      ],
+      "first_seen_ours": "2026-05-27T14:49:44Z",
+      "last_seen_ours": "2026-05-27T14:49:44Z",
+      "ship": 0,
+      "propose": 0,
+      "review": 0,
+      "mentions_received": 1,
+      "word_count": 80,
+      "github": {
+        "name": "Colin Walters",
+        "bio": "Software engineer at @RedHatOfficial\r\n\r\n",
+        "company": "Red Hat, Inc.",
+        "location": "MA, USA",
+        "blog": "https://blog.verbum.org",
+        "email": "walters@verbum.org",
+        "twitter": "cgwalters",
+        "created_at": "2010-04-14T19:31:58Z",
+        "followers": 562,
+        "following": 5,
+        "public_repos": 480,
         "type": "User"
       }
     }
@@ -6671,9 +7136,9 @@
       "github": {
         "state": "open",
         "created_at": "2026-04-17T16:43:10Z",
-        "updated_at": "2026-04-23T17:47:38Z",
+        "updated_at": "2026-05-27T20:06:22Z",
         "closed_at": null,
-        "comments": 8,
+        "comments": 13,
         "is_pr": false,
         "author": "tomjwxf",
         "labels": [
@@ -6717,16 +7182,18 @@
       "url": "https://github.com/OWASP/www-project-artificial-intelligence-vulnerability-scoring-system/issues/32",
       "participants": [
         "aeoess",
+        "arian-gogani",
         "QueBallSharken",
-        "VeloGerber"
+        "VeloGerber",
+        "Keesan12"
       ],
-      "participant_count": 3,
+      "participant_count": 5,
       "github": {
         "state": "open",
         "created_at": "2026-04-14T12:22:05Z",
-        "updated_at": "2026-04-23T19:53:59Z",
+        "updated_at": "2026-05-28T08:15:37Z",
         "closed_at": null,
-        "comments": 19,
+        "comments": 34,
         "is_pr": false,
         "author": "VeloGerber",
         "labels": []
@@ -6759,9 +7226,9 @@
       "github": {
         "state": "open",
         "created_at": "2026-03-05T06:21:57Z",
-        "updated_at": "2026-04-23T04:45:25Z",
+        "updated_at": "2026-05-21T17:37:40Z",
         "closed_at": null,
-        "comments": 253,
+        "comments": 252,
         "is_pr": false,
         "author": "narendrakumarnutalapati",
         "labels": []
@@ -6785,7 +7252,7 @@
       "github": {
         "state": "open",
         "created_at": "2026-04-06T11:22:51Z",
-        "updated_at": "2026-04-23T17:47:32Z",
+        "updated_at": "2026-04-24T17:09:47Z",
         "closed_at": null,
         "comments": 36,
         "is_pr": false,
@@ -6822,11 +7289,11 @@
       ],
       "participant_count": 17,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-03-18T18:51:33Z",
-        "updated_at": "2026-04-23T04:45:34Z",
-        "closed_at": null,
-        "comments": 102,
+        "updated_at": "2026-04-29T04:29:10Z",
+        "closed_at": "2026-04-25T04:34:24Z",
+        "comments": 128,
         "is_pr": false,
         "author": "MoltyCel",
         "labels": []
@@ -6871,11 +7338,11 @@
       ],
       "participant_count": 4,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-04-11T02:46:36Z",
-        "updated_at": "2026-04-23T12:25:21Z",
-        "closed_at": null,
-        "comments": 15,
+        "updated_at": "2026-04-25T15:33:06Z",
+        "closed_at": "2026-04-25T11:22:46Z",
+        "comments": 17,
         "is_pr": false,
         "author": "tomjwxf",
         "labels": [
@@ -6929,8 +7396,8 @@
         "srotzin",
         "kevinkaylie",
         "The-Nexus-Guard",
-        "kinthaiofficial",
         "thebenignhacker",
+        "kinthaiofficial",
         "ymc182",
         "chorghemaruti64-creator",
         "Kzino",
@@ -6941,9 +7408,9 @@
       "github": {
         "state": "open",
         "created_at": "2026-03-02T22:29:28Z",
-        "updated_at": "2026-04-21T02:59:49Z",
+        "updated_at": "2026-05-27T21:04:04Z",
         "closed_at": null,
-        "comments": 51,
+        "comments": 57,
         "is_pr": false,
         "author": "aeoess",
         "labels": []
@@ -6959,27 +7426,29 @@
       "url": "https://github.com/a2aproject/A2A/issues/1628",
       "participants": [
         "aeoess",
-        "haroldmalikfrimpong-ops",
         "kenneives",
+        "haroldmalikfrimpong-ops",
         "douglasborthwick-crypto",
         "MoltyCel",
         "srotzin",
         "0xbrainkid",
+        "vdineshk",
         "rnwy",
         "The-Nexus-Guard",
         "64R3N",
         "viftode4",
         "JKHeadley",
         "citriac",
-        "ymc182"
+        "ymc182",
+        "m13v"
       ],
-      "participant_count": 14,
+      "participant_count": 16,
       "github": {
         "state": "open",
         "created_at": "2026-03-13T11:37:17Z",
-        "updated_at": "2026-04-21T03:00:11Z",
+        "updated_at": "2026-05-28T20:06:02Z",
         "closed_at": null,
-        "comments": 71,
+        "comments": 80,
         "is_pr": false,
         "author": "douglasborthwick-crypto",
         "labels": []
@@ -6996,19 +7465,20 @@
       "participants": [
         "aeoess",
         "desiorac",
-        "haroldmalikfrimpong-ops",
         "kenneives",
+        "haroldmalikfrimpong-ops",
         "douglasborthwick-crypto",
         "MoltyCel",
         "vessenes",
         "tomjwxf",
         "srotzin",
+        "arian-gogani",
         "QueBallSharken",
         "kevinkaylie",
-        "xsa520",
         "pshkv",
-        "arian-gogani",
+        "xsa520",
         "0xbrainkid",
+        "vdineshk",
         "agent-morrow",
         "64R3N",
         "archedark-ada",
@@ -7027,17 +7497,18 @@
         "jingchang0623-crypto",
         "balthazar-bot",
         "Kzino",
+        "andysalvo",
         "w3rc",
         "aleksandarperak33-hub",
         "Bortlesboat"
       ],
-      "participant_count": 36,
+      "participant_count": 38,
       "github": {
         "state": "open",
         "created_at": "2026-03-22T21:47:40Z",
-        "updated_at": "2026-04-23T19:56:32Z",
+        "updated_at": "2026-05-27T21:01:00Z",
         "closed_at": null,
-        "comments": 478,
+        "comments": 561,
         "is_pr": false,
         "author": "haroldmalikfrimpong-ops",
         "labels": []
@@ -7094,9 +7565,9 @@
       "github": {
         "state": "open",
         "created_at": "2026-04-05T21:17:24Z",
-        "updated_at": "2026-04-23T20:00:45Z",
+        "updated_at": "2026-04-29T00:31:52Z",
         "closed_at": null,
-        "comments": 19,
+        "comments": 21,
         "is_pr": false,
         "author": "viftode4",
         "labels": []
@@ -7121,11 +7592,11 @@
       ],
       "participant_count": 7,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-04-12T17:03:59Z",
-        "updated_at": "2026-04-22T06:00:41Z",
-        "closed_at": null,
-        "comments": 24,
+        "updated_at": "2026-05-12T12:10:57Z",
+        "closed_at": "2026-05-12T12:10:57Z",
+        "comments": 41,
         "is_pr": false,
         "author": "razashariff",
         "labels": []
@@ -7146,15 +7617,16 @@
         "0xbrainkid",
         "vdineshk",
         "baronsengir007",
-        "ravikiran438"
+        "ravikiran438",
+        "darrelmiller"
       ],
-      "participant_count": 7,
+      "participant_count": 8,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-04-15T19:26:36Z",
-        "updated_at": "2026-04-22T14:23:03Z",
-        "closed_at": null,
-        "comments": 26,
+        "updated_at": "2026-05-19T10:39:50Z",
+        "closed_at": "2026-05-19T10:39:50Z",
+        "comments": 38,
         "is_pr": false,
         "author": "baronsengir007",
         "labels": []
@@ -7170,25 +7642,56 @@
       "url": "https://github.com/a2aproject/A2A/issues/1786",
       "participants": [
         "aeoess",
-        "haroldmalikfrimpong-ops",
+        "desiorac",
         "kenneives",
+        "haroldmalikfrimpong-ops",
         "srotzin",
+        "Liuyanfeng1234",
         "arian-gogani",
+        "vdineshk",
+        "giskard09",
+        "thebenignhacker",
         "lawcontinue",
         "msaleme",
-        "thebenignhacker",
+        "azender1",
         "SomeshZanwar",
-        "Liuyanfeng1234"
+        "SpeedGenius00"
       ],
-      "participant_count": 10,
+      "participant_count": 15,
       "github": {
         "state": "open",
         "created_at": "2026-04-25T00:48:24Z",
-        "updated_at": "2026-04-25T23:43:23Z",
+        "updated_at": "2026-05-29T05:36:14Z",
         "closed_at": null,
-        "comments": 12,
+        "comments": 206,
         "is_pr": false,
         "author": "aeoess",
+        "labels": []
+      }
+    },
+    {
+      "id": "a2aproject/A2A#1850",
+      "topic": "action-ref-joint-id",
+      "title": "docs(proposals): add A2A Identity Trust Framework roadmap (v1.0 - v2.0)",
+      "repo": "a2aproject/A2A",
+      "number": 1850,
+      "project_id": "a2a",
+      "url": "https://github.com/a2aproject/A2A/issues/1850",
+      "participants": [
+        "aeoess",
+        "kenneives",
+        "giskard09",
+        "thebenignhacker"
+      ],
+      "participant_count": 4,
+      "github": {
+        "state": "open",
+        "created_at": "2026-05-13T13:34:26Z",
+        "updated_at": "2026-05-28T23:38:36Z",
+        "closed_at": null,
+        "comments": 26,
+        "is_pr": true,
+        "author": "thebenignhacker",
         "labels": []
       }
     },
@@ -7202,19 +7705,20 @@
       "url": "https://github.com/aaif/project-proposals/issues/12",
       "participants": [
         "aeoess",
-        "pshkv"
+        "pshkv",
+        "maniksurtani"
       ],
-      "participant_count": 2,
+      "participant_count": 3,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-04-13T20:38:14Z",
-        "updated_at": "2026-04-21T22:36:25Z",
-        "closed_at": null,
-        "comments": 3,
+        "updated_at": "2026-05-25T03:52:15Z",
+        "closed_at": "2026-05-15T00:55:49Z",
+        "comments": 6,
         "is_pr": false,
         "author": "pshkv",
         "labels": [
-          "New"
+          "Declined"
         ]
       }
     },
@@ -8053,9 +8557,9 @@
       "github": {
         "state": "open",
         "created_at": "2026-02-21T19:05:14Z",
-        "updated_at": "2026-04-15T11:22:29Z",
+        "updated_at": "2026-05-15T00:00:15Z",
         "closed_at": null,
-        "comments": 12,
+        "comments": 28,
         "is_pr": false,
         "author": "aeoess",
         "labels": [
@@ -8077,10 +8581,10 @@
       ],
       "participant_count": 1,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-04-05T16:06:02Z",
-        "updated_at": "2026-04-05T16:06:02Z",
-        "closed_at": null,
+        "updated_at": "2026-05-06T05:30:58Z",
+        "closed_at": "2026-05-06T05:30:58Z",
         "comments": 0,
         "is_pr": false,
         "author": "aeoess",
@@ -8166,9 +8670,9 @@
       "github": {
         "state": "open",
         "created_at": "2026-04-10T17:16:54Z",
-        "updated_at": "2026-04-23T14:00:26Z",
+        "updated_at": "2026-05-01T02:14:16Z",
         "closed_at": null,
-        "comments": 51,
+        "comments": 52,
         "is_pr": false,
         "author": "aeoess",
         "labels": [
@@ -8214,8 +8718,8 @@
       "url": "https://github.com/aeoess/agent-passport-system/issues/3",
       "participants": [
         "aeoess",
-        "xsa520",
-        "pshkv"
+        "pshkv",
+        "xsa520"
       ],
       "participant_count": 3,
       "github": {
@@ -8403,9 +8907,9 @@
       "github": {
         "state": "open",
         "created_at": "2026-04-23T02:48:59Z",
-        "updated_at": "2026-04-23T02:48:59Z",
+        "updated_at": "2026-05-12T18:53:07Z",
         "closed_at": null,
-        "comments": 0,
+        "comments": 6,
         "is_pr": false,
         "author": "aeoess",
         "labels": []
@@ -8426,17 +8930,18 @@
       ],
       "participant_count": 3,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-03-09T15:35:57Z",
-        "updated_at": "2026-04-02T15:18:03Z",
-        "closed_at": null,
-        "comments": 9,
+        "updated_at": "2026-05-11T11:17:44Z",
+        "closed_at": "2026-05-11T11:17:44Z",
+        "comments": 10,
         "is_pr": false,
         "author": "yotsuda",
         "labels": [
           "enhancement",
           "area:mcp",
-          "area:agents"
+          "area:agents",
+          "stale"
         ]
       }
     },
@@ -8482,9 +8987,9 @@
       "github": {
         "state": "open",
         "created_at": "2026-04-17T16:40:22Z",
-        "updated_at": "2026-04-23T11:23:53Z",
+        "updated_at": "2026-04-29T06:11:38Z",
         "closed_at": null,
-        "comments": 7,
+        "comments": 8,
         "is_pr": false,
         "author": "tomjwxf",
         "labels": [
@@ -8532,15 +9037,15 @@
       "participants": [
         "aeoess",
         "desiorac",
-        "haroldmalikfrimpong-ops",
         "kenneives",
+        "haroldmalikfrimpong-ops",
         "douglasborthwick-crypto",
         "MoltyCel",
         "tomjwxf",
         "QueBallSharken",
         "kevinkaylie",
-        "xsa520",
         "pshkv",
+        "xsa520",
         "archedark-ada",
         "nanookclaw"
       ],
@@ -8548,9 +9053,9 @@
       "github": {
         "state": "open",
         "created_at": "2026-03-27T23:29:43Z",
-        "updated_at": "2026-04-23T19:07:52Z",
+        "updated_at": "2026-05-04T18:41:41Z",
         "closed_at": null,
-        "comments": 76,
+        "comments": 103,
         "is_pr": false,
         "author": "aeoess",
         "labels": []
@@ -8593,9 +9098,9 @@
         "douglasborthwick-crypto",
         "vessenes",
         "srotzin",
-        "xsa520",
-        "pshkv",
         "arian-gogani",
+        "pshkv",
+        "xsa520",
         "0xbrainkid",
         "The-Nexus-Guard",
         "64R3N",
@@ -8615,11 +9120,11 @@
       ],
       "participant_count": 23,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-02-22T03:46:14Z",
-        "updated_at": "2026-04-23T03:20:34Z",
-        "closed_at": null,
-        "comments": 83,
+        "updated_at": "2026-05-04T06:59:05Z",
+        "closed_at": "2026-05-04T06:59:05Z",
+        "comments": 94,
         "is_pr": false,
         "author": "The-Nexus-Guard",
         "labels": []
@@ -8645,10 +9150,10 @@
       ],
       "participant_count": 8,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-03-09T13:37:37Z",
-        "updated_at": "2026-04-10T17:00:45Z",
-        "closed_at": null,
+        "updated_at": "2026-05-04T07:03:24Z",
+        "closed_at": "2026-05-04T07:03:24Z",
         "comments": 30,
         "is_pr": false,
         "author": "0xbrainkid",
@@ -8677,10 +9182,10 @@
       ],
       "participant_count": 10,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-03-14T17:36:33Z",
-        "updated_at": "2026-04-22T01:03:57Z",
-        "closed_at": null,
+        "updated_at": "2026-04-30T18:00:47Z",
+        "closed_at": "2026-04-29T10:00:58Z",
         "comments": 17,
         "is_pr": false,
         "author": "razashariff",
@@ -8707,11 +9212,11 @@
       ],
       "participant_count": 8,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-03-22T21:47:48Z",
-        "updated_at": "2026-04-14T15:09:11Z",
-        "closed_at": null,
-        "comments": 21,
+        "updated_at": "2026-05-04T07:13:07Z",
+        "closed_at": "2026-05-04T07:13:07Z",
+        "comments": 22,
         "is_pr": false,
         "author": "haroldmalikfrimpong-ops",
         "labels": []
@@ -8727,8 +9232,8 @@
       "url": "https://github.com/douglasborthwick-crypto/insumer-examples/issues/1",
       "participants": [
         "aeoess",
-        "haroldmalikfrimpong-ops",
         "kenneives",
+        "haroldmalikfrimpong-ops",
         "douglasborthwick-crypto",
         "MoltyCel",
         "srotzin",
@@ -8739,15 +9244,16 @@
         "nutstrut",
         "JhiNResH",
         "ThoughtProof",
+        "goatgaucho",
         "AlexanderLawson17"
       ],
-      "participant_count": 14,
+      "participant_count": 15,
       "github": {
         "state": "open",
         "created_at": "2026-03-19T20:07:20Z",
-        "updated_at": "2026-04-20T23:14:36Z",
+        "updated_at": "2026-05-20T19:12:58Z",
         "closed_at": null,
-        "comments": 177,
+        "comments": 190,
         "is_pr": false,
         "author": "douglasborthwick-crypto",
         "labels": [
@@ -8770,16 +9276,15 @@
         "aeoess",
         "srotzin",
         "vdineshk",
-        "alexchenai",
-        "EXDEV-oss"
+        "alexchenai"
       ],
-      "participant_count": 5,
+      "participant_count": 4,
       "github": {
         "state": "open",
         "created_at": "2026-04-23T02:49:17Z",
-        "updated_at": "2026-04-23T02:49:17Z",
+        "updated_at": "2026-05-28T08:15:41Z",
         "closed_at": null,
-        "comments": 0,
+        "comments": 14,
         "is_pr": false,
         "author": "aeoess",
         "labels": []
@@ -8859,11 +9364,11 @@
       ],
       "participant_count": 4,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-04-16T08:10:56Z",
-        "updated_at": "2026-04-23T17:47:36Z",
-        "closed_at": null,
-        "comments": 9,
+        "updated_at": "2026-04-28T03:04:51Z",
+        "closed_at": "2026-04-27T18:13:10Z",
+        "comments": 17,
         "is_pr": true,
         "author": "tomjwxf",
         "labels": []
@@ -8886,7 +9391,7 @@
       "github": {
         "state": "open",
         "created_at": "2026-04-17T16:41:33Z",
-        "updated_at": "2026-04-21T13:56:34Z",
+        "updated_at": "2026-05-21T17:37:18Z",
         "closed_at": null,
         "comments": 4,
         "is_pr": false,
@@ -8923,11 +9428,11 @@
       ],
       "participant_count": 17,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-03-09T15:48:17Z",
-        "updated_at": "2026-04-22T15:19:38Z",
-        "closed_at": null,
-        "comments": 82,
+        "updated_at": "2026-05-26T14:34:17Z",
+        "closed_at": "2026-05-03T02:59:51Z",
+        "comments": 98,
         "is_pr": false,
         "author": "aniketh-maddipati",
         "labels": [
@@ -8950,11 +9455,11 @@
         "aeoess",
         "srotzin",
         "0xbrainkid",
-        "64R3N",
         "vdineshk",
+        "giskard09",
+        "64R3N",
         "viftode4",
         "theaniketgiri",
-        "giskard09",
         "kinthaiofficial",
         "VladUZH",
         "IndrasNet108",
@@ -8965,21 +9470,24 @@
         "majorelalexis-stack",
         "mrperfectness-sketch",
         "fairchildadrian9-create",
+        "vgudur-dev",
+        "m13v",
         "Jairooh",
         "aleksandarperak33-hub",
         "alex-pathcourse",
+        "redbotster",
         "udaysaai",
         "bobrenze-bot",
-        "m13v",
+        "fortsignal",
         "24na7igor"
       ],
-      "participant_count": 25,
+      "participant_count": 28,
       "github": {
         "state": "open",
         "created_at": "2026-03-25T16:38:31Z",
-        "updated_at": "2026-04-23T19:49:38Z",
+        "updated_at": "2026-05-28T18:14:43Z",
         "closed_at": null,
-        "comments": 74,
+        "comments": 104,
         "is_pr": false,
         "author": "theaniketgiri",
         "labels": [
@@ -9006,9 +9514,9 @@
       "github": {
         "state": "open",
         "created_at": "2026-04-17T16:40:54Z",
-        "updated_at": "2026-04-19T04:56:37Z",
+        "updated_at": "2026-05-28T08:15:39Z",
         "closed_at": null,
-        "comments": 6,
+        "comments": 7,
         "is_pr": false,
         "author": "tomjwxf",
         "labels": []
@@ -9056,11 +9564,11 @@
       ],
       "participant_count": 3,
       "github": {
-        "state": "open",
+        "state": "closed",
         "created_at": "2026-04-23T02:48:02Z",
-        "updated_at": "2026-04-23T02:48:02Z",
-        "closed_at": null,
-        "comments": 0,
+        "updated_at": "2026-04-26T21:11:38Z",
+        "closed_at": "2026-04-26T21:11:38Z",
+        "comments": 6,
         "is_pr": false,
         "author": "aeoess",
         "labels": []
@@ -9104,16 +9612,7 @@
         "aeoess"
       ],
       "participant_count": 1,
-      "github": {
-        "state": "open",
-        "created_at": "2026-04-23T02:48:38Z",
-        "updated_at": "2026-04-23T02:48:38Z",
-        "closed_at": null,
-        "comments": 0,
-        "is_pr": false,
-        "author": "aeoess",
-        "labels": []
-      }
+      "github": null
     },
     {
       "id": "ossf/security-insights#171",
@@ -9127,18 +9626,21 @@
         "aeoess",
         "tomjwxf",
         "eddie-knight",
-        "jmeridth"
+        "jmeridth",
+        "cgwalters"
       ],
-      "participant_count": 4,
+      "participant_count": 5,
       "github": {
         "state": "open",
         "created_at": "2026-04-17T14:10:11Z",
-        "updated_at": "2026-04-21T01:18:05Z",
+        "updated_at": "2026-05-27T22:20:24Z",
         "closed_at": null,
-        "comments": 8,
+        "comments": 17,
         "is_pr": false,
         "author": "tomjwxf",
-        "labels": []
+        "labels": [
+          "SIEP"
+        ]
       }
     },
     {
@@ -9245,12 +9747,12 @@
   ],
   "stats": {
     "projects": 18,
-    "people": 151,
-    "people_total_raw": 172,
-    "threads": 97,
-    "threads_mapped_to_project": 31,
+    "people": 165,
+    "people_total_raw": 189,
+    "threads": 98,
+    "threads_mapped_to_project": 32,
     "projects_enriched": 12,
-    "people_enriched": 140,
+    "people_enriched": 152,
     "threads_enriched": 97
   }
 }
