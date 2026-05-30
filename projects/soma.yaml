@@ -18,7 +18,7 @@ venues:
   - kind: repository
     url: https://github.com/giskard09/soma
     label: Source
-  - kind: registry
+  - kind: package-registry
     url: https://registry.modelcontextprotocol.io
     label: MCP Registry
 
