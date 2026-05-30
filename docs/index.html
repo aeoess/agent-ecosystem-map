@@ -166,7 +166,7 @@ let DATA = null;
 let currentTab = 'projects';
 let filterState = {
   projects: { search: '', sort: 'contributors', dir: 'desc', chips: {} },
-  people:   { search: '', sort: 'score',        dir: 'desc', chips: {} },
+  people:   { search: '', sort: 'last_seen',    dir: 'desc', chips: {} },
   threads:  { search: '', sort: 'updated',      dir: 'desc', chips: {} },
 };
 
@@ -241,7 +241,6 @@ function personDerived(p) {
     login: p.login,
     name: g.name || '',
     company: g.company || '',
-    score: p.score,
     posts: p.posts,
     threadsN: (p.threads || []).length,
     first_seen: p.first_seen_ours,
@@ -288,7 +287,6 @@ const COLS = {
   people: [
     { k:'login',        label:'Login',        sort:(a,b)=>a.login.localeCompare(b.login), render:r=>`<strong class="mono">${esc(r.login)}</strong>${r.name?`<div style="color:var(--ink-3);font-size:11px;margin-top:2px">${esc(r.name)}</div>`:''}` },
     { k:'company',      label:'Company',      sort:(a,b)=>(a.company||'').localeCompare(b.company||''), render:r=>r.company?esc(r.company.replace(/^@/,'')):'—' },
-    { k:'score',        label:'Score',        num:true, sort:(a,b)=>a.score-b.score, render:r=>r.score },
     { k:'posts',        label:'Posts',        num:true, sort:(a,b)=>a.posts-b.posts, render:r=>r.posts },
     { k:'threadsN',     label:'Threads',      num:true, sort:(a,b)=>a.threadsN-b.threadsN, render:r=>r.threadsN },
     { k:'acct_created', label:'Acct age',     sort:(a,b)=>(parseDate(a.acct_created)||0)-(parseDate(b.acct_created)||0), render:r=>{
@@ -297,7 +295,7 @@ const COLS = {
       return `<span class="pill ${cls}" title="${esc(fmtAbs(r.acct_created))}">${lbl}</span>`;
     }},
     { k:'first_seen',   label:'First seen',   sort:(a,b)=>(parseDate(a.first_seen)||0)-(parseDate(b.first_seen)||0), render:r=>`<span title="${esc(fmtAbs(r.first_seen))}">${fmtRel(r.first_seen)}</span>` },
-    { k:'last_seen',    label:'Last active',  sort:(a,b)=>(parseDate(a.last_seen)||0)-(parseDate(b.last_seen)||0), render:r=>`<span title="${esc(fmtAbs(r.last_seen))}">${fmtRel(r.last_seen)}</span>` },
+    { k:'last_seen',    label:'Last active',  sort:(a,b)=>((parseDate(a.last_seen)||0)-(parseDate(b.last_seen)||0)) || (a.posts-b.posts), render:r=>`<span title="${esc(fmtAbs(r.last_seen))}">${fmtRel(r.last_seen)}</span>` },
     { k:'followers',    label:'Followers',    num:true, sort:(a,b)=>a.followers-b.followers, render:r=>r.followers },
   ],
   threads: [
@@ -328,7 +326,6 @@ const CHIPS = {
     { id:'active30',   label:'Active ≤30d',   pred:r=>daysAgo(r.last_seen) <= 30 },
     { id:'new_acct',   label:'Acct <60d',     pred:r=>daysAgo(r.acct_created) < 60 },
     { id:'veteran',    label:'Acct >3y',      pred:r=>daysAgo(r.acct_created) > 365*3 },
-    { id:'substantive',label:'Score ≥100',    pred:r=>r.score >= 100 },
   ],
   threads: [
     { id:'all',       label:'All',            pred:()=>true },
@@ -488,12 +485,8 @@ function drawerPerson(p) {
     ${g.name ? `<div class="lede"><strong>${esc(g.name)}</strong>${g.company?` · ${esc(g.company.replace(/^@/,''))}`:''}${g.location?` · ${esc(g.location)}`:''}</div>`:''}
     ${g.bio ? `<div class="lede" style="color:var(--ink-2);font-style:italic">${esc(g.bio)}</div>`:''}
     ${propsRows([
-      ['Score',       p.score],
       ['Posts',       p.posts],
       ['Threads',     (p.threads||[]).length],
-      ['Ship',        p.ship],
-      ['Propose',     p.propose],
-      ['Review',      p.review],
       ['First seen',  p.first_seen_ours ? `${fmtAbs(p.first_seen_ours)} (${fmtRel(p.first_seen_ours)})` : null],
       ['Last active', p.last_seen_ours  ? `${fmtAbs(p.last_seen_ours)} (${fmtRel(p.last_seen_ours)})` : null],
       ['Account',     g.created_at ? `${fmtAbs(g.created_at)} (${fmtAge(g.created_at)} old)` : null],

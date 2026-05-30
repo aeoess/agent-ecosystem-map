@@ -33,3 +33,6 @@ specs/ERIK-NEWTON*
 /tmp-*.md
 /scratch-*.md
 *.private.md
+
+# Local pointer to the private contribution-map output dir (never publish)
+scripts/.contribution-map-path

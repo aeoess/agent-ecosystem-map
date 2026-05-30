@@ -4,8 +4,8 @@ Build ecosystem-data.json for docs/index.html (served as GitHub Pages).
 
 Pulls and enriches:
 - 18 projects   from projects/*.yaml + GitHub repo metadata
-- 130 people    from aeoess_web contribution map + GitHub user metadata
-- 93 threads    from aeoess_web contribution map + GitHub issue metadata
+- 130 people    from the contribution-map output + GitHub user metadata
+- 93 threads    from the contribution-map output + GitHub issue metadata
 
 Caches GitHub responses to .github-cache/ so re-runs don't burn API quota.
 """
@@ -16,16 +16,37 @@ from datetime import datetime, timezone
 # Repo root is two parents up from this script.
 ROOT      = Path(__file__).resolve().parent.parent
 
-# Contribution-map data lives outside this repo. Set CONTRIBUTION_MAP_OUT
-# to point at the directory containing the contribution-map JSON outputs.
-# This script requires that data and will exit with a clear error if not set.
-_map_env  = os.environ.get('CONTRIBUTION_MAP_OUT')
-if not _map_env:
+# Contribution-map data lives in a private directory outside this PUBLIC
+# repo, so its absolute path is never hardcoded here. It is resolved in
+# order:
+#   1. the CONTRIBUTION_MAP_OUT environment variable, if set;
+#   2. otherwise the path written in the gitignored pointer file
+#      scripts/.contribution-map-path (one line, the output directory).
+# The pointer file is the self-healing default: the daily rebuild runs
+# `python3 scripts/build-ecosystem-data.py` with no env var and still
+# finds the data, while the private location stays out of public source.
+# A clear error fires if neither resolves to an existing directory.
+def _resolve_map_dir():
+    env = os.environ.get('CONTRIBUTION_MAP_OUT')
+    if env:
+        return Path(env).expanduser()
+    pointer = ROOT / 'scripts' / '.contribution-map-path'
+    if pointer.is_file():
+        line = pointer.read_text().strip()
+        if line:
+            return Path(line).expanduser()
+    return None
+
+MAP = _resolve_map_dir()
+if MAP is None or not MAP.is_dir():
     raise SystemExit(
-        "CONTRIBUTION_MAP_OUT environment variable is required.\n"
-        "Set it to the directory containing contribution-map JSON outputs."
+        "Contribution-map output directory is not configured or is missing"
+        + (f": {MAP}" if MAP is not None else "") + ".\n"
+        "Set CONTRIBUTION_MAP_OUT to the directory containing the "
+        "contribution-map JSON outputs (participants_v2.json, "
+        "thread_titles.json), or write that path into the gitignored file "
+        "scripts/.contribution-map-path."
     )
-MAP       = Path(_map_env).expanduser()
 
 CACHE     = ROOT / '.github-cache'
 
@@ -121,6 +142,9 @@ for i, (login, d) in enumerate(people_raw.items()):
         continue
     record = {
         'login': login,
+        # score is computed for admission + internal ranking only. It is
+        # stripped from every record before emit so the public directory
+        # carries no per-person reputation number.
         'score': score,
         'posts': d.get('comment_count', 0),
         'threads': d.get('threads', []),
@@ -128,10 +152,6 @@ for i, (login, d) in enumerate(people_raw.items()):
         'repos': d.get('repos', []),
         'first_seen_ours': d.get('first_seen'),
         'last_seen_ours':  d.get('last_seen'),
-        'ship':    d.get('ship', 0),
-        'propose': d.get('propose', 0),
-        'review':  d.get('review', 0),
-        'mentions_received': d.get('mentions_received', 0),
         'word_count': d.get('word_count', 0),
     }
     # enrich
@@ -157,6 +177,11 @@ for i, (login, d) in enumerate(people_raw.items()):
     if (i + 1) % 20 == 0:
         print(f'  ...{i+1}/{len(people_raw)}')
 people.sort(key=lambda p: -p['score'])
+# Reputation is internal. Strip score from every record so it never lands
+# in the published docs/ecosystem-data.json. Admission (score >= 5) and the
+# ranking above already used it.
+for p in people:
+    p.pop('score', None)
 print(f'  {len(people)} people, {sum(1 for p in people if p["github"]) } with GitHub metadata')
 
 # -------------------------------------------------------------------

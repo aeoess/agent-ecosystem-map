@@ -43,7 +43,7 @@ Review is a schema check plus a live-endpoint verification for anything the entr
 
 ## How the data is refreshed
 
-`scripts/build-ecosystem-data.py` reads every `projects/*.yaml`, pulls the contribution map from `aeoess_web/specs/contribution-map/`, and enriches everything via the GitHub API. Responses are cached to `.github-cache/` (gitignored) so reruns don't burn API quota. Output is `docs/ecosystem-data.json`, which the page fetches at load time.
+`scripts/build-ecosystem-data.py` reads every `projects/*.yaml`, pulls the contribution map from the contribution-map output directory, and enriches everything via the GitHub API. The contribution-map location is resolved from the `CONTRIBUTION_MAP_OUT` environment variable, falling back to the path written in the gitignored `scripts/.contribution-map-path` pointer file, so the daily rebuild works with no environment variable set and the private location stays out of this public repo. Responses are cached to `.github-cache/` (gitignored) so reruns don't burn API quota. Output is `docs/ecosystem-data.json`, which the page fetches at load time.
 
 Rebuild with `python3 scripts/build-ecosystem-data.py`. Takes a few minutes if the cache is cold, seconds if warm.
 
