@@ -1,6 +1,6 @@
 name: Agent Passport System
 slug: aps
-description: Cryptographic identity, scoped delegation, governance, and commerce protocol for AI agents. Ed25519 signatures, offline-verifiable, 26 v2 constitutional modules across identity, delegation, enforcement, data lifecycle, accountability, and coordination. Reference implementations in TypeScript and Python with cross-language byte-parity verified across the full Wave 1 surface.
+description: Cryptographic identity, scoped delegation, governance, and commerce protocol for AI agents. Ed25519 signatures, offline-verifiable, 23 v2 constitutional modules across identity, delegation, enforcement, data lifecycle, accountability, and coordination. Reference implementations in TypeScript, Python, and Go with cross-language byte-parity verified across the full Wave 1 surface.
 topics:
   - identity
   - delegation

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T00:31:37.792825+00:00",
+  "generated_at": "2026-06-03T21:36:27.542428+00:00",
   "projects": [
     {
       "name": "Agent2Agent Protocol",
@@ -139,11 +139,11 @@
       "_github": {
         "repo": "microsoft/agent-governance-toolkit",
         "created_at": "2026-03-02T22:11:47Z",
-        "pushed_at": "2026-05-29T23:11:18Z",
-        "updated_at": "2026-05-29T23:20:42Z",
-        "stargazers": 3351,
-        "forks": 487,
-        "open_issues": 25,
+        "pushed_at": "2026-05-30T02:44:53Z",
+        "updated_at": "2026-05-30T02:42:35Z",
+        "stargazers": 3358,
+        "forks": 488,
+        "open_issues": 32,
         "license": "MIT",
         "description": "AI Agent Governance Toolkit \u2014 Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
         "homepage": null,
@@ -348,7 +348,7 @@
     {
       "name": "Agent Passport System",
       "slug": "aps",
-      "description": "Cryptographic identity, scoped delegation, governance, and commerce protocol for AI agents. Ed25519 signatures, offline-verifiable, 26 v2 constitutional modules across identity, delegation, enforcement, data lifecycle, accountability, and coordination. Reference implementations in TypeScript and Python with cross-language byte-parity verified across the full Wave 1 surface.",
+      "description": "Cryptographic identity, scoped delegation, governance, and commerce protocol for AI agents. Ed25519 signatures, offline-verifiable, 23 v2 constitutional modules across identity, delegation, enforcement, data lifecycle, accountability, and coordination. Reference implementations in TypeScript, Python, and Go with cross-language byte-parity verified across the full Wave 1 surface.",
       "topics": [
         "identity",
         "delegation",
@@ -682,8 +682,8 @@
       "_github": {
         "repo": "FransDevelopment/open-agent-trust-registry",
         "created_at": "2026-03-16T03:43:39Z",
-        "pushed_at": "2026-05-29T23:18:27Z",
-        "updated_at": "2026-05-29T23:18:31Z",
+        "pushed_at": "2026-05-30T02:49:50Z",
+        "updated_at": "2026-05-30T02:49:54Z",
         "stargazers": 10,
         "forks": 13,
         "open_issues": 8,
@@ -872,7 +872,7 @@
   "people": [
     {
       "login": "aeoess",
-      "posts": 660,
+      "posts": 684,
       "threads": [
         "FransDevelopment/open-agent-trust-registry#24",
         "FransDevelopment/open-agent-trust-registry#28",
@@ -897,6 +897,9 @@
         "a2aproject/A2A#1786",
         "a2aproject/A2A#1850",
         "aaif/project-proposals#12",
+        "aeoess/a2a-compliance-harness#1",
+        "aeoess/agent-ecosystem-map#2",
+        "aeoess/agent-governance-vocabulary#100",
         "aeoess/agent-governance-vocabulary#28",
         "aeoess/agent-governance-vocabulary#29",
         "aeoess/agent-governance-vocabulary#46",
@@ -907,6 +910,8 @@
         "aeoess/agent-passport-system#12",
         "aeoess/agent-passport-system#13",
         "aeoess/agent-passport-system#2",
+        "aeoess/agent-passport-system#25",
+        "aeoess/agent-passport-system#28",
         "aeoess/agent-passport-system#3",
         "aeoess/agent-passport-system#5",
         "aeoess/agent-passport-system#6",
@@ -914,9 +919,13 @@
         "aeoess/agent-passport-system#8",
         "aeoess/agent-passport-system#9",
         "aeoess/autogen-governance-adapter#1",
+        "aeoess/awesome-ai-agents-2026#1",
+        "aeoess/execution-boundary-spec#1",
+        "aeoess/governance-attestation-predicate#1",
         "agentic-commerce-protocol/agentic-commerce-protocol#231",
         "anthropics/claude-code#32514",
         "arewm/refs.arewm.com#1",
+        "awslabs/agentcore-samples#1546",
         "cisco-ai-defense/defenseclaw#115",
         "corpollc/qntm#6",
         "corpollc/qntm#7",
@@ -964,6 +973,7 @@
         "aeoess-agent-passport-system-9",
         "agent-identity-verification",
         "agentcard-limitations",
+        "agentcore-x402-composition",
         "agentid-aps-fixtures",
         "agentkit-aps-compose",
         "agt-dual-citizen",
@@ -971,20 +981,27 @@
         "aivss-aps-mapping",
         "aivss-multi-agent-governance",
         "algobharat-collision",
+        "aps-composition-replay",
+        "aps-cycles-reserve-commit",
         "arewm-agent-commit",
         "atf-elements",
         "authority-constraints",
         "autogen-jwks-kid-strict",
+        "awesome-aps-listing",
         "claude-code-mcp",
         "crewai-governance",
         "crewai-integration",
         "crewai-primitives",
         "crewai-spec",
         "defenseclaw-receipts",
+        "ebs-asqav-execution-boundary",
+        "ecosystem-soma-entry",
         "ed25519-x25519-vectors",
         "erc8004-bridge",
         "execution-attestation",
+        "gap-values-floor-predicate",
         "gitagent-identity",
+        "harness-moltrust-adapter",
         "helixar-interop",
         "hermes-self-modification",
         "identity-delegation-enforcement",
@@ -1008,6 +1025,7 @@
         "veritas-signal-belief",
         "veritas-testvectors",
         "vocab-agentlair",
+        "vocab-payment-rail-crosswalk",
         "vocab-peer-review-audit",
         "vocab-sbr-continuity",
         "vocab-wallet-intelligence-behavioral",
@@ -1025,12 +1043,18 @@
         "VeritasActa/verify",
         "a2aproject/A2A",
         "aaif/project-proposals",
+        "aeoess/a2a-compliance-harness",
+        "aeoess/agent-ecosystem-map",
         "aeoess/agent-governance-vocabulary",
         "aeoess/agent-passport-system",
         "aeoess/autogen-governance-adapter",
+        "aeoess/awesome-ai-agents-2026",
+        "aeoess/execution-boundary-spec",
+        "aeoess/governance-attestation-predicate",
         "agentic-commerce-protocol/agentic-commerce-protocol",
         "anthropics/claude-code",
         "arewm/refs.arewm.com",
+        "awslabs/agentcore-samples",
         "cisco-ai-defense/defenseclaw",
         "corpollc/qntm",
         "crewAIInc/crewAI",
@@ -1051,8 +1075,8 @@
         "worldcoin/agentkit-shopify-demo"
       ],
       "first_seen_ours": "2026-02-21T19:05:14Z",
-      "last_seen_ours": "2026-05-28T20:26:23Z",
-      "word_count": 164624,
+      "last_seen_ours": "2026-05-30T02:17:50Z",
+      "word_count": 170037,
       "github": {
         "name": "\u00e6\u0153ss",
         "bio": "Tymofii Pidlisnyi                                 \u00b7 Building governance infrastructure for the agent economy",
@@ -1276,6 +1300,7 @@
         "a2aproject/A2A#1718",
         "a2aproject/A2A#1742",
         "a2aproject/A2A#1755",
+        "aeoess/a2a-compliance-harness#1",
         "aeoess/agent-passport-system#11",
         "aeoess/agent-passport-system#13",
         "corpollc/qntm#6",
@@ -1291,6 +1316,7 @@
         "agent-identity-verification",
         "authority-constraints",
         "execution-attestation",
+        "harness-moltrust-adapter",
         "identity-delegation-enforcement",
         "insumer-multi-attestation",
         "moltrust-integration",
@@ -1301,13 +1327,14 @@
       "repos": [
         "OpenClaw/openclaw",
         "a2aproject/A2A",
+        "aeoess/a2a-compliance-harness",
         "aeoess/agent-passport-system",
         "corpollc/qntm",
         "douglasborthwick-crypto/insumer-examples"
       ],
       "first_seen_ours": "2026-03-18T18:51:33Z",
       "last_seen_ours": "2026-04-28T19:09:17Z",
-      "word_count": 20474,
+      "word_count": 20945,
       "github": {
         "name": "MoltyCel",
         "bio": "MolTrust Creator \u2014 Trust Layer for the Agent Economy. Identity, reputation & verifiable credentials for AI agents. \ud83d\udee1\ufe0f",
@@ -1371,6 +1398,7 @@
         "a2aproject/A2A#1575",
         "a2aproject/A2A#1672",
         "aeoess/agent-passport-system#13",
+        "aeoess/awesome-ai-agents-2026#1",
         "arewm/refs.arewm.com#1",
         "cisco-ai-defense/defenseclaw#115",
         "corpollc/qntm#7",
@@ -1389,6 +1417,7 @@
         "arewm-agent-commit",
         "atf-elements",
         "authority-constraints",
+        "awesome-aps-listing",
         "defenseclaw-receipts",
         "hermes-self-modification",
         "identity-delegation-enforcement",
@@ -1405,6 +1434,7 @@
         "VeritasActa/verify",
         "a2aproject/A2A",
         "aeoess/agent-passport-system",
+        "aeoess/awesome-ai-agents-2026",
         "arewm/refs.arewm.com",
         "cisco-ai-defense/defenseclaw",
         "corpollc/qntm",
@@ -1415,9 +1445,9 @@
         "microsoft/agent-governance-toolkit",
         "ossf/security-insights"
       ],
-      "first_seen_ours": "2026-04-10T17:54:26Z",
+      "first_seen_ours": "2026-04-07T05:36:44Z",
       "last_seen_ours": "2026-05-17T08:38:57Z",
-      "word_count": 18369,
+      "word_count": 18456,
       "github": {
         "name": "TJF",
         "bio": "Ex-HF mngr, zero trust infra ",
@@ -1522,12 +1552,13 @@
     },
     {
       "login": "arian-gogani",
-      "posts": 54,
+      "posts": 55,
       "threads": [
         "FransDevelopment/open-agent-trust-registry#28",
         "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32",
         "a2aproject/A2A#1672",
         "a2aproject/A2A#1786",
+        "awslabs/agentcore-samples#1546",
         "crewAIInc/crewAI#4560",
         "in-toto/attestation#549",
         "langchain-ai/langchain#35691"
@@ -1535,6 +1566,7 @@
       "topics": [
         "a2a-cai-extension-proposal",
         "agent-identity-verification",
+        "agentcore-x402-composition",
         "aivss-multi-agent-governance",
         "crewai-governance",
         "in-toto-decision-receipt",
@@ -1545,13 +1577,14 @@
         "FransDevelopment/open-agent-trust-registry",
         "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
         "a2aproject/A2A",
+        "awslabs/agentcore-samples",
         "crewAIInc/crewAI",
         "in-toto/attestation",
         "langchain-ai/langchain"
       ],
       "first_seen_ours": "2026-04-16T22:51:21Z",
       "last_seen_ours": "2026-05-26T06:07:07Z",
-      "word_count": 6844,
+      "word_count": 6984,
       "github": {
         "name": null,
         "bio": null,
@@ -1876,6 +1909,7 @@
       "threads": [
         "a2aproject/A2A#1786",
         "a2aproject/A2A#1850",
+        "aeoess/agent-ecosystem-map#2",
         "aeoess/agent-passport-system#1",
         "langchain-ai/langchain#36232"
       ],
@@ -1883,16 +1917,18 @@
         "a2a-cai-extension-proposal",
         "action-ref-joint-id",
         "aeoess-agent-passport-system-1",
+        "ecosystem-soma-entry",
         "langchain-memory"
       ],
       "repos": [
         "a2aproject/A2A",
+        "aeoess/agent-ecosystem-map",
         "aeoess/agent-passport-system",
         "langchain-ai/langchain"
       ],
       "first_seen_ours": "2026-05-08T15:52:37Z",
       "last_seen_ours": "2026-05-28T00:29:39Z",
-      "word_count": 3215,
+      "word_count": 3268,
       "github": {
         "name": null,
         "bio": null,
@@ -2283,6 +2319,43 @@
       }
     },
     {
+      "login": "lowkey-divine",
+      "posts": 12,
+      "threads": [
+        "aeoess/agent-passport-system#25",
+        "aeoess/agent-passport-system#6",
+        "aeoess/agent-passport-system#9",
+        "crewAIInc/crewAI#4789"
+      ],
+      "topics": [
+        "aeoess-agent-passport-system-6",
+        "aeoess-agent-passport-system-9",
+        "aps-cycles-reserve-commit",
+        "crewai-integration"
+      ],
+      "repos": [
+        "aeoess/agent-passport-system",
+        "crewAIInc/crewAI"
+      ],
+      "first_seen_ours": "2026-03-26T22:38:43Z",
+      "last_seen_ours": "2026-05-22T20:02:35Z",
+      "word_count": 3076,
+      "github": {
+        "name": "EVOKE Passion",
+        "bio": "71 AI voices building technology that serves human flourishing. We evoke \u2014 we never extract. \ud83d\ude80 evoked.dev",
+        "company": null,
+        "location": null,
+        "blog": "https://evoked.dev",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-02-01T00:33:16Z",
+        "followers": 2,
+        "following": 1,
+        "public_repos": 11,
+        "type": "User"
+      }
+    },
+    {
       "login": "razashariff",
       "posts": 14,
       "threads": [
@@ -2326,6 +2399,54 @@
       }
     },
     {
+      "login": "jagmarques",
+      "posts": 19,
+      "threads": [
+        "OWASP/www-project-top-10-for-large-language-model-applications#802",
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1717",
+        "a2aproject/A2A#1718",
+        "aeoess/agent-passport-system#9",
+        "aeoess/execution-boundary-spec#1",
+        "crewAIInc/crewAI#5019",
+        "langchain-ai/langchain#35691"
+      ],
+      "topics": [
+        "a2a-signing-custody",
+        "aeoess-agent-passport-system-9",
+        "agent-identity-verification",
+        "crewai-primitives",
+        "ebs-asqav-execution-boundary",
+        "langchain-compliance-backend",
+        "owasp-llm-aps"
+      ],
+      "repos": [
+        "OWASP/www-project-top-10-for-large-language-model-applications",
+        "a2aproject/A2A",
+        "aeoess/agent-passport-system",
+        "aeoess/execution-boundary-spec",
+        "crewAIInc/crewAI",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-03-24T20:21:32Z",
+      "last_seen_ours": "2026-05-09T20:35:49Z",
+      "word_count": 2009,
+      "github": {
+        "name": "Jo\u00e3o Andr\u00e9 Marques",
+        "bio": null,
+        "company": null,
+        "location": "Coimbra",
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2017-09-27T15:07:36Z",
+        "followers": 16,
+        "following": 20,
+        "public_repos": 15,
+        "type": "User"
+      }
+    },
+    {
       "login": "nanookclaw",
       "posts": 8,
       "threads": [
@@ -2354,42 +2475,7 @@
         "created_at": "2026-02-02T05:50:08Z",
         "followers": 8,
         "following": 0,
-        "public_repos": 145,
-        "type": "User"
-      }
-    },
-    {
-      "login": "lowkey-divine",
-      "posts": 11,
-      "threads": [
-        "aeoess/agent-passport-system#6",
-        "aeoess/agent-passport-system#9",
-        "crewAIInc/crewAI#4789"
-      ],
-      "topics": [
-        "aeoess-agent-passport-system-6",
-        "aeoess-agent-passport-system-9",
-        "crewai-integration"
-      ],
-      "repos": [
-        "aeoess/agent-passport-system",
-        "crewAIInc/crewAI"
-      ],
-      "first_seen_ours": "2026-03-26T22:38:43Z",
-      "last_seen_ours": "2026-04-10T18:03:43Z",
-      "word_count": 2758,
-      "github": {
-        "name": "EVOKE Passion",
-        "bio": "71 AI voices building technology that serves human flourishing. We evoke \u2014 we never extract. \ud83d\ude80 evoked.dev",
-        "company": null,
-        "location": null,
-        "blog": "https://evoked.dev",
-        "email": null,
-        "twitter": null,
-        "created_at": "2025-02-01T00:33:16Z",
-        "followers": 2,
-        "following": 1,
-        "public_repos": 11,
+        "public_repos": 146,
         "type": "User"
       }
     },
@@ -2781,6 +2867,30 @@
       }
     },
     {
+      "login": "veritasacta",
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "word_count": 0,
+      "github": {
+        "name": "Veritas Acta",
+        "bio": "Open protocol for signed, independently verifiable machine decisions. IETF Internet-Draft. Ed25519 receipts.",
+        "company": null,
+        "location": null,
+        "blog": "https://veritasacta.com",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-03-08T15:32:45Z",
+        "followers": 4,
+        "following": 0,
+        "public_repos": 17,
+        "type": "Organization"
+      }
+    },
+    {
       "login": "Jovancoding",
       "posts": 6,
       "threads": [
@@ -2810,30 +2920,6 @@
         "following": 0,
         "public_repos": 15,
         "type": "User"
-      }
-    },
-    {
-      "login": "veritasacta",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": "Veritas Acta",
-        "bio": "Open protocol for signed, independently verifiable machine decisions. IETF Internet-Draft. Ed25519 receipts.",
-        "company": null,
-        "location": null,
-        "blog": "https://veritasacta.com",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-03-08T15:32:45Z",
-        "followers": 4,
-        "following": 0,
-        "public_repos": 17,
-        "type": "Organization"
       }
     },
     {
@@ -2900,51 +2986,6 @@
         "followers": 1,
         "following": 0,
         "public_repos": 13,
-        "type": "User"
-      }
-    },
-    {
-      "login": "jagmarques",
-      "posts": 12,
-      "threads": [
-        "OWASP/www-project-top-10-for-large-language-model-applications#802",
-        "a2aproject/A2A#1672",
-        "a2aproject/A2A#1717",
-        "a2aproject/A2A#1718",
-        "aeoess/agent-passport-system#9",
-        "crewAIInc/crewAI#5019",
-        "langchain-ai/langchain#35691"
-      ],
-      "topics": [
-        "a2a-signing-custody",
-        "aeoess-agent-passport-system-9",
-        "agent-identity-verification",
-        "crewai-primitives",
-        "langchain-compliance-backend",
-        "owasp-llm-aps"
-      ],
-      "repos": [
-        "OWASP/www-project-top-10-for-large-language-model-applications",
-        "a2aproject/A2A",
-        "aeoess/agent-passport-system",
-        "crewAIInc/crewAI",
-        "langchain-ai/langchain"
-      ],
-      "first_seen_ours": "2026-03-24T20:21:32Z",
-      "last_seen_ours": "2026-04-19T20:16:18Z",
-      "word_count": 1277,
-      "github": {
-        "name": "Jo\u00e3o Andr\u00e9 Marques",
-        "bio": null,
-        "company": null,
-        "location": "Coimbra",
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2017-09-27T15:07:36Z",
-        "followers": 16,
-        "following": 20,
-        "public_repos": 15,
         "type": "User"
       }
     },
@@ -3100,6 +3141,36 @@
         "followers": 0,
         "following": 2,
         "public_repos": 25,
+        "type": "User"
+      }
+    },
+    {
+      "login": "amavashev",
+      "posts": 6,
+      "threads": [
+        "aeoess/agent-passport-system#25"
+      ],
+      "topics": [
+        "aps-cycles-reserve-commit"
+      ],
+      "repos": [
+        "aeoess/agent-passport-system"
+      ],
+      "first_seen_ours": "2026-05-08T10:38:22Z",
+      "last_seen_ours": "2026-05-12T22:19:32Z",
+      "word_count": 2709,
+      "github": {
+        "name": "Albert M",
+        "bio": "Founder & CEO scalerX.ai, runcycles.io",
+        "company": "@K2NIO ",
+        "location": "New York",
+        "blog": "https://www.linkedin.com/in/amavashev/",
+        "email": "amavashev@k2n.io",
+        "twitter": "scalerXai",
+        "created_at": "2014-02-25T19:28:54Z",
+        "followers": 2,
+        "following": 12,
+        "public_repos": 17,
         "type": "User"
       }
     },
@@ -3815,6 +3886,39 @@
       }
     },
     {
+      "login": "Ectsang",
+      "posts": 2,
+      "threads": [
+        "aeoess/agent-governance-vocabulary#100",
+        "agentic-commerce-protocol/agentic-commerce-protocol#231"
+      ],
+      "topics": [
+        "acp-governance-binding",
+        "vocab-payment-rail-crosswalk"
+      ],
+      "repos": [
+        "aeoess/agent-governance-vocabulary",
+        "agentic-commerce-protocol/agentic-commerce-protocol"
+      ],
+      "first_seen_ours": "2026-05-08T03:27:11Z",
+      "last_seen_ours": "2026-05-26T08:25:19Z",
+      "word_count": 791,
+      "github": {
+        "name": "Eric",
+        "bio": "Building agent payment infrastructure. AP2 / x402 / MPP / MCP\r\n    \r\n",
+        "company": null,
+        "location": "Hong Kong",
+        "blog": "https://goodmeta.co",
+        "email": null,
+        "twitter": "ericxtweets",
+        "created_at": "2011-09-17T08:14:39Z",
+        "followers": 33,
+        "following": 1,
+        "public_repos": 69,
+        "type": "User"
+      }
+    },
+    {
       "login": "kemarovokam-gif",
       "posts": 5,
       "threads": [
@@ -3840,7 +3944,7 @@
         "created_at": "2025-09-14T12:22:32Z",
         "followers": 0,
         "following": 8,
-        "public_repos": 3,
+        "public_repos": 2,
         "type": "User"
       }
     },
@@ -4519,7 +4623,7 @@
         "email": "peter@steipete.me",
         "twitter": "steipete",
         "created_at": "2009-02-27T08:34:22Z",
-        "followers": 50726,
+        "followers": 50727,
         "following": 109,
         "public_repos": 172,
         "type": "User"
@@ -4582,36 +4686,6 @@
         "followers": 1,
         "following": 6,
         "public_repos": 26,
-        "type": "User"
-      }
-    },
-    {
-      "login": "Ectsang",
-      "posts": 2,
-      "threads": [
-        "agentic-commerce-protocol/agentic-commerce-protocol#231"
-      ],
-      "topics": [
-        "acp-governance-binding"
-      ],
-      "repos": [
-        "agentic-commerce-protocol/agentic-commerce-protocol"
-      ],
-      "first_seen_ours": "2026-05-08T03:27:11Z",
-      "last_seen_ours": "2026-05-11T03:55:19Z",
-      "word_count": 498,
-      "github": {
-        "name": "Eric",
-        "bio": "Building agent payment infrastructure. AP2 / x402 / MPP / MCP\r\n    \r\n",
-        "company": null,
-        "location": "Hong Kong",
-        "blog": "https://goodmeta.co",
-        "email": null,
-        "twitter": "ericxtweets",
-        "created_at": "2011-09-17T08:14:39Z",
-        "followers": 33,
-        "following": 1,
-        "public_repos": 69,
         "type": "User"
       }
     },
@@ -4937,6 +5011,39 @@
       }
     },
     {
+      "login": "flyoung588",
+      "posts": 0,
+      "threads": [
+        "aeoess/agent-passport-system#28",
+        "aeoess/governance-attestation-predicate#1"
+      ],
+      "topics": [
+        "aps-composition-replay",
+        "gap-values-floor-predicate"
+      ],
+      "repos": [
+        "aeoess/agent-passport-system",
+        "aeoess/governance-attestation-predicate"
+      ],
+      "first_seen_ours": "2026-05-17T08:45:37Z",
+      "last_seen_ours": "2026-05-17T10:25:10Z",
+      "word_count": 556,
+      "github": {
+        "name": "Invaribreak",
+        "bio": "Rule-level security researcher | Failure structure & pattern analysis | Web3 & AI security\r\n",
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2020-11-29T13:21:21Z",
+        "followers": 3,
+        "following": 3,
+        "public_repos": 12,
+        "type": "User"
+      }
+    },
+    {
       "login": "Jairooh",
       "posts": 2,
       "threads": [
@@ -5164,30 +5271,6 @@
       }
     },
     {
-      "login": "amavashev",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": "Albert M",
-        "bio": "Founder & CEO scalerX.ai, runcycles.io",
-        "company": "@K2NIO ",
-        "location": "New York",
-        "blog": "https://www.linkedin.com/in/amavashev/",
-        "email": "amavashev@k2n.io",
-        "twitter": "scalerXai",
-        "created_at": "2014-02-25T19:28:54Z",
-        "followers": 2,
-        "following": 12,
-        "public_repos": 17,
-        "type": "User"
-      }
-    },
-    {
       "login": "alpha",
       "posts": 0,
       "threads": [],
@@ -5359,6 +5442,39 @@
       }
     },
     {
+      "login": "Keesan12",
+      "posts": 4,
+      "threads": [
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32",
+        "aeoess/agent-passport-system#25"
+      ],
+      "topics": [
+        "aivss-multi-agent-governance",
+        "aps-cycles-reserve-commit"
+      ],
+      "repos": [
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
+        "aeoess/agent-passport-system"
+      ],
+      "first_seen_ours": "2026-05-20T21:51:59Z",
+      "last_seen_ours": "2026-05-22T23:57:38Z",
+      "word_count": 368,
+      "github": {
+        "name": "Keesan",
+        "bio": "Born 100 years too early. Serial Entrepreneur. I like to build things that don't exist. ",
+        "company": null,
+        "location": null,
+        "blog": "https://www.linkedin.com/in/vakeesanm/",
+        "email": null,
+        "twitter": null,
+        "created_at": "2020-12-30T04:03:28Z",
+        "followers": 17,
+        "following": 5,
+        "public_repos": 22,
+        "type": "User"
+      }
+    },
+    {
       "login": "Copertino-Research",
       "posts": 1,
       "threads": [
@@ -5491,6 +5607,36 @@
         "followers": 9,
         "following": 0,
         "public_repos": 22,
+        "type": "User"
+      }
+    },
+    {
+      "login": "chopmob-cloud",
+      "posts": 1,
+      "threads": [
+        "awslabs/agentcore-samples#1546"
+      ],
+      "topics": [
+        "agentcore-x402-composition"
+      ],
+      "repos": [
+        "awslabs/agentcore-samples"
+      ],
+      "first_seen_ours": "2026-05-26T13:23:59Z",
+      "last_seen_ours": "2026-05-26T13:23:59Z",
+      "word_count": 169,
+      "github": {
+        "name": "iLoveChicken",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "www.algovoi.co.uk",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-12-16T23:42:30Z",
+        "followers": 5,
+        "following": 0,
+        "public_repos": 73,
         "type": "User"
       }
     },
@@ -5979,36 +6125,6 @@
       }
     },
     {
-      "login": "Keesan12",
-      "posts": 1,
-      "threads": [
-        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32"
-      ],
-      "topics": [
-        "aivss-multi-agent-governance"
-      ],
-      "repos": [
-        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system"
-      ],
-      "first_seen_ours": "2026-05-20T21:51:59Z",
-      "last_seen_ours": "2026-05-20T21:51:59Z",
-      "word_count": 117,
-      "github": {
-        "name": "Keesan",
-        "bio": "Born 100 years too early. Serial Entrepreneur. I like to build things that don't exist. ",
-        "company": null,
-        "location": null,
-        "blog": "https://www.linkedin.com/in/vakeesanm/",
-        "email": null,
-        "twitter": null,
-        "created_at": "2020-12-30T04:03:28Z",
-        "followers": 17,
-        "following": 5,
-        "public_repos": 22,
-        "type": "User"
-      }
-    },
-    {
       "login": "Ryce",
       "posts": 1,
       "threads": [
@@ -6389,9 +6505,9 @@
         "pshkv",
         "0xbrainkid",
         "razashariff",
+        "jagmarques",
         "viftode4",
         "narendrakumarnutalapati",
-        "jagmarques",
         "itisparas",
         "JohnnyTarrr",
         "rsbasic",
@@ -6659,12 +6775,12 @@
         "archedark-ada",
         "FransDevelopment",
         "razashariff",
+        "jagmarques",
         "lawcontinue",
         "kinthaiofficial",
         "JKHeadley",
         "msaleme",
         "citriac",
-        "jagmarques",
         "cloakmaster",
         "internet-dot",
         "meridianmindx",
@@ -6732,9 +6848,9 @@
         "kevinkaylie",
         "pshkv",
         "0xbrainkid",
+        "jagmarques",
         "viftode4",
-        "kinthaiofficial",
-        "jagmarques"
+        "kinthaiofficial"
       ],
       "participant_count": 9,
       "github": {
@@ -6836,9 +6952,9 @@
       "github": {
         "state": "open",
         "created_at": "2026-04-25T00:48:24Z",
-        "updated_at": "2026-05-29T05:36:14Z",
+        "updated_at": "2026-05-30T02:36:56Z",
         "closed_at": null,
-        "comments": 206,
+        "comments": 208,
         "is_pr": false,
         "author": "aeoess",
         "labels": []
@@ -6895,6 +7011,30 @@
         "labels": [
           "Declined"
         ]
+      }
+    },
+    {
+      "id": "aeoess/a2a-compliance-harness#1",
+      "topic": "harness-moltrust-adapter",
+      "title": "Add optional MolTrust resolver adapter",
+      "repo": "aeoess/a2a-compliance-harness",
+      "number": 1,
+      "project_id": null,
+      "url": "https://github.com/aeoess/a2a-compliance-harness/issues/1",
+      "participants": [
+        "aeoess",
+        "MoltyCel"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "open",
+        "created_at": "2026-04-25T12:15:19Z",
+        "updated_at": "2026-05-30T01:50:11Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pr": true,
+        "author": "MoltyCel",
+        "labels": []
       }
     },
     {
@@ -7618,6 +7758,54 @@
       }
     },
     {
+      "id": "aeoess/agent-ecosystem-map#2",
+      "topic": "ecosystem-soma-entry",
+      "title": "add: Soma \u2014 agent marketplace with on-chain karma and Mycelium Trails anchoring",
+      "repo": "aeoess/agent-ecosystem-map",
+      "number": 2,
+      "project_id": null,
+      "url": "https://github.com/aeoess/agent-ecosystem-map/issues/2",
+      "participants": [
+        "aeoess",
+        "giskard09"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "open",
+        "created_at": "2026-05-20T17:28:19Z",
+        "updated_at": "2026-05-30T01:53:17Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pr": true,
+        "author": "giskard09",
+        "labels": []
+      }
+    },
+    {
+      "id": "aeoess/agent-governance-vocabulary#100",
+      "topic": "vocab-payment-rail-crosswalk",
+      "title": "crosswalk/payment_rail: settlement-layer verb mapping across x402, AP2, ACP, MPP, UCP",
+      "repo": "aeoess/agent-governance-vocabulary",
+      "number": 100,
+      "project_id": null,
+      "url": "https://github.com/aeoess/agent-governance-vocabulary/issues/100",
+      "participants": [
+        "aeoess",
+        "Ectsang"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "open",
+        "created_at": "2026-05-26T08:25:19Z",
+        "updated_at": "2026-05-30T01:50:09Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pr": true,
+        "author": "Ectsang",
+        "labels": []
+      }
+    },
+    {
       "id": "aeoess/agent-governance-vocabulary#28",
       "topic": "vocab-sbr-continuity",
       "title": "Add SBR crosswalk \u2014 entity_continuity",
@@ -7884,6 +8072,56 @@
       }
     },
     {
+      "id": "aeoess/agent-passport-system#25",
+      "topic": "aps-cycles-reserve-commit",
+      "title": "Integration: AEOESS signed receipts + Cycles reserve/commit budget authority",
+      "repo": "aeoess/agent-passport-system",
+      "number": 25,
+      "project_id": "aps",
+      "url": "https://github.com/aeoess/agent-passport-system/issues/25",
+      "participants": [
+        "aeoess",
+        "lowkey-divine",
+        "amavashev",
+        "Keesan12"
+      ],
+      "participant_count": 4,
+      "github": {
+        "state": "open",
+        "created_at": "2026-05-08T10:38:22Z",
+        "updated_at": "2026-05-30T01:24:49Z",
+        "closed_at": null,
+        "comments": 18,
+        "is_pr": false,
+        "author": "amavashev",
+        "labels": []
+      }
+    },
+    {
+      "id": "aeoess/agent-passport-system#28",
+      "topic": "aps-composition-replay",
+      "title": "Design question: cryptographic identity portability, 127-module composition, delegation chain replay",
+      "repo": "aeoess/agent-passport-system",
+      "number": 28,
+      "project_id": "aps",
+      "url": "https://github.com/aeoess/agent-passport-system/issues/28",
+      "participants": [
+        "aeoess",
+        "flyoung588"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "open",
+        "created_at": "2026-05-17T08:45:37Z",
+        "updated_at": "2026-05-30T01:24:47Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pr": false,
+        "author": "flyoung588",
+        "labels": []
+      }
+    },
+    {
       "id": "aeoess/agent-passport-system#3",
       "topic": "aeoess-agent-passport-system-3",
       "title": "RFC: Cross-Engine Signed Execution Envelope \u2014 interop with CrewAI, Guardian, DIF TAA",
@@ -8067,6 +8305,78 @@
       }
     },
     {
+      "id": "aeoess/awesome-ai-agents-2026#1",
+      "topic": "awesome-aps-listing",
+      "title": "Add ScopeBlind, protect-mcp, and IETF signed receipts",
+      "repo": "aeoess/awesome-ai-agents-2026",
+      "number": 1,
+      "project_id": null,
+      "url": "https://github.com/aeoess/awesome-ai-agents-2026/issues/1",
+      "participants": [
+        "aeoess",
+        "tomjwxf"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "open",
+        "created_at": "2026-04-07T05:36:44Z",
+        "updated_at": "2026-05-30T01:50:12Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pr": true,
+        "author": "tomjwxf",
+        "labels": []
+      }
+    },
+    {
+      "id": "aeoess/execution-boundary-spec#1",
+      "topic": "ebs-asqav-execution-boundary",
+      "title": "asqav-mcp as reference implementation for \u00a74 enforceability classification",
+      "repo": "aeoess/execution-boundary-spec",
+      "number": 1,
+      "project_id": null,
+      "url": "https://github.com/aeoess/execution-boundary-spec/issues/1",
+      "participants": [
+        "aeoess",
+        "jagmarques"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "open",
+        "created_at": "2026-04-07T19:00:21Z",
+        "updated_at": "2026-05-30T01:24:50Z",
+        "closed_at": null,
+        "comments": 16,
+        "is_pr": false,
+        "author": "jagmarques",
+        "labels": []
+      }
+    },
+    {
+      "id": "aeoess/governance-attestation-predicate#1",
+      "topic": "gap-values-floor-predicate",
+      "title": "Design question: in-toto predicate vs Values Floor binding, scope-narrowing invariants enforceability, link to agent-passport-system",
+      "repo": "aeoess/governance-attestation-predicate",
+      "number": 1,
+      "project_id": null,
+      "url": "https://github.com/aeoess/governance-attestation-predicate/issues/1",
+      "participants": [
+        "aeoess",
+        "flyoung588"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "open",
+        "created_at": "2026-05-17T10:25:10Z",
+        "updated_at": "2026-05-30T01:24:48Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pr": false,
+        "author": "flyoung588",
+        "labels": []
+      }
+    },
+    {
       "id": "agentic-commerce-protocol/agentic-commerce-protocol#231",
       "topic": "acp-governance-binding",
       "title": "Discussion: governance-layer binding for ACP (authorization, limits, attribution)",
@@ -8142,6 +8452,31 @@
         "comments": 6,
         "is_pr": false,
         "author": "tomjwxf",
+        "labels": []
+      }
+    },
+    {
+      "id": "awslabs/agentcore-samples#1546",
+      "topic": "agentcore-x402-composition",
+      "title": "feat(payments): scoped delegation + receipt accountability for x402 settlement",
+      "repo": "awslabs/agentcore-samples",
+      "number": 1546,
+      "project_id": null,
+      "url": "https://github.com/awslabs/agentcore-samples/issues/1546",
+      "participants": [
+        "aeoess",
+        "arian-gogani",
+        "chopmob-cloud"
+      ],
+      "participant_count": 3,
+      "github": {
+        "state": "open",
+        "created_at": "2026-05-21T17:31:01Z",
+        "updated_at": "2026-05-30T02:17:50Z",
+        "closed_at": null,
+        "comments": 3,
+        "is_pr": false,
+        "author": "aeoess",
         "labels": []
       }
     },
@@ -8587,9 +8922,9 @@
         "srotzin",
         "arian-gogani",
         "vdineshk",
+        "jagmarques",
         "willamhou",
         "nutstrut",
-        "jagmarques",
         "aniketh-maddipati",
         "VladUZH",
         "lktron00",
@@ -8922,12 +9257,12 @@
   ],
   "stats": {
     "projects": 18,
-    "people": 165,
-    "people_total_raw": 189,
-    "threads": 98,
-    "threads_mapped_to_project": 32,
+    "people": 167,
+    "people_total_raw": 191,
+    "threads": 107,
+    "threads_mapped_to_project": 34,
     "projects_enriched": 12,
-    "people_enriched": 152,
-    "threads_enriched": 97
+    "people_enriched": 154,
+    "threads_enriched": 106
   }
 }
