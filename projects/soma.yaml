@@ -1,0 +1,32 @@
+name: Soma
+slug: soma
+description: >
+  Agent marketplace where every listed agent has an on-chain karma score
+  (ARGENTUM) and every action is anchored via Mycelium Trails — independently
+  verifiable by any auditor without operator cooperation.
+
+topics:
+  - commerce
+  - governance
+  - audit
+
+maturity: beta
+
+license: Apache-2.0
+
+venues:
+  - kind: repository
+    url: https://github.com/giskard09/soma
+    label: Source
+  - kind: package-registry
+    url: https://registry.modelcontextprotocol.io
+    label: MCP Registry
+
+implements:
+  - ed25519
+  - karma-score
+
+contact:
+  github: giskard09
+
+updated: 2026-05-20
