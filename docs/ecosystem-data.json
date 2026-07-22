@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T06:29:22.201289+00:00",
+  "generated_at": "2026-07-22T07:48:53.789006+00:00",
   "projects": [
     {
       "name": "Agent2Agent Protocol",
@@ -918,6 +918,1371 @@
         "default_branch": "main",
         "language": "Go"
       }
+    },
+    {
+      "_id": "repo--NousResearch--hermes-agent",
+      "name": "NousResearch/hermes-agent",
+      "slug": "NousResearch--hermes-agent",
+      "description": "The agent that grows with you",
+      "topics": [],
+      "maturity": "",
+      "license": "MIT",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "label": "NousResearch/hermes-agent"
+        }
+      ],
+      "_repos": [
+        "NousResearch/hermes-agent"
+      ],
+      "_github": {
+        "repo": "NousResearch/hermes-agent",
+        "created_at": "2025-07-22T22:22:28Z",
+        "pushed_at": "2026-07-22T07:17:41Z",
+        "updated_at": "2026-07-22T07:43:34Z",
+        "stargazers": 218588,
+        "forks": 41352,
+        "open_issues": 24622,
+        "license": "MIT",
+        "description": "The agent that grows with you",
+        "homepage": "https://hermes-agent.nousresearch.com",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--OWASP--www-project-artificial-intelligence-vulnerability-scoring-system",
+      "name": "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
+      "slug": "OWASP--www-project-artificial-intelligence-vulnerability-scoring-system",
+      "description": "OWASP Foundation web repository",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
+          "label": "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system"
+        }
+      ],
+      "_repos": [
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system"
+      ],
+      "_github": {
+        "repo": "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
+        "created_at": "2025-04-27T14:44:53Z",
+        "pushed_at": "2026-04-10T21:08:01Z",
+        "updated_at": "2026-06-27T22:04:32Z",
+        "stargazers": 77,
+        "forks": 34,
+        "open_issues": 20,
+        "license": "NOASSERTION",
+        "description": "OWASP Foundation web repository",
+        "homepage": "https://owasp.org/www-project-artificial-intelligence-vulnerability-scoring-system/",
+        "archived": false,
+        "default_branch": "main",
+        "language": "JavaScript"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--OWASP--www-project-top-10-for-large-language-model-applications",
+      "name": "OWASP/www-project-top-10-for-large-language-model-applications",
+      "slug": "OWASP--www-project-top-10-for-large-language-model-applications",
+      "description": "OWASP Top 10 for Large Language Model Apps (Part of the GenAI Security Project)",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications",
+          "label": "OWASP/www-project-top-10-for-large-language-model-applications"
+        }
+      ],
+      "_repos": [
+        "OWASP/www-project-top-10-for-large-language-model-applications"
+      ],
+      "_github": {
+        "repo": "OWASP/www-project-top-10-for-large-language-model-applications",
+        "created_at": "2023-05-16T15:12:44Z",
+        "pushed_at": "2026-04-27T03:51:06Z",
+        "updated_at": "2026-07-21T18:56:54Z",
+        "stargazers": 1336,
+        "forks": 341,
+        "open_issues": 81,
+        "license": "NOASSERTION",
+        "description": "OWASP Top 10 for Large Language Model Apps (Part of the GenAI Security Project)",
+        "homepage": "http://genai.owasp.org",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--OpenClaw--openclaw",
+      "name": "OpenClaw/openclaw",
+      "slug": "OpenClaw--openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e ",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/OpenClaw/openclaw",
+          "label": "OpenClaw/openclaw"
+        }
+      ],
+      "_repos": [
+        "OpenClaw/openclaw"
+      ],
+      "_github": {
+        "repo": "OpenClaw/openclaw",
+        "created_at": "2025-11-24T10:16:47Z",
+        "pushed_at": "2026-07-22T07:45:23Z",
+        "updated_at": "2026-07-22T07:44:26Z",
+        "stargazers": 383775,
+        "forks": 80637,
+        "open_issues": 6904,
+        "license": "NOASSERTION",
+        "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e ",
+        "homepage": "https://openclaw.ai",
+        "archived": false,
+        "default_branch": "main",
+        "language": "TypeScript"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--ScopeBlind--agent-governance-testvectors",
+      "name": "ScopeBlind/agent-governance-testvectors",
+      "slug": "ScopeBlind--agent-governance-testvectors",
+      "description": "Shared test vectors for conformance between implementations of draft-farley-acta-signed-receipts",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/ScopeBlind/agent-governance-testvectors",
+          "label": "ScopeBlind/agent-governance-testvectors"
+        }
+      ],
+      "_repos": [
+        "ScopeBlind/agent-governance-testvectors"
+      ],
+      "_github": {
+        "repo": "ScopeBlind/agent-governance-testvectors",
+        "created_at": "2026-04-17T17:26:03Z",
+        "pushed_at": "2026-07-11T04:16:24Z",
+        "updated_at": "2026-06-28T05:55:54Z",
+        "stargazers": 1,
+        "forks": 4,
+        "open_issues": 7,
+        "license": "NOASSERTION",
+        "description": "Shared test vectors for conformance between implementations of draft-farley-acta-signed-receipts",
+        "homepage": null,
+        "archived": false,
+        "default_branch": "main",
+        "language": "TypeScript"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--Universal-Commerce-Protocol--ucp",
+      "name": "Universal-Commerce-Protocol/ucp",
+      "slug": "Universal-Commerce-Protocol--ucp",
+      "description": "Specification and documentation for the Universal Commerce Protocol (UCP)",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/Universal-Commerce-Protocol/ucp",
+          "label": "Universal-Commerce-Protocol/ucp"
+        }
+      ],
+      "_repos": [
+        "Universal-Commerce-Protocol/ucp"
+      ],
+      "_github": {
+        "repo": "Universal-Commerce-Protocol/ucp",
+        "created_at": "2025-12-31T02:17:21Z",
+        "pushed_at": "2026-07-22T04:13:26Z",
+        "updated_at": "2026-07-21T16:28:51Z",
+        "stargazers": 3228,
+        "forks": 421,
+        "open_issues": 135,
+        "license": "Apache-2.0",
+        "description": "Specification and documentation for the Universal Commerce Protocol (UCP)",
+        "homepage": "https://ucp.dev",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--VeritasActa--verify",
+      "name": "VeritasActa/verify",
+      "slug": "VeritasActa--verify",
+      "description": "Offline verification of signed receipts and artifacts. Ed25519 + JCS canonicalization. No server, no account, no trust required. Apache-2.0.",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/VeritasActa/verify",
+          "label": "VeritasActa/verify"
+        }
+      ],
+      "_repos": [
+        "VeritasActa/verify"
+      ],
+      "_github": {
+        "repo": "VeritasActa/verify",
+        "created_at": "2026-03-10T10:37:25Z",
+        "pushed_at": "2026-05-20T08:17:40Z",
+        "updated_at": "2026-06-04T03:16:18Z",
+        "stargazers": 5,
+        "forks": 6,
+        "open_issues": 5,
+        "license": "NOASSERTION",
+        "description": "Offline verification of signed receipts and artifacts. Ed25519 + JCS canonicalization. No server, no account, no trust required. Apache-2.0.",
+        "homepage": "https://veritasacta.com/verify",
+        "archived": false,
+        "default_branch": "main",
+        "language": "JavaScript"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--aaif--project-proposals",
+      "name": "aaif/project-proposals",
+      "slug": "aaif--project-proposals",
+      "description": "Propose a project to the AAIF Technical Committee",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/aaif/project-proposals",
+          "label": "aaif/project-proposals"
+        }
+      ],
+      "_repos": [
+        "aaif/project-proposals"
+      ],
+      "_github": {
+        "repo": "aaif/project-proposals",
+        "created_at": "2026-03-06T19:47:21Z",
+        "pushed_at": "2026-06-08T00:02:25Z",
+        "updated_at": "2026-07-17T18:35:00Z",
+        "stargazers": 36,
+        "forks": 2,
+        "open_issues": 9,
+        "license": "Apache-2.0",
+        "description": "Propose a project to the AAIF Technical Committee",
+        "homepage": "",
+        "archived": false,
+        "default_branch": "main",
+        "language": null
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--aeoess--a2a-compliance-harness",
+      "name": "aeoess/a2a-compliance-harness",
+      "slug": "aeoess--a2a-compliance-harness",
+      "description": "Bounded-scope signature-verification harness for A2A Agent Cards \u2014 v0.1",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/aeoess/a2a-compliance-harness",
+          "label": "aeoess/a2a-compliance-harness"
+        }
+      ],
+      "_repos": [
+        "aeoess/a2a-compliance-harness"
+      ],
+      "_github": {
+        "repo": "aeoess/a2a-compliance-harness",
+        "created_at": "2026-04-21T17:42:48Z",
+        "pushed_at": "2026-05-12T17:05:11Z",
+        "updated_at": "2026-05-12T17:08:54Z",
+        "stargazers": 0,
+        "forks": 1,
+        "open_issues": 1,
+        "license": "Apache-2.0",
+        "description": "Bounded-scope signature-verification harness for A2A Agent Cards \u2014 v0.1",
+        "homepage": null,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--aeoess--aeoess_web",
+      "name": "aeoess/aeoess_web",
+      "slug": "aeoess--aeoess_web",
+      "description": "Protocol docs, threat model, comparison pages, Agora governance feed, V2 constitutional framework reference. aeoess.com",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/aeoess/aeoess_web",
+          "label": "aeoess/aeoess_web"
+        }
+      ],
+      "_repos": [
+        "aeoess/aeoess_web"
+      ],
+      "_github": {
+        "repo": "aeoess/aeoess_web",
+        "created_at": "2025-11-08T04:21:01Z",
+        "pushed_at": "2026-07-22T06:59:03Z",
+        "updated_at": "2026-07-22T06:59:56Z",
+        "stargazers": 0,
+        "forks": 2,
+        "open_issues": 3,
+        "license": "Apache-2.0",
+        "description": "Protocol docs, threat model, comparison pages, Agora governance feed, V2 constitutional framework reference. aeoess.com",
+        "homepage": "https://aeoess.com",
+        "archived": false,
+        "default_branch": "main",
+        "language": "HTML"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--aeoess--agent-ecosystem-map",
+      "name": "aeoess/agent-ecosystem-map",
+      "slug": "aeoess--agent-ecosystem-map",
+      "description": "Directory of who is building the agent economy. Projects, people, and active threads in AI agent identity, delegation, governance, and commerce. Live data from GitHub.",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/aeoess/agent-ecosystem-map",
+          "label": "aeoess/agent-ecosystem-map"
+        }
+      ],
+      "_repos": [
+        "aeoess/agent-ecosystem-map"
+      ],
+      "_github": {
+        "repo": "aeoess/agent-ecosystem-map",
+        "created_at": "2026-04-23T20:42:00Z",
+        "pushed_at": "2026-07-22T06:34:47Z",
+        "updated_at": "2026-07-22T06:34:58Z",
+        "stargazers": 0,
+        "forks": 2,
+        "open_issues": 0,
+        "license": "NOASSERTION",
+        "description": "Directory of who is building the agent economy. Projects, people, and active threads in AI agent identity, delegation, governance, and commerce. Live data from GitHub.",
+        "homepage": "https://aeoess.github.io/agent-ecosystem-map/",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--aeoess--agent-governance-vocabulary",
+      "name": "aeoess/agent-governance-vocabulary",
+      "slug": "aeoess--agent-governance-vocabulary",
+      "description": "Shared canonical names for agent-governance primitives. Maps what each system calls its signals to one reference vocabulary, with per-system crosswalks, so verifiers and tooling compose across ecosystems.",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/aeoess/agent-governance-vocabulary",
+          "label": "aeoess/agent-governance-vocabulary"
+        }
+      ],
+      "_repos": [
+        "aeoess/agent-governance-vocabulary"
+      ],
+      "_github": {
+        "repo": "aeoess/agent-governance-vocabulary",
+        "created_at": "2026-04-10T19:01:30Z",
+        "pushed_at": "2026-07-19T21:50:56Z",
+        "updated_at": "2026-07-20T07:15:43Z",
+        "stargazers": 6,
+        "forks": 31,
+        "open_issues": 23,
+        "license": "Apache-2.0",
+        "description": "Shared canonical names for agent-governance primitives. Maps what each system calls its signals to one reference vocabulary, with per-system crosswalks, so verifiers and tooling compose across ecosystems.",
+        "homepage": null,
+        "archived": false,
+        "default_branch": "main",
+        "language": "JavaScript"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--aeoess--autogen-governance-adapter",
+      "name": "aeoess/autogen-governance-adapter",
+      "slug": "aeoess--autogen-governance-adapter",
+      "description": "APS + SINT + pluggable trust provider governance adapter for AutoGen before_tool_call hook.",
+      "topics": [],
+      "maturity": "",
+      "license": "MIT",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/aeoess/autogen-governance-adapter",
+          "label": "aeoess/autogen-governance-adapter"
+        }
+      ],
+      "_repos": [
+        "aeoess/autogen-governance-adapter"
+      ],
+      "_github": {
+        "repo": "aeoess/autogen-governance-adapter",
+        "created_at": "2026-04-23T01:26:01Z",
+        "pushed_at": "2026-04-24T20:18:57Z",
+        "updated_at": "2026-04-24T20:19:02Z",
+        "stargazers": 0,
+        "forks": 3,
+        "open_issues": 2,
+        "license": "MIT",
+        "description": "APS + SINT + pluggable trust provider governance adapter for AutoGen before_tool_call hook.",
+        "homepage": null,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--aeoess--awesome-ai-agents-2026",
+      "name": "aeoess/awesome-ai-agents-2026",
+      "slug": "aeoess--awesome-ai-agents-2026",
+      "description": "\ud83e\udd16 The most comprehensive list of AI agents, frameworks & tools in 2026. 300+ resources \u00b7 20+ categories \u00b7 Updated monthly.",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/aeoess/awesome-ai-agents-2026",
+          "label": "aeoess/awesome-ai-agents-2026"
+        }
+      ],
+      "_repos": [
+        "aeoess/awesome-ai-agents-2026"
+      ],
+      "_github": {
+        "repo": "aeoess/awesome-ai-agents-2026",
+        "created_at": "2026-04-04T23:16:30Z",
+        "pushed_at": "2026-06-03T05:42:41Z",
+        "updated_at": "2026-06-03T05:43:21Z",
+        "stargazers": 2,
+        "forks": 1,
+        "open_issues": 0,
+        "license": "NOASSERTION",
+        "description": "\ud83e\udd16 The most comprehensive list of AI agents, frameworks & tools in 2026. 300+ resources \u00b7 20+ categories \u00b7 Updated monthly.",
+        "homepage": "https://github.com/caramaschiHG/awesome-ai-agents-2026",
+        "archived": false,
+        "default_branch": "main",
+        "language": null
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--aeoess--execution-boundary-spec",
+      "name": "aeoess/execution-boundary-spec",
+      "slug": "aeoess--execution-boundary-spec",
+      "description": "Execution Boundary Specification \u2014 RFC 2119 normative document for mutation-authority separation in agent orchestration",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/aeoess/execution-boundary-spec",
+          "label": "aeoess/execution-boundary-spec"
+        }
+      ],
+      "_repos": [
+        "aeoess/execution-boundary-spec"
+      ],
+      "_github": {
+        "repo": "aeoess/execution-boundary-spec",
+        "created_at": "2026-04-06T17:26:25Z",
+        "pushed_at": "2026-07-13T20:48:40Z",
+        "updated_at": "2026-07-13T20:48:53Z",
+        "stargazers": 0,
+        "forks": 1,
+        "open_issues": 1,
+        "license": "Apache-2.0",
+        "description": "Execution Boundary Specification \u2014 RFC 2119 normative document for mutation-authority separation in agent orchestration",
+        "homepage": null,
+        "archived": false,
+        "default_branch": "main",
+        "language": null
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--aeoess--governance-attestation-predicate",
+      "name": "aeoess/governance-attestation-predicate",
+      "slug": "aeoess--governance-attestation-predicate",
+      "description": "in-toto Statement predicate binding agent authority-to-act (delegation chain root + principal signature + scope narrowing invariants + Values Floor attestation hash). JWS + Ed25519. Sibling to the Decision Receipt predicate in in-toto/attestation #549.",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/aeoess/governance-attestation-predicate",
+          "label": "aeoess/governance-attestation-predicate"
+        }
+      ],
+      "_repos": [
+        "aeoess/governance-attestation-predicate"
+      ],
+      "_github": {
+        "repo": "aeoess/governance-attestation-predicate",
+        "created_at": "2026-04-27T03:48:14Z",
+        "pushed_at": "2026-04-27T03:48:16Z",
+        "updated_at": "2026-04-27T03:48:20Z",
+        "stargazers": 0,
+        "forks": 0,
+        "open_issues": 1,
+        "license": "Apache-2.0",
+        "description": "in-toto Statement predicate binding agent authority-to-act (delegation chain root + principal signature + scope narrowing invariants + Values Floor attestation hash). JWS + Ed25519. Sibling to the Decision Receipt predicate in in-toto/attestation #549.",
+        "homepage": "https://aeoess.com",
+        "archived": false,
+        "default_branch": "main",
+        "language": "TypeScript"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--anthropics--claude-code",
+      "name": "anthropics/claude-code",
+      "slug": "anthropics--claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "topics": [],
+      "maturity": "",
+      "license": "",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/anthropics/claude-code",
+          "label": "anthropics/claude-code"
+        }
+      ],
+      "_repos": [
+        "anthropics/claude-code"
+      ],
+      "_github": {
+        "repo": "anthropics/claude-code",
+        "created_at": "2025-02-22T17:41:21Z",
+        "pushed_at": "2026-07-21T21:35:10Z",
+        "updated_at": "2026-07-22T07:38:04Z",
+        "stargazers": 138637,
+        "forks": 22244,
+        "open_issues": 12753,
+        "license": null,
+        "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "homepage": "https://code.claude.com/docs/en/overview",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--arewm--refs.arewm.com",
+      "name": "arewm/refs.arewm.com",
+      "slug": "arewm--refs.arewm.com",
+      "description": "",
+      "topics": [],
+      "maturity": "",
+      "license": "",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/arewm/refs.arewm.com",
+          "label": "arewm/refs.arewm.com"
+        }
+      ],
+      "_repos": [
+        "arewm/refs.arewm.com"
+      ],
+      "_github": {
+        "repo": "arewm/refs.arewm.com",
+        "created_at": "2026-04-17T12:58:20Z",
+        "pushed_at": "2026-05-15T15:37:49Z",
+        "updated_at": "2026-05-15T15:37:53Z",
+        "stargazers": 0,
+        "forks": 2,
+        "open_issues": 0,
+        "license": null,
+        "description": null,
+        "homepage": null,
+        "archived": false,
+        "default_branch": "main",
+        "language": "HTML"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--awslabs--agentcore-samples",
+      "name": "awslabs/agentcore-samples",
+      "slug": "awslabs--agentcore-samples",
+      "description": "Amazon Bedrock Agentcore accelerates AI agents into production with the scale, reliability, and security, critical to real-world deployment.",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/awslabs/agentcore-samples",
+          "label": "awslabs/agentcore-samples"
+        }
+      ],
+      "_repos": [
+        "awslabs/agentcore-samples"
+      ],
+      "_github": {
+        "repo": "awslabs/agentcore-samples",
+        "created_at": "2025-07-03T21:05:14Z",
+        "pushed_at": "2026-07-22T01:00:34Z",
+        "updated_at": "2026-07-22T06:49:05Z",
+        "stargazers": 3208,
+        "forks": 1241,
+        "open_issues": 352,
+        "license": "Apache-2.0",
+        "description": "Amazon Bedrock Agentcore accelerates AI agents into production with the scale, reliability, and security, critical to real-world deployment.",
+        "homepage": "https://aws.amazon.com/bedrock/agentcore/",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--browser-use--browser-use",
+      "name": "browser-use/browser-use",
+      "slug": "browser-use--browser-use",
+      "description": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "topics": [],
+      "maturity": "",
+      "license": "MIT",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/browser-use/browser-use",
+          "label": "browser-use/browser-use"
+        }
+      ],
+      "_repos": [
+        "browser-use/browser-use"
+      ],
+      "_github": {
+        "repo": "browser-use/browser-use",
+        "created_at": "2024-10-31T16:00:56Z",
+        "pushed_at": "2026-07-22T07:14:12Z",
+        "updated_at": "2026-07-22T07:42:03Z",
+        "stargazers": 106006,
+        "forks": 11667,
+        "open_issues": 317,
+        "license": "MIT",
+        "description": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
+        "homepage": "https://browser-use.com",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--cisco-ai-defense--defenseclaw",
+      "name": "cisco-ai-defense/defenseclaw",
+      "slug": "cisco-ai-defense--defenseclaw",
+      "description": "Security Governance for Agentic AI",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/cisco-ai-defense/defenseclaw",
+          "label": "cisco-ai-defense/defenseclaw"
+        }
+      ],
+      "_repos": [
+        "cisco-ai-defense/defenseclaw"
+      ],
+      "_github": {
+        "repo": "cisco-ai-defense/defenseclaw",
+        "created_at": "2026-03-23T00:51:19Z",
+        "pushed_at": "2026-07-22T06:47:53Z",
+        "updated_at": "2026-07-22T03:13:48Z",
+        "stargazers": 778,
+        "forks": 139,
+        "open_issues": 52,
+        "license": "Apache-2.0",
+        "description": "Security Governance for Agentic AI",
+        "homepage": "https://cisco-ai-defense.github.io/defenseclaw/",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Go"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--corpollc--qntm",
+      "name": "corpollc/qntm",
+      "slug": "corpollc--qntm",
+      "description": "",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/corpollc/qntm",
+          "label": "corpollc/qntm"
+        }
+      ],
+      "_repos": [
+        "corpollc/qntm"
+      ],
+      "_github": {
+        "repo": "corpollc/qntm",
+        "created_at": "2026-02-14T01:05:36Z",
+        "pushed_at": "2026-07-21T02:49:14Z",
+        "updated_at": "2026-06-04T20:48:08Z",
+        "stargazers": 3,
+        "forks": 5,
+        "open_issues": 10,
+        "license": "NOASSERTION",
+        "description": null,
+        "homepage": null,
+        "archived": false,
+        "default_branch": "main",
+        "language": "TypeScript"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--crewAIInc--crewAI",
+      "name": "crewAIInc/crewAI",
+      "slug": "crewAIInc--crewAI",
+      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+      "topics": [],
+      "maturity": "",
+      "license": "MIT",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/crewAIInc/crewAI",
+          "label": "crewAIInc/crewAI"
+        }
+      ],
+      "_repos": [
+        "crewAIInc/crewAI"
+      ],
+      "_github": {
+        "repo": "crewAIInc/crewAI",
+        "created_at": "2023-10-27T03:26:59Z",
+        "pushed_at": "2026-07-21T19:25:09Z",
+        "updated_at": "2026-07-22T07:39:24Z",
+        "stargazers": 55945,
+        "forks": 7911,
+        "open_issues": 654,
+        "license": "MIT",
+        "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+        "homepage": "https://crewai.com",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--decentralized-identity--trusted-ai-agents",
+      "name": "decentralized-identity/trusted-ai-agents",
+      "slug": "decentralized-identity--trusted-ai-agents",
+      "description": "Trusted AI Agents Working Group",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/decentralized-identity/trusted-ai-agents",
+          "label": "decentralized-identity/trusted-ai-agents"
+        }
+      ],
+      "_repos": [
+        "decentralized-identity/trusted-ai-agents"
+      ],
+      "_github": {
+        "repo": "decentralized-identity/trusted-ai-agents",
+        "created_at": "2025-09-10T01:27:19Z",
+        "pushed_at": "2026-07-06T15:11:13Z",
+        "updated_at": "2026-07-08T09:56:54Z",
+        "stargazers": 21,
+        "forks": 4,
+        "open_issues": 14,
+        "license": "Apache-2.0",
+        "description": "Trusted AI Agents Working Group",
+        "homepage": "",
+        "archived": false,
+        "default_branch": "main",
+        "language": null
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--douglasborthwick-crypto--insumer-examples",
+      "name": "douglasborthwick-crypto/insumer-examples",
+      "slug": "douglasborthwick-crypto--insumer-examples",
+      "description": "Code examples and multi-attestation spec for InsumerAPI \u2014 single-agent verification, composable trust across 8 independent issuers, condition-gated agent-to-agent sessions (AgentTalk). 33 chains.",
+      "topics": [],
+      "maturity": "",
+      "license": "MIT",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/douglasborthwick-crypto/insumer-examples",
+          "label": "douglasborthwick-crypto/insumer-examples"
+        }
+      ],
+      "_repos": [
+        "douglasborthwick-crypto/insumer-examples"
+      ],
+      "_github": {
+        "repo": "douglasborthwick-crypto/insumer-examples",
+        "created_at": "2026-02-25T20:23:21Z",
+        "pushed_at": "2026-06-10T22:01:21Z",
+        "updated_at": "2026-06-10T22:01:57Z",
+        "stargazers": 0,
+        "forks": 2,
+        "open_issues": 2,
+        "license": "MIT",
+        "description": "Code examples and multi-attestation spec for InsumerAPI \u2014 single-agent verification, composable trust across 8 independent issuers, condition-gated agent-to-agent sessions (AgentTalk). 33 chains.",
+        "homepage": "https://insumermodel.com/developers/",
+        "archived": false,
+        "default_branch": "main",
+        "language": "JavaScript"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--google--adk-python",
+      "name": "google/adk-python",
+      "slug": "google--adk-python",
+      "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/google/adk-python",
+          "label": "google/adk-python"
+        }
+      ],
+      "_repos": [
+        "google/adk-python"
+      ],
+      "_github": {
+        "repo": "google/adk-python",
+        "created_at": "2025-04-01T20:44:40Z",
+        "pushed_at": "2026-07-21T23:55:27Z",
+        "updated_at": "2026-07-22T07:38:14Z",
+        "stargazers": 20835,
+        "forks": 3732,
+        "open_issues": 620,
+        "license": "Apache-2.0",
+        "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+        "homepage": "https://google.github.io/adk-docs/",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--in-toto--attestation",
+      "name": "in-toto/attestation",
+      "slug": "in-toto--attestation",
+      "description": "in-toto Attestation Framework",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/in-toto/attestation",
+          "label": "in-toto/attestation"
+        }
+      ],
+      "_repos": [
+        "in-toto/attestation"
+      ],
+      "_github": {
+        "repo": "in-toto/attestation",
+        "created_at": "2021-04-01T14:58:27Z",
+        "pushed_at": "2026-07-21T11:15:38Z",
+        "updated_at": "2026-07-22T04:42:09Z",
+        "stargazers": 355,
+        "forks": 122,
+        "open_issues": 67,
+        "license": "NOASSERTION",
+        "description": "in-toto Attestation Framework",
+        "homepage": "",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Rust"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--kubernetes-sigs--kube-agentic-networking",
+      "name": "kubernetes-sigs/kube-agentic-networking",
+      "slug": "kubernetes-sigs--kube-agentic-networking",
+      "description": "Agentic networking policies and governance for agents and tools in Kubernetes",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/kubernetes-sigs/kube-agentic-networking",
+          "label": "kubernetes-sigs/kube-agentic-networking"
+        }
+      ],
+      "_repos": [
+        "kubernetes-sigs/kube-agentic-networking"
+      ],
+      "_github": {
+        "repo": "kubernetes-sigs/kube-agentic-networking",
+        "created_at": "2025-10-24T04:28:56Z",
+        "pushed_at": "2026-07-16T17:23:25Z",
+        "updated_at": "2026-07-18T17:17:07Z",
+        "stargazers": 117,
+        "forks": 38,
+        "open_issues": 39,
+        "license": "Apache-2.0",
+        "description": "Agentic networking policies and governance for agents and tools in Kubernetes",
+        "homepage": "https://kube-agentic-networking.sigs.k8s.io",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Go"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--langchain-ai--langchain",
+      "name": "langchain-ai/langchain",
+      "slug": "langchain-ai--langchain",
+      "description": "The agent engineering platform.",
+      "topics": [],
+      "maturity": "",
+      "license": "MIT",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/langchain-ai/langchain",
+          "label": "langchain-ai/langchain"
+        }
+      ],
+      "_repos": [
+        "langchain-ai/langchain"
+      ],
+      "_github": {
+        "repo": "langchain-ai/langchain",
+        "created_at": "2022-10-17T02:58:36Z",
+        "pushed_at": "2026-07-22T03:22:08Z",
+        "updated_at": "2026-07-22T07:45:09Z",
+        "stargazers": 142303,
+        "forks": 23675,
+        "open_issues": 439,
+        "license": "MIT",
+        "description": "The agent engineering platform.",
+        "homepage": "https://docs.langchain.com/langchain/",
+        "archived": false,
+        "default_branch": "master",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--massivescale-ai--agentic-trust-framework",
+      "name": "massivescale-ai/agentic-trust-framework",
+      "slug": "massivescale-ai--agentic-trust-framework",
+      "description": "An open specification for Zero Trust governance of autonomous AI agents. Five core elements, four maturity levels, enterprise compliance mappings.",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/massivescale-ai/agentic-trust-framework",
+          "label": "massivescale-ai/agentic-trust-framework"
+        }
+      ],
+      "_repos": [
+        "massivescale-ai/agentic-trust-framework"
+      ],
+      "_github": {
+        "repo": "massivescale-ai/agentic-trust-framework",
+        "created_at": "2025-08-06T17:43:20Z",
+        "pushed_at": "2026-04-11T12:45:56Z",
+        "updated_at": "2026-07-21T14:23:47Z",
+        "stargazers": 69,
+        "forks": 13,
+        "open_issues": 13,
+        "license": "Apache-2.0",
+        "description": "An open specification for Zero Trust governance of autonomous AI agents. Five core elements, four maturity levels, enterprise compliance mappings.",
+        "homepage": null,
+        "archived": false,
+        "default_branch": "main",
+        "language": null
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--microsoft--autogen",
+      "name": "microsoft/autogen",
+      "slug": "microsoft--autogen",
+      "description": "A programming framework for agentic AI",
+      "topics": [],
+      "maturity": "",
+      "license": "CC-BY-4.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/microsoft/autogen",
+          "label": "microsoft/autogen"
+        }
+      ],
+      "_repos": [
+        "microsoft/autogen"
+      ],
+      "_github": {
+        "repo": "microsoft/autogen",
+        "created_at": "2023-08-18T11:43:45Z",
+        "pushed_at": "2026-04-15T11:59:09Z",
+        "updated_at": "2026-07-22T07:39:58Z",
+        "stargazers": 59890,
+        "forks": 9015,
+        "open_issues": 963,
+        "license": "CC-BY-4.0",
+        "description": "A programming framework for agentic AI",
+        "homepage": "https://microsoft.github.io/autogen/",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--microsoft--semantic-kernel",
+      "name": "microsoft/semantic-kernel",
+      "slug": "microsoft--semantic-kernel",
+      "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
+      "topics": [],
+      "maturity": "",
+      "license": "MIT",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/microsoft/semantic-kernel",
+          "label": "microsoft/semantic-kernel"
+        }
+      ],
+      "_repos": [
+        "microsoft/semantic-kernel"
+      ],
+      "_github": {
+        "repo": "microsoft/semantic-kernel",
+        "created_at": "2023-02-27T17:39:42Z",
+        "pushed_at": "2026-07-21T15:37:21Z",
+        "updated_at": "2026-07-22T04:09:53Z",
+        "stargazers": 28346,
+        "forks": 4687,
+        "open_issues": 255,
+        "license": "MIT",
+        "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
+        "homepage": "https://aka.ms/semantic-kernel",
+        "archived": false,
+        "default_branch": "main",
+        "language": "C#"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--mirjak--audit-bof-preparation",
+      "name": "mirjak/audit-bof-preparation",
+      "slug": "mirjak--audit-bof-preparation",
+      "description": "Charter and BoF material for Agent Use of Delegation and Interaction Traceability (AUDIT)",
+      "topics": [],
+      "maturity": "",
+      "license": "",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/mirjak/audit-bof-preparation",
+          "label": "mirjak/audit-bof-preparation"
+        }
+      ],
+      "_repos": [
+        "mirjak/audit-bof-preparation"
+      ],
+      "_github": {
+        "repo": "mirjak/audit-bof-preparation",
+        "created_at": "2026-05-28T07:22:47Z",
+        "pushed_at": "2026-06-02T11:17:35Z",
+        "updated_at": "2026-06-02T11:17:39Z",
+        "stargazers": 0,
+        "forks": 3,
+        "open_issues": 24,
+        "license": null,
+        "description": "Charter and BoF material for Agent Use of Delegation and Interaction Traceability (AUDIT)",
+        "homepage": null,
+        "archived": false,
+        "default_branch": "main",
+        "language": null
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--open-gitagent--gitagent",
+      "name": "open-gitagent/gitagent",
+      "slug": "open-gitagent--gitagent",
+      "description": "A universal git-native AI agent framework. Your agent lives inside a git repo \u2014 identity, rules, memory, tools, and skills are all version-controlled files.",
+      "topics": [],
+      "maturity": "",
+      "license": "MIT",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/open-gitagent/gitagent",
+          "label": "open-gitagent/gitagent"
+        }
+      ],
+      "_repos": [
+        "open-gitagent/gitagent"
+      ],
+      "_github": {
+        "repo": "open-gitagent/gitagent",
+        "created_at": "2026-03-04T12:30:03Z",
+        "pushed_at": "2026-07-13T05:52:48Z",
+        "updated_at": "2026-07-21T13:52:14Z",
+        "stargazers": 618,
+        "forks": 118,
+        "open_issues": 39,
+        "license": "MIT",
+        "description": "A universal git-native AI agent framework. Your agent lives inside a git repo \u2014 identity, rules, memory, tools, and skills are all version-controlled files.",
+        "homepage": "",
+        "archived": false,
+        "default_branch": "main",
+        "language": "TypeScript"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--ossf--security-insights",
+      "name": "ossf/security-insights",
+      "slug": "ossf--security-insights",
+      "description": "Machine-readable specification for the attestation of security-relevant data.",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/ossf/security-insights",
+          "label": "ossf/security-insights"
+        }
+      ],
+      "_repos": [
+        "ossf/security-insights"
+      ],
+      "_github": {
+        "repo": "ossf/security-insights",
+        "created_at": "2022-01-16T23:19:12Z",
+        "pushed_at": "2026-07-15T01:51:14Z",
+        "updated_at": "2026-07-19T02:22:04Z",
+        "stargazers": 80,
+        "forks": 19,
+        "open_issues": 10,
+        "license": "NOASSERTION",
+        "description": "Machine-readable specification for the attestation of security-relevant data.",
+        "homepage": "https://security-insights.openssf.org/",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Go"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--rznies--algobharat-digital-passport",
+      "name": "rznies/algobharat-digital-passport",
+      "slug": "rznies--algobharat-digital-passport",
+      "description": "Digital Passport MVP for AI agents on Algorand",
+      "topics": [],
+      "maturity": "",
+      "license": "",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/rznies/algobharat-digital-passport",
+          "label": "rznies/algobharat-digital-passport"
+        }
+      ],
+      "_repos": [
+        "rznies/algobharat-digital-passport"
+      ],
+      "_github": {
+        "repo": "rznies/algobharat-digital-passport",
+        "created_at": "2026-04-15T09:16:44Z",
+        "pushed_at": "2026-04-15T12:12:38Z",
+        "updated_at": "2026-04-15T12:12:41Z",
+        "stargazers": 0,
+        "forks": 0,
+        "open_issues": 2,
+        "license": null,
+        "description": "Digital Passport MVP for AI agents on Algorand",
+        "homepage": null,
+        "archived": false,
+        "default_branch": "master",
+        "language": "TypeScript"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--visa--trusted-agent-protocol",
+      "name": "visa/trusted-agent-protocol",
+      "slug": "visa--trusted-agent-protocol",
+      "description": "Establishing a universal standard of trust between AI agents and merchants for the next phase of agentic commerce.",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/visa/trusted-agent-protocol",
+          "label": "visa/trusted-agent-protocol"
+        }
+      ],
+      "_repos": [
+        "visa/trusted-agent-protocol"
+      ],
+      "_github": {
+        "repo": "visa/trusted-agent-protocol",
+        "created_at": "2025-10-10T02:05:59Z",
+        "pushed_at": "2025-10-28T22:43:43Z",
+        "updated_at": "2026-07-20T13:20:17Z",
+        "stargazers": 187,
+        "forks": 39,
+        "open_issues": 18,
+        "license": "NOASSERTION",
+        "description": "Establishing a universal standard of trust between AI agents and merchants for the next phase of agentic commerce.",
+        "homepage": "https://developer.visa.com/capabilities/trusted-agent-protocol",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--w3c-cg--ai-agent-protocol",
+      "name": "w3c-cg/ai-agent-protocol",
+      "slug": "w3c-cg--ai-agent-protocol",
+      "description": "Agent Network Protocol White Paper",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/w3c-cg/ai-agent-protocol",
+          "label": "w3c-cg/ai-agent-protocol"
+        }
+      ],
+      "_repos": [
+        "w3c-cg/ai-agent-protocol"
+      ],
+      "_github": {
+        "repo": "w3c-cg/ai-agent-protocol",
+        "created_at": "2025-05-13T13:10:10Z",
+        "pushed_at": "2026-07-17T04:15:24Z",
+        "updated_at": "2026-07-18T12:53:31Z",
+        "stargazers": 66,
+        "forks": 16,
+        "open_issues": 26,
+        "license": "NOASSERTION",
+        "description": "Agent Network Protocol White Paper",
+        "homepage": "https://w3c-cg.github.io/ai-agent-protocol/",
+        "archived": false,
+        "default_branch": "main",
+        "language": "HTML"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--x402-foundation--x402",
+      "name": "x402-foundation/x402",
+      "slug": "x402-foundation--x402",
+      "description": "A payments protocol for the internet. Built on HTTP.",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/x402-foundation/x402",
+          "label": "x402-foundation/x402"
+        }
+      ],
+      "_repos": [
+        "x402-foundation/x402"
+      ],
+      "_github": {
+        "repo": "x402-foundation/x402",
+        "created_at": "2025-02-21T01:17:52Z",
+        "pushed_at": "2026-07-22T07:42:09Z",
+        "updated_at": "2026-07-22T07:42:38Z",
+        "stargazers": 6384,
+        "forks": 1839,
+        "open_issues": 375,
+        "license": "Apache-2.0",
+        "description": "A payments protocol for the internet. Built on HTTP.",
+        "homepage": "https://x402.org",
+        "archived": false,
+        "default_branch": "main",
+        "language": "TypeScript"
+      },
+      "_derived": true
     }
   ],
   "people": [
@@ -2819,17 +4184,6 @@
       }
     },
     {
-      "login": "nobulex",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
-    },
-    {
       "login": "vystartasv",
       "posts": 9,
       "threads": [
@@ -3072,30 +4426,6 @@
         "following": 2,
         "public_repos": 63,
         "type": "User"
-      }
-    },
-    {
-      "login": "veritasacta",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": "Veritas Acta",
-        "bio": "Open protocol for signed, independently verifiable machine decisions. IETF Internet-Draft. Ed25519 receipts.",
-        "company": null,
-        "location": null,
-        "blog": "https://veritasacta.com",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-03-08T15:32:45Z",
-        "followers": 4,
-        "following": 0,
-        "public_repos": 17,
-        "type": "Organization"
       }
     },
     {
@@ -3568,17 +4898,6 @@
       }
     },
     {
-      "login": "69ad94d",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
-    },
-    {
       "login": "cloakmaster",
       "posts": 2,
       "threads": [
@@ -3865,30 +5184,6 @@
       }
     },
     {
-      "login": "noble",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": "noble",
-        "bio": "Cross-platform Node.js BLE",
-        "company": null,
-        "location": null,
-        "blog": "https://opencollective.com/noble",
-        "email": null,
-        "twitter": null,
-        "created_at": "2018-01-31T04:34:59Z",
-        "followers": 15,
-        "following": 0,
-        "public_repos": 4,
-        "type": "Organization"
-      }
-    },
-    {
       "login": "Alvasilev12",
       "posts": 3,
       "threads": [
@@ -3988,17 +5283,6 @@
         "public_repos": 0,
         "type": "User"
       }
-    },
-    {
-      "login": "next",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
     },
     {
       "login": "ThoughtProof",
@@ -4370,30 +5654,6 @@
       }
     },
     {
-      "login": "eriknewton",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": "Erik Newton",
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": "newtonlaw",
-        "created_at": "2018-04-10T21:41:16Z",
-        "followers": 4,
-        "following": 0,
-        "public_repos": 5,
-        "type": "User"
-      }
-    },
-    {
       "login": "Ectsang",
       "posts": 2,
       "threads": [
@@ -4485,17 +5745,6 @@
         "public_repos": 1,
         "type": "User"
       }
-    },
-    {
-      "login": "yuquan2088",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
     },
     {
       "login": "Kelisi808",
@@ -4710,17 +5959,6 @@
       }
     },
     {
-      "login": "VCOne-AI",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
-    },
-    {
       "login": "ZC502",
       "posts": 2,
       "threads": [
@@ -4781,30 +6019,6 @@
         "following": 0,
         "public_repos": 3,
         "type": "User"
-      }
-    },
-    {
-      "login": "maxiaworld",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-03-14T14:44:58Z",
-        "followers": 0,
-        "following": 0,
-        "public_repos": 15,
-        "type": "Organization"
       }
     },
     {
@@ -4926,89 +6140,6 @@
         "followers": 16,
         "following": 17,
         "public_repos": 49,
-        "type": "User"
-      }
-    },
-    {
-      "login": "v0",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2025-06-11T19:16:14Z",
-        "followers": 22,
-        "following": 0,
-        "public_repos": 0,
-        "type": "Organization"
-      }
-    },
-    {
-      "login": "moltrust",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
-    },
-    {
-      "login": "context",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2008-11-25T01:14:38Z",
-        "followers": 21,
-        "following": 12,
-        "public_repos": 23,
-        "type": "User"
-      }
-    },
-    {
-      "login": "gmail",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2011-05-10T04:39:41Z",
-        "followers": 35,
-        "following": 0,
-        "public_repos": 0,
         "type": "User"
       }
     },
@@ -5523,30 +6654,6 @@
       }
     },
     {
-      "login": "Bradsadevnow",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2025-06-22T13:56:35Z",
-        "followers": 4,
-        "following": 4,
-        "public_repos": 12,
-        "type": "User"
-      }
-    },
-    {
       "login": "ascender1729",
       "posts": 1,
       "threads": [
@@ -5606,30 +6713,6 @@
         "followers": 225,
         "following": 20,
         "public_repos": 111,
-        "type": "User"
-      }
-    },
-    {
-      "login": "example",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2009-02-25T19:01:55Z",
-        "followers": 196,
-        "following": 0,
-        "public_repos": 1,
         "type": "User"
       }
     },
@@ -5930,17 +7013,6 @@
       }
     },
     {
-      "login": "open-agent-trust",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
-    },
-    {
       "login": "w3rc",
       "posts": 4,
       "threads": [
@@ -6001,30 +7073,6 @@
         "following": 0,
         "public_repos": 16,
         "type": "User"
-      }
-    },
-    {
-      "login": "alpha",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": "Alpha",
-        "bio": null,
-        "company": null,
-        "location": "Everywhere",
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2015-10-25T23:05:32Z",
-        "followers": 9,
-        "following": 0,
-        "public_repos": 2,
-        "type": "Organization"
       }
     },
     {
@@ -6211,30 +7259,6 @@
       }
     },
     {
-      "login": "latest",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": "sam.mctaggart+test@launchacademy.com",
-        "twitter": null,
-        "created_at": "2014-08-22T15:48:33Z",
-        "followers": 13,
-        "following": 0,
-        "public_repos": 0,
-        "type": "User"
-      }
-    },
-    {
       "login": "Copertino-Research",
       "posts": 1,
       "threads": [
@@ -6261,30 +7285,6 @@
         "followers": 0,
         "following": 0,
         "public_repos": 1,
-        "type": "User"
-      }
-    },
-    {
-      "login": "vorim",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2020-05-28T20:16:17Z",
-        "followers": 0,
-        "following": 0,
-        "public_repos": 0,
         "type": "User"
       }
     },
@@ -6317,39 +7317,6 @@
         "public_repos": 177,
         "type": "User"
       }
-    },
-    {
-      "login": "d68fcee",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
-    },
-    {
-      "login": "5876d9c",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
-    },
-    {
-      "login": "ec7201a",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
     },
     {
       "login": "bastizol-wq",
@@ -6470,17 +7437,6 @@
         "public_repos": 0,
         "type": "User"
       }
-    },
-    {
-      "login": "shield",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
     },
     {
       "login": "rznies",
@@ -6710,65 +7666,6 @@
       }
     },
     {
-      "login": "meeetworld_bot",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
-    },
-    {
-      "login": "main",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": "Vlad Vannov",
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2016-07-21T18:22:08Z",
-        "followers": 19,
-        "following": 2,
-        "public_repos": 10,
-        "type": "User"
-      }
-    },
-    {
-      "login": "research-agent",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2024-07-13T02:17:05Z",
-        "followers": 0,
-        "following": 0,
-        "public_repos": 0,
-        "type": "Organization"
-      }
-    },
-    {
       "login": "sunfishloop",
       "posts": 3,
       "threads": [
@@ -6802,41 +7699,6 @@
       }
     },
     {
-      "login": "89ebf2e",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
-    },
-    {
-      "login": "microsoft",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": "Microsoft",
-        "bio": "Open source projects and samples from Microsoft",
-        "company": null,
-        "location": "Redmond, WA",
-        "blog": "https://opensource.microsoft.com",
-        "email": "opensource@microsoft.com",
-        "twitter": "OpenAtMicrosoft",
-        "created_at": "2013-12-10T19:06:48Z",
-        "followers": 125595,
-        "following": 0,
-        "public_repos": 8215,
-        "type": "Organization"
-      }
-    },
-    {
       "login": "arewm",
       "posts": 2,
       "threads": [
@@ -6865,17 +7727,6 @@
         "public_repos": 122,
         "type": "User"
       }
-    },
-    {
-      "login": "EXDEV-oss",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": null
     },
     {
       "login": "haiyanmeng",
@@ -7358,6 +8209,546 @@
         "public_repos": 480,
         "type": "User"
       }
+    },
+    {
+      "login": "matthew-d-white",
+      "posts": 1,
+      "threads": [
+        "aaif/project-proposals#12"
+      ],
+      "topics": [
+        "aaif-sint-submission"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-04-21T22:36:25Z",
+      "last_seen_ours": "2026-04-21T22:36:25Z",
+      "word_count": 13,
+      "github": {
+        "name": "Matt White",
+        "bio": "Just a guy",
+        "company": "Linux Foundation",
+        "location": "Berkeley, CA",
+        "blog": "http://www.matt-white.com",
+        "email": null,
+        "twitter": "matthew_d_white",
+        "created_at": "2015-04-17T22:54:55Z",
+        "followers": 7,
+        "following": 24,
+        "public_repos": 6,
+        "type": "User"
+      }
+    },
+    {
+      "login": "alecpipi",
+      "posts": 2,
+      "threads": [
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "langchain-memory"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-24T23:11:15Z",
+      "last_seen_ours": "2026-04-24T23:17:15Z",
+      "word_count": 228,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-11-18T03:59:39Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 12,
+        "type": "User"
+      }
+    },
+    {
+      "login": "ALRubinger",
+      "posts": 1,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-05-05T04:58:46Z",
+      "last_seen_ours": "2026-05-05T04:58:46Z",
+      "word_count": 189,
+      "github": {
+        "name": "Andrew Lee Rubinger",
+        "bio": null,
+        "company": null,
+        "location": "Los Angeles, CA",
+        "blog": "",
+        "email": null,
+        "twitter": "ALRubinger",
+        "created_at": "2010-02-08T23:02:37Z",
+        "followers": 179,
+        "following": 3,
+        "public_repos": 222,
+        "type": "User"
+      }
+    },
+    {
+      "login": "avprevai",
+      "posts": 1,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-05-11T09:39:34Z",
+      "last_seen_ours": "2026-05-11T09:39:34Z",
+      "word_count": 134,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-08-20T04:29:36Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 1,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Atbashai",
+      "posts": 1,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-05-11T10:00:39Z",
+      "last_seen_ours": "2026-05-11T10:00:39Z",
+      "word_count": 24,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-04-28T11:58:33Z",
+        "followers": 0,
+        "following": 3,
+        "public_repos": 0,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Faisal-alsh",
+      "posts": 1,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-05-21T07:15:16Z",
+      "last_seen_ours": "2026-05-21T07:15:16Z",
+      "word_count": 79,
+      "github": {
+        "name": "Faisal Alshinaifi",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2019-06-13T15:39:27Z",
+        "followers": 1,
+        "following": 1,
+        "public_repos": 13,
+        "type": "User"
+      }
+    },
+    {
+      "login": "AaronRoeF",
+      "posts": 1,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-06-09T05:30:14Z",
+      "last_seen_ours": "2026-06-09T05:30:14Z",
+      "word_count": 25,
+      "github": {
+        "name": "Aaron Roe Fulkerson",
+        "bio": null,
+        "company": "@opaque-systems ",
+        "location": "San Diego, CA",
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2018-12-13T21:41:49Z",
+        "followers": 9,
+        "following": 6,
+        "public_repos": 9,
+        "type": "User"
+      }
+    },
+    {
+      "login": "shepazu",
+      "posts": 1,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-06-10T03:39:45Z",
+      "last_seen_ours": "2026-06-10T03:39:45Z",
+      "word_count": 70,
+      "github": {
+        "name": "Doug Schepers",
+        "bio": "Technologist. Focused on accessible graphics. Web standards wonk. Interested in improving the world through technology and communication. Normal geek stuff.",
+        "company": "@fizzstudio ",
+        "location": "Chapel Hill, NC, USA",
+        "blog": "http://schepers.cc",
+        "email": "doug@schepers.cc",
+        "twitter": "shepazu",
+        "created_at": "2008-06-27T10:55:15Z",
+        "followers": 116,
+        "following": 6,
+        "public_repos": 78,
+        "type": "User"
+      }
+    },
+    {
+      "login": "WulfAI",
+      "posts": 1,
+      "threads": [
+        "crewAIInc/crewAI#4560"
+      ],
+      "topics": [
+        "crewai-governance"
+      ],
+      "repos": [
+        "crewAIInc/crewAI"
+      ],
+      "first_seen_ours": "2026-03-07T10:05:07Z",
+      "last_seen_ours": "2026-03-07T10:05:07Z",
+      "word_count": 269,
+      "github": {
+        "name": "Sagittarius AI",
+        "bio": "I'm an AI.",
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": "wulf.ai.m@gmail.com",
+        "twitter": null,
+        "created_at": "2026-02-19T19:26:20Z",
+        "followers": 1,
+        "following": 0,
+        "public_repos": 0,
+        "type": "User"
+      }
+    },
+    {
+      "login": "khalidsaidi",
+      "posts": 1,
+      "threads": [
+        "crewAIInc/crewAI#4789"
+      ],
+      "topics": [
+        "crewai-integration"
+      ],
+      "repos": [
+        "crewAIInc/crewAI"
+      ],
+      "first_seen_ours": "2026-03-14T17:44:34Z",
+      "last_seen_ours": "2026-03-14T17:44:34Z",
+      "word_count": 67,
+      "github": {
+        "name": "Kalimero",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2013-05-07T19:37:01Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 40,
+        "type": "User"
+      }
+    },
+    {
+      "login": "enigma-zeroclaw",
+      "posts": 1,
+      "threads": [
+        "crewAIInc/crewAI#5019"
+      ],
+      "topics": [
+        "crewai-primitives"
+      ],
+      "repos": [
+        "crewAIInc/crewAI"
+      ],
+      "first_seen_ours": "2026-04-10T17:45:46Z",
+      "last_seen_ours": "2026-04-10T17:45:46Z",
+      "word_count": 72,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-03-01T00:26:09Z",
+        "followers": 2,
+        "following": 0,
+        "public_repos": 12,
+        "type": "User"
+      }
+    },
+    {
+      "login": "vinaysflow",
+      "posts": 0,
+      "threads": [
+        "decentralized-identity/trusted-ai-agents#37"
+      ],
+      "topics": [
+        "dif-scoped-delegation-narrowing"
+      ],
+      "repos": [
+        "decentralized-identity/trusted-ai-agents"
+      ],
+      "first_seen_ours": "2026-03-14T05:57:26Z",
+      "last_seen_ours": "2026-03-14T05:57:26Z",
+      "word_count": 719,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-09-17T04:49:04Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 14,
+        "type": "User"
+      }
+    },
+    {
+      "login": "sanchezmaldonadojesusadrian14-coder",
+      "posts": 1,
+      "threads": [
+        "erc-8004/erc-8004-contracts#77"
+      ],
+      "topics": [
+        "erc8004-bridge"
+      ],
+      "repos": [
+        "erc-8004/erc-8004-contracts"
+      ],
+      "first_seen_ours": "2026-04-29T20:37:32Z",
+      "last_seen_ours": "2026-04-29T20:37:32Z",
+      "word_count": 282,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-01-08T15:36:18Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 7,
+        "type": "User"
+      }
+    },
+    {
+      "login": "mdrxy",
+      "posts": 1,
+      "threads": [
+        "langchain-ai/langchain#35691"
+      ],
+      "topics": [
+        "langchain-compliance-backend"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-05-03T02:59:51Z",
+      "last_seen_ours": "2026-05-03T02:59:51Z",
+      "word_count": 162,
+      "github": {
+        "name": "Mason Daugherty",
+        "bio": "Engineering @langchain-ai",
+        "company": null,
+        "location": "Cambridge, MA",
+        "blog": "mdrxy.com",
+        "email": null,
+        "twitter": "masondrxy",
+        "created_at": "2020-02-23T05:23:10Z",
+        "followers": 577,
+        "following": 40,
+        "public_repos": 24,
+        "type": "User"
+      }
+    },
+    {
+      "login": "yihui315",
+      "posts": 1,
+      "threads": [
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "langchain-memory"
+      ],
+      "repos": [
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-22T06:00:53Z",
+      "last_seen_ours": "2026-04-22T06:00:53Z",
+      "word_count": 4,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2022-02-23T02:06:57Z",
+        "followers": 2,
+        "following": 8,
+        "public_repos": 7,
+        "type": "User"
+      }
+    },
+    {
+      "login": "LOLA0786",
+      "posts": 1,
+      "threads": [
+        "microsoft/autogen#7528"
+      ],
+      "topics": [
+        "autogen-capability-scoped-authz"
+      ],
+      "repos": [
+        "microsoft/autogen"
+      ],
+      "first_seen_ours": "2026-06-23T08:51:16Z",
+      "last_seen_ours": "2026-06-23T08:51:16Z",
+      "word_count": 64,
+      "github": {
+        "name": "Chandan Galani",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-06-25T16:05:30Z",
+        "followers": 14,
+        "following": 492,
+        "public_repos": 92,
+        "type": "User"
+      }
+    },
+    {
+      "login": "mirjak",
+      "posts": 1,
+      "threads": [
+        "mirjak/audit-bof-preparation#9"
+      ],
+      "topics": [
+        "ietf-audit-bof-interest"
+      ],
+      "repos": [
+        "mirjak/audit-bof-preparation"
+      ],
+      "first_seen_ours": "2026-05-28T07:40:06Z",
+      "last_seen_ours": "2026-05-28T07:40:27Z",
+      "word_count": 25,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2014-08-11T19:48:01Z",
+        "followers": 32,
+        "following": 0,
+        "public_repos": 57,
+        "type": "User"
+      }
+    },
+    {
+      "login": "david-a-wheeler",
+      "posts": 1,
+      "threads": [
+        "ossf/security-insights#171"
+      ],
+      "topics": [
+        "ossf-agent-provenance"
+      ],
+      "repos": [
+        "ossf/security-insights"
+      ],
+      "first_seen_ours": "2026-05-21T18:37:33Z",
+      "last_seen_ours": "2026-05-21T18:37:33Z",
+      "word_count": 77,
+      "github": {
+        "name": "David A. Wheeler",
+        "bio": "I work at the Open Source Security Foundation (OpenSSF), part of the Linux Foundation. Much of this isn't work though.",
+        "company": "Linux Foundation",
+        "location": "US East Coast",
+        "blog": "https://dwheeler.com",
+        "email": "dwheeler@dwheeler.com",
+        "twitter": "drdavidawheeler",
+        "created_at": "2011-05-26T22:24:51Z",
+        "followers": 494,
+        "following": 2,
+        "public_repos": 100,
+        "type": "User"
+      }
     }
   ],
   "threads": [
@@ -7441,7 +8832,7 @@
       "title": "Receipts for self-improving agents: proving which skill version produced which output",
       "repo": "NousResearch/hermes-agent",
       "number": 11692,
-      "project_id": null,
+      "project_id": "repo--NousResearch--hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent/issues/11692",
       "participants": [
         "aeoess",
@@ -7471,7 +8862,7 @@
       "title": "Agent Passport System \u2014 open-source protocol providing concrete mitigations for AIVSS-scored risks",
       "repo": "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
       "number": 24,
-      "project_id": null,
+      "project_id": "repo--OWASP--www-project-artificial-intelligence-vulnerability-scoring-system",
       "url": "https://github.com/OWASP/www-project-artificial-intelligence-vulnerability-scoring-system/issues/24",
       "participants": [
         "aeoess"
@@ -7494,7 +8885,7 @@
       "title": "Discussion: Multi-Agent Governance Gaps in Cross-Agent Risk Scoring",
       "repo": "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
       "number": 32,
-      "project_id": null,
+      "project_id": "repo--OWASP--www-project-artificial-intelligence-vulnerability-scoring-system",
       "url": "https://github.com/OWASP/www-project-artificial-intelligence-vulnerability-scoring-system/issues/32",
       "participants": [
         "aeoess",
@@ -7521,7 +8912,7 @@
       "title": "Runtime Enforcement Mapping for OWASP Agentic Top 10 (ASI01\u2013ASI10)",
       "repo": "OWASP/www-project-top-10-for-large-language-model-applications",
       "number": 802,
-      "project_id": null,
+      "project_id": "repo--OWASP--www-project-top-10-for-large-language-model-applications",
       "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/issues/802",
       "participants": [
         "aeoess",
@@ -7556,7 +8947,7 @@
       "title": "Proposal: Boundary-to-Boundary Invariant Survival for Agentic Execution Governance",
       "repo": "OWASP/www-project-top-10-for-large-language-model-applications",
       "number": 817,
-      "project_id": null,
+      "project_id": "repo--OWASP--www-project-top-10-for-large-language-model-applications",
       "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/issues/817",
       "participants": [
         "aeoess",
@@ -7582,7 +8973,7 @@
       "title": "RFC: Native Agent Identity & Trust Verification for OpenClaw",
       "repo": "OpenClaw/openclaw",
       "number": 49971,
-      "project_id": null,
+      "project_id": "repo--OpenClaw--openclaw",
       "url": "https://github.com/OpenClaw/openclaw/issues/49971",
       "participants": [
         "aeoess",
@@ -7621,7 +9012,7 @@
       "title": "feat: APS governance hook driver (v2 envelope)",
       "repo": "ScopeBlind/agent-governance-testvectors",
       "number": 1,
-      "project_id": null,
+      "project_id": "repo--ScopeBlind--agent-governance-testvectors",
       "url": "https://github.com/ScopeBlind/agent-governance-testvectors/issues/1",
       "participants": [
         "aeoess"
@@ -7644,7 +9035,7 @@
       "title": "[Bug]: Undefined behavior when AP2 mandate TTL expires during complete_in_progress",
       "repo": "Universal-Commerce-Protocol/ucp",
       "number": 512,
-      "project_id": null,
+      "project_id": "repo--Universal-Commerce-Protocol--ucp",
       "url": "https://github.com/Universal-Commerce-Protocol/ucp/issues/512",
       "participants": [
         "aeoess",
@@ -7672,7 +9063,7 @@
       "title": "Enhancement Proposal: Mandate Evaluation and Receipts (resolves #512)",
       "repo": "Universal-Commerce-Protocol/ucp",
       "number": 515,
-      "project_id": null,
+      "project_id": "repo--Universal-Commerce-Protocol--ucp",
       "url": "https://github.com/Universal-Commerce-Protocol/ucp/issues/515",
       "participants": [
         "arnaud-92",
@@ -7698,7 +9089,7 @@
       "title": "Issuer-blind verification for LLM knowledge base integrity",
       "repo": "VeritasActa/verify",
       "number": 1,
-      "project_id": null,
+      "project_id": "repo--VeritasActa--verify",
       "url": "https://github.com/VeritasActa/verify/issues/1",
       "participants": [
         "aeoess",
@@ -7727,7 +9118,7 @@
       "title": "RFC: Knowledge Unit format for multi-model deliberation",
       "repo": "VeritasActa/verify",
       "number": 2,
-      "project_id": null,
+      "project_id": "repo--VeritasActa--verify",
       "url": "https://github.com/VeritasActa/verify/issues/2",
       "participants": [
         "aeoess",
@@ -8072,14 +9463,15 @@
       "title": "[Project Proposal] SINT Protocol \u2014 Policy Bundle Specification for Agent Governance",
       "repo": "aaif/project-proposals",
       "number": 12,
-      "project_id": null,
+      "project_id": "repo--aaif--project-proposals",
       "url": "https://github.com/aaif/project-proposals/issues/12",
       "participants": [
         "aeoess",
         "pshkv",
-        "maniksurtani"
+        "maniksurtani",
+        "matthew-d-white"
       ],
-      "participant_count": 3,
+      "participant_count": 4,
       "github": {
         "state": "closed",
         "created_at": "2026-04-13T20:38:14Z",
@@ -8099,7 +9491,7 @@
       "title": "[Project Proposal] Agent Governance Toolkit",
       "repo": "aaif/project-proposals",
       "number": 19,
-      "project_id": null,
+      "project_id": "repo--aaif--project-proposals",
       "url": "https://github.com/aaif/project-proposals/issues/19",
       "participants": [
         "tomjwxf",
@@ -8116,9 +9508,15 @@
         "bastizol-wq",
         "prashansapkota",
         "jman-msc",
-        "V-Suki-V"
+        "V-Suki-V",
+        "ALRubinger",
+        "avprevai",
+        "Atbashai",
+        "Faisal-alsh",
+        "AaronRoeF",
+        "shepazu"
       ],
-      "participant_count": 15,
+      "participant_count": 21,
       "github": {
         "state": "closed",
         "created_at": "2026-04-26T21:12:27Z",
@@ -8138,7 +9536,7 @@
       "title": "Add optional MolTrust resolver adapter",
       "repo": "aeoess/a2a-compliance-harness",
       "number": 1,
-      "project_id": null,
+      "project_id": "repo--aeoess--a2a-compliance-harness",
       "url": "https://github.com/aeoess/a2a-compliance-harness/issues/1",
       "participants": [
         "aeoess",
@@ -8162,7 +9560,7 @@
       "title": "Nightwatch Dispatch: 2026-03-16",
       "repo": "aeoess/aeoess_web",
       "number": 18,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/18",
       "participants": [],
       "participant_count": 0,
@@ -8186,7 +9584,7 @@
       "title": "Nightwatch Dispatch: 2026-03-17",
       "repo": "aeoess/aeoess_web",
       "number": 19,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/19",
       "participants": [],
       "participant_count": 0,
@@ -8210,7 +9608,7 @@
       "title": "Nightwatch Dispatch: 2026-03-18",
       "repo": "aeoess/aeoess_web",
       "number": 20,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/20",
       "participants": [],
       "participant_count": 0,
@@ -8234,7 +9632,7 @@
       "title": "Nightwatch Dispatch: 2026-03-19",
       "repo": "aeoess/aeoess_web",
       "number": 21,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/21",
       "participants": [],
       "participant_count": 0,
@@ -8258,7 +9656,7 @@
       "title": "Nightwatch Dispatch: 2026-03-20",
       "repo": "aeoess/aeoess_web",
       "number": 22,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/22",
       "participants": [],
       "participant_count": 0,
@@ -8282,7 +9680,7 @@
       "title": "Nightwatch Dispatch: 2026-03-21",
       "repo": "aeoess/aeoess_web",
       "number": 23,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/23",
       "participants": [],
       "participant_count": 0,
@@ -8306,7 +9704,7 @@
       "title": "Nightwatch Dispatch: 2026-03-22",
       "repo": "aeoess/aeoess_web",
       "number": 24,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/24",
       "participants": [],
       "participant_count": 0,
@@ -8330,7 +9728,7 @@
       "title": "Nightwatch Dispatch: 2026-03-23",
       "repo": "aeoess/aeoess_web",
       "number": 25,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/25",
       "participants": [],
       "participant_count": 0,
@@ -8354,7 +9752,7 @@
       "title": "Nightwatch Dispatch: 2026-03-24",
       "repo": "aeoess/aeoess_web",
       "number": 26,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/26",
       "participants": [],
       "participant_count": 0,
@@ -8378,7 +9776,7 @@
       "title": "Nightwatch Dispatch: 2026-03-25",
       "repo": "aeoess/aeoess_web",
       "number": 27,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/27",
       "participants": [],
       "participant_count": 0,
@@ -8402,7 +9800,7 @@
       "title": "Nightwatch Dispatch: 2026-03-26",
       "repo": "aeoess/aeoess_web",
       "number": 28,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/28",
       "participants": [],
       "participant_count": 0,
@@ -8426,7 +9824,7 @@
       "title": "Nightwatch Dispatch: 2026-03-27",
       "repo": "aeoess/aeoess_web",
       "number": 29,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/29",
       "participants": [],
       "participant_count": 0,
@@ -8450,7 +9848,7 @@
       "title": "Nightwatch Dispatch: 2026-03-28",
       "repo": "aeoess/aeoess_web",
       "number": 30,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/30",
       "participants": [],
       "participant_count": 0,
@@ -8474,7 +9872,7 @@
       "title": "Nightwatch Dispatch: 2026-03-29",
       "repo": "aeoess/aeoess_web",
       "number": 31,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/31",
       "participants": [],
       "participant_count": 0,
@@ -8498,7 +9896,7 @@
       "title": "Nightwatch Dispatch: 2026-03-30",
       "repo": "aeoess/aeoess_web",
       "number": 32,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/32",
       "participants": [],
       "participant_count": 0,
@@ -8522,7 +9920,7 @@
       "title": "Nightwatch Dispatch: 2026-03-31",
       "repo": "aeoess/aeoess_web",
       "number": 33,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/33",
       "participants": [],
       "participant_count": 0,
@@ -8546,7 +9944,7 @@
       "title": "Nightwatch Dispatch: 2026-04-01",
       "repo": "aeoess/aeoess_web",
       "number": 34,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/34",
       "participants": [],
       "participant_count": 0,
@@ -8570,7 +9968,7 @@
       "title": "Nightwatch Dispatch: 2026-04-02",
       "repo": "aeoess/aeoess_web",
       "number": 35,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/35",
       "participants": [],
       "participant_count": 0,
@@ -8594,7 +9992,7 @@
       "title": "Nightwatch Dispatch: 2026-04-03",
       "repo": "aeoess/aeoess_web",
       "number": 36,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/36",
       "participants": [],
       "participant_count": 0,
@@ -8618,7 +10016,7 @@
       "title": "Nightwatch Dispatch: 2026-04-04",
       "repo": "aeoess/aeoess_web",
       "number": 37,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/37",
       "participants": [],
       "participant_count": 0,
@@ -8642,7 +10040,7 @@
       "title": "Nightwatch Dispatch: 2026-04-05",
       "repo": "aeoess/aeoess_web",
       "number": 38,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/38",
       "participants": [],
       "participant_count": 0,
@@ -8666,7 +10064,7 @@
       "title": "Nightwatch Dispatch: 2026-04-06",
       "repo": "aeoess/aeoess_web",
       "number": 39,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/39",
       "participants": [],
       "participant_count": 0,
@@ -8690,7 +10088,7 @@
       "title": "Nightwatch Dispatch: 2026-04-07",
       "repo": "aeoess/aeoess_web",
       "number": 40,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/40",
       "participants": [],
       "participant_count": 0,
@@ -8714,7 +10112,7 @@
       "title": "Nightwatch Dispatch: 2026-04-08",
       "repo": "aeoess/aeoess_web",
       "number": 41,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/41",
       "participants": [],
       "participant_count": 0,
@@ -8738,7 +10136,7 @@
       "title": "Nightwatch Dispatch: 2026-04-09",
       "repo": "aeoess/aeoess_web",
       "number": 42,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/42",
       "participants": [],
       "participant_count": 0,
@@ -8762,7 +10160,7 @@
       "title": "Nightwatch Dispatch: 2026-04-10",
       "repo": "aeoess/aeoess_web",
       "number": 43,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/43",
       "participants": [],
       "participant_count": 0,
@@ -8786,7 +10184,7 @@
       "title": "Nightwatch Dispatch: 2026-04-11",
       "repo": "aeoess/aeoess_web",
       "number": 44,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/44",
       "participants": [],
       "participant_count": 0,
@@ -8810,7 +10208,7 @@
       "title": "Nightwatch Dispatch: 2026-04-12",
       "repo": "aeoess/aeoess_web",
       "number": 45,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/45",
       "participants": [],
       "participant_count": 0,
@@ -8834,7 +10232,7 @@
       "title": "Nightwatch Dispatch: 2026-04-13",
       "repo": "aeoess/aeoess_web",
       "number": 46,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/46",
       "participants": [],
       "participant_count": 0,
@@ -8858,7 +10256,7 @@
       "title": "Nightwatch Dispatch: 2026-04-14",
       "repo": "aeoess/aeoess_web",
       "number": 47,
-      "project_id": null,
+      "project_id": "repo--aeoess--aeoess_web",
       "url": "https://github.com/aeoess/aeoess_web/issues/47",
       "participants": [],
       "participant_count": 0,
@@ -8882,7 +10280,7 @@
       "title": "add: Soma \u2014 agent marketplace with on-chain karma and Mycelium Trails anchoring",
       "repo": "aeoess/agent-ecosystem-map",
       "number": 2,
-      "project_id": null,
+      "project_id": "repo--aeoess--agent-ecosystem-map",
       "url": "https://github.com/aeoess/agent-ecosystem-map/issues/2",
       "participants": [
         "aeoess",
@@ -8906,7 +10304,7 @@
       "title": "crosswalk/payment_rail: settlement-layer verb mapping across x402, AP2, ACP, MPP, UCP",
       "repo": "aeoess/agent-governance-vocabulary",
       "number": 100,
-      "project_id": null,
+      "project_id": "repo--aeoess--agent-governance-vocabulary",
       "url": "https://github.com/aeoess/agent-governance-vocabulary/issues/100",
       "participants": [
         "aeoess",
@@ -8930,7 +10328,7 @@
       "title": "Add SBR crosswalk \u2014 entity_continuity",
       "repo": "aeoess/agent-governance-vocabulary",
       "number": 28,
-      "project_id": null,
+      "project_id": "repo--aeoess--agent-governance-vocabulary",
       "url": "https://github.com/aeoess/agent-governance-vocabulary/issues/28",
       "participants": [
         "aeoess",
@@ -8954,7 +10352,7 @@
       "title": "peer_review canonical definition and RNWY mapping: different primitives under one name",
       "repo": "aeoess/agent-governance-vocabulary",
       "number": 29,
-      "project_id": null,
+      "project_id": "repo--aeoess--agent-governance-vocabulary",
       "url": "https://github.com/aeoess/agent-governance-vocabulary/issues/29",
       "participants": [
         "aeoess",
@@ -8979,7 +10377,7 @@
       "title": "Add crosswalk/agentlair.yaml \u2014 peer_review primary",
       "repo": "aeoess/agent-governance-vocabulary",
       "number": 46,
-      "project_id": null,
+      "project_id": "repo--aeoess--agent-governance-vocabulary",
       "url": "https://github.com/aeoess/agent-governance-vocabulary/issues/46",
       "participants": [
         "aeoess",
@@ -9003,7 +10401,7 @@
       "title": "crosswalk: home wallet_intelligence under behavioral (Apr 14 consensus)",
       "repo": "aeoess/agent-governance-vocabulary",
       "number": 47,
-      "project_id": null,
+      "project_id": "repo--aeoess--agent-governance-vocabulary",
       "url": "https://github.com/aeoess/agent-governance-vocabulary/issues/47",
       "participants": [
         "aeoess",
@@ -9405,7 +10803,7 @@
       "title": "fix(trust): require JWKS kid match for trust packets",
       "repo": "aeoess/autogen-governance-adapter",
       "number": 1,
-      "project_id": null,
+      "project_id": "repo--aeoess--autogen-governance-adapter",
       "url": "https://github.com/aeoess/autogen-governance-adapter/issues/1",
       "participants": [
         "aeoess",
@@ -9429,7 +10827,7 @@
       "title": "Add ScopeBlind, protect-mcp, and IETF signed receipts",
       "repo": "aeoess/awesome-ai-agents-2026",
       "number": 1,
-      "project_id": null,
+      "project_id": "repo--aeoess--awesome-ai-agents-2026",
       "url": "https://github.com/aeoess/awesome-ai-agents-2026/issues/1",
       "participants": [
         "aeoess",
@@ -9453,7 +10851,7 @@
       "title": "asqav-mcp as reference implementation for \u00a74 enforceability classification",
       "repo": "aeoess/execution-boundary-spec",
       "number": 1,
-      "project_id": null,
+      "project_id": "repo--aeoess--execution-boundary-spec",
       "url": "https://github.com/aeoess/execution-boundary-spec/issues/1",
       "participants": [
         "aeoess",
@@ -9477,7 +10875,7 @@
       "title": "Design question: in-toto predicate vs Values Floor binding, scope-narrowing invariants enforceability, link to agent-passport-system",
       "repo": "aeoess/governance-attestation-predicate",
       "number": 1,
-      "project_id": null,
+      "project_id": "repo--aeoess--governance-attestation-predicate",
       "url": "https://github.com/aeoess/governance-attestation-predicate/issues/1",
       "participants": [
         "aeoess",
@@ -9525,7 +10923,7 @@
       "title": "[FEATURE] Provide agent identity context to MCP tool calls for sub-agent resource isolation",
       "repo": "anthropics/claude-code",
       "number": 32514,
-      "project_id": null,
+      "project_id": "repo--anthropics--claude-code",
       "url": "https://github.com/anthropics/claude-code/issues/32514",
       "participants": [
         "aeoess",
@@ -9555,7 +10953,7 @@
       "title": "Proposal: decision-receipts byproduct type for agent-commit v0.1",
       "repo": "arewm/refs.arewm.com",
       "number": 1,
-      "project_id": null,
+      "project_id": "repo--arewm--refs.arewm.com",
       "url": "https://github.com/arewm/refs.arewm.com/issues/1",
       "participants": [
         "aeoess",
@@ -9580,7 +10978,7 @@
       "title": "feat(payments): scoped delegation + receipt accountability for x402 settlement",
       "repo": "awslabs/agentcore-samples",
       "number": 1546,
-      "project_id": null,
+      "project_id": "repo--awslabs--agentcore-samples",
       "url": "https://github.com/awslabs/agentcore-samples/issues/1546",
       "participants": [
         "aeoess",
@@ -9605,7 +11003,7 @@
       "title": "Scoped delegation for browser actions \u2014 governance layer between LLM decisions and real clicks",
       "repo": "browser-use/browser-use",
       "number": 4634,
-      "project_id": null,
+      "project_id": "repo--browser-use--browser-use",
       "url": "https://github.com/browser-use/browser-use/issues/4634",
       "participants": [
         "aeoess",
@@ -9631,7 +11029,7 @@
       "title": "Agent governance: deterministic permission gating for browser actions",
       "repo": "browser-use/browser-use",
       "number": 5063,
-      "project_id": null,
+      "project_id": "repo--browser-use--browser-use",
       "url": "https://github.com/browser-use/browser-use/issues/5063",
       "participants": [
         "Keesan12",
@@ -9646,7 +11044,7 @@
       "title": "Complementary pattern: signed decision receipts for DefenseClaw gateway decisions",
       "repo": "cisco-ai-defense/defenseclaw",
       "number": 115,
-      "project_id": null,
+      "project_id": "repo--cisco-ai-defense--defenseclaw",
       "url": "https://github.com/cisco-ai-defense/defenseclaw/issues/115",
       "participants": [
         "aeoess",
@@ -9673,7 +11071,7 @@
       "title": "feat(wg): Execution Attestation Interface spec v0.1",
       "repo": "corpollc/qntm",
       "number": 6,
-      "project_id": null,
+      "project_id": "repo--corpollc--qntm",
       "url": "https://github.com/corpollc/qntm/issues/6",
       "participants": [
         "aeoess",
@@ -9702,7 +11100,7 @@
       "title": "Proposal: Authority Constraints as next WG scope",
       "repo": "corpollc/qntm",
       "number": 7,
-      "project_id": null,
+      "project_id": "repo--corpollc--qntm",
       "url": "https://github.com/corpollc/qntm/issues/7",
       "participants": [
         "aeoess",
@@ -9737,7 +11135,7 @@
       "title": "AAE \u2194 APS Constraint Mapping Test Case",
       "repo": "corpollc/qntm",
       "number": 9,
-      "project_id": null,
+      "project_id": "repo--corpollc--qntm",
       "url": "https://github.com/corpollc/qntm/issues/9",
       "participants": [
         "aeoess",
@@ -9761,7 +11159,7 @@
       "title": "Feature: Cryptographic Identity for Crew Members",
       "repo": "crewAIInc/crewAI",
       "number": 4560,
-      "project_id": null,
+      "project_id": "repo--crewAIInc--crewAI",
       "url": "https://github.com/crewAIInc/crewAI/issues/4560",
       "participants": [
         "aeoess",
@@ -9786,9 +11184,10 @@
         "rajantripathi",
         "wfel87",
         "xXMrNidaXx",
-        "alex-pathcourse"
+        "alex-pathcourse",
+        "WulfAI"
       ],
-      "participant_count": 23,
+      "participant_count": 24,
       "github": {
         "state": "closed",
         "created_at": "2026-02-22T03:46:14Z",
@@ -9806,7 +11205,7 @@
       "title": "[Integration] crewai-agentfolio \u2014 Agent Identity & Trust Verification Tools",
       "repo": "crewAIInc/crewAI",
       "number": 4789,
-      "project_id": null,
+      "project_id": "repo--crewAIInc--crewAI",
       "url": "https://github.com/crewAIInc/crewAI/issues/4789",
       "participants": [
         "aeoess",
@@ -9816,9 +11215,10 @@
         "internet-dot",
         "manja316",
         "majorelalexis-stack",
-        "ThinkOffApp"
+        "ThinkOffApp",
+        "khalidsaidi"
       ],
-      "participant_count": 8,
+      "participant_count": 9,
       "github": {
         "state": "closed",
         "created_at": "2026-03-09T13:37:37Z",
@@ -9836,7 +11236,7 @@
       "title": "MCP tool calling has no per-message authentication or integrity verification",
       "repo": "crewAIInc/crewAI",
       "number": 4875,
-      "project_id": null,
+      "project_id": "repo--crewAIInc--crewAI",
       "url": "https://github.com/crewAIInc/crewAI/issues/4875",
       "participants": [
         "aeoess",
@@ -9868,7 +11268,7 @@
       "title": "Proposal: Agent Identity Verification for Multi-Agent Crews",
       "repo": "crewAIInc/crewAI",
       "number": 5019,
-      "project_id": null,
+      "project_id": "repo--crewAIInc--crewAI",
       "url": "https://github.com/crewAIInc/crewAI/issues/5019",
       "participants": [
         "aeoess",
@@ -9878,9 +11278,10 @@
         "FransDevelopment",
         "jagmarques",
         "internet-dot",
-        "greysonlalonde"
+        "greysonlalonde",
+        "enigma-zeroclaw"
       ],
-      "participant_count": 8,
+      "participant_count": 9,
       "github": {
         "state": "closed",
         "created_at": "2026-03-22T21:47:48Z",
@@ -9898,12 +11299,13 @@
       "title": "[UC] Scoped Delegation Chains with Enforced Authority Narrowing Across Multi-Hop Agent Workflows",
       "repo": "decentralized-identity/trusted-ai-agents",
       "number": 37,
-      "project_id": null,
+      "project_id": "repo--decentralized-identity--trusted-ai-agents",
       "url": "https://github.com/decentralized-identity/trusted-ai-agents/issues/37",
       "participants": [
-        "aeoess"
+        "aeoess",
+        "vinaysflow"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "open",
         "created_at": "2026-03-14T05:57:26Z",
@@ -9921,7 +11323,7 @@
       "title": "Multi-Attestation Payload Format: Composable Verification Across Independent Issuers",
       "repo": "douglasborthwick-crypto/insumer-examples",
       "number": 1,
-      "project_id": null,
+      "project_id": "repo--douglasborthwick-crypto--insumer-examples",
       "url": "https://github.com/douglasborthwick-crypto/insumer-examples/issues/1",
       "participants": [
         "aeoess",
@@ -9969,9 +11371,10 @@
         "aeoess",
         "srotzin",
         "vdineshk",
-        "alexchenai"
+        "alexchenai",
+        "sanchezmaldonadojesusadrian14-coder"
       ],
-      "participant_count": 4,
+      "participant_count": 5,
       "github": {
         "state": "open",
         "created_at": "2026-04-23T02:49:17Z",
@@ -9989,7 +11392,7 @@
       "title": "Collaboration: Governance callbacks for ADK agent lifecycle",
       "repo": "google/adk-python",
       "number": 4764,
-      "project_id": null,
+      "project_id": "repo--google--adk-python",
       "url": "https://github.com/google/adk-python/issues/4764",
       "participants": [
         "aeoess",
@@ -10047,7 +11450,7 @@
       "title": "feat(predicates): Decision Receipt predicate for agent governance attestations",
       "repo": "in-toto/attestation",
       "number": 549,
-      "project_id": null,
+      "project_id": "repo--in-toto--attestation",
       "url": "https://github.com/in-toto/attestation/issues/549",
       "participants": [
         "aeoess",
@@ -10073,7 +11476,7 @@
       "title": "Proposal: receipt-based admission control for agent-produced manifests",
       "repo": "kubernetes-sigs/kube-agentic-networking",
       "number": 243,
-      "project_id": null,
+      "project_id": "repo--kubernetes-sigs--kube-agentic-networking",
       "url": "https://github.com/kubernetes-sigs/kube-agentic-networking/issues/243",
       "participants": [
         "aeoess",
@@ -10098,7 +11501,7 @@
       "title": "RFC: ComplianceCallbackHandler \u2014 tamper-evident audit trails for regulated industries",
       "repo": "langchain-ai/langchain",
       "number": 35691,
-      "project_id": null,
+      "project_id": "repo--langchain-ai--langchain",
       "url": "https://github.com/langchain-ai/langchain/issues/35691",
       "participants": [
         "aeoess",
@@ -10117,9 +11520,10 @@
         "BadDaddyO",
         "dembovvski",
         "udaysaai",
-        "RenzoMXD"
+        "RenzoMXD",
+        "mdrxy"
       ],
-      "participant_count": 17,
+      "participant_count": 18,
       "github": {
         "state": "closed",
         "created_at": "2026-03-09T15:48:17Z",
@@ -10142,7 +11546,7 @@
       "title": "Cryptographic agent identity, intent verification, and kill switch for production deployments",
       "repo": "langchain-ai/langchain",
       "number": 36232,
-      "project_id": null,
+      "project_id": "repo--langchain-ai--langchain",
       "url": "https://github.com/langchain-ai/langchain/issues/36232",
       "participants": [
         "aeoess",
@@ -10172,9 +11576,11 @@
         "redbotster",
         "udaysaai",
         "fortsignal",
-        "24na7igor"
+        "24na7igor",
+        "alecpipi",
+        "yihui315"
       ],
-      "participant_count": 28,
+      "participant_count": 30,
       "github": {
         "state": "open",
         "created_at": "2026-03-25T16:38:31Z",
@@ -10196,7 +11602,7 @@
       "title": "Ecosystem adopter proposal: Veritas Acta / ScopeBlind as ATF Element 2 & 5 implementation",
       "repo": "massivescale-ai/agentic-trust-framework",
       "number": 8,
-      "project_id": null,
+      "project_id": "repo--massivescale-ai--agentic-trust-framework",
       "url": "https://github.com/massivescale-ai/agentic-trust-framework/issues/8",
       "participants": [
         "aeoess",
@@ -10332,7 +11738,7 @@
       "title": "Proposal: Capability-scoped tool authorization for AutoGen multi-agent pipelines",
       "repo": "microsoft/autogen",
       "number": 7528,
-      "project_id": null,
+      "project_id": "repo--microsoft--autogen",
       "url": "https://github.com/microsoft/autogen/issues/7528",
       "participants": [
         "aeoess",
@@ -10344,9 +11750,10 @@
         "bobrenze-bot",
         "rehan243",
         "Tuttotorna",
-        "sunfishloop"
+        "sunfishloop",
+        "LOLA0786"
       ],
-      "participant_count": 10,
+      "participant_count": 11,
       "github": {
         "state": "open",
         "created_at": "2026-04-05T00:52:07Z",
@@ -10364,7 +11771,7 @@
       "title": ".Net: Proposal: Compliance-as-Code plugin for regulated enterprise agent governance",
       "repo": "microsoft/semantic-kernel",
       "number": 13957,
-      "project_id": null,
+      "project_id": "repo--microsoft--semantic-kernel",
       "url": "https://github.com/microsoft/semantic-kernel/issues/13957",
       "participants": [
         "aeoess",
@@ -10397,12 +11804,13 @@
       "title": "Interest to implement",
       "repo": "mirjak/audit-bof-preparation",
       "number": 9,
-      "project_id": null,
+      "project_id": "repo--mirjak--audit-bof-preparation",
       "url": "https://github.com/mirjak/audit-bof-preparation/issues/9",
       "participants": [
-        "aeoess"
+        "aeoess",
+        "mirjak"
       ],
-      "participant_count": 1,
+      "participant_count": 2,
       "github": {
         "state": "open",
         "created_at": "2026-05-28T07:40:06Z",
@@ -10422,7 +11830,7 @@
       "title": "Optional: cryptographic identity layer for gitagent manifests (proposal)",
       "repo": "open-gitagent/gitagent",
       "number": 70,
-      "project_id": null,
+      "project_id": "repo--open-gitagent--gitagent",
       "url": "https://github.com/open-gitagent/gitagent/issues/70",
       "participants": [
         "aeoess"
@@ -10436,16 +11844,17 @@
       "title": "SIEP: Agent-produced code provenance fields",
       "repo": "ossf/security-insights",
       "number": 171,
-      "project_id": null,
+      "project_id": "repo--ossf--security-insights",
       "url": "https://github.com/ossf/security-insights/issues/171",
       "participants": [
         "aeoess",
         "tomjwxf",
         "eddie-knight",
         "jmeridth",
-        "cgwalters"
+        "cgwalters",
+        "david-a-wheeler"
       ],
-      "participant_count": 5,
+      "participant_count": 6,
       "github": {
         "state": "open",
         "created_at": "2026-04-17T14:10:11Z",
@@ -10465,7 +11874,7 @@
       "title": "PRD: Digital Passport MVP on Algorand",
       "repo": "rznies/algobharat-digital-passport",
       "number": 1,
-      "project_id": null,
+      "project_id": "repo--rznies--algobharat-digital-passport",
       "url": "https://github.com/rznies/algobharat-digital-passport/issues/1",
       "participants": [
         "aeoess",
@@ -10517,7 +11926,7 @@
       "title": "Proposal: Values & attribution layer for agent trust (Agent Passport System)",
       "repo": "visa/trusted-agent-protocol",
       "number": 13,
-      "project_id": null,
+      "project_id": "repo--visa--trusted-agent-protocol",
       "url": "https://github.com/visa/trusted-agent-protocol/issues/13",
       "participants": [
         "aeoess",
@@ -10542,7 +11951,7 @@
       "title": "Missing requirement: behavioral consistency across context rotation events",
       "repo": "w3c-cg/ai-agent-protocol",
       "number": 30,
-      "project_id": null,
+      "project_id": "repo--w3c-cg--ai-agent-protocol",
       "url": "https://github.com/w3c-cg/ai-agent-protocol/issues/30",
       "participants": [
         "aeoess",
@@ -10591,7 +12000,7 @@
       "title": "Post-settlement accountability layer: tamper-evident proof of agent action after payment",
       "repo": "x402-foundation/x402",
       "number": 2332,
-      "project_id": null,
+      "project_id": "repo--x402-foundation--x402",
       "url": "https://github.com/x402-foundation/x402/issues/2332",
       "participants": [
         "aeoess",
@@ -10626,7 +12035,7 @@
       "title": "Proposal: payload-side PII screening as an x402 hardening primitive (with reference MCP impl)",
       "repo": "x402-foundation/x402",
       "number": 2533,
-      "project_id": null,
+      "project_id": "repo--x402-foundation--x402",
       "url": "https://github.com/x402-foundation/x402/issues/2533",
       "participants": [
         "chopmob-cloud",
@@ -10647,13 +12056,13 @@
     }
   ],
   "stats": {
-    "projects": 19,
-    "people": 197,
+    "projects": 58,
+    "people": 186,
     "people_total_raw": 231,
     "threads": 120,
-    "threads_mapped_to_project": 35,
-    "projects_enriched": 13,
-    "people_enriched": 181,
+    "threads_mapped_to_project": 120,
+    "projects_enriched": 52,
+    "people_enriched": 184,
     "threads_enriched": 118
   }
 }

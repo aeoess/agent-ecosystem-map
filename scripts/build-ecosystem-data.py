@@ -138,7 +138,13 @@ with open(MAP / 'participants_v2.json') as f:
 people = []
 for i, (login, d) in enumerate(people_raw.items()):
     score = d.get('final_score', 0)
-    if score < 5:  # drop pure noise
+    # Everyone who actually took part in a tracked thread is in the lane
+    # and is shown, however small the footprint. Rows with no posts and
+    # no threads are not participants; they sit in the private map for
+    # other reasons (watch or placeholder) and are skipped so this public
+    # directory stays a record of real participation only. Score is used
+    # for ranking below, then stripped from the emitted records.
+    if d.get('comment_count', 0) == 0 and not d.get('threads'):
         continue
     record = {
         'login': login,
@@ -190,6 +196,57 @@ print(f'  {len(people)} people, {sum(1 for p in people if p["github"]) } with Gi
 print('Loading threads...')
 with open(MAP / 'thread_titles.json') as f:
     thread_titles = json.load(f)
+
+# -------------------------------------------------------------------
+# DERIVED PROJECTS: every repo that hosts a tracked thread but has no
+# hand-written project file becomes a project too, so the directory shows
+# all projects in the lane, not only the curated ones. Derived entries
+# carry GitHub metadata and are marked _derived so a curated file can
+# supersede one later.
+# -------------------------------------------------------------------
+_curated_repos = {r for pr in projects for r in pr['_repos']}
+_seen = set(_curated_repos)
+_derived_repos = []
+for _tmeta in thread_titles.values():
+    if not isinstance(_tmeta, dict):
+        continue
+    _r = _tmeta.get('repo')
+    if _r and _r not in _seen:
+        _seen.add(_r)
+        _derived_repos.append(_r)
+for _r in _derived_repos:
+    _m = gh_api(f'repos/{_r}')
+    _g = None
+    if _m:
+        _g = {
+            'repo': _r,
+            'created_at':     _m.get('created_at'),
+            'pushed_at':      _m.get('pushed_at'),
+            'updated_at':     _m.get('updated_at'),
+            'stargazers':     _m.get('stargazers_count'),
+            'forks':          _m.get('forks_count'),
+            'open_issues':    _m.get('open_issues_count'),
+            'license':        (_m.get('license') or {}).get('spdx_id'),
+            'description':    _m.get('description'),
+            'homepage':       _m.get('homepage'),
+            'archived':       _m.get('archived'),
+            'default_branch': _m.get('default_branch'),
+            'language':       _m.get('language'),
+        }
+    projects.append({
+        '_id': 'repo--' + _r.replace('/', '--'),
+        'name': _r,
+        'slug': _r.replace('/', '--'),
+        'description': (_g or {}).get('description') or '',
+        'topics': [],
+        'maturity': '',
+        'license': (_g or {}).get('license') or '',
+        'venues': [{'kind': 'repository', 'url': f'https://github.com/{_r}', 'label': _r}],
+        '_repos': [_r],
+        '_github': _g,
+        '_derived': True,
+    })
+print(f'  +{len(_derived_repos)} derived projects from tracked thread repos')
 
 repo_to_project = {}
 for p in projects:
