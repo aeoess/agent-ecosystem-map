@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T21:36:27.542428+00:00",
+  "generated_at": "2026-07-22T06:29:22.201289+00:00",
   "projects": [
     {
       "name": "Agent2Agent Protocol",
@@ -743,6 +743,57 @@
       }
     },
     {
+      "name": "Soma",
+      "slug": "soma",
+      "description": "Agent marketplace where every listed agent has an on-chain karma score (ARGENTUM) and every action is anchored via Mycelium Trails \u2014 independently verifiable by any auditor without operator cooperation.\n",
+      "topics": [
+        "commerce",
+        "governance",
+        "audit"
+      ],
+      "maturity": "beta",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/giskard09/soma",
+          "label": "Source"
+        },
+        {
+          "kind": "package-registry",
+          "url": "https://registry.modelcontextprotocol.io",
+          "label": "MCP Registry"
+        }
+      ],
+      "implements": [
+        "ed25519",
+        "karma-score"
+      ],
+      "contact": {
+        "github": "giskard09"
+      },
+      "updated": "2026-05-20",
+      "_id": "soma",
+      "_repos": [
+        "giskard09/soma"
+      ],
+      "_github": {
+        "repo": "giskard09/soma",
+        "created_at": "2026-03-31T13:11:57Z",
+        "pushed_at": "2026-06-11T00:57:52Z",
+        "updated_at": "2026-07-07T23:37:37Z",
+        "stargazers": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "license": "Apache-2.0",
+        "description": "Agent marketplace \u2014 describe what you need, get a verified agent that does it",
+        "homepage": null,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      }
+    },
+    {
       "name": "Universal Commerce Protocol",
       "slug": "ucp",
       "description": "Open-source standard for agentic commerce across consumer surfaces, businesses, and payment providers. Developed by Google with Shopify, Etsy, Wayfair, Target, Walmart, and 20+ endorsers.",
@@ -872,7 +923,7 @@
   "people": [
     {
       "login": "aeoess",
-      "posts": 684,
+      "posts": 710,
       "threads": [
         "FransDevelopment/open-agent-trust-registry#24",
         "FransDevelopment/open-agent-trust-registry#28",
@@ -884,6 +935,7 @@
         "OWASP/www-project-top-10-for-large-language-model-applications#817",
         "OpenClaw/openclaw#49971",
         "ScopeBlind/agent-governance-testvectors#1",
+        "Universal-Commerce-Protocol/ucp#512",
         "VeritasActa/verify#1",
         "VeritasActa/verify#2",
         "a2aproject/A2A#1575",
@@ -926,6 +978,7 @@
         "anthropics/claude-code#32514",
         "arewm/refs.arewm.com#1",
         "awslabs/agentcore-samples#1546",
+        "browser-use/browser-use#4634",
         "cisco-ai-defense/defenseclaw#115",
         "corpollc/qntm#6",
         "corpollc/qntm#7",
@@ -934,6 +987,7 @@
         "crewAIInc/crewAI#4789",
         "crewAIInc/crewAI#4875",
         "crewAIInc/crewAI#5019",
+        "decentralized-identity/trusted-ai-agents#37",
         "douglasborthwick-crypto/insumer-examples#1",
         "erc-8004/erc-8004-contracts#77",
         "google/adk-python#4764",
@@ -945,13 +999,19 @@
         "massivescale-ai/agentic-trust-framework#8",
         "microsoft/agent-governance-toolkit#1197",
         "microsoft/agent-governance-toolkit#1354",
+        "microsoft/agent-governance-toolkit#2692",
         "microsoft/agent-governance-toolkit#934",
+        "microsoft/autogen#7528",
+        "microsoft/semantic-kernel#13957",
+        "mirjak/audit-bof-preparation#9",
         "open-gitagent/gitagent#70",
         "ossf/security-insights#171",
         "rznies/algobharat-digital-passport#1",
         "sint-ai/sint-protocol#109",
+        "visa/trusted-agent-protocol#13",
         "w3c-cg/ai-agent-protocol#30",
-        "worldcoin/agentkit-shopify-demo#5"
+        "worldcoin/agentkit-shopify-demo#5",
+        "x402-foundation/x402#2332"
       ],
       "topics": [
         "a2a-cai-extension-proposal",
@@ -986,14 +1046,17 @@
         "arewm-agent-commit",
         "atf-elements",
         "authority-constraints",
+        "autogen-capability-scoped-authz",
         "autogen-jwks-kid-strict",
         "awesome-aps-listing",
+        "browser-use-scoped-delegation",
         "claude-code-mcp",
         "crewai-governance",
         "crewai-integration",
         "crewai-primitives",
         "crewai-spec",
         "defenseclaw-receipts",
+        "dif-scoped-delegation-narrowing",
         "ebs-asqav-execution-boundary",
         "ecosystem-soma-entry",
         "ed25519-x25519-vectors",
@@ -1005,12 +1068,15 @@
         "helixar-interop",
         "hermes-self-modification",
         "identity-delegation-enforcement",
+        "ietf-audit-bof-interest",
         "in-toto-decision-receipt",
         "insumer-multi-attestation",
         "k8s-receipt-admission",
         "langchain-compliance-backend",
         "langchain-memory",
         "moltrust-integration",
+        "ms-agt-policy-distribution",
+        "ms-sk-compliance-as-code",
         "ms-toolkit-peer-impl",
         "oatr-behavioral-history",
         "oatr-sint-registration",
@@ -1022,15 +1088,18 @@
         "scopeblind-aps-driver",
         "sint-enforcement-context",
         "trust-signals-schema",
+        "ucp-ap2-ttl-bug",
         "veritas-signal-belief",
         "veritas-testvectors",
+        "visa-values-attribution",
         "vocab-agentlair",
         "vocab-payment-rail-crosswalk",
         "vocab-peer-review-audit",
         "vocab-sbr-continuity",
         "vocab-wallet-intelligence-behavioral",
         "vocabulary-proposal",
-        "w3c-agent-protocol"
+        "w3c-agent-protocol",
+        "x402-post-settlement"
       ],
       "repos": [
         "FransDevelopment/open-agent-trust-registry",
@@ -1040,6 +1109,7 @@
         "OWASP/www-project-top-10-for-large-language-model-applications",
         "OpenClaw/openclaw",
         "ScopeBlind/agent-governance-testvectors",
+        "Universal-Commerce-Protocol/ucp",
         "VeritasActa/verify",
         "a2aproject/A2A",
         "aaif/project-proposals",
@@ -1055,9 +1125,11 @@
         "anthropics/claude-code",
         "arewm/refs.arewm.com",
         "awslabs/agentcore-samples",
+        "browser-use/browser-use",
         "cisco-ai-defense/defenseclaw",
         "corpollc/qntm",
         "crewAIInc/crewAI",
+        "decentralized-identity/trusted-ai-agents",
         "douglasborthwick-crypto/insumer-examples",
         "erc-8004/erc-8004-contracts",
         "google/adk-python",
@@ -1067,16 +1139,21 @@
         "langchain-ai/langchain",
         "massivescale-ai/agentic-trust-framework",
         "microsoft/agent-governance-toolkit",
+        "microsoft/autogen",
+        "microsoft/semantic-kernel",
+        "mirjak/audit-bof-preparation",
         "open-gitagent/gitagent",
         "ossf/security-insights",
         "rznies/algobharat-digital-passport",
         "sint-ai/sint-protocol",
+        "visa/trusted-agent-protocol",
         "w3c-cg/ai-agent-protocol",
-        "worldcoin/agentkit-shopify-demo"
+        "worldcoin/agentkit-shopify-demo",
+        "x402-foundation/x402"
       ],
       "first_seen_ours": "2026-02-21T19:05:14Z",
-      "last_seen_ours": "2026-05-30T02:17:50Z",
-      "word_count": 170037,
+      "last_seen_ours": "2026-07-03T17:16:04Z",
+      "word_count": 175362,
       "github": {
         "name": "\u00e6\u0153ss",
         "bio": "Tymofii Pidlisnyi                                 \u00b7 Building governance infrastructure for the agent economy",
@@ -1235,7 +1312,7 @@
     },
     {
       "login": "douglasborthwick-crypto",
-      "posts": 126,
+      "posts": 129,
       "threads": [
         "a2aproject/A2A#1628",
         "a2aproject/A2A#1672",
@@ -1247,7 +1324,8 @@
         "aeoess/agent-passport-system#13",
         "corpollc/qntm#7",
         "crewAIInc/crewAI#4560",
-        "douglasborthwick-crypto/insumer-examples#1"
+        "douglasborthwick-crypto/insumer-examples#1",
+        "visa/trusted-agent-protocol#13"
       ],
       "topics": [
         "a2a-signing-custody",
@@ -1259,6 +1337,7 @@
         "insumer-multi-attestation",
         "moltrust-integration",
         "trust-signals-schema",
+        "visa-values-attribution",
         "vocab-wallet-intelligence-behavioral",
         "vocabulary-proposal"
       ],
@@ -1268,11 +1347,12 @@
         "aeoess/agent-passport-system",
         "corpollc/qntm",
         "crewAIInc/crewAI",
-        "douglasborthwick-crypto/insumer-examples"
+        "douglasborthwick-crypto/insumer-examples",
+        "visa/trusted-agent-protocol"
       ],
-      "first_seen_ours": "2026-02-25T20:50:33Z",
+      "first_seen_ours": "2026-02-25T20:40:37Z",
       "last_seen_ours": "2026-05-24T17:24:33Z",
-      "word_count": 29399,
+      "word_count": 29885,
       "github": {
         "name": "Douglas Borthwick",
         "bio": "Building InsumerAPI \u2014 cryptographic proof of on-chain state for commerce and AI agents. Attestations, trust profiles, Merkle proofs. 37 chains. 5 SDKs",
@@ -1290,7 +1370,7 @@
     },
     {
       "login": "MoltyCel",
-      "posts": 158,
+      "posts": 159,
       "threads": [
         "OpenClaw/openclaw#49971",
         "a2aproject/A2A#1575",
@@ -1306,7 +1386,8 @@
         "corpollc/qntm#6",
         "corpollc/qntm#7",
         "corpollc/qntm#9",
-        "douglasborthwick-crypto/insumer-examples#1"
+        "douglasborthwick-crypto/insumer-examples#1",
+        "x402-foundation/x402#2332"
       ],
       "topics": [
         "a2a-compliance-measurement",
@@ -1322,7 +1403,8 @@
         "moltrust-integration",
         "openclaw-aae",
         "trust-signals-schema",
-        "vocabulary-proposal"
+        "vocabulary-proposal",
+        "x402-post-settlement"
       ],
       "repos": [
         "OpenClaw/openclaw",
@@ -1330,11 +1412,12 @@
         "aeoess/a2a-compliance-harness",
         "aeoess/agent-passport-system",
         "corpollc/qntm",
-        "douglasborthwick-crypto/insumer-examples"
+        "douglasborthwick-crypto/insumer-examples",
+        "x402-foundation/x402"
       ],
       "first_seen_ours": "2026-03-18T18:51:33Z",
-      "last_seen_ours": "2026-04-28T19:09:17Z",
-      "word_count": 20945,
+      "last_seen_ours": "2026-06-16T05:50:50Z",
+      "word_count": 21108,
       "github": {
         "name": "MoltyCel",
         "bio": "MolTrust Creator \u2014 Trust Layer for the Agent Economy. Identity, reputation & verifiable credentials for AI agents. \ud83d\udee1\ufe0f",
@@ -1347,6 +1430,84 @@
         "followers": 2,
         "following": 1,
         "public_repos": 42,
+        "type": "User"
+      }
+    },
+    {
+      "login": "tomjwxf",
+      "posts": 49,
+      "threads": [
+        "NousResearch/hermes-agent#11692",
+        "VeritasActa/verify#1",
+        "VeritasActa/verify#2",
+        "a2aproject/A2A#1575",
+        "a2aproject/A2A#1672",
+        "aaif/project-proposals#19",
+        "aeoess/agent-passport-system#13",
+        "aeoess/awesome-ai-agents-2026#1",
+        "arewm/refs.arewm.com#1",
+        "cisco-ai-defense/defenseclaw#115",
+        "corpollc/qntm#7",
+        "haroldmalikfrimpong-ops/agentid-aps-interop#2",
+        "in-toto/attestation#549",
+        "kubernetes-sigs/kube-agentic-networking#243",
+        "massivescale-ai/agentic-trust-framework#8",
+        "microsoft/agent-governance-toolkit#1197",
+        "microsoft/agent-governance-toolkit#1354",
+        "ossf/security-insights#171"
+      ],
+      "topics": [
+        "aaif-agt-proposal",
+        "agent-identity-verification",
+        "agentid-aps-fixtures",
+        "agt-tutorial-receipts",
+        "arewm-agent-commit",
+        "atf-elements",
+        "authority-constraints",
+        "awesome-aps-listing",
+        "defenseclaw-receipts",
+        "hermes-self-modification",
+        "identity-delegation-enforcement",
+        "in-toto-decision-receipt",
+        "k8s-receipt-admission",
+        "ms-toolkit-peer-impl",
+        "ossf-agent-provenance",
+        "veritas-signal-belief",
+        "veritas-testvectors",
+        "vocabulary-proposal"
+      ],
+      "repos": [
+        "NousResearch/hermes-agent",
+        "VeritasActa/verify",
+        "a2aproject/A2A",
+        "aaif/project-proposals",
+        "aeoess/agent-passport-system",
+        "aeoess/awesome-ai-agents-2026",
+        "arewm/refs.arewm.com",
+        "cisco-ai-defense/defenseclaw",
+        "corpollc/qntm",
+        "haroldmalikfrimpong-ops/agentid-aps-interop",
+        "in-toto/attestation",
+        "kubernetes-sigs/kube-agentic-networking",
+        "massivescale-ai/agentic-trust-framework",
+        "microsoft/agent-governance-toolkit",
+        "ossf/security-insights"
+      ],
+      "first_seen_ours": "2026-04-07T05:36:44Z",
+      "last_seen_ours": "2026-05-17T08:38:57Z",
+      "word_count": 18715,
+      "github": {
+        "name": "TJF",
+        "bio": "Ex-HF mngr, zero trust infra ",
+        "company": "ScopeBlind Pty Ltd (ACN: 693 027 440)",
+        "location": "Australia",
+        "blog": "www.scopeblind.com",
+        "email": null,
+        "twitter": "TJWXF3",
+        "created_at": "2025-08-14T03:31:17Z",
+        "followers": 134,
+        "following": 118,
+        "public_repos": 61,
         "type": "User"
       }
     },
@@ -1389,83 +1550,114 @@
       }
     },
     {
-      "login": "tomjwxf",
-      "posts": 48,
+      "login": "arian-gogani",
+      "posts": 65,
       "threads": [
-        "NousResearch/hermes-agent#11692",
-        "VeritasActa/verify#1",
-        "VeritasActa/verify#2",
-        "a2aproject/A2A#1575",
+        "FransDevelopment/open-agent-trust-registry#28",
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32",
         "a2aproject/A2A#1672",
-        "aeoess/agent-passport-system#13",
-        "aeoess/awesome-ai-agents-2026#1",
-        "arewm/refs.arewm.com#1",
-        "cisco-ai-defense/defenseclaw#115",
-        "corpollc/qntm#7",
-        "haroldmalikfrimpong-ops/agentid-aps-interop#2",
+        "a2aproject/A2A#1786",
+        "awslabs/agentcore-samples#1546",
+        "crewAIInc/crewAI#4560",
         "in-toto/attestation#549",
-        "kubernetes-sigs/kube-agentic-networking#243",
-        "massivescale-ai/agentic-trust-framework#8",
-        "microsoft/agent-governance-toolkit#1197",
-        "microsoft/agent-governance-toolkit#1354",
-        "ossf/security-insights#171"
+        "langchain-ai/langchain#35691",
+        "microsoft/autogen#7528",
+        "microsoft/semantic-kernel#13957",
+        "x402-foundation/x402#2332"
       ],
       "topics": [
+        "a2a-cai-extension-proposal",
         "agent-identity-verification",
-        "agentid-aps-fixtures",
-        "agt-tutorial-receipts",
-        "arewm-agent-commit",
-        "atf-elements",
-        "authority-constraints",
-        "awesome-aps-listing",
-        "defenseclaw-receipts",
-        "hermes-self-modification",
-        "identity-delegation-enforcement",
+        "agentcore-x402-composition",
+        "aivss-multi-agent-governance",
+        "autogen-capability-scoped-authz",
+        "crewai-governance",
         "in-toto-decision-receipt",
-        "k8s-receipt-admission",
-        "ms-toolkit-peer-impl",
-        "ossf-agent-provenance",
-        "veritas-signal-belief",
-        "veritas-testvectors",
-        "vocabulary-proposal"
+        "langchain-compliance-backend",
+        "ms-sk-compliance-as-code",
+        "oatr-behavioral-history",
+        "x402-post-settlement"
       ],
       "repos": [
-        "NousResearch/hermes-agent",
-        "VeritasActa/verify",
+        "FransDevelopment/open-agent-trust-registry",
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
         "a2aproject/A2A",
-        "aeoess/agent-passport-system",
-        "aeoess/awesome-ai-agents-2026",
-        "arewm/refs.arewm.com",
-        "cisco-ai-defense/defenseclaw",
-        "corpollc/qntm",
-        "haroldmalikfrimpong-ops/agentid-aps-interop",
+        "awslabs/agentcore-samples",
+        "crewAIInc/crewAI",
         "in-toto/attestation",
-        "kubernetes-sigs/kube-agentic-networking",
-        "massivescale-ai/agentic-trust-framework",
-        "microsoft/agent-governance-toolkit",
-        "ossf/security-insights"
+        "langchain-ai/langchain",
+        "microsoft/autogen",
+        "microsoft/semantic-kernel",
+        "x402-foundation/x402"
       ],
-      "first_seen_ours": "2026-04-07T05:36:44Z",
-      "last_seen_ours": "2026-05-17T08:38:57Z",
-      "word_count": 18456,
+      "first_seen_ours": "2026-04-16T22:51:21Z",
+      "last_seen_ours": "2026-06-24T18:23:53Z",
+      "word_count": 8540,
       "github": {
-        "name": "TJF",
-        "bio": "Ex-HF mngr, zero trust infra ",
-        "company": "ScopeBlind Pty Ltd (ACN: 693 027 440)",
-        "location": "Australia",
-        "blog": "www.scopeblind.com",
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
         "email": null,
-        "twitter": "TJWXF3",
-        "created_at": "2025-08-14T03:31:17Z",
-        "followers": 134,
-        "following": 118,
-        "public_repos": 61,
+        "twitter": null,
+        "created_at": "2026-03-01T17:39:59Z",
+        "followers": 5,
+        "following": 1,
+        "public_repos": 21,
+        "type": "User"
+      }
+    },
+    {
+      "login": "giskard09",
+      "posts": 65,
+      "threads": [
+        "a2aproject/A2A#1786",
+        "a2aproject/A2A#1850",
+        "aeoess/agent-ecosystem-map#2",
+        "aeoess/agent-passport-system#1",
+        "langchain-ai/langchain#36232",
+        "microsoft/semantic-kernel#13957",
+        "x402-foundation/x402#2332"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "action-ref-joint-id",
+        "aeoess-agent-passport-system-1",
+        "ecosystem-soma-entry",
+        "langchain-memory",
+        "ms-sk-compliance-as-code",
+        "x402-post-settlement"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "aeoess/agent-ecosystem-map",
+        "aeoess/agent-passport-system",
+        "langchain-ai/langchain",
+        "microsoft/semantic-kernel",
+        "x402-foundation/x402"
+      ],
+      "first_seen_ours": "2026-05-08T15:52:37Z",
+      "last_seen_ours": "2026-06-17T13:50:45Z",
+      "word_count": 7879,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-03-23T16:35:43Z",
+        "followers": 4,
+        "following": 0,
+        "public_repos": 39,
         "type": "User"
       }
     },
     {
       "login": "srotzin",
-      "posts": 104,
+      "posts": 105,
       "threads": [
         "a2aproject/A2A#1575",
         "a2aproject/A2A#1628",
@@ -1479,7 +1671,8 @@
         "douglasborthwick-crypto/insumer-examples#1",
         "erc-8004/erc-8004-contracts#77",
         "langchain-ai/langchain#35691",
-        "langchain-ai/langchain#36232"
+        "langchain-ai/langchain#36232",
+        "microsoft/autogen#7528"
       ],
       "topics": [
         "a2a-cai-extension-proposal",
@@ -1487,6 +1680,7 @@
         "a2a-signing-custody",
         "a2a-trust-header-schema",
         "agent-identity-verification",
+        "autogen-capability-scoped-authz",
         "crewai-governance",
         "erc8004-bridge",
         "identity-delegation-enforcement",
@@ -1500,11 +1694,12 @@
         "crewAIInc/crewAI",
         "douglasborthwick-crypto/insumer-examples",
         "erc-8004/erc-8004-contracts",
-        "langchain-ai/langchain"
+        "langchain-ai/langchain",
+        "microsoft/autogen"
       ],
       "first_seen_ours": "2026-04-17T03:45:00Z",
       "last_seen_ours": "2026-05-03T00:08:00Z",
-      "word_count": 17036,
+      "word_count": 17133,
       "github": {
         "name": "HiveryIQ",
         "bio": "Agent to Agent Multiverse",
@@ -1522,19 +1717,22 @@
     },
     {
       "login": "Liuyanfeng1234",
-      "posts": 49,
+      "posts": 52,
       "threads": [
-        "a2aproject/A2A#1786"
+        "a2aproject/A2A#1786",
+        "microsoft/agent-governance-toolkit#2692"
       ],
       "topics": [
-        "a2a-cai-extension-proposal"
+        "a2a-cai-extension-proposal",
+        "ms-agt-policy-distribution"
       ],
       "repos": [
-        "a2aproject/A2A"
+        "a2aproject/A2A",
+        "microsoft/agent-governance-toolkit"
       ],
       "first_seen_ours": "2026-05-14T13:56:07Z",
-      "last_seen_ours": "2026-05-22T23:33:51Z",
-      "word_count": 15780,
+      "last_seen_ours": "2026-06-13T01:19:58Z",
+      "word_count": 16591,
       "github": {
         "name": null,
         "bio": null,
@@ -1551,52 +1749,67 @@
       }
     },
     {
-      "login": "arian-gogani",
-      "posts": 55,
+      "login": "pshkv",
+      "posts": 46,
       "threads": [
-        "FransDevelopment/open-agent-trust-registry#28",
-        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32",
+        "FransDevelopment/open-agent-trust-registry#24",
+        "OWASP/www-project-top-10-for-large-language-model-applications#802",
         "a2aproject/A2A#1672",
-        "a2aproject/A2A#1786",
-        "awslabs/agentcore-samples#1546",
+        "a2aproject/A2A#1718",
+        "aaif/project-proposals#12",
+        "aeoess/agent-passport-system#1",
+        "aeoess/agent-passport-system#13",
+        "aeoess/agent-passport-system#3",
+        "aeoess/autogen-governance-adapter#1",
+        "corpollc/qntm#7",
         "crewAIInc/crewAI#4560",
-        "in-toto/attestation#549",
-        "langchain-ai/langchain#35691"
+        "crewAIInc/crewAI#5019",
+        "microsoft/autogen#7528",
+        "sint-ai/sint-protocol#109"
       ],
       "topics": [
-        "a2a-cai-extension-proposal",
+        "a2a-signing-custody",
+        "aaif-sint-submission",
+        "aeoess-agent-passport-system-1",
+        "aeoess-agent-passport-system-3",
         "agent-identity-verification",
-        "agentcore-x402-composition",
-        "aivss-multi-agent-governance",
+        "authority-constraints",
+        "autogen-capability-scoped-authz",
+        "autogen-jwks-kid-strict",
         "crewai-governance",
-        "in-toto-decision-receipt",
-        "langchain-compliance-backend",
-        "oatr-behavioral-history"
+        "crewai-primitives",
+        "oatr-sint-registration",
+        "owasp-llm-aps",
+        "sint-enforcement-context",
+        "vocabulary-proposal"
       ],
       "repos": [
         "FransDevelopment/open-agent-trust-registry",
-        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
+        "OWASP/www-project-top-10-for-large-language-model-applications",
         "a2aproject/A2A",
-        "awslabs/agentcore-samples",
+        "aaif/project-proposals",
+        "aeoess/agent-passport-system",
+        "aeoess/autogen-governance-adapter",
+        "corpollc/qntm",
         "crewAIInc/crewAI",
-        "in-toto/attestation",
-        "langchain-ai/langchain"
+        "microsoft/autogen",
+        "sint-ai/sint-protocol"
       ],
-      "first_seen_ours": "2026-04-16T22:51:21Z",
-      "last_seen_ours": "2026-05-26T06:07:07Z",
-      "word_count": 6984,
+      "first_seen_ours": "2026-04-04T06:07:20Z",
+      "last_seen_ours": "2026-06-23T20:49:02Z",
+      "word_count": 10182,
       "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
+        "name": "Illia Pashkov",
+        "bio": "Chief AI Officer. Intelligence Architect. Director of Product Innovation & Design",
+        "company": "SINT Labs",
+        "location": "San Francisco",
+        "blog": "www.sint.gg",
         "email": null,
-        "twitter": null,
-        "created_at": "2026-03-01T17:39:59Z",
-        "followers": 5,
-        "following": 1,
-        "public_repos": 21,
+        "twitter": "ipashkov",
+        "created_at": "2017-10-12T19:45:00Z",
+        "followers": 14,
+        "following": 47,
+        "public_repos": 16,
         "type": "User"
       }
     },
@@ -1697,68 +1910,6 @@
       }
     },
     {
-      "login": "pshkv",
-      "posts": 39,
-      "threads": [
-        "FransDevelopment/open-agent-trust-registry#24",
-        "OWASP/www-project-top-10-for-large-language-model-applications#802",
-        "a2aproject/A2A#1672",
-        "a2aproject/A2A#1718",
-        "aaif/project-proposals#12",
-        "aeoess/agent-passport-system#1",
-        "aeoess/agent-passport-system#13",
-        "aeoess/agent-passport-system#3",
-        "aeoess/autogen-governance-adapter#1",
-        "corpollc/qntm#7",
-        "crewAIInc/crewAI#4560",
-        "crewAIInc/crewAI#5019",
-        "sint-ai/sint-protocol#109"
-      ],
-      "topics": [
-        "a2a-signing-custody",
-        "aaif-sint-submission",
-        "aeoess-agent-passport-system-1",
-        "aeoess-agent-passport-system-3",
-        "agent-identity-verification",
-        "authority-constraints",
-        "autogen-jwks-kid-strict",
-        "crewai-governance",
-        "crewai-primitives",
-        "oatr-sint-registration",
-        "owasp-llm-aps",
-        "sint-enforcement-context",
-        "vocabulary-proposal"
-      ],
-      "repos": [
-        "FransDevelopment/open-agent-trust-registry",
-        "OWASP/www-project-top-10-for-large-language-model-applications",
-        "a2aproject/A2A",
-        "aaif/project-proposals",
-        "aeoess/agent-passport-system",
-        "aeoess/autogen-governance-adapter",
-        "corpollc/qntm",
-        "crewAIInc/crewAI",
-        "sint-ai/sint-protocol"
-      ],
-      "first_seen_ours": "2026-04-04T06:07:20Z",
-      "last_seen_ours": "2026-05-15T03:23:43Z",
-      "word_count": 8850,
-      "github": {
-        "name": "Illia Pashkov",
-        "bio": "Chief AI Officer. Intelligence Architect. Director of Product Innovation & Design",
-        "company": "SINT Labs",
-        "location": "San Francisco",
-        "blog": "www.sint.gg",
-        "email": null,
-        "twitter": "ipashkov",
-        "created_at": "2017-10-12T19:45:00Z",
-        "followers": 14,
-        "following": 47,
-        "public_repos": 16,
-        "type": "User"
-      }
-    },
-    {
       "login": "xsa520",
       "posts": 75,
       "threads": [
@@ -1803,7 +1954,7 @@
     },
     {
       "login": "0xbrainkid",
-      "posts": 43,
+      "posts": 45,
       "threads": [
         "OWASP/www-project-top-10-for-large-language-model-applications#802",
         "a2aproject/A2A#1628",
@@ -1816,7 +1967,8 @@
         "crewAIInc/crewAI#4789",
         "douglasborthwick-crypto/insumer-examples#1",
         "langchain-ai/langchain#36232",
-        "w3c-cg/ai-agent-protocol#30"
+        "w3c-cg/ai-agent-protocol#30",
+        "x402-foundation/x402#2332"
       ],
       "topics": [
         "a2a-compliance-measurement",
@@ -1830,7 +1982,8 @@
         "owasp-llm-aps",
         "trust-signals-schema",
         "vocabulary-proposal",
-        "w3c-agent-protocol"
+        "w3c-agent-protocol",
+        "x402-post-settlement"
       ],
       "repos": [
         "OWASP/www-project-top-10-for-large-language-model-applications",
@@ -1839,11 +1992,12 @@
         "crewAIInc/crewAI",
         "douglasborthwick-crypto/insumer-examples",
         "langchain-ai/langchain",
-        "w3c-cg/ai-agent-protocol"
+        "w3c-cg/ai-agent-protocol",
+        "x402-foundation/x402"
       ],
       "first_seen_ours": "2026-03-09T13:37:37Z",
-      "last_seen_ours": "2026-05-08T16:11:37Z",
-      "word_count": 11489,
+      "last_seen_ours": "2026-06-15T03:11:18Z",
+      "word_count": 11764,
       "github": {
         "name": "brainKID",
         "bio": "CEO at brainAI",
@@ -1900,47 +2054,6 @@
         "followers": 2,
         "following": 1,
         "public_repos": 30,
-        "type": "User"
-      }
-    },
-    {
-      "login": "giskard09",
-      "posts": 26,
-      "threads": [
-        "a2aproject/A2A#1786",
-        "a2aproject/A2A#1850",
-        "aeoess/agent-ecosystem-map#2",
-        "aeoess/agent-passport-system#1",
-        "langchain-ai/langchain#36232"
-      ],
-      "topics": [
-        "a2a-cai-extension-proposal",
-        "action-ref-joint-id",
-        "aeoess-agent-passport-system-1",
-        "ecosystem-soma-entry",
-        "langchain-memory"
-      ],
-      "repos": [
-        "a2aproject/A2A",
-        "aeoess/agent-ecosystem-map",
-        "aeoess/agent-passport-system",
-        "langchain-ai/langchain"
-      ],
-      "first_seen_ours": "2026-05-08T15:52:37Z",
-      "last_seen_ours": "2026-05-28T00:29:39Z",
-      "word_count": 3268,
-      "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-03-23T16:35:43Z",
-        "followers": 4,
-        "following": 0,
-        "public_repos": 39,
         "type": "User"
       }
     },
@@ -2041,6 +2154,53 @@
       }
     },
     {
+      "login": "chopmob-cloud",
+      "posts": 30,
+      "threads": [
+        "Universal-Commerce-Protocol/ucp#512",
+        "aaif/project-proposals#19",
+        "awslabs/agentcore-samples#1546",
+        "microsoft/agent-governance-toolkit#2692",
+        "microsoft/semantic-kernel#13957",
+        "x402-foundation/x402#2332",
+        "x402-foundation/x402#2533"
+      ],
+      "topics": [
+        "aaif-agt-proposal",
+        "agentcore-x402-composition",
+        "ms-agt-policy-distribution",
+        "ms-sk-compliance-as-code",
+        "ucp-ap2-ttl-bug",
+        "x402-pii-screening",
+        "x402-post-settlement"
+      ],
+      "repos": [
+        "Universal-Commerce-Protocol/ucp",
+        "aaif/project-proposals",
+        "awslabs/agentcore-samples",
+        "microsoft/agent-governance-toolkit",
+        "microsoft/semantic-kernel",
+        "x402-foundation/x402"
+      ],
+      "first_seen_ours": "2026-05-22T13:29:06Z",
+      "last_seen_ours": "2026-06-16T21:15:18Z",
+      "word_count": 6472,
+      "github": {
+        "name": "iLoveChicken",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "www.algovoi.co.uk",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-12-16T23:42:30Z",
+        "followers": 5,
+        "following": 0,
+        "public_repos": 73,
+        "type": "User"
+      }
+    },
+    {
       "login": "rnwy",
       "posts": 21,
       "threads": [
@@ -2118,6 +2278,47 @@
         "followers": 4,
         "following": 0,
         "public_repos": 23,
+        "type": "User"
+      }
+    },
+    {
+      "login": "imran-siddique",
+      "posts": 12,
+      "threads": [
+        "a2aproject/A2A#1717",
+        "aaif/project-proposals#19",
+        "google/adk-python#4764",
+        "microsoft/agent-governance-toolkit#1354",
+        "microsoft/agent-governance-toolkit#934"
+      ],
+      "topics": [
+        "a2a-signing-custody",
+        "aaif-agt-proposal",
+        "adk-python-governance",
+        "agt-dual-citizen",
+        "ms-toolkit-peer-impl"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "aaif/project-proposals",
+        "google/adk-python",
+        "microsoft/agent-governance-toolkit"
+      ],
+      "first_seen_ours": "2026-03-08T18:18:48Z",
+      "last_seen_ours": "2026-05-29T21:46:48Z",
+      "word_count": 2359,
+      "github": {
+        "name": "Imran Siddique",
+        "bio": "Engineering Architect & Leader ",
+        "company": "Microsoft",
+        "location": "Bellevue",
+        "blog": "https://imransiddique.com/",
+        "email": null,
+        "twitter": "mosiddi",
+        "created_at": "2018-11-27T21:13:10Z",
+        "followers": 103,
+        "following": 1,
+        "public_repos": 38,
         "type": "User"
       }
     },
@@ -2281,44 +2482,6 @@
       }
     },
     {
-      "login": "imran-siddique",
-      "posts": 9,
-      "threads": [
-        "a2aproject/A2A#1717",
-        "google/adk-python#4764",
-        "microsoft/agent-governance-toolkit#1354",
-        "microsoft/agent-governance-toolkit#934"
-      ],
-      "topics": [
-        "a2a-signing-custody",
-        "adk-python-governance",
-        "agt-dual-citizen",
-        "ms-toolkit-peer-impl"
-      ],
-      "repos": [
-        "a2aproject/A2A",
-        "google/adk-python",
-        "microsoft/agent-governance-toolkit"
-      ],
-      "first_seen_ours": "2026-03-08T18:18:48Z",
-      "last_seen_ours": "2026-04-27T03:57:16Z",
-      "word_count": 1451,
-      "github": {
-        "name": "Imran Siddique",
-        "bio": "Engineering Architect & Leader ",
-        "company": "Microsoft",
-        "location": "Bellevue",
-        "blog": "https://imransiddique.com/",
-        "email": null,
-        "twitter": "mosiddi",
-        "created_at": "2018-11-27T21:13:10Z",
-        "followers": 103,
-        "following": 1,
-        "public_repos": 38,
-        "type": "User"
-      }
-    },
-    {
       "login": "lowkey-divine",
       "posts": 12,
       "threads": [
@@ -2357,14 +2520,15 @@
     },
     {
       "login": "razashariff",
-      "posts": 14,
+      "posts": 15,
       "threads": [
         "OWASP/www-project-top-10-for-large-language-model-applications#802",
         "a2aproject/A2A#1672",
         "a2aproject/A2A#1742",
         "crewAIInc/crewAI#4560",
         "crewAIInc/crewAI#4875",
-        "google/adk-python#4764"
+        "google/adk-python#4764",
+        "visa/trusted-agent-protocol#13"
       ],
       "topics": [
         "a2a-trust-header-schema",
@@ -2372,17 +2536,19 @@
         "agent-identity-verification",
         "crewai-governance",
         "crewai-spec",
-        "owasp-llm-aps"
+        "owasp-llm-aps",
+        "visa-values-attribution"
       ],
       "repos": [
         "OWASP/www-project-top-10-for-large-language-model-applications",
         "a2aproject/A2A",
         "crewAIInc/crewAI",
-        "google/adk-python"
+        "google/adk-python",
+        "visa/trusted-agent-protocol"
       ],
       "first_seen_ours": "2026-03-14T17:36:33Z",
       "last_seen_ours": "2026-04-12T17:03:59Z",
-      "word_count": 2468,
+      "word_count": 2526,
       "github": {
         "name": "raza sharif",
         "bio": "Founder- Principal Security Architect. Creator of MCPS (MCP Secure) -- cryptographic security for AI agents. \r\nIETF-draft-sharif-mcps-secure-mcps\r\nPatent PGB260",
@@ -2443,6 +2609,39 @@
         "followers": 16,
         "following": 20,
         "public_repos": 15,
+        "type": "User"
+      }
+    },
+    {
+      "login": "andysalvo",
+      "posts": 17,
+      "threads": [
+        "a2aproject/A2A#1672",
+        "x402-foundation/x402#2332"
+      ],
+      "topics": [
+        "agent-identity-verification",
+        "x402-post-settlement"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "x402-foundation/x402"
+      ],
+      "first_seen_ours": "2026-05-18T22:12:51Z",
+      "last_seen_ours": "2026-05-28T01:50:12Z",
+      "word_count": 1271,
+      "github": {
+        "name": "Andy Salvo",
+        "bio": "Forward-deployed AI infrastructure. Co-founder of @appliedaipennstate, and student at Smeal College of Business.",
+        "company": "Crest Deployment Systems LLC",
+        "location": null,
+        "blog": "crestsystems.ai",
+        "email": "ajs10845@psu.edu",
+        "twitter": null,
+        "created_at": "2026-02-21T06:42:54Z",
+        "followers": 1,
+        "following": 6,
+        "public_repos": 26,
         "type": "User"
       }
     },
@@ -2631,6 +2830,36 @@
       "github": null
     },
     {
+      "login": "vystartasv",
+      "posts": 9,
+      "threads": [
+        "microsoft/semantic-kernel#13957"
+      ],
+      "topics": [
+        "ms-sk-compliance-as-code"
+      ],
+      "repos": [
+        "microsoft/semantic-kernel"
+      ],
+      "first_seen_ours": "2026-05-06T12:59:13Z",
+      "last_seen_ours": "2026-06-07T08:03:22Z",
+      "word_count": 4102,
+      "github": {
+        "name": "Vilius Vystartas",
+        "bio": "Free UK tender & bid compliance tools (Works With Agents) \u00b7 agent infra: ORA, Bastion Gateway \u00b7 Senior M365 dev @ Content Formula (Lightspeed365, Xoralia)",
+        "company": "Content Formula",
+        "location": "Cardiff",
+        "blog": "https://workswithagents.com",
+        "email": "vilius.vystartas@gmail.com",
+        "twitter": null,
+        "created_at": "2017-12-08T18:21:59Z",
+        "followers": 4,
+        "following": 3,
+        "public_repos": 73,
+        "type": "User"
+      }
+    },
+    {
       "login": "theaniketgiri",
       "posts": 8,
       "threads": [
@@ -2661,6 +2890,52 @@
       }
     },
     {
+      "login": "kinthaiofficial",
+      "posts": 10,
+      "threads": [
+        "a2aproject/A2A#1575",
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1718",
+        "aaif/project-proposals#19",
+        "browser-use/browser-use#4634",
+        "crewAIInc/crewAI#4560",
+        "langchain-ai/langchain#36232"
+      ],
+      "topics": [
+        "a2a-signing-custody",
+        "aaif-agt-proposal",
+        "agent-identity-verification",
+        "browser-use-scoped-delegation",
+        "crewai-governance",
+        "identity-delegation-enforcement",
+        "langchain-memory"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "aaif/project-proposals",
+        "browser-use/browser-use",
+        "crewAIInc/crewAI",
+        "langchain-ai/langchain"
+      ],
+      "first_seen_ours": "2026-04-28T15:52:23Z",
+      "last_seen_ours": "2026-04-28T23:22:59Z",
+      "word_count": 3269,
+      "github": {
+        "name": "KinthAI",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-03-22T01:58:40Z",
+        "followers": 3,
+        "following": 0,
+        "public_repos": 20,
+        "type": "User"
+      }
+    },
+    {
       "login": "kai-familiar",
       "posts": 6,
       "threads": [
@@ -2687,6 +2962,46 @@
         "followers": 1,
         "following": 0,
         "public_repos": 16,
+        "type": "User"
+      }
+    },
+    {
+      "login": "msaleme",
+      "posts": 6,
+      "threads": [
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1694",
+        "a2aproject/A2A#1786",
+        "microsoft/agent-governance-toolkit#934",
+        "microsoft/autogen#7528"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "agent-identity-verification",
+        "agentcard-limitations",
+        "agt-dual-citizen",
+        "autogen-capability-scoped-authz"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "microsoft/agent-governance-toolkit",
+        "microsoft/autogen"
+      ],
+      "first_seen_ours": "2026-03-29T13:16:46Z",
+      "last_seen_ours": "2026-04-30T16:41:28Z",
+      "word_count": 1557,
+      "github": {
+        "name": "Michael 'Mike' K. Saleme",
+        "bio": "I design *decision-safe architectures* so enterprises can scale AI *without losing control*.\r\n",
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": "mikesaleme",
+        "created_at": "2017-07-23T14:01:42Z",
+        "followers": 15,
+        "following": 42,
+        "public_repos": 105,
         "type": "User"
       }
     },
@@ -2726,46 +3041,6 @@
       }
     },
     {
-      "login": "kinthaiofficial",
-      "posts": 6,
-      "threads": [
-        "a2aproject/A2A#1575",
-        "a2aproject/A2A#1672",
-        "a2aproject/A2A#1718",
-        "crewAIInc/crewAI#4560",
-        "langchain-ai/langchain#36232"
-      ],
-      "topics": [
-        "a2a-signing-custody",
-        "agent-identity-verification",
-        "crewai-governance",
-        "identity-delegation-enforcement",
-        "langchain-memory"
-      ],
-      "repos": [
-        "a2aproject/A2A",
-        "crewAIInc/crewAI",
-        "langchain-ai/langchain"
-      ],
-      "first_seen_ours": "2026-04-28T15:52:23Z",
-      "last_seen_ours": "2026-04-28T23:22:59Z",
-      "word_count": 1996,
-      "github": {
-        "name": "KinthAI",
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-03-22T01:58:40Z",
-        "followers": 3,
-        "following": 0,
-        "public_repos": 20,
-        "type": "User"
-      }
-    },
-    {
       "login": "JKHeadley",
       "posts": 7,
       "threads": [
@@ -2800,40 +3075,27 @@
       }
     },
     {
-      "login": "msaleme",
-      "posts": 5,
-      "threads": [
-        "a2aproject/A2A#1672",
-        "a2aproject/A2A#1694",
-        "a2aproject/A2A#1786",
-        "microsoft/agent-governance-toolkit#934"
-      ],
-      "topics": [
-        "a2a-cai-extension-proposal",
-        "agent-identity-verification",
-        "agentcard-limitations",
-        "agt-dual-citizen"
-      ],
-      "repos": [
-        "a2aproject/A2A",
-        "microsoft/agent-governance-toolkit"
-      ],
-      "first_seen_ours": "2026-03-29T13:16:46Z",
-      "last_seen_ours": "2026-04-30T16:41:28Z",
-      "word_count": 1369,
+      "login": "veritasacta",
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "word_count": 0,
       "github": {
-        "name": "Michael 'Mike' K. Saleme",
-        "bio": "I design *decision-safe architectures* so enterprises can scale AI *without losing control*.\r\n",
+        "name": "Veritas Acta",
+        "bio": "Open protocol for signed, independently verifiable machine decisions. IETF Internet-Draft. Ed25519 receipts.",
         "company": null,
         "location": null,
-        "blog": "",
+        "blog": "https://veritasacta.com",
         "email": null,
-        "twitter": "mikesaleme",
-        "created_at": "2017-07-23T14:01:42Z",
-        "followers": 15,
-        "following": 42,
-        "public_repos": 105,
-        "type": "User"
+        "twitter": null,
+        "created_at": "2026-03-08T15:32:45Z",
+        "followers": 4,
+        "following": 0,
+        "public_repos": 17,
+        "type": "Organization"
       }
     },
     {
@@ -2864,30 +3126,6 @@
         "following": 3,
         "public_repos": 9,
         "type": "User"
-      }
-    },
-    {
-      "login": "veritasacta",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
-      "github": {
-        "name": "Veritas Acta",
-        "bio": "Open protocol for signed, independently verifiable machine decisions. IETF Internet-Draft. Ed25519 receipts.",
-        "company": null,
-        "location": null,
-        "blog": "https://veritasacta.com",
-        "email": null,
-        "twitter": null,
-        "created_at": "2026-03-08T15:32:45Z",
-        "followers": 4,
-        "following": 0,
-        "public_repos": 17,
-        "type": "Organization"
       }
     },
     {
@@ -3020,6 +3258,38 @@
       }
     },
     {
+      "login": "vstantch",
+      "posts": 9,
+      "threads": [
+        "x402-foundation/x402#2332",
+        "x402-foundation/x402#2533"
+      ],
+      "topics": [
+        "x402-pii-screening",
+        "x402-post-settlement"
+      ],
+      "repos": [
+        "x402-foundation/x402"
+      ],
+      "first_seen_ours": "2026-05-31T18:24:57Z",
+      "last_seen_ours": "2026-06-16T21:06:12Z",
+      "word_count": 2707,
+      "github": {
+        "name": "Vladimir Stantchev",
+        "bio": "Principal Engineer at PRESIDIO;\r\nCS Humboldt-University at Berlin (MSc), Technical University Berlin (PhD), UC Berkeley (postdoc/senior res). ",
+        "company": "PRESIDIO",
+        "location": "Universe",
+        "blog": "www.presidio-group.eu",
+        "email": "vladimir@presidio-group.eu",
+        "twitter": null,
+        "created_at": "2026-03-15T17:59:38Z",
+        "followers": 2,
+        "following": 1,
+        "public_repos": 5,
+        "type": "User"
+      }
+    },
+    {
       "login": "HMAKT99",
       "posts": 5,
       "threads": [
@@ -3085,6 +3355,36 @@
       }
     },
     {
+      "login": "luisllaver",
+      "posts": 14,
+      "threads": [
+        "x402-foundation/x402#2332"
+      ],
+      "topics": [
+        "x402-post-settlement"
+      ],
+      "repos": [
+        "x402-foundation/x402"
+      ],
+      "first_seen_ours": "2026-05-20T05:01:20Z",
+      "last_seen_ours": "2026-05-28T23:46:09Z",
+      "word_count": 1873,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2021-11-13T20:42:55Z",
+        "followers": 2,
+        "following": 0,
+        "public_repos": 2,
+        "type": "User"
+      }
+    },
+    {
       "login": "JhiNResH",
       "posts": 4,
       "threads": [
@@ -3115,6 +3415,36 @@
       }
     },
     {
+      "login": "TKCollective",
+      "posts": 6,
+      "threads": [
+        "x402-foundation/x402#2332"
+      ],
+      "topics": [
+        "x402-post-settlement"
+      ],
+      "repos": [
+        "x402-foundation/x402"
+      ],
+      "first_seen_ours": "2026-06-01T06:02:38Z",
+      "last_seen_ours": "2026-06-17T14:17:10Z",
+      "word_count": 664,
+      "github": {
+        "name": "AgentOracle",
+        "bio": "Pre-action verification for AI agents. Signed receipts, verifiable offline. IETF draft \u00b7 first ERC-8210 profile \u00b7 anchored on Base + SKALE.",
+        "company": "AgentOracle",
+        "location": "Los Angeles",
+        "blog": "AgentOracle.co",
+        "email": "joe@agentoracle.co",
+        "twitter": "AgentOracle_AI",
+        "created_at": "2026-03-10T22:51:08Z",
+        "followers": 4,
+        "following": 1,
+        "public_repos": 20,
+        "type": "User"
+      }
+    },
+    {
       "login": "baronsengir007",
       "posts": 6,
       "threads": [
@@ -3141,6 +3471,39 @@
         "followers": 0,
         "following": 2,
         "public_repos": 25,
+        "type": "User"
+      }
+    },
+    {
+      "login": "SomeshZanwar",
+      "posts": 4,
+      "threads": [
+        "a2aproject/A2A#1786",
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "a2a-cai-extension-proposal",
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-05-09T04:23:32Z",
+      "last_seen_ours": "2026-05-12T02:39:01Z",
+      "word_count": 614,
+      "github": {
+        "name": "Somesh Zanwar",
+        "bio": "MS Data Science @ UT Arlington | Building governance systems for trustworthy data and trustworthy AI agents. SQL \u00b7 Python \u00b7 dbt \u00b7 Power BI \u00b7 AI/Agent",
+        "company": null,
+        "location": null,
+        "blog": "https://someshzanwar.github.io/",
+        "email": "someshzanwar345@gmail.com",
+        "twitter": null,
+        "created_at": "2026-01-08T09:22:58Z",
+        "followers": 4,
+        "following": 6,
+        "public_repos": 14,
         "type": "User"
       }
     },
@@ -3276,6 +3639,44 @@
       }
     },
     {
+      "login": "jingchang0623-crypto",
+      "posts": 5,
+      "threads": [
+        "OpenClaw/openclaw#49971",
+        "a2aproject/A2A#1672",
+        "a2aproject/A2A#1717",
+        "browser-use/browser-use#4634"
+      ],
+      "topics": [
+        "a2a-signing-custody",
+        "agent-identity-verification",
+        "browser-use-scoped-delegation",
+        "openclaw-aae"
+      ],
+      "repos": [
+        "OpenClaw/openclaw",
+        "a2aproject/A2A",
+        "browser-use/browser-use"
+      ],
+      "first_seen_ours": "2026-04-11T00:05:13Z",
+      "last_seen_ours": "2026-04-23T00:08:33Z",
+      "word_count": 756,
+      "github": {
+        "name": "AIwalker",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-10-12T04:10:45Z",
+        "followers": 7,
+        "following": 3,
+        "public_repos": 61,
+        "type": "User"
+      }
+    },
+    {
       "login": "IndrasNet108",
       "posts": 6,
       "threads": [
@@ -3302,6 +3703,39 @@
         "followers": 1,
         "following": 2,
         "public_repos": 5,
+        "type": "User"
+      }
+    },
+    {
+      "login": "rpelevin",
+      "posts": 7,
+      "threads": [
+        "microsoft/autogen#7528",
+        "microsoft/semantic-kernel#13957"
+      ],
+      "topics": [
+        "autogen-capability-scoped-authz",
+        "ms-sk-compliance-as-code"
+      ],
+      "repos": [
+        "microsoft/autogen",
+        "microsoft/semantic-kernel"
+      ],
+      "first_seen_ours": "2026-06-05T20:16:38Z",
+      "last_seen_ours": "2026-06-24T13:34:34Z",
+      "word_count": 1513,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2016-02-16T17:31:24Z",
+        "followers": 14,
+        "following": 1,
+        "public_repos": 2,
         "type": "User"
       }
     },
@@ -3394,6 +3828,38 @@
         "created_at": "2026-01-15T01:45:28Z",
         "followers": 2,
         "following": 0,
+        "public_repos": 3,
+        "type": "User"
+      }
+    },
+    {
+      "login": "arnaud-92",
+      "posts": 5,
+      "threads": [
+        "Universal-Commerce-Protocol/ucp#512",
+        "Universal-Commerce-Protocol/ucp#515"
+      ],
+      "topics": [
+        "ucp-ap2-ttl-bug",
+        "ucp-mandate-eval-receipts"
+      ],
+      "repos": [
+        "Universal-Commerce-Protocol/ucp"
+      ],
+      "first_seen_ours": "2026-06-12T15:19:41Z",
+      "last_seen_ours": "2026-06-16T11:06:25Z",
+      "word_count": 2812,
+      "github": {
+        "name": "Arnaud Buisine",
+        "bio": "Founder of MerchantStamp \u2014 making e-commerce catalogs readable by AI shopping agents. Contributor to the Universal Commerce Protocol (UCP).",
+        "company": "MerchantStamp",
+        "location": "Paris, France",
+        "blog": "https://merchantstamp.com",
+        "email": "arnaubuisine@gmail.com",
+        "twitter": null,
+        "created_at": "2026-04-03T09:08:38Z",
+        "followers": 0,
+        "following": 1,
         "public_repos": 3,
         "type": "User"
       }
@@ -3737,6 +4203,48 @@
       }
     },
     {
+      "login": "Keesan12",
+      "posts": 7,
+      "threads": [
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32",
+        "aaif/project-proposals#19",
+        "aeoess/agent-passport-system#25",
+        "browser-use/browser-use#5063",
+        "microsoft/semantic-kernel#13957"
+      ],
+      "topics": [
+        "aaif-agt-proposal",
+        "aivss-multi-agent-governance",
+        "aps-cycles-reserve-commit",
+        "browser-use-permission-gating",
+        "ms-sk-compliance-as-code"
+      ],
+      "repos": [
+        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
+        "aaif/project-proposals",
+        "aeoess/agent-passport-system",
+        "browser-use/browser-use",
+        "microsoft/semantic-kernel"
+      ],
+      "first_seen_ours": "2026-05-20T21:51:59Z",
+      "last_seen_ours": "2026-06-29T15:50:54Z",
+      "word_count": 579,
+      "github": {
+        "name": "Keesan",
+        "bio": "Born 100 years too early. Serial Entrepreneur. I like to build things that don't exist. ",
+        "company": null,
+        "location": null,
+        "blog": "https://www.linkedin.com/in/vakeesanm/",
+        "email": null,
+        "twitter": null,
+        "created_at": "2020-12-30T04:03:28Z",
+        "followers": 17,
+        "following": 5,
+        "public_repos": 22,
+        "type": "User"
+      }
+    },
+    {
       "login": "ymc182",
       "posts": 2,
       "threads": [
@@ -3765,36 +4273,6 @@
         "followers": 5,
         "following": 0,
         "public_repos": 118,
-        "type": "User"
-      }
-    },
-    {
-      "login": "SomeshZanwar",
-      "posts": 3,
-      "threads": [
-        "a2aproject/A2A#1786"
-      ],
-      "topics": [
-        "a2a-cai-extension-proposal"
-      ],
-      "repos": [
-        "a2aproject/A2A"
-      ],
-      "first_seen_ours": "2026-05-09T04:23:32Z",
-      "last_seen_ours": "2026-05-09T09:04:51Z",
-      "word_count": 457,
-      "github": {
-        "name": "Somesh Zanwar",
-        "bio": "MS Data Science @ UT Arlington | Building governance systems for trustworthy data and trustworthy AI agents. SQL \u00b7 Python \u00b7 dbt \u00b7 Power BI \u00b7 AI/Agent",
-        "company": null,
-        "location": null,
-        "blog": "https://someshzanwar.github.io/",
-        "email": "someshzanwar345@gmail.com",
-        "twitter": null,
-        "created_at": "2026-01-08T09:22:58Z",
-        "followers": 4,
-        "following": 6,
-        "public_repos": 14,
         "type": "User"
       }
     },
@@ -3858,6 +4336,36 @@
         "followers": 0,
         "following": 0,
         "public_repos": 23,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Knapp-Kevin",
+      "posts": 3,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-05-04T21:52:53Z",
+      "last_seen_ours": "2026-05-23T22:36:28Z",
+      "word_count": 398,
+      "github": {
+        "name": "Kevin Knapp",
+        "bio": null,
+        "company": "MythologIQ",
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-03-27T22:43:00Z",
+        "followers": 16,
+        "following": 9,
+        "public_repos": 21,
         "type": "User"
       }
     },
@@ -3945,41 +4453,6 @@
         "followers": 0,
         "following": 8,
         "public_repos": 2,
-        "type": "User"
-      }
-    },
-    {
-      "login": "jingchang0623-crypto",
-      "posts": 3,
-      "threads": [
-        "OpenClaw/openclaw#49971",
-        "a2aproject/A2A#1672",
-        "a2aproject/A2A#1717"
-      ],
-      "topics": [
-        "a2a-signing-custody",
-        "agent-identity-verification",
-        "openclaw-aae"
-      ],
-      "repos": [
-        "OpenClaw/openclaw",
-        "a2aproject/A2A"
-      ],
-      "first_seen_ours": "2026-04-11T00:05:13Z",
-      "last_seen_ours": "2026-04-23T00:08:33Z",
-      "word_count": 647,
-      "github": {
-        "name": "AIwalker",
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "",
-        "email": null,
-        "twitter": null,
-        "created_at": "2025-10-12T04:10:45Z",
-        "followers": 7,
-        "following": 3,
-        "public_repos": 61,
         "type": "User"
       }
     },
@@ -4113,6 +4586,36 @@
         "followers": 150,
         "following": 3,
         "public_repos": 25,
+        "type": "User"
+      }
+    },
+    {
+      "login": "madeinplutofabio",
+      "posts": 1,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-04-30T13:57:16Z",
+      "last_seen_ours": "2026-04-30T13:57:16Z",
+      "word_count": 260,
+      "github": {
+        "name": "Fabio Marcello Salvadori",
+        "bio": "I build infrastructure for agentic AI systems with a focus on auditable execution, provenance, and fail-closed controls at the action boundary. ",
+        "company": null,
+        "location": null,
+        "blog": "https://madeinpluto.com",
+        "email": null,
+        "twitter": "fabsalvadori",
+        "created_at": "2016-07-26T16:06:39Z",
+        "followers": 4,
+        "following": 22,
+        "public_repos": 24,
         "type": "User"
       }
     },
@@ -4486,6 +4989,30 @@
       }
     },
     {
+      "login": "gmail",
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "word_count": 0,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2011-05-10T04:39:41Z",
+        "followers": 35,
+        "following": 0,
+        "public_repos": 0,
+        "type": "User"
+      }
+    },
+    {
       "login": "alexchenai",
       "posts": 2,
       "threads": [
@@ -4512,6 +5039,36 @@
         "followers": 2,
         "following": 1,
         "public_repos": 89,
+        "type": "User"
+      }
+    },
+    {
+      "login": "evidai",
+      "posts": 3,
+      "threads": [
+        "x402-foundation/x402#2533"
+      ],
+      "topics": [
+        "x402-pii-screening"
+      ],
+      "repos": [
+        "x402-foundation/x402"
+      ],
+      "first_seen_ours": "2026-06-04T05:57:45Z",
+      "last_seen_ours": "2026-06-16T10:21:23Z",
+      "word_count": 768,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-03-14T14:16:02Z",
+        "followers": 0,
+        "following": 1,
+        "public_repos": 17,
         "type": "User"
       }
     },
@@ -4546,26 +5103,62 @@
       }
     },
     {
-      "login": "gmail",
-      "posts": 0,
-      "threads": [],
-      "topics": [],
-      "repos": [],
-      "first_seen_ours": null,
-      "last_seen_ours": null,
-      "word_count": 0,
+      "login": "christinaharter",
+      "posts": 3,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-05-04T19:39:52Z",
+      "last_seen_ours": "2026-05-29T21:38:16Z",
+      "word_count": 198,
       "github": {
-        "name": null,
-        "bio": null,
-        "company": null,
-        "location": null,
+        "name": "Christina Harter",
+        "bio": "Associate Program Manager at the Linux Foundation.\r\nProjects: Agentic AI Foundation, Post-Quantum Cryptography Alliance, Linux Foundation Decentralized Trust",
+        "company": "The Linux Foundation",
+        "location": "San Diego, CA",
         "blog": "",
         "email": null,
         "twitter": null,
-        "created_at": "2011-05-10T04:39:41Z",
-        "followers": 35,
-        "following": 0,
-        "public_repos": 0,
+        "created_at": "2020-04-09T16:50:25Z",
+        "followers": 19,
+        "following": 3,
+        "public_repos": 2,
+        "type": "User"
+      }
+    },
+    {
+      "login": "LeonTing1010",
+      "posts": 2,
+      "threads": [
+        "browser-use/browser-use#4634"
+      ],
+      "topics": [
+        "browser-use-scoped-delegation"
+      ],
+      "repos": [
+        "browser-use/browser-use"
+      ],
+      "first_seen_ours": "2026-04-25T10:49:15Z",
+      "last_seen_ours": "2026-04-25T18:00:52Z",
+      "word_count": 290,
+      "github": {
+        "name": "Leon",
+        "bio": "Building Tap \u2014 programs beat prompts",
+        "company": null,
+        "location": null,
+        "blog": "https://leonting1010.github.io/tap/",
+        "email": "zhongchang.ding@gmail.com",
+        "twitter": null,
+        "created_at": "2012-07-18T13:38:42Z",
+        "followers": 4,
+        "following": 2,
+        "public_repos": 109,
         "type": "User"
       }
     },
@@ -4596,6 +5189,36 @@
         "followers": 44,
         "following": 6,
         "public_repos": 43,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Ricky-G",
+      "posts": 5,
+      "threads": [
+        "microsoft/agent-governance-toolkit#2692"
+      ],
+      "topics": [
+        "ms-agt-policy-distribution"
+      ],
+      "repos": [
+        "microsoft/agent-governance-toolkit"
+      ],
+      "first_seen_ours": "2026-06-01T07:57:21Z",
+      "last_seen_ours": "2026-06-16T22:35:06Z",
+      "word_count": 784,
+      "github": {
+        "name": "Ricky Gummadi",
+        "bio": "C#; .Net; Azure; Pyton; ReactNative;",
+        "company": "@microsoft",
+        "location": "Auckland, New Zealand",
+        "blog": "https://clouddev.blog",
+        "email": null,
+        "twitter": null,
+        "created_at": "2015-09-10T06:12:02Z",
+        "followers": 27,
+        "following": 22,
+        "public_repos": 126,
         "type": "User"
       }
     },
@@ -4660,32 +5283,32 @@
       }
     },
     {
-      "login": "andysalvo",
-      "posts": 2,
+      "login": "carloshvp",
+      "posts": 1,
       "threads": [
-        "a2aproject/A2A#1672"
+        "aaif/project-proposals#19"
       ],
       "topics": [
-        "agent-identity-verification"
+        "aaif-agt-proposal"
       ],
       "repos": [
-        "a2aproject/A2A"
+        "aaif/project-proposals"
       ],
-      "first_seen_ours": "2026-05-26T22:30:33Z",
-      "last_seen_ours": "2026-05-27T20:52:06Z",
-      "word_count": 119,
+      "first_seen_ours": "2026-05-07T18:08:25Z",
+      "last_seen_ours": "2026-05-07T18:08:25Z",
+      "word_count": 162,
       "github": {
-        "name": "Andy Salvo",
-        "bio": "Forward-deployed AI infrastructure. Co-founder of @appliedaipennstate, and student at Smeal College of Business.",
-        "company": "Crest Deployment Systems LLC",
-        "location": null,
-        "blog": "crestsystems.ai",
-        "email": "ajs10845@psu.edu",
+        "name": "Carlos Hernandez",
+        "bio": "AI strategy lead building governable autonomy across enterprise agents and embodied systems. OSS contributor. Founder, GenAI Gurus.",
+        "company": "Robert Bosch GmbH",
+        "location": "Stuttgart, Germany",
+        "blog": "https://governance.ai-mvp.com/",
+        "email": null,
         "twitter": null,
-        "created_at": "2026-02-21T06:42:54Z",
-        "followers": 1,
-        "following": 6,
-        "public_repos": 26,
+        "created_at": "2015-09-20T09:53:33Z",
+        "followers": 295,
+        "following": 40,
+        "public_repos": 63,
         "type": "User"
       }
     },
@@ -5077,6 +5700,39 @@
       }
     },
     {
+      "login": "bobrenze-bot",
+      "posts": 2,
+      "threads": [
+        "langchain-ai/langchain#36232",
+        "microsoft/autogen#7528"
+      ],
+      "topics": [
+        "autogen-capability-scoped-authz",
+        "langchain-memory"
+      ],
+      "repos": [
+        "langchain-ai/langchain",
+        "microsoft/autogen"
+      ],
+      "first_seen_ours": "2026-04-18T03:32:52Z",
+      "last_seen_ours": "2026-04-22T07:08:30Z",
+      "word_count": 342,
+      "github": {
+        "name": "Bob Renze",
+        "bio": null,
+        "company": null,
+        "location": "Las Vegas",
+        "blog": "bobrenze.com",
+        "email": "bob@bobrenze.com",
+        "twitter": "bobrenze",
+        "created_at": "2026-01-31T15:16:15Z",
+        "followers": 1,
+        "following": 0,
+        "public_repos": 17,
+        "type": "User"
+      }
+    },
+    {
       "login": "kaligautier",
       "posts": 0,
       "threads": [
@@ -5105,6 +5761,23 @@
         "public_repos": 7,
         "type": "User"
       }
+    },
+    {
+      "login": "cschanhniem",
+      "posts": 0,
+      "threads": [
+        "browser-use/browser-use#5063"
+      ],
+      "topics": [
+        "browser-use-permission-gating"
+      ],
+      "repos": [
+        "browser-use/browser-use"
+      ],
+      "first_seen_ours": "2026-06-18T17:04:37Z",
+      "last_seen_ours": "2026-06-18T17:04:37Z",
+      "word_count": 348,
+      "github": null
     },
     {
       "login": "rajantripathi",
@@ -5193,6 +5866,66 @@
         "followers": 4,
         "following": 0,
         "public_repos": 0,
+        "type": "User"
+      }
+    },
+    {
+      "login": "jackbatzner",
+      "posts": 0,
+      "threads": [
+        "microsoft/agent-governance-toolkit#2692"
+      ],
+      "topics": [
+        "ms-agt-policy-distribution"
+      ],
+      "repos": [
+        "microsoft/agent-governance-toolkit"
+      ],
+      "first_seen_ours": "2026-05-29T22:16:52Z",
+      "last_seen_ours": "2026-05-29T22:16:52Z",
+      "word_count": 701,
+      "github": {
+        "name": "Jack Batzner",
+        "bio": null,
+        "company": "Microsoft",
+        "location": "Elm Grove, WI",
+        "blog": "https://jackbatzner.github.io/",
+        "email": "jackbatzner@microsoft.com",
+        "twitter": null,
+        "created_at": "2012-09-10T22:07:47Z",
+        "followers": 16,
+        "following": 5,
+        "public_repos": 33,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Babar-maker76",
+      "posts": 1,
+      "threads": [
+        "microsoft/semantic-kernel#13957"
+      ],
+      "topics": [
+        "ms-sk-compliance-as-code"
+      ],
+      "repos": [
+        "microsoft/semantic-kernel"
+      ],
+      "first_seen_ours": "2026-06-17T16:41:53Z",
+      "last_seen_ours": "2026-06-17T16:41:53Z",
+      "word_count": 156,
+      "github": {
+        "name": "Babar Hayat code Maker",
+        "bio": "We provide out of box solutions to our clients to make them realize Data is currency and its  worth going after it to make informed and timely actions/ decision",
+        "company": "BUH Data Analytics",
+        "location": "Pakistan",
+        "blog": "@hotmail.com",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-04-12T17:01:26Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 4,
         "type": "User"
       }
     },
@@ -5388,6 +6121,36 @@
       }
     },
     {
+      "login": "miyannishar",
+      "posts": 1,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-04-27T05:14:30Z",
+      "last_seen_ours": "2026-04-27T05:14:30Z",
+      "word_count": 107,
+      "github": {
+        "name": "Nishar Miya",
+        "bio": "Digital Nomad \ud83c\udf0e\r\nMessing around and building stuff with AI.",
+        "company": "Dayos",
+        "location": "Nashville, TN",
+        "blog": "nisharmiya.com",
+        "email": "miyannishar786@gmail.com",
+        "twitter": null,
+        "created_at": "2022-04-13T05:24:43Z",
+        "followers": 35,
+        "following": 11,
+        "public_repos": 44,
+        "type": "User"
+      }
+    },
+    {
       "login": "ThinkOffApp",
       "posts": 2,
       "threads": [
@@ -5418,6 +6181,36 @@
       }
     },
     {
+      "login": "rehan243",
+      "posts": 1,
+      "threads": [
+        "microsoft/autogen#7528"
+      ],
+      "topics": [
+        "autogen-capability-scoped-authz"
+      ],
+      "repos": [
+        "microsoft/autogen"
+      ],
+      "first_seen_ours": "2026-04-05T23:11:44Z",
+      "last_seen_ours": "2026-04-05T23:11:44Z",
+      "word_count": 88,
+      "github": {
+        "name": "Rehan Malik",
+        "bio": "AI/ML Engineer \u2014 building production AI agents, RAG pipelines & LLM systems | daily research publisher | PyTorch, LangChain, AWS | open to work",
+        "company": "Verticiti / Reallytics.ai",
+        "location": "United States",
+        "blog": "linkedin.com/in/rehan-malik-62b3301ab",
+        "email": null,
+        "twitter": null,
+        "created_at": "2018-12-19T17:15:07Z",
+        "followers": 151,
+        "following": 610,
+        "public_repos": 16,
+        "type": "User"
+      }
+    },
+    {
       "login": "latest",
       "posts": 0,
       "threads": [],
@@ -5438,39 +6231,6 @@
         "followers": 13,
         "following": 0,
         "public_repos": 0,
-        "type": "User"
-      }
-    },
-    {
-      "login": "Keesan12",
-      "posts": 4,
-      "threads": [
-        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32",
-        "aeoess/agent-passport-system#25"
-      ],
-      "topics": [
-        "aivss-multi-agent-governance",
-        "aps-cycles-reserve-commit"
-      ],
-      "repos": [
-        "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
-        "aeoess/agent-passport-system"
-      ],
-      "first_seen_ours": "2026-05-20T21:51:59Z",
-      "last_seen_ours": "2026-05-22T23:57:38Z",
-      "word_count": 368,
-      "github": {
-        "name": "Keesan",
-        "bio": "Born 100 years too early. Serial Entrepreneur. I like to build things that don't exist. ",
-        "company": null,
-        "location": null,
-        "blog": "https://www.linkedin.com/in/vakeesanm/",
-        "email": null,
-        "twitter": null,
-        "created_at": "2020-12-30T04:03:28Z",
-        "followers": 17,
-        "following": 5,
-        "public_repos": 22,
         "type": "User"
       }
     },
@@ -5581,6 +6341,77 @@
       "github": null
     },
     {
+      "login": "ec7201a",
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "word_count": 0,
+      "github": null
+    },
+    {
+      "login": "bastizol-wq",
+      "posts": 1,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-04-27T16:48:49Z",
+      "last_seen_ours": "2026-04-27T16:48:49Z",
+      "word_count": 93,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-03-18T17:38:05Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 0,
+        "type": "User"
+      }
+    },
+    {
+      "login": "prashansapkota",
+      "posts": 1,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-05-06T02:29:35Z",
+      "last_seen_ours": "2026-05-06T02:29:35Z",
+      "word_count": 49,
+      "github": {
+        "name": "Prashan Sapkota",
+        "bio": "AI Engineer | Computer Science @ Fisk University\r\n",
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2024-04-12T16:24:16Z",
+        "followers": 6,
+        "following": 4,
+        "public_repos": 33,
+        "type": "User"
+      }
+    },
+    {
       "login": "yotsuda",
       "posts": 3,
       "threads": [
@@ -5607,36 +6438,6 @@
         "followers": 9,
         "following": 0,
         "public_repos": 22,
-        "type": "User"
-      }
-    },
-    {
-      "login": "chopmob-cloud",
-      "posts": 1,
-      "threads": [
-        "awslabs/agentcore-samples#1546"
-      ],
-      "topics": [
-        "agentcore-x402-composition"
-      ],
-      "repos": [
-        "awslabs/agentcore-samples"
-      ],
-      "first_seen_ours": "2026-05-26T13:23:59Z",
-      "last_seen_ours": "2026-05-26T13:23:59Z",
-      "word_count": 169,
-      "github": {
-        "name": "iLoveChicken",
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "www.algovoi.co.uk",
-        "email": null,
-        "twitter": null,
-        "created_at": "2025-12-16T23:42:30Z",
-        "followers": 5,
-        "following": 0,
-        "public_repos": 73,
         "type": "User"
       }
     },
@@ -5742,6 +6543,36 @@
       }
     },
     {
+      "login": "jman-msc",
+      "posts": 1,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-06-15T18:35:32Z",
+      "last_seen_ours": "2026-06-15T18:35:32Z",
+      "word_count": 211,
+      "github": {
+        "name": "Josh Woodruff",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2020-11-07T04:33:37Z",
+        "followers": 3,
+        "following": 1,
+        "public_repos": 0,
+        "type": "User"
+      }
+    },
+    {
       "login": "greysonlalonde",
       "posts": 1,
       "threads": [
@@ -5798,6 +6629,53 @@
         "followers": 3,
         "following": 0,
         "public_repos": 13,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Tuttotorna",
+      "posts": 1,
+      "threads": [
+        "microsoft/autogen#7528"
+      ],
+      "topics": [
+        "autogen-capability-scoped-authz"
+      ],
+      "repos": [
+        "microsoft/autogen"
+      ],
+      "first_seen_ours": "2026-06-29T16:42:03Z",
+      "last_seen_ours": "2026-06-29T16:42:03Z",
+      "word_count": 219,
+      "github": null
+    },
+    {
+      "login": "clementineCU",
+      "posts": 1,
+      "threads": [
+        "x402-foundation/x402#2332"
+      ],
+      "topics": [
+        "x402-post-settlement"
+      ],
+      "repos": [
+        "x402-foundation/x402"
+      ],
+      "first_seen_ours": "2026-06-15T03:37:28Z",
+      "last_seen_ours": "2026-06-15T03:37:28Z",
+      "word_count": 124,
+      "github": {
+        "name": "Clementine",
+        "bio": "Marketing strategy agent for GRAM, Chef Universe, and Rolling Burger. Building agent-facing campaigns, docs, and onchain growth loops.",
+        "company": "GRAMPUS / GRAM",
+        "location": "Agentic marketing workspace",
+        "blog": "https://www.chefuniverse.io/for-agents",
+        "email": null,
+        "twitter": "gram_voyage",
+        "created_at": "2026-04-25T01:15:03Z",
+        "followers": 2,
+        "following": 0,
+        "public_repos": 0,
         "type": "User"
       }
     },
@@ -5891,6 +6769,39 @@
       }
     },
     {
+      "login": "sunfishloop",
+      "posts": 3,
+      "threads": [
+        "a2aproject/A2A#1672",
+        "microsoft/autogen#7528"
+      ],
+      "topics": [
+        "agent-identity-verification",
+        "autogen-capability-scoped-authz"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "microsoft/autogen"
+      ],
+      "first_seen_ours": "2026-05-26T04:27:31Z",
+      "last_seen_ours": "2026-06-24T04:13:10Z",
+      "word_count": 492,
+      "github": {
+        "name": "WangChunyang",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2020-04-21T06:12:52Z",
+        "followers": 2,
+        "following": 0,
+        "public_repos": 10,
+        "type": "User"
+      }
+    },
+    {
       "login": "89ebf2e",
       "posts": 0,
       "threads": [],
@@ -5900,6 +6811,30 @@
       "last_seen_ours": null,
       "word_count": 0,
       "github": null
+    },
+    {
+      "login": "microsoft",
+      "posts": 0,
+      "threads": [],
+      "topics": [],
+      "repos": [],
+      "first_seen_ours": null,
+      "last_seen_ours": null,
+      "word_count": 0,
+      "github": {
+        "name": "Microsoft",
+        "bio": "Open source projects and samples from Microsoft",
+        "company": null,
+        "location": "Redmond, WA",
+        "blog": "https://opensource.microsoft.com",
+        "email": "opensource@microsoft.com",
+        "twitter": "OpenAtMicrosoft",
+        "created_at": "2013-12-10T19:06:48Z",
+        "followers": 125595,
+        "following": 0,
+        "public_repos": 8215,
+        "type": "Organization"
+      }
     },
     {
       "login": "arewm",
@@ -6005,36 +6940,6 @@
       }
     },
     {
-      "login": "bobrenze-bot",
-      "posts": 1,
-      "threads": [
-        "langchain-ai/langchain#36232"
-      ],
-      "topics": [
-        "langchain-memory"
-      ],
-      "repos": [
-        "langchain-ai/langchain"
-      ],
-      "first_seen_ours": "2026-04-22T07:08:30Z",
-      "last_seen_ours": "2026-04-22T07:08:30Z",
-      "word_count": 229,
-      "github": {
-        "name": "Bob Renze",
-        "bio": null,
-        "company": null,
-        "location": "Las Vegas",
-        "blog": "bobrenze.com",
-        "email": "bob@bobrenze.com",
-        "twitter": "bobrenze",
-        "created_at": "2026-01-31T15:16:15Z",
-        "followers": 1,
-        "following": 0,
-        "public_repos": 17,
-        "type": "User"
-      }
-    },
-    {
       "login": "fortsignal",
       "posts": 4,
       "threads": [
@@ -6091,6 +6996,66 @@
         "followers": 1,
         "following": 1,
         "public_repos": 0,
+        "type": "User"
+      }
+    },
+    {
+      "login": "danielnorkin",
+      "posts": 1,
+      "threads": [
+        "x402-foundation/x402#2332"
+      ],
+      "topics": [
+        "x402-post-settlement"
+      ],
+      "repos": [
+        "x402-foundation/x402"
+      ],
+      "first_seen_ours": "2026-05-17T15:20:40Z",
+      "last_seen_ours": "2026-05-17T15:20:40Z",
+      "word_count": 221,
+      "github": {
+        "name": "danielnorkin",
+        "bio": null,
+        "company": "Envision Blockchain",
+        "location": null,
+        "blog": "www.envisionblockchain.com",
+        "email": null,
+        "twitter": "danielnorkin",
+        "created_at": "2018-06-27T15:17:59Z",
+        "followers": 9,
+        "following": 3,
+        "public_repos": 5,
+        "type": "User"
+      }
+    },
+    {
+      "login": "cgallic",
+      "posts": 1,
+      "threads": [
+        "x402-foundation/x402#2332"
+      ],
+      "topics": [
+        "x402-post-settlement"
+      ],
+      "repos": [
+        "x402-foundation/x402"
+      ],
+      "first_seen_ours": "2026-06-03T09:52:30Z",
+      "last_seen_ours": "2026-06-03T09:52:30Z",
+      "word_count": 139,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2013-07-02T18:19:21Z",
+        "followers": 21,
+        "following": 14,
+        "public_repos": 103,
         "type": "User"
       }
     },
@@ -6185,6 +7150,36 @@
       }
     },
     {
+      "login": "GarethCOliver",
+      "posts": 1,
+      "threads": [
+        "Universal-Commerce-Protocol/ucp#515"
+      ],
+      "topics": [
+        "ucp-mandate-eval-receipts"
+      ],
+      "repos": [
+        "Universal-Commerce-Protocol/ucp"
+      ],
+      "first_seen_ours": "2026-06-16T09:25:12Z",
+      "last_seen_ours": "2026-06-16T09:25:12Z",
+      "word_count": 198,
+      "github": {
+        "name": "Gareth Oliver",
+        "bio": null,
+        "company": "google",
+        "location": "United States",
+        "blog": "",
+        "email": "gco@google.com",
+        "twitter": null,
+        "created_at": "2014-05-30T23:56:35Z",
+        "followers": 7,
+        "following": 1,
+        "public_repos": 4,
+        "type": "User"
+      }
+    },
+    {
       "login": "Bortlesboat",
       "posts": 1,
       "threads": [
@@ -6211,6 +7206,36 @@
         "followers": 63,
         "following": 95,
         "public_repos": 280,
+        "type": "User"
+      }
+    },
+    {
+      "login": "V-Suki-V",
+      "posts": 1,
+      "threads": [
+        "aaif/project-proposals#19"
+      ],
+      "topics": [
+        "aaif-agt-proposal"
+      ],
+      "repos": [
+        "aaif/project-proposals"
+      ],
+      "first_seen_ours": "2026-06-02T11:22:05Z",
+      "last_seen_ours": "2026-06-02T11:22:05Z",
+      "word_count": 131,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2024-03-28T06:50:27Z",
+        "followers": 1,
+        "following": 0,
+        "public_repos": 0,
         "type": "User"
       }
     },
@@ -6501,8 +7526,8 @@
       "participants": [
         "aeoess",
         "desiorac",
-        "QueBallSharken",
         "pshkv",
+        "QueBallSharken",
         "0xbrainkid",
         "razashariff",
         "jagmarques",
@@ -6568,10 +7593,10 @@
         "willamhou",
         "viftode4",
         "HMAKT99",
+        "jingchang0623-crypto",
         "piiiico",
         "Alvasilev12",
         "JohnnyTarrr",
-        "jingchang0623-crypto",
         "ZC502",
         "steipete",
         "creatorrmode-lead",
@@ -6611,6 +7636,60 @@
         "is_pr": true,
         "author": "aeoess",
         "labels": []
+      }
+    },
+    {
+      "id": "Universal-Commerce-Protocol/ucp#512",
+      "topic": "ucp-ap2-ttl-bug",
+      "title": "[Bug]: Undefined behavior when AP2 mandate TTL expires during complete_in_progress",
+      "repo": "Universal-Commerce-Protocol/ucp",
+      "number": 512,
+      "project_id": null,
+      "url": "https://github.com/Universal-Commerce-Protocol/ucp/issues/512",
+      "participants": [
+        "aeoess",
+        "chopmob-cloud",
+        "arnaud-92"
+      ],
+      "participant_count": 3,
+      "github": {
+        "state": "open",
+        "created_at": "2026-06-12T15:19:41Z",
+        "updated_at": "2026-06-16T14:10:43Z",
+        "closed_at": null,
+        "comments": 9,
+        "is_pr": false,
+        "author": "arnaud-92",
+        "labels": [
+          "bug",
+          "payments"
+        ]
+      }
+    },
+    {
+      "id": "Universal-Commerce-Protocol/ucp#515",
+      "topic": "ucp-mandate-eval-receipts",
+      "title": "Enhancement Proposal: Mandate Evaluation and Receipts (resolves #512)",
+      "repo": "Universal-Commerce-Protocol/ucp",
+      "number": 515,
+      "project_id": null,
+      "url": "https://github.com/Universal-Commerce-Protocol/ucp/issues/515",
+      "participants": [
+        "arnaud-92",
+        "GarethCOliver"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "open",
+        "created_at": "2026-06-15T15:38:45Z",
+        "updated_at": "2026-06-23T16:27:17Z",
+        "closed_at": null,
+        "comments": 14,
+        "is_pr": false,
+        "author": "arnaud-92",
+        "labels": [
+          "payments"
+        ]
       }
     },
     {
@@ -6682,8 +7761,8 @@
       "participants": [
         "aeoess",
         "MoltyCel",
-        "vessenes",
         "tomjwxf",
+        "vessenes",
         "srotzin",
         "kevinkaylie",
         "The-Nexus-Guard",
@@ -6760,13 +7839,13 @@
         "haroldmalikfrimpong-ops",
         "douglasborthwick-crypto",
         "MoltyCel",
-        "vessenes",
         "tomjwxf",
-        "srotzin",
+        "vessenes",
         "arian-gogani",
+        "srotzin",
+        "pshkv",
         "QueBallSharken",
         "kevinkaylie",
-        "pshkv",
         "xsa520",
         "0xbrainkid",
         "vdineshk",
@@ -6776,24 +7855,25 @@
         "FransDevelopment",
         "razashariff",
         "jagmarques",
-        "lawcontinue",
+        "andysalvo",
         "kinthaiofficial",
-        "JKHeadley",
         "msaleme",
+        "lawcontinue",
+        "JKHeadley",
         "citriac",
         "cloakmaster",
+        "jingchang0623-crypto",
         "internet-dot",
         "meridianmindx",
         "JohnnyTarrr",
-        "jingchang0623-crypto",
         "balthazar-bot",
         "Kzino",
-        "andysalvo",
         "w3rc",
         "aleksandarperak33-hub",
+        "sunfishloop",
         "Bortlesboat"
       ],
-      "participant_count": 38,
+      "participant_count": 39,
       "github": {
         "state": "open",
         "created_at": "2026-03-22T21:47:40Z",
@@ -6845,8 +7925,8 @@
         "aeoess",
         "MoltyCel",
         "srotzin",
-        "kevinkaylie",
         "pshkv",
+        "kevinkaylie",
         "0xbrainkid",
         "jagmarques",
         "viftode4",
@@ -6936,16 +8016,16 @@
         "desiorac",
         "kenneives",
         "haroldmalikfrimpong-ops",
+        "arian-gogani",
+        "giskard09",
         "srotzin",
         "Liuyanfeng1234",
-        "arian-gogani",
         "vdineshk",
-        "giskard09",
         "thebenignhacker",
-        "lawcontinue",
         "msaleme",
-        "azender1",
+        "lawcontinue",
         "SomeshZanwar",
+        "azender1",
         "SpeedGenius00"
       ],
       "participant_count": 15,
@@ -7008,6 +8088,45 @@
         "comments": 6,
         "is_pr": false,
         "author": "pshkv",
+        "labels": [
+          "Declined"
+        ]
+      }
+    },
+    {
+      "id": "aaif/project-proposals#19",
+      "topic": "aaif-agt-proposal",
+      "title": "[Project Proposal] Agent Governance Toolkit",
+      "repo": "aaif/project-proposals",
+      "number": 19,
+      "project_id": null,
+      "url": "https://github.com/aaif/project-proposals/issues/19",
+      "participants": [
+        "tomjwxf",
+        "chopmob-cloud",
+        "imran-siddique",
+        "kinthaiofficial",
+        "SomeshZanwar",
+        "Keesan12",
+        "Knapp-Kevin",
+        "madeinplutofabio",
+        "christinaharter",
+        "carloshvp",
+        "miyannishar",
+        "bastizol-wq",
+        "prashansapkota",
+        "jman-msc",
+        "V-Suki-V"
+      ],
+      "participant_count": 15,
+      "github": {
+        "state": "closed",
+        "created_at": "2026-04-26T21:12:27Z",
+        "updated_at": "2026-07-16T03:24:32Z",
+        "closed_at": "2026-06-29T12:37:33Z",
+        "comments": 33,
+        "is_pr": false,
+        "author": "imran-siddique",
         "labels": [
           "Declined"
         ]
@@ -7913,8 +9032,8 @@
       "participants": [
         "aeoess",
         "douglasborthwick-crypto",
-        "pshkv",
-        "giskard09"
+        "giskard09",
+        "pshkv"
       ],
       "participant_count": 4,
       "github": {
@@ -8022,9 +9141,9 @@
         "douglasborthwick-crypto",
         "MoltyCel",
         "tomjwxf",
+        "pshkv",
         "QueBallSharken",
         "kevinkaylie",
-        "pshkv",
         "0xbrainkid",
         "nanookclaw",
         "schchit"
@@ -8481,6 +9600,47 @@
       }
     },
     {
+      "id": "browser-use/browser-use#4634",
+      "topic": "browser-use-scoped-delegation",
+      "title": "Scoped delegation for browser actions \u2014 governance layer between LLM decisions and real clicks",
+      "repo": "browser-use/browser-use",
+      "number": 4634,
+      "project_id": null,
+      "url": "https://github.com/browser-use/browser-use/issues/4634",
+      "participants": [
+        "aeoess",
+        "kinthaiofficial",
+        "jingchang0623-crypto",
+        "LeonTing1010"
+      ],
+      "participant_count": 4,
+      "github": {
+        "state": "open",
+        "created_at": "2026-04-07T13:57:21Z",
+        "updated_at": "2026-07-20T14:23:29Z",
+        "closed_at": null,
+        "comments": 11,
+        "is_pr": false,
+        "author": "aeoess",
+        "labels": []
+      }
+    },
+    {
+      "id": "browser-use/browser-use#5063",
+      "topic": "browser-use-permission-gating",
+      "title": "Agent governance: deterministic permission gating for browser actions",
+      "repo": "browser-use/browser-use",
+      "number": 5063,
+      "project_id": null,
+      "url": "https://github.com/browser-use/browser-use/issues/5063",
+      "participants": [
+        "Keesan12",
+        "cschanhniem"
+      ],
+      "participant_count": 2,
+      "github": null
+    },
+    {
       "id": "cisco-ai-defense/defenseclaw#115",
       "topic": "defenseclaw-receipts",
       "title": "Complementary pattern: signed decision receipts for DefenseClaw gateway decisions",
@@ -8552,9 +9712,9 @@
         "douglasborthwick-crypto",
         "MoltyCel",
         "tomjwxf",
+        "pshkv",
         "QueBallSharken",
         "kevinkaylie",
-        "pshkv",
         "xsa520",
         "archedark-ada",
         "nanookclaw"
@@ -8607,8 +9767,8 @@
         "aeoess",
         "douglasborthwick-crypto",
         "vessenes",
-        "srotzin",
         "arian-gogani",
+        "srotzin",
         "pshkv",
         "xsa520",
         "0xbrainkid",
@@ -8616,8 +9776,8 @@
         "64R3N",
         "razashariff",
         "viftode4",
-        "kai-familiar",
         "kinthaiofficial",
+        "kai-familiar",
         "Jovancoding",
         "hanselhansel",
         "Kelisi808",
@@ -8729,6 +9889,29 @@
         "comments": 22,
         "is_pr": false,
         "author": "haroldmalikfrimpong-ops",
+        "labels": []
+      }
+    },
+    {
+      "id": "decentralized-identity/trusted-ai-agents#37",
+      "topic": "dif-scoped-delegation-narrowing",
+      "title": "[UC] Scoped Delegation Chains with Enforced Authority Narrowing Across Multi-Hop Agent Workflows",
+      "repo": "decentralized-identity/trusted-ai-agents",
+      "number": 37,
+      "project_id": null,
+      "url": "https://github.com/decentralized-identity/trusted-ai-agents/issues/37",
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
+      "github": {
+        "state": "open",
+        "created_at": "2026-03-14T05:57:26Z",
+        "updated_at": "2026-04-09T21:09:37Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pr": false,
+        "author": "vinaysflow",
         "labels": []
       }
     },
@@ -8919,8 +10102,8 @@
       "url": "https://github.com/langchain-ai/langchain/issues/35691",
       "participants": [
         "aeoess",
-        "srotzin",
         "arian-gogani",
+        "srotzin",
         "vdineshk",
         "jagmarques",
         "willamhou",
@@ -8963,10 +10146,10 @@
       "url": "https://github.com/langchain-ai/langchain/issues/36232",
       "participants": [
         "aeoess",
+        "giskard09",
         "srotzin",
         "0xbrainkid",
         "vdineshk",
-        "giskard09",
         "64R3N",
         "viftode4",
         "theaniketgiri",
@@ -8983,11 +10166,11 @@
         "vgudur-dev",
         "m13v",
         "Jairooh",
+        "bobrenze-bot",
         "aleksandarperak33-hub",
         "alex-pathcourse",
         "redbotster",
         "udaysaai",
-        "bobrenze-bot",
         "fortsignal",
         "24na7igor"
       ],
@@ -9085,6 +10268,39 @@
       }
     },
     {
+      "id": "microsoft/agent-governance-toolkit#2692",
+      "topic": "ms-agt-policy-distribution",
+      "title": "RFC: policy distribution and registries with verifiable trust (ADR-0029)",
+      "repo": "microsoft/agent-governance-toolkit",
+      "number": 2692,
+      "project_id": "agent-governance-toolkit",
+      "url": "https://github.com/microsoft/agent-governance-toolkit/issues/2692",
+      "participants": [
+        "aeoess",
+        "Liuyanfeng1234",
+        "chopmob-cloud",
+        "Ricky-G",
+        "jackbatzner"
+      ],
+      "participant_count": 5,
+      "github": {
+        "state": "closed",
+        "created_at": "2026-05-29T22:16:52Z",
+        "updated_at": "2026-06-25T19:00:30Z",
+        "closed_at": "2026-06-25T19:00:30Z",
+        "comments": 14,
+        "is_pr": false,
+        "author": "jackbatzner",
+        "labels": [
+          "documentation",
+          "enhancement",
+          "pinned",
+          "architecture",
+          "Priority: MEDIUM"
+        ]
+      }
+    },
+    {
       "id": "microsoft/agent-governance-toolkit#934",
       "topic": "agt-dual-citizen",
       "title": "Discussion: economic scope limits and constitutional constraints \u2014 in scope for AGT?",
@@ -9095,8 +10311,8 @@
       "participants": [
         "aeoess",
         "imran-siddique",
-        "lawcontinue",
-        "msaleme"
+        "msaleme",
+        "lawcontinue"
       ],
       "participant_count": 4,
       "github": {
@@ -9108,6 +10324,96 @@
         "is_pr": false,
         "author": "msaleme",
         "labels": []
+      }
+    },
+    {
+      "id": "microsoft/autogen#7528",
+      "topic": "autogen-capability-scoped-authz",
+      "title": "Proposal: Capability-scoped tool authorization for AutoGen multi-agent pipelines",
+      "repo": "microsoft/autogen",
+      "number": 7528,
+      "project_id": null,
+      "url": "https://github.com/microsoft/autogen/issues/7528",
+      "participants": [
+        "aeoess",
+        "arian-gogani",
+        "srotzin",
+        "pshkv",
+        "msaleme",
+        "rpelevin",
+        "bobrenze-bot",
+        "rehan243",
+        "Tuttotorna",
+        "sunfishloop"
+      ],
+      "participant_count": 10,
+      "github": {
+        "state": "open",
+        "created_at": "2026-04-05T00:52:07Z",
+        "updated_at": "2026-06-29T16:42:03Z",
+        "closed_at": null,
+        "comments": 20,
+        "is_pr": false,
+        "author": "pshkv",
+        "labels": []
+      }
+    },
+    {
+      "id": "microsoft/semantic-kernel#13957",
+      "topic": "ms-sk-compliance-as-code",
+      "title": ".Net: Proposal: Compliance-as-Code plugin for regulated enterprise agent governance",
+      "repo": "microsoft/semantic-kernel",
+      "number": 13957,
+      "project_id": null,
+      "url": "https://github.com/microsoft/semantic-kernel/issues/13957",
+      "participants": [
+        "aeoess",
+        "arian-gogani",
+        "giskard09",
+        "chopmob-cloud",
+        "vystartasv",
+        "rpelevin",
+        "Keesan12",
+        "Babar-maker76"
+      ],
+      "participant_count": 8,
+      "github": {
+        "state": "open",
+        "created_at": "2026-05-06T12:59:13Z",
+        "updated_at": "2026-07-21T02:38:24Z",
+        "closed_at": null,
+        "comments": 77,
+        "is_pr": false,
+        "author": "vystartasv",
+        "labels": [
+          ".NET",
+          "triage"
+        ]
+      }
+    },
+    {
+      "id": "mirjak/audit-bof-preparation#9",
+      "topic": "ietf-audit-bof-interest",
+      "title": "Interest to implement",
+      "repo": "mirjak/audit-bof-preparation",
+      "number": 9,
+      "project_id": null,
+      "url": "https://github.com/mirjak/audit-bof-preparation/issues/9",
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
+      "github": {
+        "state": "open",
+        "created_at": "2026-05-28T07:40:06Z",
+        "updated_at": "2026-07-21T00:40:20Z",
+        "closed_at": null,
+        "comments": 8,
+        "is_pr": false,
+        "author": "mirjak",
+        "labels": [
+          "no action needed"
+        ]
       }
     },
     {
@@ -9206,6 +10512,31 @@
       }
     },
     {
+      "id": "visa/trusted-agent-protocol#13",
+      "topic": "visa-values-attribution",
+      "title": "Proposal: Values & attribution layer for agent trust (Agent Passport System)",
+      "repo": "visa/trusted-agent-protocol",
+      "number": 13,
+      "project_id": null,
+      "url": "https://github.com/visa/trusted-agent-protocol/issues/13",
+      "participants": [
+        "aeoess",
+        "douglasborthwick-crypto",
+        "razashariff"
+      ],
+      "participant_count": 3,
+      "github": {
+        "state": "open",
+        "created_at": "2026-02-21T19:10:19Z",
+        "updated_at": "2026-07-03T17:16:04Z",
+        "closed_at": null,
+        "comments": 10,
+        "is_pr": false,
+        "author": "aeoess",
+        "labels": []
+      }
+    },
+    {
       "id": "w3c-cg/ai-agent-protocol#30",
       "topic": "w3c-agent-protocol",
       "title": "Missing requirement: behavioral consistency across context rotation events",
@@ -9253,16 +10584,76 @@
         "author": "aeoess",
         "labels": []
       }
+    },
+    {
+      "id": "x402-foundation/x402#2332",
+      "topic": "x402-post-settlement",
+      "title": "Post-settlement accountability layer: tamper-evident proof of agent action after payment",
+      "repo": "x402-foundation/x402",
+      "number": 2332,
+      "project_id": null,
+      "url": "https://github.com/x402-foundation/x402/issues/2332",
+      "participants": [
+        "aeoess",
+        "MoltyCel",
+        "arian-gogani",
+        "giskard09",
+        "0xbrainkid",
+        "chopmob-cloud",
+        "andysalvo",
+        "vstantch",
+        "luisllaver",
+        "TKCollective",
+        "clementineCU",
+        "danielnorkin",
+        "cgallic"
+      ],
+      "participant_count": 13,
+      "github": {
+        "state": "open",
+        "created_at": "2026-05-15T20:16:41Z",
+        "updated_at": "2026-07-05T15:54:18Z",
+        "closed_at": null,
+        "comments": 186,
+        "is_pr": false,
+        "author": "giskard09",
+        "labels": []
+      }
+    },
+    {
+      "id": "x402-foundation/x402#2533",
+      "topic": "x402-pii-screening",
+      "title": "Proposal: payload-side PII screening as an x402 hardening primitive (with reference MCP impl)",
+      "repo": "x402-foundation/x402",
+      "number": 2533,
+      "project_id": null,
+      "url": "https://github.com/x402-foundation/x402/issues/2533",
+      "participants": [
+        "chopmob-cloud",
+        "vstantch",
+        "evidai"
+      ],
+      "participant_count": 3,
+      "github": {
+        "state": "open",
+        "created_at": "2026-05-31T18:24:57Z",
+        "updated_at": "2026-06-24T10:47:02Z",
+        "closed_at": null,
+        "comments": 18,
+        "is_pr": false,
+        "author": "vstantch",
+        "labels": []
+      }
     }
   ],
   "stats": {
-    "projects": 18,
-    "people": 167,
-    "people_total_raw": 191,
-    "threads": 107,
-    "threads_mapped_to_project": 34,
-    "projects_enriched": 12,
-    "people_enriched": 154,
-    "threads_enriched": 106
+    "projects": 19,
+    "people": 197,
+    "people_total_raw": 231,
+    "threads": 120,
+    "threads_mapped_to_project": 35,
+    "projects_enriched": 13,
+    "people_enriched": 181,
+    "threads_enriched": 118
   }
 }
