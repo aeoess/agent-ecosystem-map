@@ -1,0 +1,28 @@
+name: Nobulex
+slug: nobulex
+description: >-
+  Proof-of-behavior protocol for AI agents. Constraints are declared in a Cedar-inspired
+  DSL, each action is evaluated before execution, and decisions are written to a
+  SHA-256 hash-chained audit trail. Reference implementation of the
+  OWASP AST09 bilateral receipt pattern.
+topics:
+  - governance
+  - audit
+maturity: beta
+license: MIT
+venues:
+  - kind: repository
+    url: https://github.com/arian-gogani/nobulex
+    label: Source
+  - kind: website
+    url: https://nobulex.com
+  - kind: documentation
+    url: https://github.com/arian-gogani/nobulex/blob/main/docs/proof-of-behavior-spec.md
+    label: Proof-of-Behavior spec
+relates_to:
+  - slug: aps
+    relation: uses-vocabulary-from
+    note: Mapped to the canonical governance vocabulary in crosswalk/nobulex.yaml.
+contact:
+  github: arian-gogani
+updated: 2026-07-22

@@ -1,0 +1,30 @@
+name: Veritas Acta
+slug: veritasacta
+description: >-
+  A contestable, checkable public record for humans and AI. Issues Ed25519-signed
+  receipts over tool calls, policy decisions, and multi-model deliberation outputs,
+  with issuer-blind verification so a verifier never learns who generated the receipt.
+topics:
+  - audit
+  - governance
+maturity: draft
+license: Apache-2.0
+venues:
+  - kind: repository
+    url: https://github.com/VeritasActa
+    label: Source
+  - kind: website
+    url: https://veritasacta.com
+  - kind: ietf-draft
+    url: https://datatracker.ietf.org/doc/draft-farley-acta-signed-receipts/
+    label: draft-farley-acta-signed-receipts
+implements:
+  - ed25519
+  - rfc8785
+relates_to:
+  - slug: aps
+    relation: uses-vocabulary-from
+    note: Mapped to the canonical governance vocabulary in crosswalk/veritasacta.yaml.
+contact:
+  github: tomjwxf
+updated: 2026-07-22

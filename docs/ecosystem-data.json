@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T07:48:53.789006+00:00",
+  "generated_at": "2026-07-23T06:01:49.312177+00:00",
   "projects": [
     {
       "name": "Agent2Agent Protocol",
@@ -656,6 +656,63 @@
       "_github": null
     },
     {
+      "name": "Nobulex",
+      "slug": "nobulex",
+      "description": "Proof-of-behavior protocol for AI agents. Constraints are declared in a Cedar-inspired DSL, each action is evaluated before execution, and decisions are written to a SHA-256 hash-chained audit trail. Reference implementation of the OWASP AST09 bilateral receipt pattern.",
+      "topics": [
+        "governance",
+        "audit"
+      ],
+      "maturity": "beta",
+      "license": "MIT",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/arian-gogani/nobulex",
+          "label": "Source"
+        },
+        {
+          "kind": "website",
+          "url": "https://nobulex.com"
+        },
+        {
+          "kind": "documentation",
+          "url": "https://github.com/arian-gogani/nobulex/blob/main/docs/proof-of-behavior-spec.md",
+          "label": "Proof-of-Behavior spec"
+        }
+      ],
+      "relates_to": [
+        {
+          "slug": "aps",
+          "relation": "uses-vocabulary-from",
+          "note": "Mapped to the canonical governance vocabulary in crosswalk/nobulex.yaml."
+        }
+      ],
+      "contact": {
+        "github": "arian-gogani"
+      },
+      "updated": "2026-07-22",
+      "_id": "nobulex",
+      "_repos": [
+        "arian-gogani/nobulex"
+      ],
+      "_github": {
+        "repo": "arian-gogani/nobulex",
+        "created_at": "2026-03-01T18:00:39Z",
+        "pushed_at": "2026-07-23T01:03:36Z",
+        "updated_at": "2026-07-23T01:03:40Z",
+        "stargazers": 37,
+        "forks": 10,
+        "open_issues": 3,
+        "license": "MIT",
+        "description": "Credit scores for AI agents \u2014 signed, offline-verifiable receipts for every action. Reference implementation of the OWASP Agentic Skills Top 10 (AST09) bilateral receipt pattern. Open source, MIT.",
+        "homepage": "https://nobulex.com",
+        "archived": false,
+        "default_branch": "main",
+        "language": "TypeScript"
+      }
+    },
+    {
       "name": "Open Agent Trust Registry",
       "slug": "oatr",
       "description": "Open registry for trusted agent issuers. Provides registration, compilation, and a CLI tooling layer for publishing agent trust information and behavioral history references.",
@@ -816,6 +873,51 @@
       ],
       "updated": "2026-04-22",
       "_id": "ucp",
+      "_repos": [],
+      "_github": null
+    },
+    {
+      "name": "Veritas Acta",
+      "slug": "veritasacta",
+      "description": "A contestable, checkable public record for humans and AI. Issues Ed25519-signed receipts over tool calls, policy decisions, and multi-model deliberation outputs, with issuer-blind verification so a verifier never learns who generated the receipt.",
+      "topics": [
+        "audit",
+        "governance"
+      ],
+      "maturity": "draft",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/VeritasActa",
+          "label": "Source"
+        },
+        {
+          "kind": "website",
+          "url": "https://veritasacta.com"
+        },
+        {
+          "kind": "ietf-draft",
+          "url": "https://datatracker.ietf.org/doc/draft-farley-acta-signed-receipts/",
+          "label": "draft-farley-acta-signed-receipts"
+        }
+      ],
+      "implements": [
+        "ed25519",
+        "rfc8785"
+      ],
+      "relates_to": [
+        {
+          "slug": "aps",
+          "relation": "uses-vocabulary-from",
+          "note": "Mapped to the canonical governance vocabulary in crosswalk/veritasacta.yaml."
+        }
+      ],
+      "contact": {
+        "github": "tomjwxf"
+      },
+      "updated": "2026-07-22",
+      "_id": "veritasacta",
       "_repos": [],
       "_github": null
     },
@@ -12056,12 +12158,12 @@
     }
   ],
   "stats": {
-    "projects": 58,
+    "projects": 60,
     "people": 186,
     "people_total_raw": 231,
     "threads": 120,
     "threads_mapped_to_project": 120,
-    "projects_enriched": 52,
+    "projects_enriched": 53,
     "people_enriched": 184,
     "threads_enriched": 118
   }

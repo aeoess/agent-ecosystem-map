@@ -3,9 +3,10 @@
 Build ecosystem-data.json for docs/index.html (served as GitHub Pages).
 
 Pulls and enriches:
-- 18 projects   from projects/*.yaml + GitHub repo metadata
-- 130 people    from the contribution-map output + GitHub user metadata
-- 93 threads    from the contribution-map output + GitHub issue metadata
+- projects  from projects/*.yaml (curated) plus repos derived from tracked threads
+- people    from the contribution-map output, filtered to rows with a post or a
+            tracked thread, enriched with GitHub user metadata
+- threads   from the contribution-map output + GitHub issue metadata
 
 Caches GitHub responses to .github-cache/ so re-runs don't burn API quota.
 """
