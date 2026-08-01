@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T06:01:49.312177+00:00",
+  "generated_at": "2026-08-01T02:23:45.319658+00:00",
   "projects": [
     {
       "name": "Agent2Agent Protocol",
@@ -1267,6 +1267,41 @@
       "_derived": true
     },
     {
+      "_id": "repo--aaif-goose--goose",
+      "name": "aaif-goose/goose",
+      "slug": "aaif-goose--goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/aaif-goose/goose",
+          "label": "aaif-goose/goose"
+        }
+      ],
+      "_repos": [
+        "aaif-goose/goose"
+      ],
+      "_github": {
+        "repo": "aaif-goose/goose",
+        "created_at": "2024-08-23T19:03:36Z",
+        "pushed_at": "2026-07-31T22:58:55Z",
+        "updated_at": "2026-08-01T02:18:38Z",
+        "stargazers": 52036,
+        "forks": 5819,
+        "open_issues": 281,
+        "license": "Apache-2.0",
+        "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+        "homepage": "https://goose-docs.ai/",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Rust"
+      },
+      "_derived": true
+    },
+    {
       "_id": "repo--aaif--project-proposals",
       "name": "aaif/project-proposals",
       "slug": "aaif--project-proposals",
@@ -1792,6 +1827,41 @@
       "_derived": true
     },
     {
+      "_id": "repo--cosai-oasis--ws4-secure-design-agentic-systems",
+      "name": "cosai-oasis/ws4-secure-design-agentic-systems",
+      "slug": "cosai-oasis--ws4-secure-design-agentic-systems",
+      "description": "Repository for CoSAI Workstream 4, Secure Design Patterns for Agentic Systems ",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/cosai-oasis/ws4-secure-design-agentic-systems",
+          "label": "cosai-oasis/ws4-secure-design-agentic-systems"
+        }
+      ],
+      "_repos": [
+        "cosai-oasis/ws4-secure-design-agentic-systems"
+      ],
+      "_github": {
+        "repo": "cosai-oasis/ws4-secure-design-agentic-systems",
+        "created_at": "2025-02-21T13:10:44Z",
+        "pushed_at": "2026-07-30T09:25:59Z",
+        "updated_at": "2026-07-31T10:40:45Z",
+        "stargazers": 124,
+        "forks": 40,
+        "open_issues": 58,
+        "license": "NOASSERTION",
+        "description": "Repository for CoSAI Workstream 4, Secure Design Patterns for Agentic Systems ",
+        "homepage": null,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Jupyter Notebook"
+      },
+      "_derived": true
+    },
+    {
       "_id": "repo--crewAIInc--crewAI",
       "name": "crewAIInc/crewAI",
       "slug": "crewAIInc--crewAI",
@@ -1893,6 +1963,41 @@
         "archived": false,
         "default_branch": "main",
         "language": "JavaScript"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--giskard09--argentum-core",
+      "name": "giskard09/argentum-core",
+      "slug": "giskard09--argentum-core",
+      "description": "ARGENTUM core \u2014 karma economy for agents and humans",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/giskard09/argentum-core",
+          "label": "giskard09/argentum-core"
+        }
+      ],
+      "_repos": [
+        "giskard09/argentum-core"
+      ],
+      "_github": {
+        "repo": "giskard09/argentum-core",
+        "created_at": "2026-03-25T14:50:32Z",
+        "pushed_at": "2026-07-31T12:10:18Z",
+        "updated_at": "2026-07-31T12:11:53Z",
+        "stargazers": 4,
+        "forks": 11,
+        "open_issues": 6,
+        "license": "Apache-2.0",
+        "description": "ARGENTUM core \u2014 karma economy for agents and humans",
+        "homepage": null,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
       },
       "_derived": true
     },
@@ -2247,6 +2352,76 @@
       "_derived": true
     },
     {
+      "_id": "repo--perplexityai--numbat",
+      "name": "perplexityai/numbat",
+      "slug": "perplexityai--numbat",
+      "description": "Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action blocking, and forensic reconstruction.",
+      "topics": [],
+      "maturity": "",
+      "license": "Apache-2.0",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/perplexityai/numbat",
+          "label": "perplexityai/numbat"
+        }
+      ],
+      "_repos": [
+        "perplexityai/numbat"
+      ],
+      "_github": {
+        "repo": "perplexityai/numbat",
+        "created_at": "2026-07-24T06:07:59Z",
+        "pushed_at": "2026-08-01T02:13:53Z",
+        "updated_at": "2026-08-01T02:16:09Z",
+        "stargazers": 519,
+        "forks": 41,
+        "open_issues": 4,
+        "license": "Apache-2.0",
+        "description": "Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action blocking, and forensic reconstruction.",
+        "homepage": "",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Go"
+      },
+      "_derived": true
+    },
+    {
+      "_id": "repo--rackp-io--rackp",
+      "name": "rackp-io/rackp",
+      "slug": "rackp-io--rackp",
+      "description": "RACK Protocol \u2014 a verifiable fault assessment protocol for AI incidents. Spec, JSON schemas, and simulations (RFC-0001/0002).",
+      "topics": [],
+      "maturity": "",
+      "license": "NOASSERTION",
+      "venues": [
+        {
+          "kind": "repository",
+          "url": "https://github.com/rackp-io/rackp",
+          "label": "rackp-io/rackp"
+        }
+      ],
+      "_repos": [
+        "rackp-io/rackp"
+      ],
+      "_github": {
+        "repo": "rackp-io/rackp",
+        "created_at": "2026-07-16T09:33:33Z",
+        "pushed_at": "2026-07-27T10:25:44Z",
+        "updated_at": "2026-07-27T10:26:36Z",
+        "stargazers": 0,
+        "forks": 0,
+        "open_issues": 3,
+        "license": "NOASSERTION",
+        "description": "RACK Protocol \u2014 a verifiable fault assessment protocol for AI incidents. Spec, JSON schemas, and simulations (RFC-0001/0002).",
+        "homepage": "https://rackp.io",
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python"
+      },
+      "_derived": true
+    },
+    {
       "_id": "repo--rznies--algobharat-digital-passport",
       "name": "rznies/algobharat-digital-passport",
       "slug": "rznies--algobharat-digital-passport",
@@ -2390,7 +2565,7 @@
   "people": [
     {
       "login": "aeoess",
-      "posts": 710,
+      "posts": 735,
       "threads": [
         "FransDevelopment/open-agent-trust-registry#24",
         "FransDevelopment/open-agent-trust-registry#28",
@@ -2415,6 +2590,9 @@
         "a2aproject/A2A#1755",
         "a2aproject/A2A#1786",
         "a2aproject/A2A#1850",
+        "aaif-goose/goose#10433",
+        "aaif-goose/goose#10459",
+        "aaif-goose/goose#8742",
         "aaif/project-proposals#12",
         "aeoess/a2a-compliance-harness#1",
         "aeoess/agent-ecosystem-map#2",
@@ -2450,6 +2628,7 @@
         "corpollc/qntm#6",
         "corpollc/qntm#7",
         "corpollc/qntm#9",
+        "cosai-oasis/ws4-secure-design-agentic-systems#99",
         "crewAIInc/crewAI#4560",
         "crewAIInc/crewAI#4789",
         "crewAIInc/crewAI#4875",
@@ -2457,6 +2636,7 @@
         "decentralized-identity/trusted-ai-agents#37",
         "douglasborthwick-crypto/insumer-examples#1",
         "erc-8004/erc-8004-contracts#77",
+        "giskard09/argentum-core#35",
         "google/adk-python#4764",
         "haroldmalikfrimpong-ops/agentid-aps-interop#2",
         "in-toto/attestation#549",
@@ -2473,6 +2653,8 @@
         "mirjak/audit-bof-preparation#9",
         "open-gitagent/gitagent#70",
         "ossf/security-insights#171",
+        "perplexityai/numbat#4",
+        "rackp-io/rackp#1",
         "rznies/algobharat-digital-passport#1",
         "sint-ai/sint-protocol#109",
         "visa/trusted-agent-protocol#13",
@@ -2511,6 +2693,7 @@
         "aps-composition-replay",
         "aps-cycles-reserve-commit",
         "arewm-agent-commit",
+        "argentum-hash-spec-mismatch",
         "atf-elements",
         "authority-constraints",
         "autogen-capability-scoped-authz",
@@ -2518,6 +2701,7 @@
         "awesome-aps-listing",
         "browser-use-scoped-delegation",
         "claude-code-mcp",
+        "cosai-ws4-agent-credentials",
         "crewai-governance",
         "crewai-integration",
         "crewai-primitives",
@@ -2531,6 +2715,9 @@
         "execution-attestation",
         "gap-values-floor-predicate",
         "gitagent-identity",
+        "goose-extension-cache",
+        "goose-governance-hooks",
+        "goose-tool-cache-refactor",
         "harness-moltrust-adapter",
         "helixar-interop",
         "hermes-self-modification",
@@ -2545,6 +2732,7 @@
         "ms-agt-policy-distribution",
         "ms-sk-compliance-as-code",
         "ms-toolkit-peer-impl",
+        "numbat-decision-telemetry",
         "oatr-behavioral-history",
         "oatr-sint-registration",
         "openclaw-aae",
@@ -2552,6 +2740,7 @@
         "owasp-llm-aps",
         "owasp-llm-bbis",
         "pdr-aps-workstream",
+        "rackp-norm-profile",
         "scopeblind-aps-driver",
         "sint-enforcement-context",
         "trust-signals-schema",
@@ -2579,6 +2768,7 @@
         "Universal-Commerce-Protocol/ucp",
         "VeritasActa/verify",
         "a2aproject/A2A",
+        "aaif-goose/goose",
         "aaif/project-proposals",
         "aeoess/a2a-compliance-harness",
         "aeoess/agent-ecosystem-map",
@@ -2595,10 +2785,12 @@
         "browser-use/browser-use",
         "cisco-ai-defense/defenseclaw",
         "corpollc/qntm",
+        "cosai-oasis/ws4-secure-design-agentic-systems",
         "crewAIInc/crewAI",
         "decentralized-identity/trusted-ai-agents",
         "douglasborthwick-crypto/insumer-examples",
         "erc-8004/erc-8004-contracts",
+        "giskard09/argentum-core",
         "google/adk-python",
         "haroldmalikfrimpong-ops/agentid-aps-interop",
         "in-toto/attestation",
@@ -2611,6 +2803,8 @@
         "mirjak/audit-bof-preparation",
         "open-gitagent/gitagent",
         "ossf/security-insights",
+        "perplexityai/numbat",
+        "rackp-io/rackp",
         "rznies/algobharat-digital-passport",
         "sint-ai/sint-protocol",
         "visa/trusted-agent-protocol",
@@ -2619,8 +2813,8 @@
         "x402-foundation/x402"
       ],
       "first_seen_ours": "2026-02-21T19:05:14Z",
-      "last_seen_ours": "2026-07-03T17:16:04Z",
-      "word_count": 175362,
+      "last_seen_ours": "2026-07-31T04:27:15Z",
+      "word_count": 182837,
       "github": {
         "name": "\u00e6\u0153ss",
         "bio": "Tymofii Pidlisnyi                                 \u00b7 Building governance infrastructure for the agent economy",
@@ -2779,7 +2973,7 @@
     },
     {
       "login": "douglasborthwick-crypto",
-      "posts": 129,
+      "posts": 133,
       "threads": [
         "a2aproject/A2A#1628",
         "a2aproject/A2A#1672",
@@ -2790,6 +2984,7 @@
         "aeoess/agent-passport-system#11",
         "aeoess/agent-passport-system#13",
         "corpollc/qntm#7",
+        "cosai-oasis/ws4-secure-design-agentic-systems#99",
         "crewAIInc/crewAI#4560",
         "douglasborthwick-crypto/insumer-examples#1",
         "visa/trusted-agent-protocol#13"
@@ -2800,6 +2995,7 @@
         "aeoess-agent-passport-system-1",
         "agent-identity-verification",
         "authority-constraints",
+        "cosai-ws4-agent-credentials",
         "crewai-governance",
         "insumer-multi-attestation",
         "moltrust-integration",
@@ -2813,13 +3009,14 @@
         "aeoess/agent-governance-vocabulary",
         "aeoess/agent-passport-system",
         "corpollc/qntm",
+        "cosai-oasis/ws4-secure-design-agentic-systems",
         "crewAIInc/crewAI",
         "douglasborthwick-crypto/insumer-examples",
         "visa/trusted-agent-protocol"
       ],
       "first_seen_ours": "2026-02-25T20:40:37Z",
-      "last_seen_ours": "2026-05-24T17:24:33Z",
-      "word_count": 29885,
+      "last_seen_ours": "2026-06-19T16:34:49Z",
+      "word_count": 31308,
       "github": {
         "name": "Douglas Borthwick",
         "bio": "Building InsumerAPI \u2014 cryptographic proof of on-chain state for commerce and AI agents. Attestations, trust profiles, Merkle proofs. 37 chains. 5 SDKs",
@@ -2837,7 +3034,7 @@
     },
     {
       "login": "MoltyCel",
-      "posts": 159,
+      "posts": 164,
       "threads": [
         "OpenClaw/openclaw#49971",
         "a2aproject/A2A#1575",
@@ -2853,6 +3050,7 @@
         "corpollc/qntm#6",
         "corpollc/qntm#7",
         "corpollc/qntm#9",
+        "cosai-oasis/ws4-secure-design-agentic-systems#99",
         "douglasborthwick-crypto/insumer-examples#1",
         "x402-foundation/x402#2332"
       ],
@@ -2863,6 +3061,7 @@
         "aae-aps-mapping",
         "agent-identity-verification",
         "authority-constraints",
+        "cosai-ws4-agent-credentials",
         "execution-attestation",
         "harness-moltrust-adapter",
         "identity-delegation-enforcement",
@@ -2879,12 +3078,13 @@
         "aeoess/a2a-compliance-harness",
         "aeoess/agent-passport-system",
         "corpollc/qntm",
+        "cosai-oasis/ws4-secure-design-agentic-systems",
         "douglasborthwick-crypto/insumer-examples",
         "x402-foundation/x402"
       ],
       "first_seen_ours": "2026-03-18T18:51:33Z",
-      "last_seen_ours": "2026-06-16T05:50:50Z",
-      "word_count": 21108,
+      "last_seen_ours": "2026-06-20T20:33:02Z",
+      "word_count": 21913,
       "github": {
         "name": "MoltyCel",
         "bio": "MolTrust Creator \u2014 Trust Layer for the Agent Economy. Identity, reputation & verifiable credentials for AI agents. \ud83d\udee1\ufe0f",
@@ -3018,13 +3218,14 @@
     },
     {
       "login": "arian-gogani",
-      "posts": 65,
+      "posts": 71,
       "threads": [
         "FransDevelopment/open-agent-trust-registry#28",
         "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system#32",
         "a2aproject/A2A#1672",
         "a2aproject/A2A#1786",
         "awslabs/agentcore-samples#1546",
+        "cosai-oasis/ws4-secure-design-agentic-systems#99",
         "crewAIInc/crewAI#4560",
         "in-toto/attestation#549",
         "langchain-ai/langchain#35691",
@@ -3038,6 +3239,7 @@
         "agentcore-x402-composition",
         "aivss-multi-agent-governance",
         "autogen-capability-scoped-authz",
+        "cosai-ws4-agent-credentials",
         "crewai-governance",
         "in-toto-decision-receipt",
         "langchain-compliance-backend",
@@ -3050,6 +3252,7 @@
         "OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
         "a2aproject/A2A",
         "awslabs/agentcore-samples",
+        "cosai-oasis/ws4-secure-design-agentic-systems",
         "crewAIInc/crewAI",
         "in-toto/attestation",
         "langchain-ai/langchain",
@@ -3058,8 +3261,8 @@
         "x402-foundation/x402"
       ],
       "first_seen_ours": "2026-04-16T22:51:21Z",
-      "last_seen_ours": "2026-06-24T18:23:53Z",
-      "word_count": 8540,
+      "last_seen_ours": "2026-07-16T05:32:09Z",
+      "word_count": 9878,
       "github": {
         "name": null,
         "bio": null,
@@ -3077,12 +3280,13 @@
     },
     {
       "login": "giskard09",
-      "posts": 65,
+      "posts": 66,
       "threads": [
         "a2aproject/A2A#1786",
         "a2aproject/A2A#1850",
         "aeoess/agent-ecosystem-map#2",
         "aeoess/agent-passport-system#1",
+        "giskard09/argentum-core#35",
         "langchain-ai/langchain#36232",
         "microsoft/semantic-kernel#13957",
         "x402-foundation/x402#2332"
@@ -3091,6 +3295,7 @@
         "a2a-cai-extension-proposal",
         "action-ref-joint-id",
         "aeoess-agent-passport-system-1",
+        "argentum-hash-spec-mismatch",
         "ecosystem-soma-entry",
         "langchain-memory",
         "ms-sk-compliance-as-code",
@@ -3100,13 +3305,14 @@
         "a2aproject/A2A",
         "aeoess/agent-ecosystem-map",
         "aeoess/agent-passport-system",
+        "giskard09/argentum-core",
         "langchain-ai/langchain",
         "microsoft/semantic-kernel",
         "x402-foundation/x402"
       ],
       "first_seen_ours": "2026-05-08T15:52:37Z",
-      "last_seen_ours": "2026-06-17T13:50:45Z",
-      "word_count": 7879,
+      "last_seen_ours": "2026-07-31T01:49:56Z",
+      "word_count": 7940,
       "github": {
         "name": null,
         "bio": null,
@@ -3558,6 +3764,50 @@
       }
     },
     {
+      "login": "imran-siddique",
+      "posts": 15,
+      "threads": [
+        "a2aproject/A2A#1717",
+        "aaif/project-proposals#19",
+        "cosai-oasis/ws4-secure-design-agentic-systems#99",
+        "google/adk-python#4764",
+        "microsoft/agent-governance-toolkit#1354",
+        "microsoft/agent-governance-toolkit#934"
+      ],
+      "topics": [
+        "a2a-signing-custody",
+        "aaif-agt-proposal",
+        "adk-python-governance",
+        "agt-dual-citizen",
+        "cosai-ws4-agent-credentials",
+        "ms-toolkit-peer-impl"
+      ],
+      "repos": [
+        "a2aproject/A2A",
+        "aaif/project-proposals",
+        "cosai-oasis/ws4-secure-design-agentic-systems",
+        "google/adk-python",
+        "microsoft/agent-governance-toolkit"
+      ],
+      "first_seen_ours": "2026-03-08T18:18:48Z",
+      "last_seen_ours": "2026-06-18T16:39:42Z",
+      "word_count": 3878,
+      "github": {
+        "name": "Imran Siddique",
+        "bio": "Engineering Architect & Leader ",
+        "company": "Microsoft",
+        "location": "Bellevue",
+        "blog": "https://imransiddique.com/",
+        "email": null,
+        "twitter": "mosiddi",
+        "created_at": "2018-11-27T21:13:10Z",
+        "followers": 103,
+        "following": 1,
+        "public_repos": 38,
+        "type": "User"
+      }
+    },
+    {
       "login": "VeloGerber",
       "posts": 18,
       "threads": [
@@ -3584,6 +3834,56 @@
         "followers": 0,
         "following": 2,
         "public_repos": 2,
+        "type": "User"
+      }
+    },
+    {
+      "login": "chopmob-cloud",
+      "posts": 34,
+      "threads": [
+        "Universal-Commerce-Protocol/ucp#512",
+        "aaif/project-proposals#19",
+        "awslabs/agentcore-samples#1546",
+        "cosai-oasis/ws4-secure-design-agentic-systems#99",
+        "microsoft/agent-governance-toolkit#2692",
+        "microsoft/semantic-kernel#13957",
+        "x402-foundation/x402#2332",
+        "x402-foundation/x402#2533"
+      ],
+      "topics": [
+        "aaif-agt-proposal",
+        "agentcore-x402-composition",
+        "cosai-ws4-agent-credentials",
+        "ms-agt-policy-distribution",
+        "ms-sk-compliance-as-code",
+        "ucp-ap2-ttl-bug",
+        "x402-pii-screening",
+        "x402-post-settlement"
+      ],
+      "repos": [
+        "Universal-Commerce-Protocol/ucp",
+        "aaif/project-proposals",
+        "awslabs/agentcore-samples",
+        "cosai-oasis/ws4-secure-design-agentic-systems",
+        "microsoft/agent-governance-toolkit",
+        "microsoft/semantic-kernel",
+        "x402-foundation/x402"
+      ],
+      "first_seen_ours": "2026-05-22T13:29:06Z",
+      "last_seen_ours": "2026-07-30T21:47:21Z",
+      "word_count": 7683,
+      "github": {
+        "name": "iLoveChicken",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "www.algovoi.co.uk",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-12-16T23:42:30Z",
+        "followers": 5,
+        "following": 0,
+        "public_repos": 73,
         "type": "User"
       }
     },
@@ -3617,53 +3917,6 @@
         "followers": 2,
         "following": 0,
         "public_repos": 5,
-        "type": "User"
-      }
-    },
-    {
-      "login": "chopmob-cloud",
-      "posts": 30,
-      "threads": [
-        "Universal-Commerce-Protocol/ucp#512",
-        "aaif/project-proposals#19",
-        "awslabs/agentcore-samples#1546",
-        "microsoft/agent-governance-toolkit#2692",
-        "microsoft/semantic-kernel#13957",
-        "x402-foundation/x402#2332",
-        "x402-foundation/x402#2533"
-      ],
-      "topics": [
-        "aaif-agt-proposal",
-        "agentcore-x402-composition",
-        "ms-agt-policy-distribution",
-        "ms-sk-compliance-as-code",
-        "ucp-ap2-ttl-bug",
-        "x402-pii-screening",
-        "x402-post-settlement"
-      ],
-      "repos": [
-        "Universal-Commerce-Protocol/ucp",
-        "aaif/project-proposals",
-        "awslabs/agentcore-samples",
-        "microsoft/agent-governance-toolkit",
-        "microsoft/semantic-kernel",
-        "x402-foundation/x402"
-      ],
-      "first_seen_ours": "2026-05-22T13:29:06Z",
-      "last_seen_ours": "2026-06-16T21:15:18Z",
-      "word_count": 6472,
-      "github": {
-        "name": "iLoveChicken",
-        "bio": null,
-        "company": null,
-        "location": null,
-        "blog": "www.algovoi.co.uk",
-        "email": null,
-        "twitter": null,
-        "created_at": "2025-12-16T23:42:30Z",
-        "followers": 5,
-        "following": 0,
-        "public_repos": 73,
         "type": "User"
       }
     },
@@ -3745,47 +3998,6 @@
         "followers": 4,
         "following": 0,
         "public_repos": 23,
-        "type": "User"
-      }
-    },
-    {
-      "login": "imran-siddique",
-      "posts": 12,
-      "threads": [
-        "a2aproject/A2A#1717",
-        "aaif/project-proposals#19",
-        "google/adk-python#4764",
-        "microsoft/agent-governance-toolkit#1354",
-        "microsoft/agent-governance-toolkit#934"
-      ],
-      "topics": [
-        "a2a-signing-custody",
-        "aaif-agt-proposal",
-        "adk-python-governance",
-        "agt-dual-citizen",
-        "ms-toolkit-peer-impl"
-      ],
-      "repos": [
-        "a2aproject/A2A",
-        "aaif/project-proposals",
-        "google/adk-python",
-        "microsoft/agent-governance-toolkit"
-      ],
-      "first_seen_ours": "2026-03-08T18:18:48Z",
-      "last_seen_ours": "2026-05-29T21:46:48Z",
-      "word_count": 2359,
-      "github": {
-        "name": "Imran Siddique",
-        "bio": "Engineering Architect & Leader ",
-        "company": "Microsoft",
-        "location": "Bellevue",
-        "blog": "https://imransiddique.com/",
-        "email": null,
-        "twitter": "mosiddi",
-        "created_at": "2018-11-27T21:13:10Z",
-        "followers": 103,
-        "following": 1,
-        "public_repos": 38,
         "type": "User"
       }
     },
@@ -4028,6 +4240,36 @@
         "followers": 10,
         "following": 0,
         "public_repos": 32,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Mayur021",
+      "posts": 31,
+      "threads": [
+        "cosai-oasis/ws4-secure-design-agentic-systems#99"
+      ],
+      "topics": [
+        "cosai-ws4-agent-credentials"
+      ],
+      "repos": [
+        "cosai-oasis/ws4-secure-design-agentic-systems"
+      ],
+      "first_seen_ours": "2026-06-05T07:07:06Z",
+      "last_seen_ours": "2026-07-16T05:42:13Z",
+      "word_count": 6418,
+      "github": {
+        "name": "Mayur Agnihotri",
+        "bio": "OWASP AISVS/SPVS work + Decision-Rights/Reversibility Thesis",
+        "company": "StraightArc Technologies Pvt. Ltd.",
+        "location": "Udaipur, Rajasthan",
+        "blog": "https://straightarc.com",
+        "email": null,
+        "twitter": null,
+        "created_at": "2014-05-17T06:30:28Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 57,
         "type": "User"
       }
     },
@@ -4752,6 +4994,36 @@
       }
     },
     {
+      "login": "4rth4S",
+      "posts": 4,
+      "threads": [
+        "aaif-goose/goose#8742"
+      ],
+      "topics": [
+        "goose-governance-hooks"
+      ],
+      "repos": [
+        "aaif-goose/goose"
+      ],
+      "first_seen_ours": "2026-05-11T19:46:10Z",
+      "last_seen_ours": "2026-06-18T18:40:33Z",
+      "word_count": 2715,
+      "github": {
+        "name": "nico Brambilla ",
+        "bio": null,
+        "company": null,
+        "location": "Milky Way",
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2016-09-14T19:24:16Z",
+        "followers": 13,
+        "following": 11,
+        "public_repos": 4,
+        "type": "User"
+      }
+    },
+    {
       "login": "VladUZH",
       "posts": 14,
       "threads": [
@@ -4996,6 +5268,72 @@
         "followers": 3,
         "following": 2,
         "public_repos": 15,
+        "type": "User"
+      }
+    },
+    {
+      "login": "DOsinga",
+      "posts": 4,
+      "threads": [
+        "aaif-goose/goose#10433",
+        "aaif-goose/goose#10459",
+        "aaif-goose/goose#10661",
+        "aaif-goose/goose#8742"
+      ],
+      "topics": [
+        "goose-extension-cache",
+        "goose-governance-hooks",
+        "goose-tool-cache-impl2",
+        "goose-tool-cache-refactor"
+      ],
+      "repos": [
+        "aaif-goose/goose"
+      ],
+      "first_seen_ours": "2026-05-15T18:15:23Z",
+      "last_seen_ours": "2026-07-30T17:58:23Z",
+      "word_count": 1097,
+      "github": {
+        "name": "Douwe Osinga",
+        "bio": "Blockerdieblock",
+        "company": "Block",
+        "location": "Miami Beach",
+        "blog": "https://douwe.com",
+        "email": null,
+        "twitter": "DOsinga",
+        "created_at": "2011-08-01T20:30:03Z",
+        "followers": 194,
+        "following": 0,
+        "public_repos": 58,
+        "type": "User"
+      }
+    },
+    {
+      "login": "vaaraio",
+      "posts": 11,
+      "threads": [
+        "cosai-oasis/ws4-secure-design-agentic-systems#99"
+      ],
+      "topics": [
+        "cosai-ws4-agent-credentials"
+      ],
+      "repos": [
+        "cosai-oasis/ws4-secure-design-agentic-systems"
+      ],
+      "first_seen_ours": "2026-06-19T15:55:35Z",
+      "last_seen_ours": "2026-07-25T07:02:01Z",
+      "word_count": 3227,
+      "github": {
+        "name": "Henri Sirkkavaara",
+        "bio": null,
+        "company": "Vaara",
+        "location": "Helsinki, Finland",
+        "blog": "https://vaara.io",
+        "email": "hello@vaara.io",
+        "twitter": "vaara_io",
+        "created_at": "2026-03-12T08:19:56Z",
+        "followers": 3,
+        "following": 2,
+        "public_repos": 5,
         "type": "User"
       }
     },
@@ -5454,6 +5792,36 @@
         "followers": 3,
         "following": 0,
         "public_repos": 25,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Athonitul",
+      "posts": 1,
+      "threads": [
+        "cosai-oasis/ws4-secure-design-agentic-systems#99"
+      ],
+      "topics": [
+        "cosai-ws4-agent-credentials"
+      ],
+      "repos": [
+        "cosai-oasis/ws4-secure-design-agentic-systems"
+      ],
+      "first_seen_ours": "2026-07-30T21:19:07Z",
+      "last_seen_ours": "2026-07-30T21:19:07Z",
+      "word_count": 563,
+      "github": {
+        "name": "Chitan Adrian",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "https://ilion-project.org/",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-04-12T14:25:48Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 2,
         "type": "User"
       }
     },
@@ -6246,6 +6614,38 @@
       }
     },
     {
+      "login": "arohou",
+      "posts": 5,
+      "threads": [
+        "aaif-goose/goose#10433",
+        "aaif-goose/goose#10459"
+      ],
+      "topics": [
+        "goose-extension-cache",
+        "goose-tool-cache-refactor"
+      ],
+      "repos": [
+        "aaif-goose/goose"
+      ],
+      "first_seen_ours": "2026-07-13T23:13:30Z",
+      "last_seen_ours": "2026-07-28T08:44:16Z",
+      "word_count": 1837,
+      "github": {
+        "name": "Alexis Rohou",
+        "bio": null,
+        "company": "Genentech, Inc.",
+        "location": "South San Francisco, CA",
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2012-06-17T21:18:09Z",
+        "followers": 12,
+        "following": 4,
+        "public_repos": 9,
+        "type": "User"
+      }
+    },
+    {
       "login": "alexchenai",
       "posts": 2,
       "threads": [
@@ -6422,6 +6822,36 @@
         "followers": 44,
         "following": 6,
         "public_repos": 43,
+        "type": "User"
+      }
+    },
+    {
+      "login": "benhylau",
+      "posts": 1,
+      "threads": [
+        "cosai-oasis/ws4-secure-design-agentic-systems#99"
+      ],
+      "topics": [
+        "cosai-ws4-agent-credentials"
+      ],
+      "repos": [
+        "cosai-oasis/ws4-secure-design-agentic-systems"
+      ],
+      "first_seen_ours": "2026-05-14T17:19:17Z",
+      "last_seen_ours": "2026-05-25T18:02:36Z",
+      "word_count": 740,
+      "github": {
+        "name": "Benedict Lau",
+        "bio": null,
+        "company": null,
+        "location": "Toronto, Canada",
+        "blog": "",
+        "email": "b@deprecated.systems",
+        "twitter": "LauBenedict",
+        "created_at": "2012-09-01T15:59:43Z",
+        "followers": 167,
+        "following": 136,
+        "public_repos": 66,
         "type": "User"
       }
     },
@@ -7178,6 +7608,36 @@
       }
     },
     {
+      "login": "arushis1212",
+      "posts": 1,
+      "threads": [
+        "cosai-oasis/ws4-secure-design-agentic-systems#99"
+      ],
+      "topics": [
+        "cosai-ws4-agent-credentials"
+      ],
+      "repos": [
+        "cosai-oasis/ws4-secure-design-agentic-systems"
+      ],
+      "first_seen_ours": "2026-06-08T21:18:56Z",
+      "last_seen_ours": "2026-06-08T21:18:56Z",
+      "word_count": 246,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-02-05T22:49:33Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 2,
+        "type": "User"
+      }
+    },
+    {
       "login": "xXMrNidaXx",
       "posts": 1,
       "threads": [
@@ -7237,6 +7697,36 @@
         "followers": 4,
         "following": 3,
         "public_repos": 7,
+        "type": "User"
+      }
+    },
+    {
+      "login": "rackp-dev",
+      "posts": 1,
+      "threads": [
+        "rackp-io/rackp#1"
+      ],
+      "topics": [
+        "rackp-norm-profile"
+      ],
+      "repos": [
+        "rackp-io/rackp"
+      ],
+      "first_seen_ours": "2026-07-18T01:32:30Z",
+      "last_seen_ours": "2026-07-29T09:11:56Z",
+      "word_count": 674,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2026-04-21T08:17:09Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 0,
         "type": "User"
       }
     },
@@ -7511,6 +8001,36 @@
       }
     },
     {
+      "login": "hegu-1",
+      "posts": 1,
+      "threads": [
+        "cosai-oasis/ws4-secure-design-agentic-systems#99"
+      ],
+      "topics": [
+        "cosai-ws4-agent-credentials"
+      ],
+      "repos": [
+        "cosai-oasis/ws4-secure-design-agentic-systems"
+      ],
+      "first_seen_ours": "2026-07-06T05:47:22Z",
+      "last_seen_ours": "2026-07-06T05:47:22Z",
+      "word_count": 133,
+      "github": {
+        "name": "\u4f55\u6545",
+        "bio": "Remaining static is not neutral.it is a choice",
+        "company": null,
+        "location": null,
+        "blog": "https://x.com/liaoliaowuji",
+        "email": "liiyyuanil0401@gmail.com",
+        "twitter": null,
+        "created_at": "2026-03-04T08:39:55Z",
+        "followers": 7,
+        "following": 0,
+        "public_repos": 17,
+        "type": "User"
+      }
+    },
+    {
       "login": "adk-bot",
       "posts": 1,
       "threads": [
@@ -7627,6 +8147,36 @@
         "followers": 3,
         "following": 1,
         "public_repos": 0,
+        "type": "User"
+      }
+    },
+    {
+      "login": "billbrietstout",
+      "posts": 1,
+      "threads": [
+        "cosai-oasis/ws4-secure-design-agentic-systems#99"
+      ],
+      "topics": [
+        "cosai-ws4-agent-credentials"
+      ],
+      "repos": [
+        "cosai-oasis/ws4-secure-design-agentic-systems"
+      ],
+      "first_seen_ours": "2026-05-22T17:25:36Z",
+      "last_seen_ours": "2026-05-22T17:25:36Z",
+      "word_count": 126,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2014-08-17T05:38:40Z",
+        "followers": 1,
+        "following": 2,
+        "public_repos": 6,
         "type": "User"
       }
     },
@@ -8163,6 +8713,36 @@
       }
     },
     {
+      "login": "vishnujayvel",
+      "posts": 0,
+      "threads": [
+        "aaif-goose/goose#10661"
+      ],
+      "topics": [
+        "goose-tool-cache-impl2"
+      ],
+      "repos": [
+        "aaif-goose/goose"
+      ],
+      "first_seen_ours": "2026-07-24T00:29:49Z",
+      "last_seen_ours": "2026-07-24T00:29:49Z",
+      "word_count": 103,
+      "github": {
+        "name": "Vishnu J",
+        "bio": "Staff Engineer | Ex-Amazon Tech Lead | Agentic Architect",
+        "company": null,
+        "location": "Seattle",
+        "blog": "",
+        "email": "vishnuj81093@gmail.com",
+        "twitter": null,
+        "created_at": "2012-11-10T07:08:04Z",
+        "followers": 10,
+        "following": 11,
+        "public_repos": 71,
+        "type": "User"
+      }
+    },
+    {
       "login": "V-Suki-V",
       "posts": 1,
       "threads": [
@@ -8219,6 +8799,36 @@
         "followers": 21,
         "following": 23,
         "public_repos": 34,
+        "type": "User"
+      }
+    },
+    {
+      "login": "Ram9199",
+      "posts": 1,
+      "threads": [
+        "cosai-oasis/ws4-secure-design-agentic-systems#99"
+      ],
+      "topics": [
+        "cosai-ws4-agent-credentials"
+      ],
+      "repos": [
+        "cosai-oasis/ws4-secure-design-agentic-systems"
+      ],
+      "first_seen_ours": "2026-06-13T15:41:02Z",
+      "last_seen_ours": "2026-06-13T15:41:02Z",
+      "word_count": 65,
+      "github": {
+        "name": "Sai Venkata Sri Ram Prakhya",
+        "bio": "Building human-centered AI tools | Open Source |",
+        "company": "@Kisyntra",
+        "location": "usa",
+        "blog": "",
+        "email": "venkataprakhya7@gmail.com",
+        "twitter": null,
+        "created_at": "2014-09-25T05:22:04Z",
+        "followers": 15,
+        "following": 5,
+        "public_repos": 54,
         "type": "User"
       }
     },
@@ -8549,6 +9159,66 @@
         "followers": 116,
         "following": 6,
         "public_repos": 78,
+        "type": "User"
+      }
+    },
+    {
+      "login": "sarahnovotny",
+      "posts": 1,
+      "threads": [
+        "cosai-oasis/ws4-secure-design-agentic-systems#99"
+      ],
+      "topics": [
+        "cosai-ws4-agent-credentials"
+      ],
+      "repos": [
+        "cosai-oasis/ws4-secure-design-agentic-systems"
+      ],
+      "first_seen_ours": "2026-05-20T06:40:40Z",
+      "last_seen_ours": "2026-05-20T06:40:40Z",
+      "word_count": 17,
+      "github": {
+        "name": "Sarah Novotny",
+        "bio": null,
+        "company": null,
+        "location": "the interwebs",
+        "blog": "https://sarahnovotny.com",
+        "email": "sarah.novotny@gmail.com",
+        "twitter": null,
+        "created_at": "2009-09-15T17:58:00Z",
+        "followers": 47,
+        "following": 12,
+        "public_repos": 14,
+        "type": "User"
+      }
+    },
+    {
+      "login": "akolekar-zs",
+      "posts": 1,
+      "threads": [
+        "cosai-oasis/ws4-secure-design-agentic-systems#99"
+      ],
+      "topics": [
+        "cosai-ws4-agent-credentials"
+      ],
+      "repos": [
+        "cosai-oasis/ws4-secure-design-agentic-systems"
+      ],
+      "first_seen_ours": "2026-06-18T17:52:32Z",
+      "last_seen_ours": "2026-06-18T17:52:32Z",
+      "word_count": 165,
+      "github": {
+        "name": null,
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "",
+        "email": null,
+        "twitter": null,
+        "created_at": "2025-09-28T17:35:49Z",
+        "followers": 0,
+        "following": 0,
+        "public_repos": 0,
         "type": "User"
       }
     },
@@ -9560,6 +10230,105 @@
       }
     },
     {
+      "id": "aaif-goose/goose#10433",
+      "topic": "goose-extension-cache",
+      "title": "MCP notifications/tools/list_changed is dropped \u2014 a server's tool list never refreshes mid-session",
+      "repo": "aaif-goose/goose",
+      "number": 10433,
+      "project_id": "repo--aaif-goose--goose",
+      "url": "https://github.com/aaif-goose/goose/issues/10433",
+      "participants": [
+        "aeoess",
+        "DOsinga",
+        "arohou"
+      ],
+      "participant_count": 3,
+      "github": {
+        "state": "open",
+        "created_at": "2026-07-13T23:13:30Z",
+        "updated_at": "2026-07-31T14:53:11Z",
+        "closed_at": null,
+        "comments": 4,
+        "is_pr": false,
+        "author": "arohou",
+        "labels": []
+      }
+    },
+    {
+      "id": "aaif-goose/goose#10459",
+      "topic": "goose-tool-cache-refactor",
+      "title": "fix: refresh tool cache on MCP notifications/tools/list_changed",
+      "repo": "aaif-goose/goose",
+      "number": 10459,
+      "project_id": "repo--aaif-goose--goose",
+      "url": "https://github.com/aaif-goose/goose/issues/10459",
+      "participants": [
+        "aeoess",
+        "DOsinga",
+        "arohou"
+      ],
+      "participant_count": 3,
+      "github": {
+        "state": "open",
+        "created_at": "2026-07-14T14:38:12Z",
+        "updated_at": "2026-07-30T17:58:20Z",
+        "closed_at": null,
+        "comments": 8,
+        "is_pr": true,
+        "author": "arohou",
+        "labels": []
+      }
+    },
+    {
+      "id": "aaif-goose/goose#10661",
+      "topic": "goose-tool-cache-impl2",
+      "title": "fix(mcp): wire tools/list_changed to tool-cache invalidation",
+      "repo": "aaif-goose/goose",
+      "number": 10661,
+      "project_id": "repo--aaif-goose--goose",
+      "url": "https://github.com/aaif-goose/goose/issues/10661",
+      "participants": [
+        "DOsinga",
+        "vishnujayvel"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "open",
+        "created_at": "2026-07-24T00:29:49Z",
+        "updated_at": "2026-07-30T17:58:21Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pr": true,
+        "author": "vishnujayvel",
+        "labels": []
+      }
+    },
+    {
+      "id": "aaif-goose/goose#8742",
+      "topic": "goose-governance-hooks",
+      "title": "Proposal: pre-tool-call governance hook for cross-org agent deployments",
+      "repo": "aaif-goose/goose",
+      "number": 8742,
+      "project_id": "repo--aaif-goose--goose",
+      "url": "https://github.com/aaif-goose/goose/issues/8742",
+      "participants": [
+        "aeoess",
+        "4rth4S",
+        "DOsinga"
+      ],
+      "participant_count": 3,
+      "github": {
+        "state": "closed",
+        "created_at": "2026-04-22T02:30:30Z",
+        "updated_at": "2026-07-31T09:34:53Z",
+        "closed_at": "2026-07-31T09:34:53Z",
+        "comments": 11,
+        "is_pr": false,
+        "author": "aeoess",
+        "labels": []
+      }
+    },
+    {
       "id": "aaif/project-proposals#12",
       "topic": "aaif-sint-submission",
       "title": "[Project Proposal] SINT Protocol \u2014 Policy Bundle Specification for Agent Governance",
@@ -9597,8 +10366,8 @@
       "url": "https://github.com/aaif/project-proposals/issues/19",
       "participants": [
         "tomjwxf",
-        "chopmob-cloud",
         "imran-siddique",
+        "chopmob-cloud",
         "kinthaiofficial",
         "SomeshZanwar",
         "Keesan12",
@@ -11256,6 +12025,48 @@
       }
     },
     {
+      "id": "cosai-oasis/ws4-secure-design-agentic-systems#99",
+      "topic": "cosai-ws4-agent-credentials",
+      "title": "[RFC] Agent Credentials",
+      "repo": "cosai-oasis/ws4-secure-design-agentic-systems",
+      "number": 99,
+      "project_id": "repo--cosai-oasis--ws4-secure-design-agentic-systems",
+      "url": "https://github.com/cosai-oasis/ws4-secure-design-agentic-systems/issues/99",
+      "participants": [
+        "aeoess",
+        "douglasborthwick-crypto",
+        "MoltyCel",
+        "arian-gogani",
+        "imran-siddique",
+        "chopmob-cloud",
+        "Mayur021",
+        "vaaraio",
+        "Athonitul",
+        "benhylau",
+        "arushis1212",
+        "hegu-1",
+        "billbrietstout",
+        "Ram9199",
+        "sarahnovotny",
+        "akolekar-zs"
+      ],
+      "participant_count": 16,
+      "github": {
+        "state": "open",
+        "created_at": "2026-05-14T17:19:17Z",
+        "updated_at": "2026-07-31T16:14:47Z",
+        "closed_at": null,
+        "comments": 93,
+        "is_pr": false,
+        "author": "benhylau",
+        "labels": [
+          "help wanted",
+          "accepted",
+          "RFC"
+        ]
+      }
+    },
+    {
       "id": "crewAIInc/crewAI#4560",
       "topic": "crewai-governance",
       "title": "Feature: Cryptographic Identity for Crew Members",
@@ -11489,6 +12300,30 @@
       }
     },
     {
+      "id": "giskard09/argentum-core#35",
+      "topic": "argentum-hash-spec-mismatch",
+      "title": "Reference implementation hashes inputs the spec says to reject",
+      "repo": "giskard09/argentum-core",
+      "number": 35,
+      "project_id": "repo--giskard09--argentum-core",
+      "url": "https://github.com/giskard09/argentum-core/issues/35",
+      "participants": [
+        "aeoess",
+        "giskard09"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "closed",
+        "created_at": "2026-07-29T21:53:36Z",
+        "updated_at": "2026-07-31T01:49:56Z",
+        "closed_at": "2026-07-31T01:41:43Z",
+        "comments": 2,
+        "is_pr": false,
+        "author": "aeoess",
+        "labels": []
+      }
+    },
+    {
       "id": "google/adk-python#4764",
       "topic": "adk-python-governance",
       "title": "Collaboration: Governance callbacks for ADK agent lifecycle",
@@ -11498,8 +12333,8 @@
       "url": "https://github.com/google/adk-python/issues/4764",
       "participants": [
         "aeoess",
-        "alxvasilevvv",
         "imran-siddique",
+        "alxvasilevvv",
         "razashariff",
         "sunilp",
         "internet-dot",
@@ -11971,6 +12806,56 @@
       }
     },
     {
+      "id": "perplexityai/numbat#4",
+      "topic": "numbat-decision-telemetry",
+      "title": "Coverage matrix: document decision telemetry and per-action correlation",
+      "repo": "perplexityai/numbat",
+      "number": 4,
+      "project_id": "repo--perplexityai--numbat",
+      "url": "https://github.com/perplexityai/numbat/issues/4",
+      "participants": [
+        "aeoess"
+      ],
+      "participant_count": 1,
+      "github": {
+        "state": "open",
+        "created_at": "2026-07-30T05:52:58Z",
+        "updated_at": "2026-07-30T05:52:58Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pr": false,
+        "author": "aeoess",
+        "labels": []
+      }
+    },
+    {
+      "id": "rackp-io/rackp#1",
+      "topic": "rackp-norm-profile",
+      "title": "Norm Profile: agent-operations domain \u2014 capturing the delegation boundary",
+      "repo": "rackp-io/rackp",
+      "number": 1,
+      "project_id": "repo--rackp-io--rackp",
+      "url": "https://github.com/rackp-io/rackp/issues/1",
+      "participants": [
+        "aeoess",
+        "rackp-dev"
+      ],
+      "participant_count": 2,
+      "github": {
+        "state": "open",
+        "created_at": "2026-07-18T01:32:30Z",
+        "updated_at": "2026-07-31T04:27:15Z",
+        "closed_at": null,
+        "comments": 3,
+        "is_pr": false,
+        "author": "rackp-dev",
+        "labels": [
+          "enhancement",
+          "help wanted"
+        ]
+      }
+    },
+    {
       "id": "rznies/algobharat-digital-passport#1",
       "topic": "algobharat-collision",
       "title": "PRD: Digital Passport MVP on Algorand",
@@ -12158,13 +13043,13 @@
     }
   ],
   "stats": {
-    "projects": 60,
-    "people": 186,
-    "people_total_raw": 231,
-    "threads": 120,
-    "threads_mapped_to_project": 120,
-    "projects_enriched": 53,
-    "people_enriched": 184,
-    "threads_enriched": 118
+    "projects": 65,
+    "people": 201,
+    "people_total_raw": 247,
+    "threads": 128,
+    "threads_mapped_to_project": 128,
+    "projects_enriched": 58,
+    "people_enriched": 199,
+    "threads_enriched": 126
   }
 }
