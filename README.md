@@ -1,3 +1,5 @@
+> Archived 2026-09-02. This directory scored people and accounts; that is not something this project should publish. Kept as a record only.
+
 # Agent Ecosystem Directory
 
 A living, community-maintained directory of the protocols, specifications, implementations, contributors, and threads in the AI agent identity, delegation, governance, and commerce space.
